@@ -1,0 +1,24 @@
+# -*- mode:org -*-
+#+TITLE: WordNet Gloss Corpus
+
+This is a continuation of the project originally developed at
+Princeton, whose original files can be found [[http://wordnetcode.princeton.edu/glosstag.shtml][here]].
+
+See the [[https://github.com/own-pt/glosstag/releases][releases page]] for the official releases.
+
+* What
+This repository hosts a [[https://dl.acm.org/citation.cfm?id=1075742][semantic concordance]] -- a textual corpus (the
+WordNet glosses) and a lexicon (WordNet) where every content word in
+the corpus is linked to its sense(s) in the lexicon.
+
+* Why
+There are several corpora with WordNet sense annotations (the SemCor,
+the senseval datases), but only by sense-tagging the WordNet itself
+can we guarantee that its definitional completeness -- the property
+that all of its definitions only use words which are already defined
+by WordNet.
+
+* How
+We are annotating the corpus using [[http://github.com/own-pt/sensetion.el/][this tool]]. It depends on the gloss
+corpus in the format available in this repository. Details about the
+format itself can be found in the [[https://github.com/own-pt/sensetion.el/][tool's repository]].
