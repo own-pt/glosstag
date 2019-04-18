@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="30" id="a00559031_coll.a" to="37" type="man">
+  <feat name="wnsk" value="shut_in%2:35:00::"/>
+  <feat name="text" value="shut in"/>
+ </struct>
+ <struct from="76" id="a00559120_coll.a" to="83" type="man">
+  <feat name="wnsk" value="cut_off%2:32:00::"/>
+  <feat name="text" value="cut off"/>
+ </struct>
+ <struct from="158" id="a00559271_coll.b" to="165" type="man">
+  <feat name="wnsk" value="shut_in%2:35:00::"/>
+  <feat name="text" value="shut in"/>
+ </struct>
+ <struct from="169" id="a00559271_coll.a" to="180" type="auto">
+  <feat name="wnsk" value="bad_weather%1:26:00::"/>
+  <feat name="text" value="bad weather"/>
+ </struct>
+ <struct from="484" id="a00559930_wf1" to="491" type="part"/>
+ <node id="a00559930_coll.a.1" ref="a00559930_wf1" type="node"/>
+ <struct from="502" id="a00559930_wf4" to="510" type="part"/>
+ <node id="a00559930_coll.a.2" ref="a00559930_wf4" type="node"/>
+ <struct from="a00559930_coll.a.1" id="a00559930_coll.a" to="a00559930_coll.a.2" type="man">
+  <feat name="wnsk" value="crowd_together%2:38:00::"/>
+  <feat name="text" value="crowded together"/>
+ </struct>
+ <struct from="729" id="a00560284_coll.a" to="745" type="man">
+  <feat name="wnsk" value="crowd_together%2:38:00::"/>
+  <feat name="text" value="crowded together"/>
+ </struct>
+ <struct from="2640" id="a00564667_coll.a" to="2658" type="man">
+  <feat name="wnsk" value="mutually_exclusive%3:00:00:incompatible:01"/>
+  <feat name="text" value="mutually exclusive"/>
+ </struct>
+ <struct from="3935" id="a00567161_coll.b" to="3947" type="auto">
+  <feat name="wnsk" value="railway_car%1:06:00::"/>
+  <feat name="text" value="railway cars"/>
+ </struct>
+ <struct from="3951" id="a00567161_coll.a" to="3965" type="auto">
+  <feat name="wnsk" value="trailer_truck%1:06:00::"/>
+  <feat name="text" value="trailer trucks"/>
+ </struct>
+ <struct from="4458" id="a00568304_coll.a" to="4467" type="man">
+  <feat name="wnsk" value="no_longer%4:02:00::"/>
+  <feat name="text" value="no longer"/>
+ </struct>
+ <struct from="6779" id="a00573225_coll.a" to="6788" type="man">
+  <feat name="wnsk" value="set_apart%2:31:00::"/>
+  <feat name="text" value="set apart"/>
+ </struct>
+ <struct from="7494" id="a00574884_coll.a" to="7505" type="man">
+  <feat name="wnsk" value="out-of-date%3:00:00:noncurrent:00"/>
+  <feat name="text" value="out of date"/>
+ </struct>
+ <struct from="7701" id="a00575520_coll.a" to="7716" type="man">
+  <feat name="wnsk" value="civil_liberty%1:07:00::"/>
+  <feat name="text" value="civil liberties"/>
+ </struct>
+ <struct from="7844" id="a00575685_wf19" to="7849" type="part"/>
+ <node id="a00575685_coll.b.1" ref="a00575685_wf19" type="node"/>
+ <struct from="7864" id="a00575685_wf22" to="7873" type="part"/>
+ <node id="a00575685_coll.b.2" ref="a00575685_wf22" type="node"/>
+ <struct from="a00575685_coll.b.1" id="a00575685_coll.b" to="a00575685_coll.b.2" type="man">
+  <feat name="wnsk" value="civil_liberty%1:07:00::"/>
+  <feat name="text" value="civil liberties"/>
+ </struct>
+ <struct from="7854" id="a00575685_coll.a" to="7873" type="auto">
+  <feat name="wnsk" value="political_liberty%1:26:00::"/>
+  <feat name="text" value="political liberties"/>
+ </struct>
+ <struct from="8009" id="a00576011_coll.a" to="8024" type="auto">
+  <feat name="wnsk" value="economic_growth%1:22:00::"/>
+  <feat name="text" value="economic growth"/>
+ </struct>
+ <struct from="8230" id="a00576573_coll.a" to="8243" type="auto">
+  <feat name="wnsk" value="welfare_state%1:14:00::"/>
+  <feat name="text" value="welfare state"/>
+ </struct>
+</cesAna>

@@ -1,0 +1,32 @@
+Tokenized text (word and collocation forms)
+types	47334
+tokens	1621129
+
+Multi-word forms (globs)
+man	7168
+auto	45967
+all	53135
+
+Taggable lemmas (potential lemmas)
+types	55561
+tokens	1504077
+
+Sense tags (sense keys on sense tags)
+kind	types	tokens
+man	33862	339969
+auto	26139	118856
+all	59250	458825
+
+Taggable tokens (word forms and globs)
+kind	wf	glob	all
+man	317812	12687	330499
+auto	82238	36618	118856
+un	202881	3830	206711
+ignore	457502	0	457502
+
+-- Key --
+man     manually-inserted sense tag or collocation
+auto    automatically generated sense tag or collocation
+un      taggable item that has not been tagged
+ignore  stoplist item
+glob    collocation/multi-word term

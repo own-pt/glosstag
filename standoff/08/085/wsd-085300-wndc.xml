@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="40" id="v00646135_coll.a" to="55" type="un">
+  <feat name="text" value="test the waters"/>
+ </struct>
+ <struct from="954" id="v00648764_coll.a" to="967" type="auto">
+  <feat name="wnsk" value="search_engine%1:10:00::"/>
+  <feat name="text" value="search engine"/>
+ </struct>
+ <struct from="1292" id="v00649757_coll.a" to="1299" type="man">
+  <feat name="wnsk" value="open_up%2:30:00::"/>
+  <feat name="wnsk" value="open_up%2:41:00::"/>
+  <feat name="text" value="open up"/>
+ </struct>
+ <struct from="1627" id="v00650932_coll.a" to="1645" type="auto">
+  <feat name="wnsk" value="chemical_reaction%1:22:00::"/>
+  <feat name="text" value="chemical reactions"/>
+ </struct>
+ <struct from="2883" id="v00654446_coll.a" to="2894" type="auto">
+  <feat name="wnsk" value="come_around%2:31:00::"/>
+  <feat name="text" value="came around"/>
+ </struct>
+ <struct from="3087" id="v00655555_coll.a" to="3095" type="man">
+  <feat name="wnsk" value="think_of%2:31:01::"/>
+  <feat name="text" value="think of"/>
+ </struct>
+ <struct from="3704" id="v00657016_coll.a" to="3716" type="man">
+  <feat name="wnsk" value="side_by_side%3:00:00:close:01"/>
+  <feat name="text" value="side by side"/>
+ </struct>
+ <struct from="4610" id="v00659776_coll.a" to="4617" type="auto">
+  <feat name="wnsk" value="come_in%2:31:00::"/>
+  <feat name="text" value="came in"/>
+ </struct>
+ <struct from="5397" id="v00661824_coll.a" to="5406" type="auto">
+  <feat name="wnsk" value="check_out%2:31:00::"/>
+  <feat name="text" value="Check out"/>
+ </struct>
+ <struct from="5495" id="v00662182_coll.b" to="5503" type="auto">
+  <feat name="wnsk" value="tick_off%2:31:00::"/>
+  <feat name="text" value="tick off"/>
+ </struct>
+ <struct from="5515" id="v00662182_coll.c" to="5523" type="auto">
+  <feat name="wnsk" value="mark_off%2:31:00::"/>
+  <feat name="text" value="mark off"/>
+ </struct>
+ <struct from="5909" id="v00663549_coll.a" to="5918" type="man">
+  <feat name="wnsk" value="once_more%4:02:00::"/>
+  <feat name="text" value="once more"/>
+ </struct>
+ <struct from="5942" id="v00663682_coll.a" to="5951" type="man">
+  <feat name="wnsk" value="check_out%2:31:00::"/>
+  <feat name="text" value="check out"/>
+ </struct>
+ <struct from="6155" id="v00664111_coll.c" to="6163" type="man">
+  <feat name="wnsk" value="pick_out%2:31:00::"/>
+  <feat name="text" value="pick out"/>
+ </struct>
+ <struct from="6164" id="v00664111_coll.a" to="6178" type="man">
+  <feat name="wnsk" value="random_sample%1:09:00::"/>
+  <feat name="text" value="random samples"/>
+ </struct>
+ <struct from="6214" id="v00664111_coll.b" to="6226" type="auto">
+  <feat name="wnsk" value="high_quality%1:07:00::"/>
+  <feat name="text" value="high quality"/>
+ </struct>
+ <struct from="6725" id="v00665630_wf7" to="6737" type="part"/>
+ <node id="v00665630_coll.a.1" ref="v00665630_wf7" type="node"/>
+ <struct from="6746" id="v00665630_wf10" to="6751" type="part"/>
+ <node id="v00665630_coll.a.2" ref="v00665630_wf10" type="node"/>
+ <struct from="v00665630_coll.a.1" id="v00665630_coll.a" to="v00665630_coll.a.2" type="man">
+  <feat name="wnsk" value="mathematical_proof%1:10:00::"/>
+  <feat name="text" value="mathematicalproof"/>
+ </struct>
+</cesAna>

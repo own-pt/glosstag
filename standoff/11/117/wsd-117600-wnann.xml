@@ -1,0 +1,2983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
+ <struct from="0" id="r00510629_wf1" to="9" type="wf">
+  <feat name="lemma" value="happening%1|happen%2"/>
+  <feat name="pos" value="VBG"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="happening"/>
+ </struct>
+ <struct from="10" id="r00510629_wf2" to="12" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="at"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="at"/>
+ </struct>
+ <struct from="13" id="r00510629_wf3" to="16" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="the"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="17" id="r00510629_wf4" to="21" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="same%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="same"/>
+ </struct>
+ <struct from="22" id="r00510629_wf5" to="26" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="tag" value="un"/>
+  <feat name="pos" value="NN"/>
+  <feat name="sep" value=""/>
+  <feat name="lemma" value="time%1|time%2"/>
+  <feat name="text" value="time"/>
+ </struct>
+ <struct from="26" id="r00510629_wf6" to="27" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="28" id="r00510749_wf1" to="37" type="wf">
+  <feat name="lemma" value="precisely%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="precisely"/>
+ </struct>
+ <struct from="38" id="r00510749_wf2" to="40" type="wf">
+  <feat name="lemma" value="so%1|so%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="so"/>
+ </struct>
+ <struct from="40" id="r00510749_wf3" to="41" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="42" id="r00510749_wf4" to="44" type="ignore">
+  <feat name="lemma" value="on"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="on"/>
+ </struct>
+ <struct from="45" id="r00510749_wf5" to="48" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="49" id="r00510749_wf6" to="53" type="wf">
+  <feat name="lemma" value="very%3|very%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="very"/>
+ </struct>
+ <struct from="54" id="r00510749_wf7" to="58" type="wf">
+  <feat name="lemma" value="next%3|next%4"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="next"/>
+ </struct>
+ <struct from="59" id="r00510749_wf8" to="63" type="wf">
+  <feat name="lemma" value="page%1|page%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="page"/>
+ </struct>
+ <struct from="63" id="r00510749_wf9" to="64" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="65" id="r00510749_wf10" to="67" type="ignore">
+  <feat name="lemma" value="he"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="he"/>
+ </struct>
+ <struct from="68" id="r00510749_wf11" to="76" type="wf">
+  <feat name="lemma" value="expect%2|expected%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="expected"/>
+ </struct>
+ <struct from="77" id="r00510749_wf12" to="80" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="81" id="r00510749_wf13" to="85" type="wf">
+  <feat name="lemma" value="very%3|very%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="very"/>
+ </struct>
+ <struct from="86" id="r00510749_wf14" to="94" type="wf">
+  <feat name="lemma" value="opposite%1|opposite%3|opposite%4"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="opposite"/>
+ </struct>
+ <struct from="94" id="r00510749_wf15" to="95" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="96" id="r00510852_wf1" to="98" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="99" id="r00510852_wf2" to="100" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="101" id="r00510852_wf3" to="107" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="108" id="r00510852_wf4" to="117" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="dependent%1|dependent%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="dependent"/>
+ </struct>
+ <struct from="118" id="r00510852_wf5" to="120" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="on"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="on"/>
+ </struct>
+ <struct from="121" id="r00510852_wf6" to="128" type="wf">
+  <feat name="lemma" value="context%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="context"/>
+ </struct>
+ <struct from="128" id="r00510852_wf7" to="129" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="130" id="r00510943_wf1" to="139" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="dependent%1|dependent%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="dependent"/>
+ </struct>
+ <struct from="140" id="r00510943_wf2" to="142" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="on"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="on"/>
+ </struct>
+ <struct from="143" id="r00510943_wf3" to="144" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="145" id="r00510943_wf4" to="155" type="wf">
+  <feat name="lemma" value="department%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="department"/>
+ </struct>
+ <struct from="155" id="r00510943_wf5" to="156" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="157" id="r00511029_wf1" to="159" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="160" id="r00511029_wf2" to="161" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="162" id="r00511029_wf3" to="171" type="wf">
+  <feat name="lemma" value="polygonal%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="polygonal"/>
+ </struct>
+ <struct from="172" id="r00511029_wf4" to="178" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="178" id="r00511029_wf5" to="179" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="180" id="r00511108_wf1" to="182" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="183" id="r00511108_wf2" to="184" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="185" id="r00511108_wf3" to="195" type="wf">
+  <feat name="lemma" value="regimental%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="regimental"/>
+ </struct>
+ <struct from="196" id="r00511108_wf4" to="202" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="203" id="r00511108_wf5" to="205" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="206" id="r00511108_wf6" to="208" type="ignore">
+  <feat name="lemma" value="by"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="by"/>
+ </struct>
+ <struct from="209" id="r00511108_wf7" to="218" type="wf">
+  <feat name="lemma" value="regiment%1|regiment%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="regiments"/>
+ </struct>
+ <struct from="218" id="r00511108_wf8" to="219" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="220" id="r00511205_wf1" to="224" type="wf">
+  <feat name="lemma" value="use%2|used%3"/>
+  <feat name="pos" value="VBN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="used"/>
+ </struct>
+ <struct from="225" id="r00511205_wf2" to="227" type="ignore">
+  <feat name="lemma" value="as"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="as"/>
+ </struct>
+ <struct from="228" id="r00511205_wf3" to="229" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="230" id="r00511205_wf4" to="239" type="wf">
+  <feat name="lemma" value="residence%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="residence"/>
+ </struct>
+ <struct from="239" id="r00511205_wf5" to="240" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="241" id="r00511284_wf1" to="243" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="244" id="r00511284_wf2" to="245" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="246" id="r00511284_wf3" to="252" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="253" id="r00511284_wf4" to="257" type="ignore">
+  <feat name="lemma" value="that"/>
+  <feat name="pos" value="WDT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="that"/>
+ </struct>
+ <struct from="258" id="r00511284_wf5" to="260" type="wf">
+  <feat name="lemma" value="i%1|be%2"/>
+  <feat name="pos" value="VBZ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="261" id="r00511284_wf6" to="271" type="wf">
+  <feat name="lemma" value="schismatic%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="schismatic"/>
+ </struct>
+ <struct from="271" id="r00511284_wf7" to="272" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="273" id="r00511375_wf1" to="275" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="276" id="r00511375_wf2" to="278" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="279" id="r00511375_wf3" to="290" type="wf">
+  <feat name="lemma" value="unreasoning%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="unreasoning"/>
+ </struct>
+ <struct from="291" id="r00511375_wf4" to="299" type="wf">
+  <feat name="lemma" value="visceral%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="visceral"/>
+ </struct>
+ <struct from="300" id="r00511375_wf5" to="306" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="306" id="r00511375_wf6" to="307" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="308" id="r00511481_wf1" to="310" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="311" id="r00511481_wf2" to="312" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="313" id="r00511481_wf3" to="318" type="wf">
+  <feat name="lemma" value="loose%2|loose%3|loose%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="loose"/>
+ </struct>
+ <struct from="319" id="r00511481_wf4" to="325" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="325" id="r00511481_wf5" to="326" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="327" id="r00511481_wf6" to="328" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="329" id="r00511481_wf7" to="334" type="wf">
+  <feat name="lemma" value="union%1|union%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="union"/>
+ </struct>
+ <struct from="335" id="r00511481_wf8" to="337" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="338" id="r00511481_wf9" to="345" type="wf">
+  <feat name="lemma" value="loosely%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="loosely"/>
+ </struct>
+ <struct from="346" id="r00511481_wf10" to="355" type="wf">
+  <feat name="lemma" value="federate%2|federated%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="federated"/>
+ </struct>
+ <struct from="356" id="r00511481_wf11" to="362" type="wf">
+  <feat name="lemma" value="state%1|state%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="states"/>
+ </struct>
+ <struct from="362" id="r00511481_wf12" to="363" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="364" id="r00511573_wf1" to="366" type="wf">
+  <feat name="lemma" value="so%1|so%4"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="so"/>
+ </struct>
+ <struct from="367" id="r00511573_wf2" to="369" type="ignore">
+  <feat name="lemma" value="as"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="as"/>
+ </struct>
+ <struct from="370" id="r00511573_wf3" to="372" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="pos" value="TO"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="373" id="r00511573_wf4" to="375" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="pos" value="VB"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="376" id="r00511573_wf5" to="384" type="wf">
+  <feat name="lemma" value="positive%1|positive%3"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="positive"/>
+ </struct>
+ <struct from="384" id="r00511573_wf6" to="385" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="386" id="r00511573_wf7" to="388" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="389" id="r00511573_wf8" to="390" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="391" id="r00511573_wf9" to="399" type="wf">
+  <feat name="lemma" value="positive%1|positive%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="positive"/>
+ </struct>
+ <struct from="400" id="r00511573_wf10" to="406" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="406" id="r00511573_wf11" to="407" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="408" id="r00511573_wf12" to="411" type="ignore">
+  <feat name="lemma" value="she"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="she"/>
+ </struct>
+ <struct from="412" id="r00511573_wf13" to="420" type="wf">
+  <feat name="lemma" value="intend%2|intended%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="intended"/>
+ </struct>
+ <struct from="421" id="r00511573_wf14" to="424" type="ignore">
+  <feat name="lemma" value="her"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="her"/>
+ </struct>
+ <struct from="425" id="r00511573_wf15" to="432" type="wf">
+  <feat name="lemma" value="remark%1|remark%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="remarks"/>
+ </struct>
+ <struct from="433" id="r00511573_wf16" to="435" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="436" id="r00511573_wf17" to="438" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="439" id="r00511573_wf18" to="450" type="wf">
+  <feat name="lemma" value="interpret%2|interpreted%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="interpreted"/>
+ </struct>
+ <struct from="451" id="r00511573_wf19" to="461" type="wf">
+  <feat name="lemma" value="positively%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="positively"/>
+ </struct>
+ <struct from="461" id="r00511573_wf20" to="462" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="463" id="r00511729_wf1" to="469" type="wf">
+  <feat name="lemma" value="letter%1|letter%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="letter"/>
+ </struct>
+ <struct from="470" id="r00511729_wf2" to="473" type="ignore">
+  <feat name="lemma" value="for"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="for"/>
+ </struct>
+ <struct from="474" id="r00511729_wf3" to="480" type="wf">
+  <feat name="lemma" value="letter%1|letter%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="letter"/>
+ </struct>
+ <struct from="480" id="r00511729_wf4" to="481" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="482" id="r00511729_wf5" to="485" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="486" id="r00511729_wf6" to="493" type="wf">
+  <feat name="lemma" value="message%1|message%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="message"/>
+ </struct>
+ <struct from="494" id="r00511729_wf7" to="497" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="498" id="r00511729_wf8" to="509" type="wf">
+  <feat name="lemma" value="transcribe%2|transcribed%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="transcribed"/>
+ </struct>
+ <struct from="510" id="r00511729_wf9" to="519" type="wf">
+  <feat name="lemma" value="literatim%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="literatim"/>
+ </struct>
+ <struct from="519" id="r00511729_wf10" to="520" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="521" id="r00511825_wf1" to="523" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="524" id="r00511825_wf2" to="525" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="526" id="r00511825_wf3" to="534" type="wf">
+  <feat name="lemma" value="nebulous%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="nebulous"/>
+ </struct>
+ <struct from="535" id="r00511825_wf4" to="538" type="ignore">
+  <feat name="lemma" value="and"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="and"/>
+ </struct>
+ <struct from="539" id="r00511825_wf5" to="549" type="wf">
+  <feat name="lemma" value="indefinite%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="indefinite"/>
+ </struct>
+ <struct from="550" id="r00511825_wf6" to="556" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="556" id="r00511825_wf7" to="557" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="558" id="r00511917_wf1" to="560" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="561" id="r00511917_wf2" to="562" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="563" id="r00511917_wf3" to="576" type="wf">
+  <feat name="lemma" value="northeastward%1|northeastward%3|northeastward%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="northeastward"/>
+ </struct>
+ <struct from="577" id="r00511917_wf4" to="586" type="wf">
+  <feat name="lemma" value="direction%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="586" id="r00511917_wf5" to="587" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="588" id="r00511917_wf6" to="591" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="592" id="r00511917_wf7" to="597" type="wf">
+  <feat name="lemma" value="river%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="river"/>
+ </struct>
+ <struct from="598" id="r00511917_wf8" to="603" type="wf">
+  <feat name="lemma" value="flow%1|flow%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="flows"/>
+ </struct>
+ <struct from="604" id="r00511917_wf9" to="617" type="wf">
+  <feat name="lemma" value="northeastward%1|northeastward%3|northeastward%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="northeastward"/>
+ </struct>
+ <struct from="618" id="r00511917_wf10" to="620" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="621" id="r00511917_wf11" to="624" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="625" id="r00511917_wf12" to="629" type="wf">
+  <feat name="lemma" value="gulf%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="gulf"/>
+ </struct>
+ <struct from="629" id="r00511917_wf13" to="630" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="631" id="r00512086_wf1" to="633" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="634" id="r00512086_wf2" to="635" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="636" id="r00512086_wf3" to="649" type="wf">
+  <feat name="lemma" value="northwestward%1|northwestward%3|northwestward%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="northwestward"/>
+ </struct>
+ <struct from="650" id="r00512086_wf4" to="659" type="wf">
+  <feat name="lemma" value="direction%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="659" id="r00512086_wf5" to="660" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="661" id="r00512210_wf1" to="663" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="664" id="r00512210_wf2" to="665" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="666" id="r00512210_wf3" to="679" type="wf">
+  <feat name="lemma" value="southeastward%1|southeastward%3|southeastward%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="southeastward"/>
+ </struct>
+ <struct from="680" id="r00512210_wf4" to="689" type="wf">
+  <feat name="lemma" value="direction%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="689" id="r00512210_wf5" to="690" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="691" id="r00512210_wf6" to="694" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="695" id="r00512210_wf7" to="700" type="wf">
+  <feat name="lemma" value="river%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="river"/>
+ </struct>
+ <struct from="701" id="r00512210_wf8" to="706" type="wf">
+  <feat name="lemma" value="flow%1|flow%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="flows"/>
+ </struct>
+ <struct from="707" id="r00512210_wf9" to="720" type="wf">
+  <feat name="lemma" value="southeastward%1|southeastward%3|southeastward%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="southeastward"/>
+ </struct>
+ <struct from="721" id="r00512210_wf10" to="723" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="724" id="r00512210_wf11" to="727" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="728" id="r00512210_wf12" to="732" type="wf">
+  <feat name="lemma" value="gulf%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="gulf"/>
+ </struct>
+ <struct from="732" id="r00512210_wf13" to="733" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="734" id="r00512379_wf1" to="736" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="737" id="r00512379_wf2" to="738" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="739" id="r00512379_wf3" to="752" type="wf">
+  <feat name="lemma" value="southwestward%1|southwestward%3|southwestward%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="southwestward"/>
+ </struct>
+ <struct from="753" id="r00512379_wf4" to="762" type="wf">
+  <feat name="lemma" value="direction%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="762" id="r00512379_wf5" to="763" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="764" id="r00512503_wf1" to="766" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="767" id="r00512503_wf2" to="769" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="770" id="r00512503_wf3" to="777" type="wf">
+  <feat name="lemma" value="abaxial%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="abaxial"/>
+ </struct>
+ <struct from="778" id="r00512503_wf4" to="784" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="784" id="r00512503_wf5" to="785" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="786" id="r00512597_wf1" to="788" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="789" id="r00512597_wf2" to="791" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="792" id="r00512597_wf3" to="799" type="wf">
+  <feat name="lemma" value="adaxial%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="adaxial"/>
+ </struct>
+ <struct from="800" id="r00512597_wf4" to="806" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="806" id="r00512597_wf5" to="807" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="808" id="r00512691_wf1" to="810" type="ignore">
+  <feat name="lemma" value="as"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="as"/>
+ </struct>
+ <struct from="811" id="r00512691_wf2" to="813" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="814" id="r00512691_wf3" to="823" type="wf">
+  <feat name="lemma" value="adjective%1|adjective%3"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="adjective"/>
+ </struct>
+ <struct from="823" id="r00512691_wf4" to="824" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="825" id="r00512691_wf5" to="827" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="828" id="r00512691_wf6" to="830" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="831" id="r00512691_wf7" to="841" type="wf">
+  <feat name="lemma" value="adjectival%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="adjectival"/>
+ </struct>
+ <struct from="842" id="r00512691_wf8" to="848" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="848" id="r00512691_wf9" to="849" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="850" id="r00512790_wf1" to="852" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="853" id="r00512790_wf2" to="855" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="856" id="r00512790_wf3" to="867" type="wf">
+  <feat name="lemma" value="affirmative%1|affirmative%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="affirmative"/>
+ </struct>
+ <struct from="868" id="r00512790_wf4" to="874" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="874" id="r00512790_wf5" to="875" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="876" id="r00512874_wf1" to="878" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="879" id="r00512874_wf2" to="880" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="881" id="r00512874_wf3" to="890" type="wf">
+  <feat name="lemma" value="canonical%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="canonical"/>
+ </struct>
+ <struct from="891" id="r00512874_wf4" to="897" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="897" id="r00512874_wf5" to="898" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="899" id="r00512874_wf6" to="902" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="903" id="r00512874_wf7" to="909" type="wf">
+  <feat name="lemma" value="deacon%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="deacon"/>
+ </struct>
+ <struct from="910" id="r00512874_wf8" to="913" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="914" id="r00512874_wf9" to="925" type="wf">
+  <feat name="lemma" value="canonically%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="canonically"/>
+ </struct>
+ <struct from="926" id="r00512874_wf10" to="934" type="wf">
+  <feat name="lemma" value="induct%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="inducted"/>
+ </struct>
+ <struct from="934" id="r00512874_wf11" to="935" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="936" id="r00512992_wf1" to="940" type="ignore">
+  <feat name="lemma" value="with"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="with"/>
+ </struct>
+ <struct from="941" id="r00512992_wf2" to="947" type="ignore">
+  <feat name="lemma" value="regard%1|regard%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="regard"/>
+ </struct>
+ <struct from="948" id="r00512992_wf3" to="950" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="pos" value="TO"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="951" id="r00512992_wf4" to="960" type="wf">
+  <feat name="lemma" value="cognition%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="cognition"/>
+ </struct>
+ <struct from="960" id="r00512992_wf5" to="961" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="962" id="r00512992_wf6" to="973" type="wf">
+  <feat name="lemma" value="cognitively%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="cognitively"/>
+ </struct>
+ <struct from="974" id="r00512992_wf7" to="982" type="wf">
+  <feat name="lemma" value="skillful%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="skillful"/>
+ </struct>
+ <struct from="982" id="r00512992_wf8" to="983" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="984" id="r00513098_wf1" to="986" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="987" id="r00513098_wf2" to="988" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="989" id="r00513098_wf3" to="996" type="wf">
+  <feat name="lemma" value="complex%1|complex%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="complex"/>
+ </struct>
+ <struct from="997" id="r00513098_wf4" to="1003" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1003" id="r00513098_wf5" to="1004" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1005" id="r00513173_wf1" to="1007" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1008" id="r00513173_wf2" to="1009" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1010" id="r00513173_wf3" to="1017" type="wf">
+  <feat name="lemma" value="cursive%1|cursive%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="cursive"/>
+ </struct>
+ <struct from="1018" id="r00513173_wf4" to="1024" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1024" id="r00513173_wf5" to="1025" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1026" id="r00513248_wf1" to="1032" type="wf">
+  <feat name="lemma" value="gently%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="gently"/>
+ </struct>
+ <struct from="1033" id="r00513248_wf2" to="1036" type="ignore">
+  <feat name="lemma" value="and"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="and"/>
+ </struct>
+ <struct from="1037" id="r00513248_wf3" to="1044" type="wf">
+  <feat name="lemma" value="sweetly%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="sweetly"/>
+ </struct>
+ <struct from="1044" id="r00513248_wf4" to="1045" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1046" id="r00513319_wf1" to="1048" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1049" id="r00513319_wf2" to="1050" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1051" id="r00513319_wf3" to="1059" type="wf">
+  <feat name="lemma" value="drag%2|dragging%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="dragging"/>
+ </struct>
+ <struct from="1060" id="r00513319_wf4" to="1066" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1066" id="r00513319_wf5" to="1067" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1068" id="r00513396_wf1" to="1071" type="wf">
+  <feat name="lemma" value="not%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="1072" id="r00513396_wf2" to="1085" type="wf">
+  <feat name="lemma" value="symmetrically%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="symmetrically"/>
+ </struct>
+ <struct from="1086" id="r00513396_wf3" to="1090" type="ignore">
+  <feat name="lemma" value="with"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="with"/>
+ </struct>
+ <struct from="1091" id="r00513396_wf4" to="1098" type="ignore">
+  <feat name="lemma" value="respect%1|respect%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="respect"/>
+ </struct>
+ <struct from="1099" id="r00513396_wf5" to="1101" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="pos" value="TO"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="1102" id="r00513396_wf6" to="1105" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1106" id="r00513396_wf7" to="1112" type="wf">
+  <feat name="lemma" value="center%1|center%2|center%3"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="center"/>
+ </struct>
+ <struct from="1112" id="r00513396_wf8" to="1113" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1114" id="r00513500_wf1" to="1116" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1117" id="r00513500_wf2" to="1119" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1120" id="r00513500_wf3" to="1129" type="wf">
+  <feat name="lemma" value="eccentric%1|eccentric%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="eccentric"/>
+ </struct>
+ <struct from="1130" id="r00513500_wf4" to="1132" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="1133" id="r00513500_wf5" to="1140" type="wf">
+  <feat name="lemma" value="bizarre%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="bizarre"/>
+ </struct>
+ <struct from="1141" id="r00513500_wf6" to="1147" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1147" id="r00513500_wf7" to="1148" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1149" id="r00513593_wf1" to="1151" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1152" id="r00513593_wf2" to="1154" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1155" id="r00513593_wf3" to="1165" type="wf">
+  <feat name="lemma" value="endogenous%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="endogenous"/>
+ </struct>
+ <struct from="1166" id="r00513593_wf4" to="1172" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1172" id="r00513593_wf5" to="1173" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1174" id="r00513675_wf1" to="1176" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1177" id="r00513675_wf2" to="1179" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1180" id="r00513675_wf3" to="1186" type="wf">
+  <feat name="lemma" value="erotic%1|erotic%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="erotic"/>
+ </struct>
+ <struct from="1187" id="r00513675_wf4" to="1193" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1193" id="r00513675_wf5" to="1194" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1195" id="r00513751_wf1" to="1197" type="ignore">
+  <feat name="lemma" value="by"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="by"/>
+ </struct>
+ <struct from="1198" id="r00513751_wf2" to="1203" type="ignore">
+  <feat name="lemma" value="mean%1|means%1|mean%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="means"/>
+ </struct>
+ <struct from="1204" id="r00513751_wf3" to="1206" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1207" id="r00513751_wf4" to="1216" type="wf">
+  <feat name="lemma" value="hypnotism%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="hypnotism"/>
+ </struct>
+ <struct from="1216" id="r00513751_wf5" to="1217" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1218" id="r00513831_wf1" to="1222" type="ignore">
+  <feat name="lemma" value="from"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="from"/>
+ </struct>
+ <struct from="1223" id="r00513831_wf2" to="1226" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1227" id="r00513831_wf3" to="1232" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="point%1|point%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="1233" id="r00513831_wf4" to="1235" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1236" id="r00513831_wf5" to="1240" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="view%1|view%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="view"/>
+ </struct>
+ <struct from="1241" id="r00513831_wf6" to="1243" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1244" id="r00513831_wf7" to="1254" type="wf">
+  <feat name="lemma" value="immunology%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="immunology"/>
+ </struct>
+ <struct from="1254" id="r00513831_wf8" to="1255" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1256" id="r00513929_wf1" to="1258" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1259" id="r00513929_wf2" to="1261" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1262" id="r00513929_wf3" to="1272" type="wf">
+  <feat name="lemma" value="artificial%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="artificial"/>
+ </struct>
+ <struct from="1273" id="r00513929_wf4" to="1284" type="wf">
+  <feat name="lemma" value="environment%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="environment"/>
+ </struct>
+ <struct from="1285" id="r00513929_wf5" to="1292" type="wf">
+  <feat name="lemma" value="outside%1|outside%3|outside%4"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="outside"/>
+ </struct>
+ <struct from="1293" id="r00513929_wf6" to="1296" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1297" id="r00513929_wf7" to="1303" type="wf">
+  <feat name="lemma" value="living%1|live%2|living%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="living"/>
+ </struct>
+ <struct from="1304" id="r00513929_wf8" to="1312" type="wf">
+  <feat name="lemma" value="organism%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="organism"/>
+ </struct>
+ <struct from="1312" id="r00513929_wf9" to="1313" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1314" id="r00513929_wf10" to="1316" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1317" id="r00513929_wf11" to="1320" type="wf">
+  <feat name="lemma" value="egg%1|egg%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="egg"/>
+ </struct>
+ <struct from="1321" id="r00513929_wf12" to="1331" type="wf">
+  <feat name="lemma" value="fertilize%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="fertilized"/>
+ </struct>
+ <struct from="1332" id="r00513929_wf13" to="1334" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="in"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1335" id="r00513929_wf14" to="1340" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="vitro"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="vitro"/>
+ </struct>
+ <struct from="1340" id="r00513929_wf15" to="1341" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1342" id="r00514080_wf1" to="1344" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1345" id="r00514080_wf2" to="1347" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1348" id="r00514080_wf3" to="1359" type="wf">
+  <feat name="lemma" value="irreparable%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="irreparable"/>
+ </struct>
+ <struct from="1360" id="r00514080_wf4" to="1366" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1367" id="r00514080_wf5" to="1369" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="1370" id="r00514080_wf6" to="1372" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="pos" value="TO"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="1373" id="r00514080_wf7" to="1375" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1376" id="r00514080_wf8" to="1387" type="wf">
+  <feat name="lemma" value="irreparable%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="irreparable"/>
+ </struct>
+ <struct from="1388" id="r00514080_wf9" to="1394" type="wf">
+  <feat name="lemma" value="degree%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="degree"/>
+ </struct>
+ <struct from="1394" id="r00514080_wf10" to="1395" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1396" id="r00514190_wf1" to="1398" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1399" id="r00514190_wf2" to="1401" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="1402" id="r00514190_wf3" to="1412" type="wf">
+  <feat name="lemma" value="irritate%2|irritating%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="irritating"/>
+ </struct>
+ <struct from="1413" id="r00514190_wf4" to="1419" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1419" id="r00514190_wf5" to="1420" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1421" id="r00514272_wf1" to="1423" type="ignore">
+  <feat name="lemma" value="as"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="as"/>
+ </struct>
+ <struct from="1424" id="r00514272_wf2" to="1431" type="wf">
+  <feat name="lemma" value="order%2|ordered%3"/>
+  <feat name="pos" value="VBN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="ordered"/>
+ </struct>
+ <struct from="1432" id="r00514272_wf3" to="1434" type="ignore">
+  <feat name="lemma" value="by"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="by"/>
+ </struct>
+ <struct from="1435" id="r00514272_wf4" to="1436" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1437" id="r00514272_wf5" to="1442" type="wf">
+  <feat name="lemma" value="court%1|court%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="court"/>
+ </struct>
+ <struct from="1442" id="r00514272_wf6" to="1443" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1444" id="r00514350_wf1" to="1446" type="ignore">
+  <feat name="lemma" value="by"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="by"/>
+ </struct>
+ <struct from="1447" id="r00514350_wf2" to="1452" type="ignore">
+  <feat name="lemma" value="mean%1|means%1|mean%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="means"/>
+ </struct>
+ <struct from="1453" id="r00514350_wf3" to="1455" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1456" id="r00514350_wf4" to="1465" type="wf">
+  <feat name="lemma" value="logogram%1"/>
+  <feat name="pos" value="NNS"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="logograms"/>
+ </struct>
+ <struct from="1465" id="r00514350_wf5" to="1466" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1467" id="r00514350_wf6" to="1474" type="wf">
+  <feat name="lemma" value="Chinese%1|Chinese%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="Chinese"/>
+ </struct>
+ <struct from="1475" id="r00514350_wf7" to="1477" type="wf">
+  <feat name="lemma" value="i%1|be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1478" id="r00514350_wf8" to="1485" type="wf">
+  <feat name="lemma" value="write%2|written%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="written"/>
+ </struct>
+ <struct from="1486" id="r00514350_wf9" to="1503" type="wf">
+  <feat name="lemma" value="logogrammatically%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="logogrammatically"/>
+ </struct>
+ <struct from="1503" id="r00514350_wf10" to="1504" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1505" id="r00514475_wf1" to="1511" type="wf">
+  <feat name="lemma" value="within%4"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="within"/>
+ </struct>
+ <struct from="1512" id="r00514475_wf2" to="1517" type="wf">
+  <feat name="lemma" value="range%1|range%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="range"/>
+ </struct>
+ <struct from="1518" id="r00514475_wf3" to="1520" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1521" id="r00514475_wf4" to="1522" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1523" id="r00514475_wf5" to="1528" type="cf">
+  <feat name="coll" value="b"/>
+  <feat name="lemma" value="movie%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="movie"/>
+ </struct>
+ <struct from="1529" id="r00514475_wf6" to="1531" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="1532" id="r00514475_wf7" to="1542" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="television%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="television"/>
+ </struct>
+ <struct from="1543" id="r00514475_wf8" to="1549" type="cf">
+  <feat name="coll" value="a,b"/>
+  <feat name="tag" value="un"/>
+  <feat name="pos" value="NN"/>
+  <feat name="sep" value=""/>
+  <feat name="lemma" value="camera%1"/>
+  <feat name="text" value="camera"/>
+ </struct>
+ <struct from="1549" id="r00514475_wf9" to="1550" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1551" id="r00514475_wf10" to="1554" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1555" id="r00514475_wf11" to="1562" type="wf">
+  <feat name="lemma" value="senator%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="senator"/>
+ </struct>
+ <struct from="1563" id="r00514475_wf12" to="1566" type="wf">
+  <feat name="lemma" value="do%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="did"/>
+ </struct>
+ <struct from="1566" id="r00514475_wf13" to="1569" type="wf">
+  <feat name="lemma" value="not%4"/>
+  <feat name="tag" value="un"/>
+  <feat name="rdf" value="not"/>
+  <feat name="text" value="n't"/>
+ </struct>
+ <struct from="1570" id="r00514475_wf14" to="1577" type="wf">
+  <feat name="lemma" value="realize%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="realize"/>
+ </struct>
+ <struct from="1578" id="r00514475_wf15" to="1582" type="ignore">
+  <feat name="lemma" value="that"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="that"/>
+ </struct>
+ <struct from="1583" id="r00514475_wf16" to="1585" type="ignore">
+  <feat name="lemma" value="he"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="he"/>
+ </struct>
+ <struct from="1586" id="r00514475_wf17" to="1589" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="1590" id="r00514475_wf18" to="1598" type="wf">
+  <feat name="lemma" value="speaking%1|speak%2|speaking%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="speaking"/>
+ </struct>
+ <struct from="1599" id="r00514475_wf19" to="1601" type="cf">
+  <feat name="coll" value="c"/>
+  <feat name="lemma" value="on"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="on"/>
+ </struct>
+ <struct from="1602" id="r00514475_wf20" to="1608" type="cf">
+  <feat name="coll" value="c"/>
+  <feat name="lemma" value="camera%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="camera"/>
+ </struct>
+ <struct from="1608" id="r00514475_wf21" to="1609" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1610" id="r00514618_wf1" to="1612" type="ignore">
+  <feat name="lemma" value="as"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="as"/>
+ </struct>
+ <struct from="1613" id="r00514618_wf2" to="1614" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1615" id="r00514618_wf3" to="1626" type="wf">
+  <feat name="lemma" value="preposition%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="preposition"/>
+ </struct>
+ <struct from="1626" id="r00514618_wf4" to="1627" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1628" id="r00514696_wf1" to="1630" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1631" id="r00514696_wf2" to="1632" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1633" id="r00514696_wf3" to="1645" type="wf">
+  <feat name="lemma" value="presidential%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="presidential"/>
+ </struct>
+ <struct from="1646" id="r00514696_wf4" to="1652" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1652" id="r00514696_wf5" to="1653" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1654" id="r00514781_wf1" to="1656" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1657" id="r00514781_wf2" to="1658" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1659" id="r00514781_wf3" to="1670" type="wf">
+  <feat name="lemma" value="radioactive%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="radioactive"/>
+ </struct>
+ <struct from="1671" id="r00514781_wf4" to="1677" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1677" id="r00514781_wf5" to="1678" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1679" id="r00514781_wf6" to="1692" type="wf">
+  <feat name="lemma" value="radioactively%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="radioactively"/>
+ </struct>
+ <struct from="1693" id="r00514781_wf7" to="1700" type="wf">
+  <feat name="lemma" value="label%2|labeled%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="labeled"/>
+ </struct>
+ <struct from="1700" id="r00514781_wf8" to="1701" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1702" id="r00514889_wf1" to="1704" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1705" id="r00514889_wf2" to="1706" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1707" id="r00514889_wf3" to="1716" type="wf">
+  <feat name="lemma" value="recurrent%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="recurrent"/>
+ </struct>
+ <struct from="1717" id="r00514889_wf4" to="1723" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1723" id="r00514889_wf5" to="1724" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1725" id="r00514968_wf1" to="1727" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1728" id="r00514968_wf2" to="1729" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1730" id="r00514968_wf3" to="1737" type="wf">
+  <feat name="lemma" value="sidearm%3|sidearm%4"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="sidearm"/>
+ </struct>
+ <struct from="1738" id="r00514968_wf4" to="1744" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1744" id="r00514968_wf5" to="1745" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1746" id="r00514968_wf6" to="1748" type="ignore">
+  <feat name="lemma" value="he"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="he"/>
+ </struct>
+ <struct from="1749" id="r00514968_wf7" to="1756" type="wf">
+  <feat name="lemma" value="prefer%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="prefers"/>
+ </struct>
+ <struct from="1757" id="r00514968_wf8" to="1759" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="1760" id="r00514968_wf9" to="1765" type="wf">
+  <feat name="lemma" value="throw%1|throw%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="throw"/>
+ </struct>
+ <struct from="1766" id="r00514968_wf10" to="1773" type="wf">
+  <feat name="lemma" value="sidearm%3|sidearm%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="sidearm"/>
+ </struct>
+ <struct from="1773" id="r00514968_wf11" to="1774" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1775" id="r00515072_wf1" to="1777" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1778" id="r00515072_wf2" to="1779" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1780" id="r00515072_wf3" to="1787" type="wf">
+  <feat name="lemma" value="sinuous%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="sinuous"/>
+ </struct>
+ <struct from="1788" id="r00515072_wf4" to="1794" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1794" id="r00515072_wf5" to="1795" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1796" id="r00515147_wf1" to="1798" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1799" id="r00515147_wf2" to="1800" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1801" id="r00515147_wf3" to="1811" type="wf">
+  <feat name="lemma" value="sinusoidal%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="sinusoidal"/>
+ </struct>
+ <struct from="1812" id="r00515147_wf4" to="1818" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1818" id="r00515147_wf5" to="1819" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1820" id="r00515228_wf1" to="1827" type="ignore">
+  <feat name="lemma" value="towards"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="towards"/>
+ </struct>
+ <struct from="1828" id="r00515228_wf2" to="1833" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="outer%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="outer"/>
+ </struct>
+ <struct from="1834" id="r00515228_wf3" to="1839" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="tag" value="un"/>
+  <feat name="pos" value="NN"/>
+  <feat name="sep" value=""/>
+  <feat name="lemma" value="space%1|space%2"/>
+  <feat name="text" value="space"/>
+ </struct>
+ <struct from="1839" id="r00515228_wf4" to="1840" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1841" id="r00515298_wf1" to="1843" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1844" id="r00515298_wf2" to="1845" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1846" id="r00515298_wf3" to="1852" type="wf">
+  <feat name="lemma" value="stable%1|stable%2|stable%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="stable"/>
+ </struct>
+ <struct from="1853" id="r00515298_wf4" to="1863" type="wf">
+  <feat name="lemma" value="unchanging%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="unchanging"/>
+ </struct>
+ <struct from="1864" id="r00515298_wf5" to="1870" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1870" id="r00515298_wf6" to="1871" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1872" id="r00515298_wf7" to="1875" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1876" id="r00515298_wf8" to="1881" type="wf">
+  <feat name="lemma" value="death%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="death"/>
+ </struct>
+ <struct from="1882" id="r00515298_wf9" to="1886" type="wf">
+  <feat name="lemma" value="rate%1|rate%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="rate"/>
+ </struct>
+ <struct from="1887" id="r00515298_wf10" to="1889" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1890" id="r00515298_wf11" to="1896" type="wf">
+  <feat name="lemma" value="Russia%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="Russia"/>
+ </struct>
+ <struct from="1897" id="r00515298_wf12" to="1900" type="wf">
+  <feat name="lemma" value="have%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="1901" id="r00515298_wf13" to="1905" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="been"/>
+ </struct>
+ <struct from="1906" id="r00515298_wf14" to="1912" type="wf">
+  <feat name="lemma" value="stably%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="stably"/>
+ </struct>
+ <struct from="1913" id="r00515298_wf15" to="1917" type="wf">
+  <feat name="lemma" value="high%1|high%3|high%4"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="high"/>
+ </struct>
+ <struct from="1917" id="r00515298_wf16" to="1918" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1919" id="r00515429_wf1" to="1921" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="1922" id="r00515429_wf2" to="1923" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="1924" id="r00515429_wf3" to="1930" type="wf">
+  <feat name="lemma" value="stable%1|stable%2|stable%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="stable"/>
+ </struct>
+ <struct from="1931" id="r00515429_wf4" to="1936" type="wf">
+  <feat name="lemma" value="solid%1|solid%3"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="solid"/>
+ </struct>
+ <struct from="1937" id="r00515429_wf5" to="1942" type="wf">
+  <feat name="lemma" value="fix%2|fixed%3"/>
+  <feat name="pos" value="VBN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="fixed"/>
+ </struct>
+ <struct from="1943" id="r00515429_wf6" to="1949" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="1949" id="r00515429_wf7" to="1950" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="1951" id="r00515429_wf8" to="1954" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1955" id="r00515429_wf9" to="1962" type="wf">
+  <feat name="lemma" value="boulder%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="boulder"/>
+ </struct>
+ <struct from="1963" id="r00515429_wf10" to="1966" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="1967" id="r00515429_wf11" to="1975" type="wf">
+  <feat name="lemma" value="balance%2|balanced%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="balanced"/>
+ </struct>
+ <struct from="1976" id="r00515429_wf12" to="1982" type="wf">
+  <feat name="lemma" value="stably%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="stably"/>
+ </struct>
+ <struct from="1983" id="r00515429_wf13" to="1985" type="ignore">
+  <feat name="lemma" value="at"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="at"/>
+ </struct>
+ <struct from="1986" id="r00515429_wf14" to="1989" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="1990" id="r00515429_wf15" to="1994" type="wf">
+  <feat name="lemma" value="edge%1|edge%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="edge"/>
+ </struct>
+ <struct from="1995" id="r00515429_wf16" to="1997" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="1998" id="r00515429_wf17" to="2001" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="2002" id="r00515429_wf18" to="2008" type="wf">
+  <feat name="lemma" value="canyon%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="canyon"/>
+ </struct>
+ <struct from="2008" id="r00515429_wf19" to="2009" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2010" id="r00515573_wf1" to="2012" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2013" id="r00515573_wf2" to="2014" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="2015" id="r00515573_wf3" to="2025" type="wf">
+  <feat name="lemma" value="suggestive%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="suggestive"/>
+ </struct>
+ <struct from="2026" id="r00515573_wf4" to="2032" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2032" id="r00515573_wf5" to="2033" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2034" id="r00515573_wf6" to="2037" type="ignore">
+  <feat name="lemma" value="she"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="she"/>
+ </struct>
+ <struct from="2038" id="r00515573_wf7" to="2044" type="wf">
+  <feat name="lemma" value="smile%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="smiled"/>
+ </struct>
+ <struct from="2045" id="r00515573_wf8" to="2057" type="wf">
+  <feat name="lemma" value="suggestively%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="suggestively"/>
+ </struct>
+ <struct from="2057" id="r00515573_wf9" to="2058" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2059" id="r00515681_wf1" to="2060" type="punc">
+  <feat name="pos" value="("/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="("/>
+ </struct>
+ <struct from="2060" id="r00515681_wf2" to="2062" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="2063" id="r00515681_wf3" to="2068" type="wf">
+  <feat name="lemma" value="drug%1|drug%2"/>
+  <feat name="pos" value="NNS"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="drugs"/>
+ </struct>
+ <struct from="2069" id="r00515681_wf4" to="2071" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="2072" id="r00515681_wf5" to="2079" type="wf">
+  <feat name="lemma" value="muscle%1|muscle%2"/>
+  <feat name="pos" value="NNS"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="muscles"/>
+ </struct>
+ <struct from="2079" id="r00515681_wf6" to="2080" type="punc">
+  <feat name="pos" value=")"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=")"/>
+ </struct>
+ <struct from="2081" id="r00515681_wf7" to="2083" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2084" id="r00515681_wf8" to="2085" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="2086" id="r00515681_wf9" to="2097" type="wf">
+  <feat name="lemma" value="synergistic%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="synergistic"/>
+ </struct>
+ <struct from="2098" id="r00515681_wf10" to="2100" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="2101" id="r00515681_wf11" to="2112" type="wf">
+  <feat name="lemma" value="interactive%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="interactive"/>
+ </struct>
+ <struct from="2113" id="r00515681_wf12" to="2119" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2119" id="r00515681_wf13" to="2120" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2121" id="r00515803_wf1" to="2122" type="punc">
+  <feat name="pos" value="("/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="("/>
+ </struct>
+ <struct from="2122" id="r00515803_wf2" to="2124" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="2125" id="r00515803_wf3" to="2130" type="wf">
+  <feat name="lemma" value="group%1|group%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="group"/>
+ </struct>
+ <struct from="2130" id="r00515803_wf4" to="2131" type="punc">
+  <feat name="pos" value=")"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=")"/>
+ </struct>
+ <struct from="2132" id="r00515803_wf5" to="2134" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2135" id="r00515803_wf6" to="2136" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="2137" id="r00515803_wf7" to="2148" type="wf">
+  <feat name="lemma" value="synergistic%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="synergistic"/>
+ </struct>
+ <struct from="2149" id="r00515803_wf8" to="2151" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="2152" id="r00515803_wf9" to="2163" type="wf">
+  <feat name="lemma" value="cooperative%1|cooperative%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="cooperative"/>
+ </struct>
+ <struct from="2164" id="r00515803_wf10" to="2170" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2170" id="r00515803_wf11" to="2171" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2172" id="r00515914_wf1" to="2174" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2175" id="r00515914_wf2" to="2176" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="2177" id="r00515914_wf3" to="2187" type="wf">
+  <feat name="lemma" value="synonymous%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="synonymous"/>
+ </struct>
+ <struct from="2188" id="r00515914_wf4" to="2194" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2194" id="r00515914_wf5" to="2195" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2196" id="r00515914_wf6" to="2199" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="2200" id="r00515914_wf7" to="2203" type="ignore">
+  <feat name="lemma" value="two"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="num"/>
+  <feat name="text" value="two"/>
+ </struct>
+ <struct from="2204" id="r00515914_wf8" to="2209" type="wf">
+  <feat name="lemma" value="term%1|terms%1|term%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="terms"/>
+ </struct>
+ <struct from="2210" id="r00515914_wf9" to="2213" type="wf">
+  <feat name="lemma" value="are%1|be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="2214" id="r00515914_wf10" to="2218" type="wf">
+  <feat name="lemma" value="use%2|used%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="used"/>
+ </struct>
+ <struct from="2219" id="r00515914_wf11" to="2231" type="wf">
+  <feat name="lemma" value="synonymously%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="synonymously"/>
+ </struct>
+ <struct from="2231" id="r00515914_wf12" to="2232" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2233" id="r00516034_wf1" to="2237" type="ignore">
+  <feat name="lemma" value="with"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="with"/>
+ </struct>
+ <struct from="2238" id="r00516034_wf2" to="2244" type="ignore">
+  <feat name="lemma" value="regard%1|regard%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="regard"/>
+ </struct>
+ <struct from="2245" id="r00516034_wf3" to="2247" type="ignore">
+  <feat name="lemma" value="to"/>
+  <feat name="pos" value="TO"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="to"/>
+ </struct>
+ <struct from="2248" id="r00516034_wf4" to="2256" type="wf">
+  <feat name="lemma" value="taxonomy%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="taxonomy"/>
+ </struct>
+ <struct from="2256" id="r00516034_wf5" to="2257" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2258" id="r00516034_wf6" to="2265" type="wf">
+  <feat name="lemma" value="closely%4"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="closely"/>
+ </struct>
+ <struct from="2266" id="r00516034_wf7" to="2273" type="wf">
+  <feat name="lemma" value="relate%2|related%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="related"/>
+ </struct>
+ <struct from="2274" id="r00516034_wf8" to="2287" type="wf">
+  <feat name="lemma" value="taxonomically%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="taxonomically"/>
+ </struct>
+ <struct from="2287" id="r00516034_wf9" to="2288" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2289" id="r00516150_wf1" to="2293" type="ignore">
+  <feat name="lemma" value="from"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="from"/>
+ </struct>
+ <struct from="2294" id="r00516150_wf2" to="2297" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="2298" id="r00516150_wf3" to="2303" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="point%1|point%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="2304" id="r00516150_wf4" to="2306" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="2307" id="r00516150_wf5" to="2311" type="cf">
+  <feat name="coll" value="a"/>
+  <feat name="lemma" value="view%1|view%2"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="view"/>
+ </struct>
+ <struct from="2312" id="r00516150_wf6" to="2314" type="ignore">
+  <feat name="lemma" value="of"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="of"/>
+ </struct>
+ <struct from="2315" id="r00516150_wf7" to="2323" type="wf">
+  <feat name="lemma" value="topology%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="topology"/>
+ </struct>
+ <struct from="2323" id="r00516150_wf8" to="2324" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2325" id="r00516244_wf1" to="2327" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2328" id="r00516244_wf2" to="2330" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="2331" id="r00516244_wf3" to="2339" type="wf">
+  <feat name="lemma" value="ulterior%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="ulterior"/>
+ </struct>
+ <struct from="2340" id="r00516244_wf4" to="2346" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2346" id="r00516244_wf5" to="2347" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2348" id="r00516322_wf1" to="2350" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2351" id="r00516322_wf2" to="2352" type="ignore">
+  <feat name="lemma" value="a"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="a"/>
+ </struct>
+ <struct from="2353" id="r00516322_wf3" to="2362" type="wf">
+  <feat name="lemma" value="vexatious%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="vexatious"/>
+ </struct>
+ <struct from="2363" id="r00516322_wf4" to="2369" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2369" id="r00516322_wf5" to="2370" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2371" id="r00516401_wf1" to="2375" type="wf">
+  <feat name="lemma" value="very%3|very%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="very"/>
+ </struct>
+ <struct from="2376" id="r00516401_wf2" to="2380" type="wf">
+  <feat name="lemma" value="thin%2|thin%3|thin%4"/>
+  <feat name="pos" value="RB"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="thin"/>
+ </struct>
+ <struct from="2380" id="r00516401_wf3" to="2381" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2382" id="r00516401_wf4" to="2384" type="ignore">
+  <feat name="lemma" value="it"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="it"/>
+ </struct>
+ <struct from="2385" id="r00516401_wf5" to="2388" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="2389" id="r00516401_wf6" to="2392" type="wf">
+  <feat name="lemma" value="cut%1|cut%2|cut%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="cut"/>
+ </struct>
+ <struct from="2393" id="r00516401_wf7" to="2403" type="wf">
+  <feat name="lemma" value="wafer-thin%3|wafer-thin%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="wafer-thin"/>
+ </struct>
+ <struct from="2403" id="r00516401_wf8" to="2404" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2405" id="r00516492_wf1" to="2407" type="ignore">
+  <feat name="lemma" value="in"/>
+  <feat name="pos" value="IN"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="in"/>
+ </struct>
+ <struct from="2408" id="r00516492_wf2" to="2410" type="ignore">
+  <feat name="lemma" value="an"/>
+  <feat name="pos" value="DT"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="an"/>
+ </struct>
+ <struct from="2411" id="r00516492_wf3" to="2417" type="wf">
+  <feat name="lemma" value="unjust%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="unjust"/>
+ </struct>
+ <struct from="2418" id="r00516492_wf4" to="2420" type="ignore">
+  <feat name="lemma" value="or"/>
+  <feat name="pos" value="CC"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="or"/>
+ </struct>
+ <struct from="2421" id="r00516492_wf5" to="2427" type="wf">
+  <feat name="lemma" value="unfair%3"/>
+  <feat name="pos" value="JJ"/>
+  <feat name="tag" value="man"/>
+  <feat name="text" value="unfair"/>
+ </struct>
+ <struct from="2428" id="r00516492_wf6" to="2434" type="wf">
+  <feat name="lemma" value="manner%1"/>
+  <feat name="pos" value="NN"/>
+  <feat name="tag" value="man"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="manner"/>
+ </struct>
+ <struct from="2434" id="r00516492_wf7" to="2435" type="punc">
+  <feat name="pos" value=":"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2436" id="r00516492_wf8" to="2439" type="ignore">
+  <feat name="lemma" value="the"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="the"/>
+ </struct>
+ <struct from="2440" id="r00516492_wf9" to="2448" type="wf">
+  <feat name="lemma" value="employee%1"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="employee"/>
+ </struct>
+ <struct from="2449" id="r00516492_wf10" to="2456" type="wf">
+  <feat name="lemma" value="claim%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="claimed"/>
+ </struct>
+ <struct from="2457" id="r00516492_wf11" to="2461" type="ignore">
+  <feat name="lemma" value="that"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="that"/>
+ </struct>
+ <struct from="2462" id="r00516492_wf12" to="2465" type="ignore">
+  <feat name="lemma" value="she"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="she"/>
+ </struct>
+ <struct from="2466" id="r00516492_wf13" to="2469" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="2470" id="r00516492_wf14" to="2480" type="wf">
+  <feat name="lemma" value="wrongfully%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="wrongfully"/>
+ </struct>
+ <struct from="2481" id="r00516492_wf15" to="2490" type="wf">
+  <feat name="lemma" value="dismiss%2|dismissed%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="dismissed"/>
+ </struct>
+ <struct from="2490" id="r00516492_wf16" to="2491" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+ <struct from="2492" id="r00516492_wf17" to="2498" type="wf">
+  <feat name="lemma" value="people%1|people%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="people"/>
+ </struct>
+ <struct from="2499" id="r00516492_wf18" to="2502" type="ignore">
+  <feat name="lemma" value="who"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="who"/>
+ </struct>
+ <struct from="2503" id="r00516492_wf19" to="2507" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="were"/>
+ </struct>
+ <struct from="2508" id="r00516492_wf20" to="2518" type="wf">
+  <feat name="lemma" value="wrongfully%4"/>
+  <feat name="tag" value="auto"/>
+  <feat name="text" value="wrongfully"/>
+ </struct>
+ <struct from="2519" id="r00516492_wf21" to="2529" type="wf">
+  <feat name="lemma" value="imprison%2|imprisoned%3"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="imprisoned"/>
+ </struct>
+ <struct from="2530" id="r00516492_wf22" to="2536" type="ignore">
+  <feat name="lemma" value="should"/>
+  <feat name="tag" value="ignore"/>
+  <feat name="text" value="should"/>
+ </struct>
+ <struct from="2537" id="r00516492_wf23" to="2539" type="wf">
+  <feat name="lemma" value="be%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="2540" id="r00516492_wf24" to="2548" type="wf">
+  <feat name="lemma" value="release%2"/>
+  <feat name="tag" value="un"/>
+  <feat name="sep" value=""/>
+  <feat name="text" value="released"/>
+ </struct>
+ <struct from="2548" id="r00516492_wf25" to="2549" type="punc">
+  <feat name="tag" value="ignore"/>
+  <feat name="type" value="punc"/>
+  <feat name="text" value=";"/>
+ </struct>
+</cesAna>

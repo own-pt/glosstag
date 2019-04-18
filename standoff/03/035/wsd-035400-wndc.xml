@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="735" id="n06563950_coll.a" to="747" type="auto">
+  <feat name="wnsk" value="plea_bargain%1:10:00::"/>
+  <feat name="text" value="plea bargain"/>
+ </struct>
+ <struct from="769" id="n06563950_coll.b" to="784" type="auto">
+  <feat name="wnsk" value="plea_bargaining%1:10:00::"/>
+  <feat name="text" value="plea bargaining"/>
+ </struct>
+ <struct from="849" id="n06564387_coll.a" to="865" type="un">
+  <feat name="text" value="legislative body"/>
+ </struct>
+ <struct from="922" id="n06564640_coll.b" to="935" type="man">
+  <feat name="wnsk" value="price_cutting%1:04:00::"/>
+  <feat name="text" value="price-cutting"/>
+ </struct>
+ <struct from="1023" id="n06564640_coll.a" to="1045" type="auto">
+  <feat name="wnsk" value="united_states_congress%1:14:00::"/>
+  <feat name="text" value="United States Congress"/>
+ </struct>
+ <struct from="1076" id="n06564887_coll.b" to="1094" type="man">
+  <feat name="wnsk" value="british_parliament%1:14:00::"/>
+  <feat name="text" value="British Parliament"/>
+ </struct>
+ <struct from="1214" id="n06564887_wf31" to="1219" type="part"/>
+ <node id="n06564887_coll.c.1" ref="n06564887_wf31" type="node"/>
+ <struct from="1234" id="n06564887_wf34" to="1243" type="part"/>
+ <node id="n06564887_coll.c.2" ref="n06564887_wf34" type="node"/>
+ <struct from="n06564887_coll.c.1" id="n06564887_coll.c" to="n06564887_coll.c.2" type="auto">
+  <feat name="wnsk" value="legal_document%1:10:00::"/>
+  <feat name="text" value="legal documents"/>
+ </struct>
+ <struct from="1223" id="n06564887_coll.a" to="1243" type="auto">
+  <feat name="wnsk" value="commercial_document%1:10:00::"/>
+  <feat name="text" value="commercial documents"/>
+ </struct>
+ <struct from="1569" id="n06565397_coll.a" to="1608" type="auto">
+  <feat name="wnsk" value="foreign_intelligence_surveillance_court%1:14:00::"/>
+  <feat name="text" value="Foreign Intelligence Surveillance Court"/>
+ </struct>
+ <struct from="1631" id="n06565397_coll.b" to="1644" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="1689" id="n06565397_coll.c" to="1704" type="auto">
+  <feat name="wnsk" value="law_enforcement%1:04:00::"/>
+  <feat name="text" value="law enforcement"/>
+ </struct>
+ <struct from="1761" id="n06565919_coll.a" to="1776" type="auto">
+  <feat name="wnsk" value="legislative_act%1:10:00::"/>
+  <feat name="text" value="legislative act"/>
+ </struct>
+ <struct from="1963" id="n06566077_coll.b" to="1978" type="auto">
+  <feat name="wnsk" value="computer_system%1:06:00::"/>
+  <feat name="text" value="computer system"/>
+ </struct>
+ <struct from="2002" id="n06566077_coll.a" to="2019" type="auto">
+  <feat name="wnsk" value="read/write_memory%1:06:00::"/>
+  <feat name="text" value="read/write memory"/>
+ </struct>
+ <struct from="2089" id="n06566805_coll.a" to="2105" type="auto">
+  <feat name="wnsk" value="software_product%1:06:00::"/>
+  <feat name="text" value="software product"/>
+ </struct>
+ <struct from="2202" id="n06566949_coll.b" to="2219" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer programs"/>
+ </struct>
+ <struct from="2262" id="n06566949_coll.a" to="2282" type="auto">
+  <feat name="wnsk" value="computer_programming%1:04:00::"/>
+  <feat name="text" value="computer programming"/>
+ </struct>
+ <struct from="2344" id="n06567143_coll.a" to="2354" type="auto">
+  <feat name="wnsk" value="alpha_test%1:09:00::"/>
+  <feat name="text" value="alpha test"/>
+ </struct>
+ <struct from="2403" id="n06567143_coll.b" to="2416" type="auto">
+  <feat name="wnsk" value="beta_software%1:10:00::"/>
+  <feat name="text" value="beta software"/>
+ </struct>
+ <struct from="2560" id="n06567531_coll.a" to="2577" type="auto">
+  <feat name="wnsk" value="software_program%1:10:00::"/>
+  <feat name="text" value="software programs"/>
+ </struct>
+ <struct from="2967" id="n06568134_coll.a" to="2984" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer programs"/>
+ </struct>
+ <struct from="3022" id="n06568422_coll.a" to="3038" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="3061" id="n06568552_coll.b" to="3077" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="3091" id="n06568552_coll.c" to="3101" type="auto">
+  <feat name="wnsk" value="bill_gates%1:18:00::"/>
+  <feat name="text" value="Bill Gates"/>
+ </struct>
+ <struct from="3106" id="n06568552_coll.a" to="3124" type="auto">
+  <feat name="wnsk" value="personal_computer%1:06:00::"/>
+  <feat name="text" value="personal computers"/>
+ </struct>
+ <struct from="3151" id="n06568706_coll.a" to="3167" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="3199" id="n06568855_coll.a" to="3220" type="auto">
+  <feat name="wnsk" value="unix_operating_system%1:10:00::"/>
+  <feat name="text" value="UNIX operating system"/>
+ </struct>
+ <struct from="3365" id="n06569966_coll.a" to="3381" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="3692" id="n06570647_coll.a" to="3711" type="auto">
+  <feat name="wnsk" value="application_program%1:10:00::"/>
+  <feat name="text" value="application program"/>
+ </struct>
+ <struct from="3735" id="n06570647_coll.c" to="3746" type="auto">
+  <feat name="wnsk" value="web_browser%1:10:00::"/>
+  <feat name="text" value="web browser"/>
+ </struct>
+ <struct from="3760" id="n06570647_coll.b" to="3774" type="auto">
+  <feat name="wnsk" value="user_interface%1:10:00::"/>
+  <feat name="text" value="user interface"/>
+ </struct>
+ <struct from="3955" id="n06570963_coll.a" to="3971" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="3990" id="n06570963_coll.c" to="4006" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="4035" id="n06570963_coll.b" to="4051" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="4327" id="n06572011_coll.a" to="4346" type="auto">
+  <feat name="wnsk" value="application_program%1:10:00::"/>
+  <feat name="text" value="application program"/>
+ </struct>
+ <struct from="4363" id="n06572011_coll.b" to="4379" type="auto">
+  <feat name="wnsk" value="natural_language%1:10:00::"/>
+  <feat name="text" value="natural language"/>
+ </struct>
+ <struct from="4407" id="n06572204_coll.a" to="4446" type="auto">
+  <feat name="wnsk" value="natural_language_processing_application%1:10:00::"/>
+  <feat name="text" value="natural language processing application"/>
+ </struct>
+ <struct from="4529" id="n06572204_coll.b" to="4547" type="auto">
+  <feat name="wnsk" value="linguistic_context%1:10:00::"/>
+  <feat name="text" value="linguistic context"/>
+ </struct>
+ <struct from="4795" id="n06572857_coll.a" to="4811" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="4909" id="n06573020_coll.a" to="4925" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="5021" id="n06573223_coll.a" to="5037" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="5060" id="n06573337_coll.a" to="5077" type="auto">
+  <feat name="wnsk" value="assembly_language%1:10:00::"/>
+  <feat name="text" value="assembly language"/>
+ </struct>
+ <struct from="5083" id="n06573337_coll.b" to="5099" type="man">
+  <feat name="wnsk" value="machine_language%1:10:00::"/>
+  <feat name="text" value="machine language"/>
+ </struct>
+ <struct from="5131" id="n06573472_coll.a" to="5148" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer programs"/>
+ </struct>
+ <struct from="5153" id="n06573472_coll.b" to="5166" type="auto">
+  <feat name="wnsk" value="syntax_error%1:11:00::"/>
+  <feat name="text" value="syntax errors"/>
+ </struct>
+ <struct from="5274" id="n06573600_coll.a" to="5291" type="auto">
+  <feat name="wnsk" value="assembly_language%1:10:00::"/>
+  <feat name="text" value="assembly language"/>
+ </struct>
+ <struct from="5515" id="n06574334_coll.a" to="5533" type="auto">
+  <feat name="wnsk" value="programming_error%1:11:00::"/>
+  <feat name="text" value="programming errors"/>
+ </struct>
+ <struct from="5619" id="n06574473_coll.a" to="5636" type="auto">
+  <feat name="wnsk" value="peripheral_device%1:06:00::"/>
+  <feat name="text" value="peripheral device"/>
+ </struct>
+ <struct from="5718" id="n06574680_coll.a" to="5734" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="5866" id="n06575092_coll.a" to="5881" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility program"/>
+ </struct>
+ <struct from="6002" id="n06575227_coll.a" to="6018" type="auto">
+  <feat name="wnsk" value="computer_monitor%1:06:00::"/>
+  <feat name="text" value="computer monitor"/>
+ </struct>
+ <struct from="6076" id="n06575505_coll.a" to="6090" type="auto">
+  <feat name="wnsk" value="user_interface%1:10:00::"/>
+  <feat name="text" value="user interface"/>
+ </struct>
+ <struct from="6179" id="n06575681_coll.a" to="6193" type="auto">
+  <feat name="wnsk" value="user_interface%1:10:00::"/>
+  <feat name="text" value="user interface"/>
+ </struct>
+ <struct from="6273" id="n06575681_coll.c" to="6280" type="man">
+  <feat name="wnsk" value="as_well%4:02:01::"/>
+  <feat name="text" value="as well"/>
+ </struct>
+ <struct from="6301" id="n06575681_coll.b" to="6313" type="man">
+  <feat name="wnsk" value="input_device%1:06:00::"/>
+  <feat name="text" value="input device"/>
+ </struct>
+ <struct from="6373" id="n06575932_coll.a" to="6388" type="auto">
+  <feat name="wnsk" value="source_language%1:10:00::"/>
+  <feat name="text" value="source language"/>
+ </struct>
+ <struct from="6491" id="n06576265_coll.a" to="6506" type="auto">
+  <feat name="wnsk" value="program_library%1:14:00::"/>
+  <feat name="text" value="program library"/>
+ </struct>
+ <struct from="6511" id="n06576376_coll.a" to="6525" type="auto">
+  <feat name="wnsk" value="editor_program%1:10:00::"/>
+  <feat name="text" value="editor program"/>
+ </struct>
+ <struct from="6798" id="n06576727_coll.a" to="6808" type="auto">
+  <feat name="wnsk" value="text_file%1:10:00::"/>
+  <feat name="text" value="text files"/>
+ </struct>
+ <struct from="6960" id="n06577063_coll.a" to="6976" type="man">
+  <feat name="wnsk" value="machine_language%1:10:00::"/>
+  <feat name="text" value="machine language"/>
+ </struct>
+ <struct from="6980" id="n06577232_coll.a" to="6995" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility program"/>
+ </struct>
+ <struct from="7039" id="n06577369_coll.a" to="7055" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="7183" id="n06577585_coll.b" to="7199" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="7228" id="n06577585_coll.a" to="7252" type="auto">
+  <feat name="wnsk" value="grammatical_constituent%1:10:00::"/>
+  <feat name="text" value="grammatical constituents"/>
+ </struct>
+ <struct from="7256" id="n06577585_coll.c" to="7270" type="auto">
+  <feat name="wnsk" value="textual_matter%1:10:00::"/>
+  <feat name="text" value="textual matter"/>
+ </struct>
+ <struct from="7274" id="n06577781_coll.a" to="7289" type="auto">
+  <feat name="wnsk" value="tagging_program%1:10:00::"/>
+  <feat name="text" value="tagging program"/>
+ </struct>
+ <struct from="7352" id="n06577916_coll.b" to="7367" type="auto">
+  <feat name="wnsk" value="tagging_program%1:10:00::"/>
+  <feat name="text" value="tagging program"/>
+ </struct>
+ <struct from="7399" id="n06577916_coll.a" to="7413" type="auto">
+  <feat name="wnsk" value="part_of_speech%1:10:00::"/>
+  <feat name="text" value="part of speech"/>
+ </struct>
+ <struct from="7555" id="n06578323_coll.a" to="7571" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="7681" id="n06578527_coll.a" to="7695" type="auto">
+  <feat name="wnsk" value="web_map_server%1:10:00::"/>
+  <feat name="text" value="Web Map Server"/>
+ </struct>
+ <struct from="7699" id="n06578654_coll.b" to="7715" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="7784" id="n06578654_coll.a" to="7800" type="auto">
+  <feat name="wnsk" value="computer_network%1:06:00::"/>
+  <feat name="text" value="computer network"/>
+ </struct>
+ <struct from="7847" id="n06578905_coll.a" to="7860" type="auto">
+  <feat name="wnsk" value="search_engine%1:10:00::"/>
+  <feat name="text" value="search engine"/>
+ </struct>
+ <struct from="7904" id="n06578905_coll.b" to="7913" type="auto">
+  <feat name="wnsk" value="webpage%1:10:00::"/>
+  <feat name="text" value="web pages"/>
+ </struct>
+ <struct from="7980" id="n06579127_coll.a" to="7993" type="auto">
+  <feat name="wnsk" value="search_engine%1:10:00::"/>
+  <feat name="text" value="search engine"/>
+ </struct>
+ <struct from="8077" id="n06579294_coll.a" to="8090" type="auto">
+  <feat name="wnsk" value="search_engine%1:10:00::"/>
+  <feat name="text" value="search engine"/>
+ </struct>
+ <struct from="8222" id="n06579592_coll.a" to="8235" type="auto">
+  <feat name="wnsk" value="trace_program%1:10:00::"/>
+  <feat name="text" value="trace program"/>
+ </struct>
+ <struct from="8284" id="n06579715_coll.a" to="8300" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="8326" id="n06579715_coll.c" to="8337" type="man">
+  <feat name="wnsk" value="look_for%2:35:00::"/>
+  <feat name="text" value="looking for"/>
+ </struct>
+ <struct from="8442" id="n06579715_coll.b" to="8455" type="auto">
+  <feat name="wnsk" value="search_engine%1:10:00::"/>
+  <feat name="text" value="search engine"/>
+ </struct>
+ <struct from="8514" id="n06579952_coll.a" to="8521" type="un">
+  <feat name="text" value="lay out"/>
+ </struct>
+ <struct from="8554" id="n06580103_coll.a" to="8569" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility program"/>
+ </struct>
+ <struct from="8742" id="n06580543_coll.a" to="8758" type="auto">
+  <feat name="wnsk" value="natural_language%1:10:00::"/>
+  <feat name="text" value="natural language"/>
+ </struct>
+ <struct from="8784" id="n06580646_coll.a" to="8800" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="8816" id="n06580646_coll.b" to="8831" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility program"/>
+ </struct>
+ <struct from="8893" id="n06580866_coll.a" to="8908" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility program"/>
+ </struct>
+ <struct from="9000" id="n06581068_coll.a" to="9016" type="auto">
+  <feat name="wnsk" value="computer_program%1:10:00::"/>
+  <feat name="text" value="computer program"/>
+ </struct>
+ <struct from="9168" id="n06581268_coll.a" to="9188" type="auto">
+  <feat name="wnsk" value="programming_language%1:10:00::"/>
+  <feat name="text" value="programming language"/>
+ </struct>
+ <struct from="9320" id="n06581410_coll.a" to="9336" type="auto">
+  <feat name="wnsk" value="utility_program%1:10:00::"/>
+  <feat name="text" value="utility programs"/>
+ </struct>
+ <struct from="9395" id="n06581823_coll.b" to="9411" type="auto">
+  <feat name="wnsk" value="operating_system%1:10:00::"/>
+  <feat name="text" value="operating system"/>
+ </struct>
+ <struct from="9419" id="n06581823_coll.a" to="9443" type="auto">
+  <feat name="wnsk" value="graphical_user_interface%1:10:00::"/>
+  <feat name="text" value="graphical user interface"/>
+ </struct>
+</cesAna>

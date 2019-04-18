@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="259" id="n11466701_coll.a" to="276" type="auto">
+  <feat name="wnsk" value="high_temperature%1:07:00::"/>
+  <feat name="text" value="high temperatures"/>
+ </struct>
+ <struct from="430" id="n11467018_coll.a" to="444" type="man">
+  <feat name="wnsk" value="beaufort_scale%1:24:00::"/>
+  <feat name="text" value="Beaufort scale"/>
+ </struct>
+ <struct from="566" id="n11467318_coll.a" to="584" type="man">
+  <feat name="wnsk" value="magnetic_induction%1:22:00::"/>
+  <feat name="wnsk" value="magnetic_induction%1:07:00::"/>
+  <feat name="text" value="magnetic induction"/>
+ </struct>
+ <struct from="638" id="n11467318_coll.b" to="652" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="857" id="n11467996_coll.a" to="867" type="auto">
+  <feat name="wnsk" value="light_beam%1:19:00::"/>
+  <feat name="text" value="light beam"/>
+ </struct>
+ <struct from="944" id="n11468172_coll.a" to="965" type="auto">
+  <feat name="wnsk" value="electrical_phenomenon%1:19:00::"/>
+  <feat name="text" value="electrical phenomenon"/>
+ </struct>
+ <struct from="977" id="n11468172_coll.b" to="996" type="auto">
+  <feat name="wnsk" value="electromotive_force%1:19:00::"/>
+  <feat name="text" value="electromotive force"/>
+ </struct>
+ <struct from="1021" id="n11468172_coll.c" to="1035" type="man">
+  <feat name="wnsk" value="closed_circuit%1:06:00::"/>
+  <feat name="text" value="closed circuit"/>
+ </struct>
+ <struct from="1086" id="n11468442_coll.a" to="1106" type="auto">
+  <feat name="wnsk" value="electromotive_force%1:19:00::"/>
+  <feat name="text" value="electromotive forces"/>
+ </struct>
+ <struct from="1164" id="n11468578_coll.a" to="1183" type="auto">
+  <feat name="wnsk" value="electromotive_force%1:19:00::"/>
+  <feat name="text" value="electromotive force"/>
+ </struct>
+ <struct from="1361" id="n11468763_coll.a" to="1371" type="man">
+  <feat name="wnsk" value="act_upon%2:41:00::"/>
+  <feat name="text" value="acted upon"/>
+ </struct>
+ <struct from="1427" id="n11468973_coll.a" to="1447" type="un">
+  <feat name="text" value="angular acceleration"/>
+ </struct>
+ <struct from="1485" id="n11469108_coll.a" to="1501" type="auto">
+  <feat name="wnsk" value="angular_velocity%1:19:00::"/>
+  <feat name="text" value="angular velocity"/>
+ </struct>
+ <struct from="1558" id="n11469265_coll.a" to="1574" type="auto">
+  <feat name="wnsk" value="angular_position%1:24:00::"/>
+  <feat name="text" value="angular position"/>
+ </struct>
+ <struct from="1658" id="n11469481_coll.a" to="1683" type="auto">
+  <feat name="wnsk" value="electromagnetic_radiation%1:19:00::"/>
+  <feat name="text" value="electromagnetic radiation"/>
+ </struct>
+ <struct from="1713" id="n11469481_coll.b" to="1726" type="auto">
+  <feat name="wnsk" value="visible_light%1:19:00::"/>
+  <feat name="text" value="visible light"/>
+ </struct>
+ <struct from="1744" id="n11469481_coll.c" to="1755" type="auto">
+  <feat name="wnsk" value="radio_wave%1:19:00::"/>
+  <feat name="text" value="radio waves"/>
+ </struct>
+ <struct from="1773" id="n11469691_coll.a" to="1791" type="auto">
+  <feat name="wnsk" value="infrared_radiation%1:19:00::"/>
+  <feat name="text" value="infrared radiation"/>
+ </struct>
+ <struct from="2138" id="n11470348_coll.a" to="2154" type="auto">
+  <feat name="wnsk" value="electric_current%1:19:00::"/>
+  <feat name="text" value="electric current"/>
+ </struct>
+ <struct from="2215" id="n11470492_coll.a" to="2232" type="auto">
+  <feat name="wnsk" value="mechanical_energy%1:19:00::"/>
+  <feat name="text" value="mechanical energy"/>
+ </struct>
+ <struct from="2317" id="n11470621_coll.a" to="2325" type="un">
+  <feat name="text" value="break up"/>
+ </struct>
+ <struct from="2697" id="n11471359_coll.a" to="2710" type="man">
+  <feat name="wnsk" value="boiling_point%1:07:01::"/>
+  <feat name="text" value="boiling point"/>
+ </struct>
+ <struct from="2746" id="n11471359_coll.b" to="2766" type="auto">
+  <feat name="wnsk" value="heat_of_condensation%1:19:00::"/>
+  <feat name="text" value="heat of condensation"/>
+ </struct>
+ <struct from="2852" id="n11471578_coll.a" to="2865" type="man">
+  <feat name="wnsk" value="melting_point%1:07:00::"/>
+  <feat name="text" value="melting point"/>
+ </struct>
+ <struct from="2939" id="n11471578_coll.b" to="2953" type="auto">
+  <feat name="wnsk" value="heat_of_fusion%1:19:00::"/>
+  <feat name="text" value="heat of fusion"/>
+ </struct>
+ <struct from="3041" id="n11471828_coll.a" to="3055" type="man">
+  <feat name="wnsk" value="freezing_point%1:07:00::"/>
+  <feat name="text" value="freezing point"/>
+ </struct>
+ <struct from="3140" id="n11471977_wf14" to="3145" type="part"/>
+ <node id="n11471977_coll.b.1" ref="n11471977_wf14" type="node"/>
+ <struct from="3159" id="n11471977_wf18" to="3164" type="part"/>
+ <node id="n11471977_coll.b.2" ref="n11471977_wf18" type="node"/>
+ <struct from="n11471977_coll.b.1" id="n11471977_coll.b" to="n11471977_coll.b.2" type="un">
+  <feat name="text" value="solid state"/>
+ </struct>
+ <struct from="3151" id="n11471977_coll.a" to="3164" type="un">
+  <feat name="text" value="gaseous state"/>
+ </struct>
+ <struct from="3216" id="n11472131_coll.a" to="3229" type="man">
+  <feat name="wnsk" value="boiling_point%1:07:01::"/>
+  <feat name="text" value="boiling point"/>
+ </struct>
+ <struct from="3539" id="n11472820_coll.a" to="3557" type="auto">
+  <feat name="wnsk" value="infrared_radiation%1:19:00::"/>
+  <feat name="text" value="infrared radiation"/>
+ </struct>
+ <struct from="3597" id="n11472820_coll.b" to="3610" type="auto">
+  <feat name="wnsk" value="infrared_lamp%1:06:00::"/>
+  <feat name="text" value="infrared lamp"/>
+ </struct>
+ <struct from="3688" id="n11473138_coll.a" to="3708" type="auto">
+  <feat name="wnsk" value="mechanical_advantage%1:24:00::"/>
+  <feat name="text" value="mechanical advantage"/>
+ </struct>
+ <struct from="3759" id="n11473291_coll.a" to="3777" type="auto">
+  <feat name="wnsk" value="organic_phenomenon%1:19:00::"/>
+  <feat name="text" value="organic phenomenon"/>
+ </struct>
+ <struct from="4105" id="n11473954_coll.a" to="4130" type="auto">
+  <feat name="wnsk" value="electromagnetic_radiation%1:19:00::"/>
+  <feat name="text" value="electromagnetic radiation"/>
+ </struct>
+ <struct from="4150" id="n11473954_coll.b" to="4166" type="auto">
+  <feat name="wnsk" value="visual_sensation%1:09:00::"/>
+  <feat name="text" value="visual sensation"/>
+ </struct>
+ <struct from="4605" id="n11475067_coll.a" to="4617" type="man">
+  <feat name="wnsk" value="storm_cloud%1:17:00::"/>
+  <feat name="text" value="storm clouds"/>
+ </struct>
+ <struct from="4672" id="n11475279_coll.a" to="4690" type="auto">
+  <feat name="wnsk" value="electric_discharge%1:19:00::"/>
+  <feat name="text" value="electric discharge"/>
+ </struct>
+ <struct from="4906" id="n11475476_coll.a" to="4918" type="auto">
+  <feat name="wnsk" value="energy_level%1:19:00::"/>
+  <feat name="text" value="energy level"/>
+ </struct>
+ <struct from="4993" id="n11475682_coll.a" to="5007" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="5025" id="n11475682_coll.c" to="5037" type="man">
+  <feat name="wnsk" value="right_angle%1:25:00::"/>
+  <feat name="text" value="right angles"/>
+ </struct>
+ <struct from="5066" id="n11475682_coll.b" to="5080" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="5086" id="n11475682_coll.d" to="5099" type="auto">
+  <feat name="wnsk" value="lorentz_force%1:19:00::"/>
+  <feat name="text" value="Lorentz force"/>
+ </struct>
+ <struct from="5170" id="n11475992_coll.a" to="5193" type="auto">
+  <feat name="wnsk" value="atmospheric_electricity%1:19:00::"/>
+  <feat name="text" value="atmospheric electricity"/>
+ </struct>
+ <struct from="5343" id="n11476231_coll.a" to="5364" type="auto">
+  <feat name="wnsk" value="electrical_discharge%1:11:00::"/>
+  <feat name="text" value="electrical discharges"/>
+ </struct>
+ <struct from="5544" id="n11476767_coll.a" to="5561" type="auto">
+  <feat name="wnsk" value="chemical_reaction%1:22:00::"/>
+  <feat name="text" value="chemical reaction"/>
+ </struct>
+ <struct from="5633" id="n11476939_coll.a" to="5646" type="auto">
+  <feat name="wnsk" value="visible_light%1:19:00::"/>
+  <feat name="text" value="visible light"/>
+ </struct>
+ <struct from="5652" id="n11477041_coll.a" to="5666" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="5769" id="n11477041_coll.c" to="5783" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="5796" id="n11477041_coll.b" to="5816" type="auto">
+  <feat name="wnsk" value="solar_magnetic_field%1:19:00::"/>
+  <feat name="text" value="solar magnetic field"/>
+ </struct>
+ <struct from="5822" id="n11477269_coll.a" to="5836" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="5853" id="n11477384_coll.a" to="5867" type="auto">
+  <feat name="wnsk" value="line_of_force%1:19:00::"/>
+  <feat name="text" value="lines of force"/>
+ </struct>
+ <struct from="5882" id="n11477384_coll.b" to="5898" type="auto">
+  <feat name="wnsk" value="permanent_magnet%1:06:00::"/>
+  <feat name="text" value="permanent magnet"/>
+ </struct>
+ <struct from="6460" id="n11478299_coll.a" to="6485" type="auto">
+  <feat name="wnsk" value="electromagnetic_radiation%1:19:00::"/>
+  <feat name="text" value="electromagnetic radiation"/>
+ </struct>
+ <struct from="6517" id="n11478514_coll.a" to="6526" type="auto">
+  <feat name="wnsk" value="gamma_ray%1:19:00::"/>
+  <feat name="text" value="gamma ray"/>
+ </struct>
+ <struct from="6582" id="n11478514_coll.b" to="6591" type="auto">
+  <feat name="wnsk" value="gamma_ray%1:19:00::"/>
+  <feat name="text" value="gamma ray"/>
+ </struct>
+ <struct from="6712" id="n11478682_coll.a" to="6726" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="6767" id="n11478898_coll.a" to="6781" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="6820" id="n11479058_coll.a" to="6837" type="auto">
+  <feat name="wnsk" value="electric_current%1:19:00::"/>
+  <feat name="text" value="electric currents"/>
+ </struct>
+ <struct from="6838" id="n11479058_coll.c" to="6845" type="man">
+  <feat name="wnsk" value="as_well%4:02:01::"/>
+  <feat name="text" value="as well"/>
+ </struct>
+ <struct from="6875" id="n11479058_coll.b" to="6890" type="auto">
+  <feat name="wnsk" value="field_of_force%1:19:00::"/>
+  <feat name="text" value="fields of force"/>
+ </struct>
+ <struct from="6917" id="n11479368_coll.a" to="6933" type="auto">
+  <feat name="wnsk" value="electric_current%1:19:00::"/>
+  <feat name="text" value="electric current"/>
+ </struct>
+ <struct from="7083" id="n11479640_coll.a" to="7097" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="7245" id="n11479816_coll.a" to="7259" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="7292" id="n11479816_coll.b" to="7306" type="auto">
+  <feat name="wnsk" value="magnetic_force%1:19:00::"/>
+  <feat name="text" value="magnetic force"/>
+ </struct>
+ <struct from="7477" id="n11480091_coll.a" to="7492" type="auto">
+  <feat name="wnsk" value="magnetic_moment%1:19:00::"/>
+  <feat name="text" value="magnetic moment"/>
+ </struct>
+ <struct from="7585" id="n11480284_coll.a" to="7599" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="7713" id="n11480521_coll.a" to="7727" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="7775" id="n11480698_coll.a" to="7794" type="auto">
+  <feat name="wnsk" value="physical_phenomenon%1:19:00::"/>
+  <feat name="text" value="physical phenomenon"/>
+ </struct>
+ <struct from="8233" id="n11481627_coll.a" to="8252" type="auto">
+  <feat name="wnsk" value="gravitational_field%1:19:00::"/>
+  <feat name="text" value="gravitational field"/>
+ </struct>
+ <struct from="8489" id="n11482312_coll.a" to="8509" type="auto">
+  <feat name="wnsk" value="electromagnetic_wave%1:19:00::"/>
+  <feat name="text" value="electromagnetic wave"/>
+ </struct>
+ <struct from="8549" id="n11482312_coll.b" to="8560" type="auto">
+  <feat name="wnsk" value="radio_wave%1:19:00::"/>
+  <feat name="text" value="radio waves"/>
+ </struct>
+ <struct from="8582" id="n11482312_coll.c" to="8597" type="auto">
+  <feat name="wnsk" value="microwave_oven%1:06:00::"/>
+  <feat name="text" value="microwave ovens"/>
+ </struct>
+ <struct from="8697" id="n11482579_wf9" to="8703" type="part"/>
+ <node id="n11482579_coll.b.1" ref="n11482579_wf9" type="node"/>
+ <struct from="8717" id="n11482579_wf12" to="8724" type="part"/>
+ <node id="n11482579_coll.b.2" ref="n11482579_wf12" type="node"/>
+ <struct from="n11482579_coll.b.1" id="n11482579_coll.b" to="n11482579_coll.b.2" type="auto">
+  <feat name="wnsk" value="arctic_circle%1:15:00::"/>
+  <feat name="text" value="Arctic Circles"/>
+ </struct>
+ <struct from="8782" id="n11482873_coll.a" to="8792" type="auto">
+  <feat name="wnsk" value="north_wind%1:19:00::"/>
+  <feat name="text" value="north wind"/>
+ </struct>
+ <struct from="9043" id="n11483472_coll.b" to="9056" type="auto">
+  <feat name="wnsk" value="dipole_moment%1:19:00::"/>
+  <feat name="text" value="dipole moment"/>
+ </struct>
+ <struct from="9063" id="n11483472_coll.a" to="9078" type="auto">
+  <feat name="wnsk" value="electric_dipole%1:17:00::"/>
+  <feat name="text" value="electric dipole"/>
+ </struct>
+ <struct from="9105" id="n11483580_coll.d" to="9115" type="man">
+  <feat name="wnsk" value="give_rise%2:36:01::"/>
+  <feat name="text" value="gives rise"/>
+ </struct>
+ <struct from="9121" id="n11483580_coll.b" to="9135" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="9156" id="n11483580_coll.a" to="9171" type="auto">
+  <feat name="wnsk" value="magnetic_dipole%1:17:00::"/>
+  <feat name="text" value="magnetic dipole"/>
+ </struct>
+ <struct from="9217" id="n11483580_coll.c" to="9239" type="auto">
+  <feat name="wnsk" value="magnetic_dipole_moment%1:19:00::"/>
+  <feat name="text" value="magnetic dipole moment"/>
+ </struct>
+ <struct from="9305" id="n11483829_coll.a" to="9319" type="auto">
+  <feat name="wnsk" value="magnetic_field%1:19:00::"/>
+  <feat name="text" value="magnetic field"/>
+ </struct>
+ <struct from="9543" id="n11484375_coll.a" to="9559" type="auto">
+  <feat name="wnsk" value="optical_illusion%1:19:00::"/>
+  <feat name="text" value="optical illusion"/>
+ </struct>
+ <struct from="9606" id="n11484375_coll.b" to="9613" type="man">
+  <feat name="wnsk" value="hot_air%1:27:00::"/>
+  <feat name="text" value="hot air"/>
+ </struct>
+</cesAna>

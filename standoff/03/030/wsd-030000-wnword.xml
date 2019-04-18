@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
+ <struct from="23" id="n05441806_wf5" to="29" type="un">
+  <feat name="text" value="blocks"/>
+ </struct>
+ <struct from="30" id="n05441806_wf6" to="41" type="auto">
+  <feat name="wnsk" value="unscheduled%3:00:00::"/>
+  <feat name="text" value="unscheduled"/>
+ </struct>
+ <struct from="59" id="n05441929_wf2" to="63" type="auto">
+  <feat name="wnsk" value="gene%1:08:00::"/>
+  <feat name="text" value="gene"/>
+ </struct>
+ <struct from="64" id="n05441929_wf3" to="71" type="un">
+  <feat name="text" value="located"/>
+ </struct>
+ <struct from="94" id="n05442022_wf2" to="98" type="auto">
+  <feat name="wnsk" value="gene%1:08:00::"/>
+  <feat name="text" value="gene"/>
+ </struct>
+ <struct from="99" id="n05442022_wf3" to="106" type="un">
+  <feat name="text" value="located"/>
+ </struct>
+ <struct from="128" id="n05442131_wf2" to="138" type="auto">
+  <feat name="wnsk" value="threadlike%3:00:00:thin:01"/>
+  <feat name="text" value="threadlike"/>
+ </struct>
+ <struct from="139" id="n05442131_wf3" to="145" type="un">
+  <feat name="text" value="strand"/>
+ </struct>
+ <struct from="149" id="n05442131_wf5" to="152" type="auto">
+  <feat name="wnsk" value="dna%1:27:00::"/>
+  <feat name="text" value="DNA"/>
+ </struct>
+ <struct from="178" id="n05442131_wf11" to="185" type="man">
+  <feat name="wnsk" value="carry%2:35:02::"/>
+  <feat name="text" value="carries"/>
+ </struct>
+ <struct from="190" id="n05442131_wf13" to="195" type="auto">
+  <feat name="wnsk" value="gene%1:08:00::"/>
+  <feat name="text" value="genes"/>
+ </struct>
+ <struct from="201" id="n05442131_wf16" to="207" type="man">
+  <feat name="wnsk" value="linear%3:00:01::"/>
+  <feat name="text" value="linear"/>
+ </struct>
+ <struct from="208" id="n05442131_wf17" to="213" type="un">
+  <feat name="text" value="order"/>
+ </struct>
+ <struct from="215" id="n05442131_wf19" to="221" type="un">
+  <feat name="text" value="humans"/>
+ </struct>
+ <struct from="222" id="n05442131_wf20" to="226" type="un">
+  <feat name="text" value="have"/>
+ </struct>
+ <struct from="230" id="n05442131_wf22" to="240" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="241" id="n05442131_wf23" to="246" type="un">
+  <feat name="text" value="pairs"/>
+ </struct>
+ <struct from="247" id="n05442131_wf24" to="251" type="un">
+  <feat name="text" value="plus"/>
+ </struct>
+ <struct from="256" id="n05442131_wf26" to="259" type="un">
+  <feat name="text" value="sex"/>
+ </struct>
+ <struct from="260" id="n05442131_wf27" to="271" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosomes"/>
+ </struct>
+ <struct from="297" id="n05442594_wf5" to="299" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="300" id="n05442594_wf6" to="307" type="un">
+  <feat name="text" value="present"/>
+ </struct>
+ <struct from="311" id="n05442594_wf8" to="315" type="auto">
+  <feat name="wnsk" value="both%3:00:00:some:00"/>
+  <feat name="text" value="both"/>
+ </struct>
+ <struct from="316" id="n05442594_wf9" to="321" type="man">
+  <feat name="wnsk" value="sex%1:14:00::"/>
+  <feat name="text" value="sexes"/>
+ </struct>
+ <struct from="323" id="n05442594_wf11" to="329" type="man">
+  <feat name="wnsk" value="singly%4:02:00::"/>
+  <feat name="text" value="singly"/>
+ </struct>
+ <struct from="333" id="n05442594_wf13" to="338" type="man">
+  <feat name="wnsk" value="male%1:18:00::"/>
+  <feat name="text" value="males"/>
+ </struct>
+ <struct from="343" id="n05442594_wf15" to="349" type="man">
+  <feat name="wnsk" value="doubly%4:02:00::"/>
+  <feat name="text" value="doubly"/>
+ </struct>
+ <struct from="353" id="n05442594_wf17" to="360" type="man">
+  <feat name="wnsk" value="female%1:18:00::"/>
+  <feat name="text" value="females"/>
+ </struct>
+ <struct from="362" id="n05442594_wf19" to="367" type="un">
+  <feat name="text" value="human"/>
+ </struct>
+ <struct from="368" id="n05442594_wf20" to="375" type="un">
+  <feat name="text" value="females"/>
+ </struct>
+ <struct from="376" id="n05442594_wf21" to="384" type="un">
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="385" id="n05442594_wf22" to="389" type="un">
+  <feat name="text" value="have"/>
+ </struct>
+ <struct from="410" id="n05442789_tok2" to="418" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="420" id="n05442789_wf1" to="426" type="man">
+  <feat name="wnsk" value="normal%3:00:01::"/>
+  <feat name="text" value="normal"/>
+ </struct>
+ <struct from="427" id="n05442789_wf2" to="437" type="man">
+  <feat name="wnsk" value="complement%1:23:00::"/>
+  <feat name="text" value="complement"/>
+ </struct>
+ <struct from="462" id="n05442789_wf8" to="468" type="man">
+  <feat name="wnsk" value="female%1:18:00::"/>
+  <feat name="text" value="female"/>
+ </struct>
+ <struct from="471" id="n05442916_tok2" to="479" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="481" id="n05442916_wf1" to="489" type="un">
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="490" id="n05442916_wf2" to="500" type="man">
+  <feat name="wnsk" value="complement%1:23:00::"/>
+  <feat name="text" value="complement"/>
+ </struct>
+ <struct from="529" id="n05442916_wf9" to="535" type="man">
+  <feat name="wnsk" value="female%1:18:00::"/>
+  <feat name="text" value="female"/>
+ </struct>
+ <struct from="538" id="n05443050_tok2" to="546" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="548" id="n05443050_wf1" to="556" type="un">
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="557" id="n05443050_wf2" to="567" type="man">
+  <feat name="wnsk" value="complement%1:23:00::"/>
+  <feat name="text" value="complement"/>
+ </struct>
+ <struct from="589" id="n05443050_wf8" to="593" type="man">
+  <feat name="wnsk" value="male%1:18:00::"/>
+  <feat name="text" value="male"/>
+ </struct>
+ <struct from="594" id="n05443050_wf9" to="603" type="un">
+  <feat name="text" value="resulting"/>
+ </struct>
+ <struct from="632" id="n05443211_tok2" to="640" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="642" id="n05443211_wf1" to="648" type="man">
+  <feat name="wnsk" value="normal%3:00:01::"/>
+  <feat name="text" value="normal"/>
+ </struct>
+ <struct from="649" id="n05443211_wf2" to="659" type="man">
+  <feat name="wnsk" value="complement%1:23:00::"/>
+  <feat name="text" value="complement"/>
+ </struct>
+ <struct from="681" id="n05443211_wf8" to="685" type="man">
+  <feat name="wnsk" value="male%1:18:00::"/>
+  <feat name="text" value="male"/>
+ </struct>
+ <struct from="688" id="n05443333_tok2" to="696" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="698" id="n05443333_wf1" to="706" type="un">
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="707" id="n05443333_wf2" to="717" type="man">
+  <feat name="wnsk" value="complement%1:23:00::"/>
+  <feat name="text" value="complement"/>
+ </struct>
+ <struct from="739" id="n05443333_wf8" to="743" type="man">
+  <feat name="wnsk" value="male%1:18:00::"/>
+  <feat name="text" value="male"/>
+ </struct>
+ <struct from="748" id="n05443333_wf10" to="751" type="un">
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="795" id="n05443484_wf5" to="797" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="798" id="n05443484_wf6" to="805" type="man">
+  <feat name="wnsk" value="carry%2:42:13::"/>
+  <feat name="text" value="carried"/>
+ </struct>
+ <struct from="809" id="n05443484_wf8" to="812" type="man">
+  <feat name="wnsk" value="man%1:18:00::"/>
+  <feat name="text" value="men"/>
+ </struct>
+ <struct from="814" id="n05443484_wf10" to="819" type="un">
+  <feat name="text" value="human"/>
+ </struct>
+ <struct from="820" id="n05443484_wf11" to="825" type="un">
+  <feat name="text" value="males"/>
+ </struct>
+ <struct from="826" id="n05443484_wf12" to="834" type="un">
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="835" id="n05443484_wf13" to="839" type="un">
+  <feat name="text" value="have"/>
+ </struct>
+ <struct from="844" id="n05443484_wf15" to="845" type="un">
+  <feat name="text" value="X"/>
+ </struct>
+ <struct from="846" id="n05443484_wf16" to="856" type="un">
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="880" id="n05443651_tok2" to="888" type="un">
+  <feat name="text" value="genetics"/>
+ </struct>
+ <struct from="892" id="n05443651_wf2" to="902" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="908" id="n05443651_wf4" to="918" type="un">
+  <feat name="text" value="determines"/>
+ </struct>
+ <struct from="923" id="n05443651_wf6" to="926" type="man">
+  <feat name="wnsk" value="sex%1:07:00::"/>
+  <feat name="text" value="sex"/>
+ </struct>
+ <struct from="933" id="n05443651_wf9" to="943" type="man">
+  <feat name="wnsk" value="individual%1:03:00::"/>
+  <feat name="text" value="individual"/>
+ </struct>
+ <struct from="945" id="n05443651_wf11" to="952" type="un">
+  <feat name="text" value="mammals"/>
+ </struct>
+ <struct from="953" id="n05443651_wf12" to="961" type="un">
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="962" id="n05443651_wf13" to="966" type="un">
+  <feat name="text" value="have"/>
+ </struct>
+ <struct from="992" id="n05443966_wf2" to="1002" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1008" id="n05443966_wf4" to="1010" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1011" id="n05443966_wf5" to="1014" type="auto">
+  <feat name="wnsk" value="not%4:02:00::"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="1033" id="n05443966_wf10" to="1039" type="un">
+  <feat name="text" value="appear"/>
+ </struct>
+ <struct from="1043" id="n05443966_wf12" to="1048" type="un">
+  <feat name="text" value="pairs"/>
+ </struct>
+ <struct from="1052" id="n05443966_wf14" to="1056" type="man">
+  <feat name="wnsk" value="body%1:08:00::"/>
+  <feat name="text" value="body"/>
+ </struct>
+ <struct from="1057" id="n05443966_wf15" to="1062" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="1070" id="n05443966_wf18" to="1076" type="un">
+  <feat name="text" value="single"/>
+ </struct>
+ <struct from="1077" id="n05443966_wf19" to="1088" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosomes"/>
+ </struct>
+ <struct from="1092" id="n05443966_wf21" to="1103" type="auto">
+  <feat name="wnsk" value="spermatozoon%1:08:00::"/>
+  <feat name="text" value="spermatozoa"/>
+ </struct>
+ <struct from="1116" id="n05444175_wf4" to="1125" type="man">
+  <feat name="wnsk" value="identical%3:00:00:same:00"/>
+  <feat name="text" value="identical"/>
+ </struct>
+ <struct from="1126" id="n05444175_wf5" to="1133" type="man">
+  <feat name="wnsk" value="strand%1:27:00::"/>
+  <feat name="text" value="strands"/>
+ </struct>
+ <struct from="1147" id="n05444175_wf9" to="1157" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1158" id="n05444175_wf10" to="1164" type="un">
+  <feat name="text" value="splits"/>
+ </struct>
+ <struct from="1172" id="n05444175_wf12" to="1179" type="auto">
+  <feat name="wnsk" value="mitosis%1:22:00::"/>
+  <feat name="text" value="mitosis"/>
+ </struct>
+ <struct from="1183" id="n05444324_wf2" to="1194" type="un">
+  <feat name="text" value="specialized"/>
+ </struct>
+ <struct from="1195" id="n05444324_wf3" to="1204" type="un">
+  <feat name="text" value="condensed"/>
+ </struct>
+ <struct from="1205" id="n05444324_wf4" to="1211" type="man">
+  <feat name="wnsk" value="region%1:15:00::"/>
+  <feat name="text" value="region"/>
+ </struct>
+ <struct from="1220" id="n05444324_wf7" to="1230" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1236" id="n05444324_wf9" to="1243" type="un">
+  <feat name="text" value="appears"/>
+ </struct>
+ <struct from="1251" id="n05444324_wf11" to="1258" type="auto">
+  <feat name="wnsk" value="mitosis%1:22:00::"/>
+  <feat name="text" value="mitosis"/>
+ </struct>
+ <struct from="1269" id="n05444324_wf14" to="1279" type="auto">
+  <feat name="wnsk" value="chromatid%1:08:00::"/>
+  <feat name="text" value="chromatids"/>
+ </struct>
+ <struct from="1280" id="n05444324_wf15" to="1283" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="1284" id="n05444324_wf16" to="1288" type="man">
+  <feat name="wnsk" value="hold%2:42:00::"/>
+  <feat name="text" value="held"/>
+ </struct>
+ <struct from="1289" id="n05444324_wf17" to="1297" type="un">
+  <feat name="text" value="together"/>
+ </struct>
+ <struct from="1301" id="n05444324_wf19" to="1305" type="man">
+  <feat name="wnsk" value="form%2:30:05::"/>
+  <feat name="text" value="form"/>
+ </struct>
+ <struct from="1309" id="n05444324_wf21" to="1310" type="un">
+  <feat name="text" value="X"/>
+ </struct>
+ <struct from="1311" id="n05444324_wf22" to="1316" type="man">
+  <feat name="wnsk" value="shape%1:09:00::"/>
+  <feat name="text" value="shape"/>
+ </struct>
+ <struct from="1322" id="n05444324_wf25" to="1332" type="auto">
+  <feat name="wnsk" value="centromere%1:08:00::"/>
+  <feat name="text" value="centromere"/>
+ </struct>
+ <struct from="1333" id="n05444324_wf26" to="1335" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1336" id="n05444324_wf27" to="1345" type="un">
+  <feat name="text" value="difficult"/>
+ </struct>
+ <struct from="1349" id="n05444324_wf29" to="1357" type="un">
+  <feat name="text" value="sequence"/>
+ </struct>
+ <struct from="1361" id="n05444610_wf2" to="1371" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1372" id="n05444610_wf3" to="1379" type="man">
+  <feat name="wnsk" value="lack%2:42:00::"/>
+  <feat name="text" value="lacking"/>
+ </struct>
+ <struct from="1382" id="n05444610_wf5" to="1392" type="auto">
+  <feat name="wnsk" value="centromere%1:08:00::"/>
+  <feat name="text" value="centromere"/>
+ </struct>
+ <struct from="1396" id="n05444709_wf2" to="1406" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1416" id="n05444709_wf5" to="1426" type="auto">
+  <feat name="wnsk" value="centromere%1:08:00::"/>
+  <feat name="text" value="centromere"/>
+ </struct>
+ <struct from="1427" id="n05444709_wf6" to="1431" type="man">
+  <feat name="wnsk" value="near%3:00:00::"/>
+  <feat name="text" value="near"/>
+ </struct>
+ <struct from="1436" id="n05444709_wf8" to="1439" type="man">
+  <feat name="wnsk" value="end%1:15:00::"/>
+  <feat name="text" value="end"/>
+ </struct>
+ <struct from="1440" id="n05444709_wf9" to="1442" type="un">
+  <feat name="text" value="so"/>
+ </struct>
+ <struct from="1452" id="n05444709_wf12" to="1463" type="auto">
+  <feat name="wnsk" value="chromosomal%3:01:00::"/>
+  <feat name="text" value="chromosomal"/>
+ </struct>
+ <struct from="1464" id="n05444709_wf13" to="1467" type="un">
+  <feat name="text" value="arm"/>
+ </struct>
+ <struct from="1468" id="n05444709_wf14" to="1470" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1471" id="n05444709_wf15" to="1476" type="man">
+  <feat name="wnsk" value="short%3:00:01::"/>
+  <feat name="text" value="short"/>
+ </struct>
+ <struct from="1485" id="n05444709_wf18" to="1487" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1488" id="n05444709_wf19" to="1492" type="man">
+  <feat name="wnsk" value="long%3:00:01::"/>
+  <feat name="text" value="long"/>
+ </struct>
+ <struct from="1498" id="n05444876_wf2" to="1508" type="man">
+  <feat name="wnsk" value="appearance%1:07:00::"/>
+  <feat name="text" value="appearance"/>
+ </struct>
+ <struct from="1516" id="n05444876_wf5" to="1527" type="auto">
+  <feat name="wnsk" value="chromosomal%3:01:00::"/>
+  <feat name="text" value="chromosomal"/>
+ </struct>
+ <struct from="1528" id="n05444876_wf6" to="1534" type="man">
+  <feat name="wnsk" value="makeup%1:07:00::"/>
+  <feat name="text" value="makeup"/>
+ </struct>
+ <struct from="1559" id="n05444876_wf13" to="1569" type="man">
+  <feat name="wnsk" value="individual%1:03:00::"/>
+  <feat name="text" value="individual"/>
+ </struct>
+ <struct from="1573" id="n05444876_wf15" to="1580" type="man">
+  <feat name="wnsk" value="species%1:14:00::"/>
+  <feat name="text" value="species"/>
+ </struct>
+ <struct from="1582" id="n05444876_wf17" to="1591" type="un">
+  <feat name="text" value="including"/>
+ </struct>
+ <struct from="1596" id="n05444876_wf19" to="1602" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="1607" id="n05444876_wf21" to="1618" type="man">
+  <feat name="wnsk" value="arrangement%1:14:00::"/>
+  <feat name="text" value="arrangement"/>
+ </struct>
+ <struct from="1623" id="n05444876_wf23" to="1627" type="man">
+  <feat name="wnsk" value="size%1:07:00::"/>
+  <feat name="text" value="size"/>
+ </struct>
+ <struct from="1632" id="n05444876_wf25" to="1641" type="man">
+  <feat name="wnsk" value="structure%1:08:00::"/>
+  <feat name="text" value="structure"/>
+ </struct>
+ <struct from="1649" id="n05444876_wf28" to="1660" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosomes"/>
+ </struct>
+ <struct from="1665" id="n05445099_wf2" to="1675" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1676" id="n05445099_wf3" to="1682" type="un">
+  <feat name="text" value="having"/>
+ </struct>
+ <struct from="1687" id="n05445099_wf5" to="1692" type="un">
+  <feat name="text" value="equal"/>
+ </struct>
+ <struct from="1693" id="n05445099_wf6" to="1697" type="un">
+  <feat name="text" value="arms"/>
+ </struct>
+ <struct from="1710" id="n05445099_wf9" to="1720" type="auto">
+  <feat name="wnsk" value="centromere%1:08:00::"/>
+  <feat name="text" value="centromere"/>
+ </struct>
+ <struct from="1721" id="n05445099_wf10" to="1723" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="1727" id="n05445099_wf12" to="1733" type="man">
+  <feat name="wnsk" value="median%3:00:00:mesial:00"/>
+  <feat name="text" value="median"/>
+ </struct>
+ <struct from="1734" id="n05445099_wf13" to="1742" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="1746" id="n05445247_wf2" to="1756" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosome"/>
+ </struct>
+ <struct from="1757" id="n05445247_wf3" to="1761" type="man">
+  <feat name="wnsk" value="like%3:00:00::"/>
+  <feat name="text" value="like"/>
+ </struct>
+ <struct from="1764" id="n05445247_wf5" to="1772" type="un">
+  <feat name="text" value="straight"/>
+ </struct>
+ <struct from="1773" id="n05445247_wf6" to="1776" type="man">
+  <feat name="wnsk" value="rod%1:06:00::"/>
+  <feat name="text" value="rod"/>
+ </struct>
+ <struct from="1786" id="n05445247_wf9" to="1796" type="auto">
+  <feat name="wnsk" value="centromere%1:08:00::"/>
+  <feat name="text" value="centromere"/>
+ </struct>
+ <struct from="1800" id="n05445247_wf11" to="1808" type="un">
+  <feat name="text" value="terminal"/>
+ </struct>
+ <struct from="1809" id="n05445247_wf12" to="1817" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="1822" id="n05445389_wf2" to="1831" type="auto">
+  <feat name="wnsk" value="organelle%1:08:00::"/>
+  <feat name="text" value="organelle"/>
+ </struct>
+ <struct from="1832" id="n05445389_wf3" to="1842" type="un">
+  <feat name="text" value="containing"/>
+ </struct>
+ <struct from="1843" id="n05445389_wf4" to="1850" type="auto">
+  <feat name="wnsk" value="enzyme%1:27:00::"/>
+  <feat name="text" value="enzymes"/>
+ </struct>
+ <struct from="1867" id="n05445389_wf7" to="1876" type="man">
+  <feat name="wnsk" value="produce%2:36:03::"/>
+  <feat name="text" value="producing"/>
+ </struct>
+ <struct from="1877" id="n05445389_wf8" to="1883" type="man">
+  <feat name="wnsk" value="energy%1:19:00::"/>
+  <feat name="text" value="energy"/>
+ </struct>
+ <struct from="1887" id="n05445546_wf2" to="1892" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="1893" id="n05445546_wf3" to="1906" type="auto">
+  <feat name="wnsk" value="mitochondrion%1:08:00::"/>
+  <feat name="text" value="mitochondrion"/>
+ </struct>
+ <struct from="1937" id="n05445668_wf2" to="1948" type="un">
+  <feat name="text" value="specialized"/>
+ </struct>
+ <struct from="1949" id="n05445668_wf3" to="1953" type="un">
+  <feat name="text" value="part"/>
+ </struct>
+ <struct from="1959" id="n05445668_wf6" to="1963" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="1965" id="n05445668_wf8" to="1974" type="man">
+  <feat name="wnsk" value="analogous%3:00:00:similar:00"/>
+  <feat name="text" value="analogous"/>
+ </struct>
+ <struct from="1981" id="n05445668_wf11" to="1986" type="man">
+  <feat name="wnsk" value="organ%1:08:00::"/>
+  <feat name="text" value="organ"/>
+ </struct>
+ <struct from="1992" id="n05445668_wf14" to="1997" type="un">
+  <feat name="text" value="first"/>
+ </struct>
+ <struct from="1998" id="n05445668_wf15" to="2007" type="auto">
+  <feat name="wnsk" value="organelle%1:08:00::"/>
+  <feat name="text" value="organelle"/>
+ </struct>
+ <struct from="2011" id="n05445668_wf17" to="2013" type="un">
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="2014" id="n05445668_wf18" to="2024" type="un">
+  <feat name="text" value="identified"/>
+ </struct>
+ <struct from="2025" id="n05445668_wf19" to="2028" type="un">
+  <feat name="text" value="was"/>
+ </struct>
+ <struct from="2033" id="n05445668_wf21" to="2040" type="un">
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="2042" id="n05446006_wf1" to="2053" type="auto">
+  <feat name="wnsk" value="star-shaped%3:00:00:angular:00"/>
+  <feat name="text" value="star-shaped"/>
+ </struct>
+ <struct from="2054" id="n05446006_wf2" to="2063" type="man">
+  <feat name="wnsk" value="structure%1:08:00::"/>
+  <feat name="text" value="structure"/>
+ </struct>
+ <struct from="2064" id="n05446006_wf3" to="2070" type="man">
+  <feat name="wnsk" value="form%2:42:00::"/>
+  <feat name="text" value="formed"/>
+ </struct>
+ <struct from="2078" id="n05446006_wf6" to="2087" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="2093" id="n05446006_wf9" to="2097" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="2098" id="n05446006_wf10" to="2104" type="un">
+  <feat name="text" value="having"/>
+ </struct>
+ <struct from="2105" id="n05446006_wf11" to="2111" type="un">
+  <feat name="text" value="fibers"/>
+ </struct>
+ <struct from="2112" id="n05446006_wf12" to="2116" type="man">
+  <feat name="wnsk" value="like%3:00:00::"/>
+  <feat name="text" value="like"/>
+ </struct>
+ <struct from="2117" id="n05446006_wf13" to="2121" type="man">
+  <feat name="wnsk" value="ray%1:19:00::"/>
+  <feat name="text" value="rays"/>
+ </struct>
+ <struct from="2127" id="n05446006_wf15" to="2135" type="un">
+  <feat name="text" value="surround"/>
+ </struct>
+ <struct from="2140" id="n05446006_wf17" to="2150" type="auto">
+  <feat name="wnsk" value="centrosome%1:08:00::"/>
+  <feat name="text" value="centrosome"/>
+ </struct>
+ <struct from="2158" id="n05446006_wf19" to="2165" type="auto">
+  <feat name="wnsk" value="mitosis%1:22:00::"/>
+  <feat name="text" value="mitosis"/>
+ </struct>
+ <struct from="2176" id="n05446181_wf4" to="2180" type="un">
+  <feat name="text" value="pair"/>
+ </struct>
+ <struct from="2184" id="n05446181_wf6" to="2189" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="2190" id="n05446181_wf7" to="2201" type="auto">
+  <feat name="wnsk" value="cylindrical%3:00:00:rounded:00"/>
+  <feat name="text" value="cylindrical"/>
+ </struct>
+ <struct from="2202" id="n05446181_wf8" to="2206" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="2207" id="n05446181_wf9" to="2217" type="un">
+  <feat name="text" value="organelles"/>
+ </struct>
+ <struct from="2218" id="n05446181_wf10" to="2222" type="un">
+  <feat name="text" value="near"/>
+ </struct>
+ <struct from="2227" id="n05446181_wf12" to="2234" type="un">
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="2238" id="n05446181_wf14" to="2244" type="un">
+  <feat name="text" value="animal"/>
+ </struct>
+ <struct from="2245" id="n05446181_wf15" to="2250" type="un">
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="2252" id="n05446181_wf17" to="2260" type="un">
+  <feat name="text" value="composed"/>
+ </struct>
+ <struct from="2269" id="n05446181_wf20" to="2276" type="man">
+  <feat name="wnsk" value="triplet%1:14:01::"/>
+  <feat name="text" value="triplet"/>
+ </struct>
+ <struct from="2277" id="n05446181_wf21" to="2289" type="auto">
+  <feat name="wnsk" value="microtubule%1:08:00::"/>
+  <feat name="text" value="microtubules"/>
+ </struct>
+ <struct from="2294" id="n05446181_wf23" to="2298" type="man">
+  <feat name="wnsk" value="form%2:42:00::"/>
+  <feat name="text" value="form"/>
+ </struct>
+ <struct from="2303" id="n05446181_wf25" to="2309" type="man">
+  <feat name="wnsk" value="aster%1:08:00::"/>
+  <feat name="text" value="asters"/>
+ </struct>
+ <struct from="2317" id="n05446181_wf27" to="2324" type="auto">
+  <feat name="wnsk" value="mitosis%1:22:00::"/>
+  <feat name="text" value="mitosis"/>
+ </struct>
+ <struct from="2329" id="n05446394_wf2" to="2338" type="auto">
+  <feat name="wnsk" value="organelle%1:08:00::"/>
+  <feat name="text" value="organelle"/>
+ </struct>
+ <struct from="2346" id="n05446394_wf5" to="2355" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="2361" id="n05446394_wf8" to="2367" type="un">
+  <feat name="text" value="living"/>
+ </struct>
+ <struct from="2368" id="n05446394_wf9" to="2372" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="2379" id="n05446394_wf12" to="2385" type="man">
+  <feat name="wnsk" value="attach%2:35:02::"/>
+  <feat name="text" value="attach"/>
+ </struct>
+ <struct from="2389" id="n05446394_wf14" to="2393" type="auto">
+  <feat name="wnsk" value="mrna%1:27:00::"/>
+  <feat name="text" value="mRNA"/>
+ </struct>
+ <struct from="2398" id="n05446394_wf16" to="2402" type="un">
+  <feat name="text" value="move"/>
+ </struct>
+ <struct from="2403" id="n05446394_wf17" to="2407" type="man">
+  <feat name="wnsk" value="down%4:02:02::"/>
+  <feat name="text" value="down"/>
+ </struct>
+ <struct from="2415" id="n05446394_wf20" to="2420" type="auto">
+  <feat name="wnsk" value="codon%1:27:00::"/>
+  <feat name="text" value="codon"/>
+ </struct>
+ <struct from="2426" id="n05446394_wf23" to="2430" type="man">
+  <feat name="wnsk" value="time%1:11:00::"/>
+  <feat name="text" value="time"/>
+ </struct>
+ <struct from="2435" id="n05446394_wf25" to="2439" type="un">
+  <feat name="text" value="then"/>
+ </struct>
+ <struct from="2440" id="n05446394_wf26" to="2444" type="man">
+  <feat name="wnsk" value="stop%2:38:00::"/>
+  <feat name="text" value="stop"/>
+ </struct>
+ <struct from="2451" id="n05446394_wf28" to="2455" type="auto">
+  <feat name="wnsk" value="trna%1:27:00::"/>
+  <feat name="text" value="tRNA"/>
+ </struct>
+ <struct from="2456" id="n05446394_wf29" to="2462" type="un">
+  <feat name="text" value="brings"/>
+ </struct>
+ <struct from="2467" id="n05446394_wf31" to="2475" type="man">
+  <feat name="wnsk" value="required%3:00:00:necessary:00"/>
+  <feat name="text" value="required"/>
+ </struct>
+ <struct from="2496" id="n05446394_wf37" to="2503" type="man">
+  <feat name="wnsk" value="reach%2:38:01::"/>
+  <feat name="text" value="reaches"/>
+ </struct>
+ <struct from="2506" id="n05446394_wf39" to="2510" type="man">
+  <feat name="wnsk" value="stop%1:04:00::"/>
+  <feat name="text" value="stop"/>
+ </struct>
+ <struct from="2511" id="n05446394_wf40" to="2516" type="auto">
+  <feat name="wnsk" value="codon%1:27:00::"/>
+  <feat name="text" value="codon"/>
+ </struct>
+ <struct from="2536" id="n05446394_wf45" to="2544" type="un">
+  <feat name="text" value="releases"/>
+ </struct>
+ <struct from="2549" id="n05446394_wf47" to="2558" type="man">
+  <feat name="wnsk" value="completed%3:00:00:complete:00"/>
+  <feat name="text" value="completed"/>
+ </struct>
+ <struct from="2580" id="n05446394_wf51" to="2583" type="un">
+  <feat name="text" value="use"/>
+ </struct>
+ <struct from="2591" id="n05446394_wf54" to="2595" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="2601" id="n05446394_wf57" to="2609" type="auto">
+  <feat name="wnsk" value="ribosome%1:08:00::"/>
+  <feat name="text" value="ribosome"/>
+ </struct>
+ <struct from="2610" id="n05446394_wf58" to="2612" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="2617" id="n05446394_wf60" to="2621" type="un">
+  <feat name="text" value="site"/>
+ </struct>
+ <struct from="2625" id="n05446394_wf62" to="2632" type="un">
+  <feat name="text" value="protein"/>
+ </struct>
+ <struct from="2633" id="n05446394_wf63" to="2642" type="un">
+  <feat name="text" value="synthesis"/>
+ </struct>
+ <struct from="2644" id="n05446767_wf1" to="2649" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="2650" id="n05446767_wf2" to="2656" type="man">
+  <feat name="wnsk" value="region%1:15:00::"/>
+  <feat name="text" value="region"/>
+ </struct>
+ <struct from="2660" id="n05446767_wf4" to="2669" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="2670" id="n05446767_wf5" to="2678" type="un">
+  <feat name="text" value="adjacent"/>
+ </struct>
+ <struct from="2686" id="n05446767_wf8" to="2693" type="man">
+  <feat name="wnsk" value="nucleus%1:08:00::"/>
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="2695" id="n05446767_wf10" to="2703" type="un">
+  <feat name="text" value="contains"/>
+ </struct>
+ <struct from="2708" id="n05446767_wf12" to="2718" type="auto">
+  <feat name="wnsk" value="centriole%1:08:00::"/>
+  <feat name="text" value="centrioles"/>
+ </struct>
+ <struct from="2723" id="n05446767_wf14" to="2729" type="un">
+  <feat name="text" value="serves"/>
+ </struct>
+ <struct from="2733" id="n05446767_wf16" to="2741" type="man">
+  <feat name="wnsk" value="organize%2:41:00::"/>
+  <feat name="text" value="organize"/>
+ </struct>
+ <struct from="2746" id="n05446767_wf18" to="2758" type="auto">
+  <feat name="wnsk" value="microtubule%1:08:00::"/>
+  <feat name="text" value="microtubules"/>
+ </struct>
+ <struct from="2764" id="n05446971_wf2" to="2773" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="2804" id="n05447087_wf2" to="2808" type="auto">
+  <feat name="wnsk" value="tiny%3:00:00:small:00"/>
+  <feat name="text" value="tiny"/>
+ </struct>
+ <struct from="2809" id="n05447087_wf3" to="2815" type="man">
+  <feat name="wnsk" value="cavity%1:08:00::"/>
+  <feat name="text" value="cavity"/>
+ </struct>
+ <struct from="2816" id="n05447087_wf4" to="2822" type="man">
+  <feat name="wnsk" value="fill%2:30:01::"/>
+  <feat name="text" value="filled"/>
+ </struct>
+ <struct from="2828" id="n05447087_wf6" to="2833" type="man">
+  <feat name="wnsk" value="fluid%1:27:02::"/>
+  <feat name="text" value="fluid"/>
+ </struct>
+ <struct from="2841" id="n05447087_wf9" to="2850" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="2856" id="n05447087_wf12" to="2860" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="2866" id="n05447218_wf2" to="2873" type="man">
+  <feat name="wnsk" value="whitish%3:00:00:achromatic:00"/>
+  <feat name="wnsk" value="whitish%3:00:00:opaque:00"/>
+  <feat name="text" value="whitish"/>
+ </struct>
+ <struct from="2874" id="n05447218_wf3" to="2881" type="man">
+  <feat name="wnsk" value="fibrous%3:00:02:tough:01"/>
+  <feat name="text" value="fibrous"/>
+ </struct>
+ <struct from="2882" id="n05447218_wf4" to="2890" type="man">
+  <feat name="wnsk" value="membrane%1:08:00::"/>
+  <feat name="text" value="membrane"/>
+ </struct>
+ <struct from="2892" id="n05447218_wf6" to="2901" type="auto">
+  <feat name="wnsk" value="albuginea%1:08:00::"/>
+  <feat name="text" value="albuginea"/>
+ </struct>
+ <struct from="2917" id="n05447218_wf11" to="2923" type="auto">
+  <feat name="wnsk" value="cornea%1:08:00::"/>
+  <feat name="text" value="cornea"/>
+ </struct>
+ <struct from="2924" id="n05447218_wf12" to="2929" type="man">
+  <feat name="wnsk" value="form%2:42:00::"/>
+  <feat name="text" value="forms"/>
+ </struct>
+ <struct from="2934" id="n05447218_wf14" to="2939" type="un">
+  <feat name="text" value="outer"/>
+ </struct>
+ <struct from="2940" id="n05447218_wf15" to="2948" type="un">
+  <feat name="text" value="covering"/>
+ </struct>
+ <struct from="2953" id="n05447218_wf17" to="2963" type="un">
+  <feat name="text" value="protection"/>
+ </struct>
+ <struct from="2971" id="n05447218_wf20" to="2978" type="man">
+  <feat name="wnsk" value="eyeball%1:08:00::"/>
+  <feat name="text" value="eyeball"/>
+ </struct>
+ <struct from="2982" id="n05447423_wf2" to="2990" type="man">
+  <feat name="wnsk" value="membrane%1:08:00::"/>
+  <feat name="text" value="membrane"/>
+ </struct>
+ <struct from="3017" id="n05447423_wf10" to="3023" type="un">
+  <feat name="text" value="allows"/>
+ </struct>
+ <struct from="3029" id="n05447423_wf12" to="3038" type="man">
+  <feat name="wnsk" value="molecule%1:27:00::"/>
+  <feat name="text" value="molecules"/>
+ </struct>
+ <struct from="3042" id="n05447423_wf14" to="3046" type="un">
+  <feat name="text" value="pass"/>
+ </struct>
+ <struct from="3047" id="n05447423_wf15" to="3054" type="un">
+  <feat name="text" value="through"/>
+ </struct>
+ <struct from="3059" id="n05447423_wf17" to="3062" type="auto">
+  <feat name="wnsk" value="not%4:02:00::"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="3073" id="n05447599_wf2" to="3077" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3083" id="n05447599_wf4" to="3085" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3086" id="n05447599_wf5" to="3090" type="un">
+  <feat name="text" value="part"/>
+ </struct>
+ <struct from="3096" id="n05447599_wf8" to="3100" type="man">
+  <feat name="wnsk" value="bone%1:27:00::"/>
+  <feat name="text" value="bone"/>
+ </struct>
+ <struct from="3104" id="n05447757_wf2" to="3108" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3115" id="n05447757_wf5" to="3121" type="man">
+  <feat name="wnsk" value="embryo%1:05:00::"/>
+  <feat name="text" value="embryo"/>
+ </struct>
+ <struct from="3126" id="n05447962_wf2" to="3142" type="auto">
+  <feat name="wnsk" value="undifferentiated%3:00:00::"/>
+  <feat name="text" value="undifferentiated"/>
+ </struct>
+ <struct from="3161" id="n05448053_wf2" to="3165" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3190" id="n05448053_wf7" to="3198" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="3202" id="n05448149_wf2" to="3206" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3218" id="n05448149_wf5" to="3222" type="man">
+  <feat name="wnsk" value="bone%1:08:00::"/>
+  <feat name="text" value="bone"/>
+ </struct>
+ <struct from="3223" id="n05448149_wf6" to="3231" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="3235" id="n05448257_wf2" to="3244" type="man">
+  <feat name="wnsk" value="nucleated%3:01:00::"/>
+  <feat name="text" value="nucleated"/>
+ </struct>
+ <struct from="3245" id="n05448257_wf3" to="3249" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3292" id="n05448257_wf12" to="3299" type="un">
+  <feat name="text" value="develop"/>
+ </struct>
+ <struct from="3303" id="n05448400_wf2" to="3307" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3337" id="n05448400_wf7" to="3345" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="3349" id="n05448501_wf2" to="3353" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3378" id="n05448501_wf8" to="3386" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="3391" id="n05448597_wf2" to="3399" type="un">
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="3400" id="n05448597_wf3" to="3409" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="3410" id="n05448597_wf4" to="3418" type="auto">
+  <feat name="wnsk" value="normally%4:02:00::"/>
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="3419" id="n05448597_wf5" to="3424" type="un">
+  <feat name="text" value="found"/>
+ </struct>
+ <struct from="3443" id="n05448704_wf2" to="3452" type="un">
+  <feat name="text" value="precursor"/>
+ </struct>
+ <struct from="3456" id="n05448704_wf4" to="3466" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocytes"/>
+ </struct>
+ <struct from="3472" id="n05448704_wf6" to="3480" type="auto">
+  <feat name="wnsk" value="normally%4:02:00::"/>
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="3481" id="n05448704_wf7" to="3487" type="un">
+  <feat name="text" value="occurs"/>
+ </struct>
+ <struct from="3488" id="n05448704_wf8" to="3492" type="un">
+  <feat name="text" value="only"/>
+ </struct>
+ <struct from="3512" id="n05448827_wf2" to="3524" type="auto">
+  <feat name="wnsk" value="erythroblast%1:08:00::"/>
+  <feat name="text" value="erythroblast"/>
+ </struct>
+ <struct from="3525" id="n05448827_wf3" to="3531" type="un">
+  <feat name="text" value="having"/>
+ </struct>
+ <struct from="3532" id="n05448827_wf4" to="3540" type="auto">
+  <feat name="wnsk" value="granule%1:17:00::"/>
+  <feat name="text" value="granules"/>
+ </struct>
+ <struct from="3544" id="n05448827_wf6" to="3552" type="auto">
+  <feat name="wnsk" value="ferritin%1:27:00::"/>
+  <feat name="text" value="ferritin"/>
+ </struct>
+ <struct from="3556" id="n05448928_wf2" to="3561" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="3574" id="n05448928_wf5" to="3578" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3596" id="n05448928_wf10" to="3602" type="un">
+  <feat name="text" value="source"/>
+ </struct>
+ <struct from="3623" id="n05449073_wf1" to="3627" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3633" id="n05449073_wf3" to="3642" type="man">
+  <feat name="wnsk" value="function%2:42:12::"/>
+  <feat name="text" value="functions"/>
+ </struct>
+ <struct from="3650" id="n05449073_wf6" to="3659" type="un">
+  <feat name="text" value="breakdown"/>
+ </struct>
+ <struct from="3664" id="n05449073_wf8" to="3674" type="auto">
+  <feat name="wnsk" value="resorption%1:22:00::"/>
+  <feat name="text" value="resorption"/>
+ </struct>
+ <struct from="3678" id="n05449073_wf10" to="3682" type="man">
+  <feat name="wnsk" value="bone%1:08:00::"/>
+  <feat name="text" value="bone"/>
+ </struct>
+ <struct from="3683" id="n05449073_wf11" to="3689" type="man">
+  <feat name="wnsk" value="tissue%1:08:00::"/>
+  <feat name="text" value="tissue"/>
+ </struct>
+ <struct from="3691" id="n05449196_wf1" to="3697" type="man">
+  <feat name="wnsk" value="mature%3:00:01::"/>
+  <feat name="text" value="mature"/>
+ </struct>
+ <struct from="3723" id="n05449268_wf4" to="3728" type="man">
+  <feat name="wnsk" value="type%1:09:00::"/>
+  <feat name="text" value="types"/>
+ </struct>
+ <struct from="3732" id="n05449268_wf6" to="3737" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="3739" id="n05449268_wf8" to="3751" type="auto">
+  <feat name="wnsk" value="erythrocyte%1:08:00::"/>
+  <feat name="text" value="erythrocytes"/>
+ </struct>
+ <struct from="3756" id="n05449268_wf10" to="3766" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocytes"/>
+ </struct>
+ <struct from="3772" id="n05449268_wf13" to="3781" type="auto">
+  <feat name="wnsk" value="sometimes%4:02:01::"/>
+  <feat name="text" value="sometimes"/>
+ </struct>
+ <struct from="3782" id="n05449268_wf14" to="3791" type="un">
+  <feat name="text" value="including"/>
+ </struct>
+ <struct from="3792" id="n05449268_wf15" to="3801" type="auto">
+  <feat name="wnsk" value="platelet%1:27:00::"/>
+  <feat name="text" value="platelets"/>
+ </struct>
+ <struct from="3805" id="n05449538_wf2" to="3809" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="3820" id="n05449538_wf5" to="3827" type="man">
+  <feat name="wnsk" value="nucleus%1:08:00::"/>
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="3835" id="n05449538_wf9" to="3846" type="auto">
+  <feat name="wnsk" value="erythrocyte%1:08:00::"/>
+  <feat name="text" value="erythrocyte"/>
+ </struct>
+ <struct from="3849" id="n05449661_wf1" to="3859" type="auto">
+  <feat name="wnsk" value="abnormally%4:02:00::"/>
+  <feat name="text" value="abnormally"/>
+ </struct>
+ <struct from="3860" id="n05449661_wf2" to="3865" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="3882" id="n05449661_wf7" to="3892" type="man">
+  <feat name="wnsk" value="associate%2:31:00::"/>
+  <feat name="text" value="associated"/>
+ </struct>
+ <struct from="3918" id="n05449797_wf1" to="3928" type="auto">
+  <feat name="wnsk" value="abnormally%4:02:00::"/>
+  <feat name="text" value="abnormally"/>
+ </struct>
+ <struct from="3929" id="n05449797_wf2" to="3934" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="3950" id="n05449797_wf6" to="3957" type="un">
+  <feat name="text" value="present"/>
+ </struct>
+ <struct from="3994" id="n05449797_wf13" to="4004" type="man">
+  <feat name="wnsk" value="deficiency%1:07:00::"/>
+  <feat name="text" value="deficiency"/>
+ </struct>
+ <struct from="4023" id="n05449959_wf4" to="4029" type="man">
+  <feat name="wnsk" value="engulf%2:35:00::"/>
+  <feat name="text" value="engulf"/>
+ </struct>
+ <struct from="4034" id="n05449959_wf6" to="4040" type="man">
+  <feat name="wnsk" value="digest%2:34:00::"/>
+  <feat name="text" value="digest"/>
+ </struct>
+ <struct from="4041" id="n05449959_wf7" to="4049" type="man">
+  <feat name="wnsk" value="bacteria%1:05:00::"/>
+  <feat name="text" value="bacteria"/>
+ </struct>
+ <struct from="4054" id="n05449959_wf9" to="4059" type="man">
+  <feat name="wnsk" value="fungus%1:20:00::"/>
+  <feat name="text" value="fungi"/>
+ </struct>
+ <struct from="4064" id="n05449959_wf12" to="4073" type="un">
+  <feat name="text" value="important"/>
+ </struct>
+ <struct from="4074" id="n05449959_wf13" to="4078" type="un">
+  <feat name="text" value="part"/>
+ </struct>
+ <struct from="4086" id="n05449959_wf16" to="4092" type="man">
+  <feat name="wnsk" value="body%1:08:00::"/>
+  <feat name="text" value="body's"/>
+ </struct>
+ <struct from="4111" id="n05450370_wf2" to="4122" type="man">
+  <feat name="wnsk" value="preparation%1:27:00::"/>
+  <feat name="text" value="preparation"/>
+ </struct>
+ <struct from="4138" id="n05450370_wf6" to="4147" type="man">
+  <feat name="wnsk" value="separate%2:42:00::"/>
+  <feat name="text" value="separated"/>
+ </struct>
+ <struct from="4157" id="n05450370_wf9" to="4163" type="man">
+  <feat name="wnsk" value="liquid%3:00:00::"/>
+  <feat name="text" value="liquid"/>
+ </struct>
+ <struct from="4164" id="n05450370_wf10" to="4170" type="un">
+  <feat name="text" value="plasma"/>
+ </struct>
+ <struct from="4185" id="n05450370_wf14" to="4188" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="4189" id="n05450370_wf15" to="4194" type="un">
+  <feat name="text" value="given"/>
+ </struct>
+ <struct from="4198" id="n05450370_wf17" to="4206" type="un">
+  <feat name="text" value="severely"/>
+ </struct>
+ <struct from="4207" id="n05450370_wf18" to="4213" type="un">
+  <feat name="text" value="anemic"/>
+ </struct>
+ <struct from="4214" id="n05450370_wf19" to="4222" type="un">
+  <feat name="text" value="patients"/>
+ </struct>
+ <struct from="4235" id="n05450370_wf23" to="4240" type="un">
+  <feat name="text" value="avoid"/>
+ </struct>
+ <struct from="4241" id="n05450370_wf24" to="4252" type="un">
+  <feat name="text" value="overloading"/>
+ </struct>
+ <struct from="4257" id="n05450370_wf26" to="4268" type="un">
+  <feat name="text" value="circulatory"/>
+ </struct>
+ <struct from="4269" id="n05450370_wf27" to="4275" type="un">
+  <feat name="text" value="system"/>
+ </struct>
+ <struct from="4281" id="n05450370_wf29" to="4284" type="un">
+  <feat name="text" value="too"/>
+ </struct>
+ <struct from="4285" id="n05450370_wf30" to="4289" type="un">
+  <feat name="text" value="much"/>
+ </struct>
+ <struct from="4290" id="n05450370_wf31" to="4295" type="un">
+  <feat name="text" value="fluid"/>
+ </struct>
+ <struct from="4299" id="n05450617_wf2" to="4309" type="auto">
+  <feat name="wnsk" value="macrophage%1:08:00::"/>
+  <feat name="text" value="macrophage"/>
+ </struct>
+ <struct from="4315" id="n05450617_wf4" to="4317" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4318" id="n05450617_wf5" to="4323" type="un">
+  <feat name="text" value="found"/>
+ </struct>
+ <struct from="4348" id="n05450740_wf2" to="4353" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="4354" id="n05450740_wf3" to="4363" type="auto">
+  <feat name="wnsk" value="phagocyte%1:08:00::"/>
+  <feat name="text" value="phagocyte"/>
+ </struct>
+ <struct from="4370" id="n05450740_wf6" to="4373" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="4374" id="n05450740_wf7" to="4379" type="un">
+  <feat name="text" value="fixed"/>
+ </struct>
+ <struct from="4384" id="n05450740_wf9" to="4389" type="un">
+  <feat name="text" value="other"/>
+ </struct>
+ <struct from="4390" id="n05450740_wf10" to="4399" type="man">
+  <feat name="wnsk" value="circulate%2:38:01::"/>
+  <feat name="text" value="circulate"/>
+ </struct>
+ <struct from="4423" id="n05450888_wf2" to="4427" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="4433" id="n05450888_wf4" to="4440" type="man">
+  <feat name="wnsk" value="engulf%2:35:00::"/>
+  <feat name="text" value="engulfs"/>
+ </struct>
+ <struct from="4445" id="n05450888_wf6" to="4452" type="man">
+  <feat name="wnsk" value="digest%2:34:00::"/>
+  <feat name="text" value="digests"/>
+ </struct>
+ <struct from="4453" id="n05450888_wf7" to="4459" type="auto">
+  <feat name="wnsk" value="debris%1:27:00::"/>
+  <feat name="text" value="debris"/>
+ </struct>
+ <struct from="4464" id="n05450888_wf9" to="4472" type="man">
+  <feat name="wnsk" value="invading%3:00:00:offensive:03"/>
+  <feat name="text" value="invading"/>
+ </struct>
+ <struct from="4473" id="n05450888_wf10" to="4487" type="auto">
+  <feat name="wnsk" value="microorganism%1:05:00::"/>
+  <feat name="text" value="microorganisms"/>
+ </struct>
+ <struct from="4491" id="n05451099_wf2" to="4500" type="auto">
+  <feat name="wnsk" value="phagocyte%1:08:00::"/>
+  <feat name="text" value="phagocyte"/>
+ </struct>
+ <struct from="4506" id="n05451099_wf4" to="4510" type="un">
+  <feat name="text" value="does"/>
+ </struct>
+ <struct from="4511" id="n05451099_wf5" to="4514" type="auto">
+  <feat name="wnsk" value="not%4:02:00::"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="4515" id="n05451099_wf6" to="4524" type="man">
+  <feat name="wnsk" value="circulate%2:38:01::"/>
+  <feat name="text" value="circulate"/>
+ </struct>
+ <struct from="4532" id="n05451099_wf9" to="4537" type="man">
+  <feat name="wnsk" value="blood%1:08:00::"/>
+  <feat name="text" value="blood"/>
+ </struct>
+ <struct from="4542" id="n05451099_wf11" to="4544" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4545" id="n05451099_wf12" to="4550" type="un">
+  <feat name="text" value="fixed"/>
+ </struct>
+ <struct from="4558" id="n05451099_wf15" to="4563" type="man">
+  <feat name="wnsk" value="liver%1:08:00::"/>
+  <feat name="text" value="liver"/>
+ </struct>
+ <struct from="4567" id="n05451099_wf17" to="4573" type="man">
+  <feat name="wnsk" value="spleen%1:08:00::"/>
+  <feat name="text" value="spleen"/>
+ </struct>
+ <struct from="4589" id="n05451099_wf21" to="4593" type="auto">
+  <feat name="wnsk" value="etc.%4:02:00::"/>
+  <feat name="text" value="etc."/>
+ </struct>
+ <struct from="4597" id="n05451265_wf2" to="4606" type="auto">
+  <feat name="wnsk" value="phagocyte%1:08:00::"/>
+  <feat name="text" value="phagocyte"/>
+ </struct>
+ <struct from="4612" id="n05451265_wf4" to="4622" type="man">
+  <feat name="wnsk" value="circulate%2:38:01::"/>
+  <feat name="text" value="circulates"/>
+ </struct>
+ <struct from="4630" id="n05451265_wf7" to="4635" type="man">
+  <feat name="wnsk" value="blood%1:08:00::"/>
+  <feat name="text" value="blood"/>
+ </struct>
+ <struct from="4640" id="n05451384_wf2" to="4653" type="auto">
+  <feat name="wnsk" value="agranulocytic%3:01:00::"/>
+  <feat name="text" value="agranulocytic"/>
+ </struct>
+ <struct from="4654" id="n05451384_wf3" to="4663" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="4669" id="n05451384_wf5" to="4677" type="auto">
+  <feat name="wnsk" value="normally%4:02:00::"/>
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="4689" id="n05451384_wf9" to="4696" type="man">
+  <feat name="wnsk" value="quarter%1:23:01::"/>
+  <feat name="text" value="quarter"/>
+ </struct>
+ <struct from="4721" id="n05451384_wf15" to="4726" type="un">
+  <feat name="text" value="count"/>
+ </struct>
+ <struct from="4731" id="n05451384_wf17" to="4740" type="man">
+  <feat name="wnsk" value="increase%2:30:00::"/>
+  <feat name="text" value="increases"/>
+ </struct>
+ <struct from="4748" id="n05451384_wf20" to="4756" type="man">
+  <feat name="wnsk" value="presence%1:15:00::"/>
+  <feat name="text" value="presence"/>
+ </struct>
+ <struct from="4760" id="n05451384_wf22" to="4769" type="man">
+  <feat name="wnsk" value="infection%1:26:00::"/>
+  <feat name="text" value="infection"/>
+ </struct>
+ <struct from="4773" id="n05451695_wf2" to="4783" type="auto">
+  <feat name="wnsk" value="lymphocyte%1:08:00::"/>
+  <feat name="text" value="lymphocyte"/>
+ </struct>
+ <struct from="4784" id="n05451695_wf3" to="4791" type="man">
+  <feat name="wnsk" value="derive%2:30:01::"/>
+  <feat name="text" value="derived"/>
+ </struct>
+ <struct from="4814" id="n05451695_wf8" to="4822" type="un">
+  <feat name="text" value="provides"/>
+ </struct>
+ <struct from="4823" id="n05451695_wf9" to="4830" type="auto">
+  <feat name="wnsk" value="humoral%3:01:00::"/>
+  <feat name="text" value="humoral"/>
+ </struct>
+ <struct from="4831" id="n05451695_wf10" to="4839" type="man">
+  <feat name="wnsk" value="immunity%1:26:01::"/>
+  <feat name="text" value="immunity"/>
+ </struct>
+ <struct from="4844" id="n05451695_wf13" to="4854" type="man">
+  <feat name="wnsk" value="recognize%2:42:00::"/>
+  <feat name="text" value="recognizes"/>
+ </struct>
+ <struct from="4855" id="n05451695_wf14" to="4859" type="un">
+  <feat name="text" value="free"/>
+ </struct>
+ <struct from="4860" id="n05451695_wf15" to="4867" type="auto">
+  <feat name="wnsk" value="antigen%1:27:00::"/>
+  <feat name="text" value="antigen"/>
+ </struct>
+ <struct from="4868" id="n05451695_wf16" to="4877" type="man">
+  <feat name="wnsk" value="molecule%1:27:00::"/>
+  <feat name="text" value="molecules"/>
+ </struct>
+ <struct from="4881" id="n05451695_wf18" to="4889" type="man">
+  <feat name="wnsk" value="solution%1:27:00::"/>
+  <feat name="text" value="solution"/>
+ </struct>
+ <struct from="4894" id="n05451695_wf20" to="4901" type="man">
+  <feat name="wnsk" value="mature%2:30:00::"/>
+  <feat name="text" value="matures"/>
+ </struct>
+ <struct from="4925" id="n05451695_wf25" to="4932" type="man">
+  <feat name="wnsk" value="secrete%2:29:00::"/>
+  <feat name="text" value="secrete"/>
+ </struct>
+ <struct from="4933" id="n05451695_wf26" to="4947" type="auto">
+  <feat name="wnsk" value="immunoglobulin%1:27:00::"/>
+  <feat name="text" value="immunoglobulin"/>
+ </struct>
+ <struct from="4949" id="n05451695_wf28" to="4959" type="auto">
+  <feat name="wnsk" value="antibody%1:27:00::"/>
+  <feat name="text" value="antibodies"/>
+ </struct>
+ <struct from="4966" id="n05451695_wf31" to="4976" type="man">
+  <feat name="wnsk" value="inactivate%2:30:00::"/>
+  <feat name="text" value="inactivate"/>
+ </struct>
+ <struct from="4981" id="n05451695_wf33" to="4989" type="auto">
+  <feat name="wnsk" value="antigen%1:27:00::"/>
+  <feat name="text" value="antigens"/>
+ </struct>
+ <struct from="4993" id="n05451981_wf2" to="4998" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="4999" id="n05451981_wf3" to="5009" type="auto">
+  <feat name="wnsk" value="lymphocyte%1:08:00::"/>
+  <feat name="text" value="lymphocyte"/>
+ </struct>
+ <struct from="5010" id="n05451981_wf4" to="5019" type="un">
+  <feat name="text" value="developed"/>
+ </struct>
+ <struct from="5027" id="n05451981_wf7" to="5033" type="auto">
+  <feat name="wnsk" value="thymus%1:08:00::"/>
+  <feat name="text" value="thymus"/>
+ </struct>
+ <struct from="5038" id="n05451981_wf10" to="5050" type="man">
+  <feat name="wnsk" value="orchestrate%2:31:00::"/>
+  <feat name="text" value="orchestrates"/>
+ </struct>
+ <struct from="5071" id="n05451981_wf14" to="5079" type="man">
+  <feat name="wnsk" value="response%1:04:01::"/>
+  <feat name="text" value="response"/>
+ </struct>
+ <struct from="5083" id="n05451981_wf16" to="5091" type="un">
+  <feat name="text" value="infected"/>
+ </struct>
+ <struct from="5095" id="n05451981_wf18" to="5104" type="auto">
+  <feat name="wnsk" value="malignant%3:00:02::"/>
+  <feat name="text" value="malignant"/>
+ </struct>
+ <struct from="5105" id="n05451981_wf19" to="5110" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="5124" id="n05452204_wf4" to="5127" type="auto">
+  <feat name="wnsk" value="cd4%1:27:00::"/>
+  <feat name="text" value="CD4"/>
+ </struct>
+ <struct from="5128" id="n05452204_wf5" to="5136" type="man">
+  <feat name="wnsk" value="receptor%1:08:01::"/>
+  <feat name="text" value="receptor"/>
+ </struct>
+ <struct from="5142" id="n05452204_wf7" to="5152" type="man">
+  <feat name="wnsk" value="recognize%2:42:00::"/>
+  <feat name="text" value="recognizes"/>
+ </struct>
+ <struct from="5153" id="n05452204_wf8" to="5161" type="auto">
+  <feat name="wnsk" value="antigen%1:27:00::"/>
+  <feat name="text" value="antigens"/>
+ </struct>
+ <struct from="5169" id="n05452204_wf11" to="5176" type="man">
+  <feat name="wnsk" value="surface%1:15:00::"/>
+  <feat name="text" value="surface"/>
+ </struct>
+ <struct from="5182" id="n05452204_wf14" to="5187" type="man">
+  <feat name="wnsk" value="virus%1:05:00::"/>
+  <feat name="text" value="virus"/>
+ </struct>
+ <struct from="5188" id="n05452204_wf15" to="5196" type="un">
+  <feat name="text" value="infected"/>
+ </struct>
+ <struct from="5197" id="n05452204_wf16" to="5201" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="5206" id="n05452204_wf18" to="5214" type="man">
+  <feat name="wnsk" value="secrete%2:29:00::"/>
+  <feat name="text" value="secretes"/>
+ </struct>
+ <struct from="5215" id="n05452204_wf19" to="5226" type="auto">
+  <feat name="wnsk" value="lymphokine%1:27:00::"/>
+  <feat name="text" value="lymphokines"/>
+ </struct>
+ <struct from="5232" id="n05452204_wf21" to="5241" type="man">
+  <feat name="wnsk" value="stimulate%2:30:00::"/>
+  <feat name="text" value="stimulate"/>
+ </struct>
+ <struct from="5270" id="n05452204_wf29" to="5276" type="un">
+  <feat name="text" value="helper"/>
+ </struct>
+ <struct from="5277" id="n05452204_wf30" to="5278" type="un">
+  <feat name="text" value="T"/>
+ </struct>
+ <struct from="5279" id="n05452204_wf31" to="5284" type="un">
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="5285" id="n05452204_wf32" to="5288" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="5289" id="n05452204_wf33" to="5297" type="man">
+  <feat name="wnsk" value="infect%2:29:00::"/>
+  <feat name="text" value="infected"/>
+ </struct>
+ <struct from="5302" id="n05452204_wf35" to="5308" type="man">
+  <feat name="wnsk" value="kill%2:35:02::"/>
+  <feat name="text" value="killed"/>
+ </struct>
+ <struct from="5316" id="n05452204_wf38" to="5320" type="auto">
+  <feat name="wnsk" value="aids%1:26:00::"/>
+  <feat name="text" value="AIDS"/>
+ </struct>
+ <struct from="5321" id="n05452204_wf39" to="5326" type="man">
+  <feat name="wnsk" value="virus%1:05:00::"/>
+  <feat name="text" value="virus"/>
+ </struct>
+ <struct from="5340" id="n05452516_wf4" to="5343" type="auto">
+  <feat name="wnsk" value="cd8%1:27:00::"/>
+  <feat name="text" value="CD8"/>
+ </struct>
+ <struct from="5344" id="n05452516_wf5" to="5352" type="man">
+  <feat name="wnsk" value="receptor%1:08:01::"/>
+  <feat name="text" value="receptor"/>
+ </struct>
+ <struct from="5358" id="n05452516_wf7" to="5368" type="man">
+  <feat name="wnsk" value="recognize%2:42:00::"/>
+  <feat name="text" value="recognizes"/>
+ </struct>
+ <struct from="5369" id="n05452516_wf8" to="5377" type="auto">
+  <feat name="wnsk" value="antigen%1:27:00::"/>
+  <feat name="text" value="antigens"/>
+ </struct>
+ <struct from="5385" id="n05452516_wf11" to="5392" type="man">
+  <feat name="wnsk" value="surface%1:15:00::"/>
+  <feat name="text" value="surface"/>
+ </struct>
+ <struct from="5398" id="n05452516_wf14" to="5403" type="man">
+  <feat name="wnsk" value="virus%1:05:00::"/>
+  <feat name="text" value="virus"/>
+ </struct>
+ <struct from="5404" id="n05452516_wf15" to="5412" type="un">
+  <feat name="text" value="infected"/>
+ </struct>
+ <struct from="5413" id="n05452516_wf16" to="5417" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="5422" id="n05452516_wf18" to="5427" type="man">
+  <feat name="wnsk" value="bind%2:30:09::"/>
+  <feat name="text" value="binds"/>
+ </struct>
+ <struct from="5435" id="n05452516_wf21" to="5443" type="un">
+  <feat name="text" value="infected"/>
+ </struct>
+ <struct from="5444" id="n05452516_wf22" to="5448" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="5453" id="n05452516_wf24" to="5457" type="man">
+  <feat name="wnsk" value="kill%2:35:02::"/>
+  <feat name="text" value="kill"/>
+ </struct>
+ <struct from="5465" id="n05452765_wf2" to="5473" type="un">
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="5474" id="n05452765_wf3" to="5484" type="auto">
+  <feat name="wnsk" value="lymphocyte%1:08:00::"/>
+  <feat name="text" value="lymphocyte"/>
+ </struct>
+ <struct from="5488" id="n05452845_wf2" to="5492" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="5498" id="n05452845_wf4" to="5506" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="5530" id="n05452845_wf10" to="5538" type="man">
+  <feat name="wnsk" value="reaction%1:04:00::"/>
+  <feat name="text" value="reaction"/>
+ </struct>
+ <struct from="5544" id="n05452845_wf13" to="5552" type="un">
+  <feat name="text" value="specific"/>
+ </struct>
+ <struct from="5553" id="n05452845_wf14" to="5560" type="auto">
+  <feat name="wnsk" value="antigen%1:27:00::"/>
+  <feat name="text" value="antigen"/>
+ </struct>
+ <struct from="5562" id="n05452845_wf16" to="5567" type="un">
+  <feat name="text" value="found"/>
+ </struct>
+ <struct from="5587" id="n05452845_wf21" to="5596" type="auto">
+  <feat name="wnsk" value="sometimes%4:02:01::"/>
+  <feat name="text" value="sometimes"/>
+ </struct>
+ <struct from="5604" id="n05452845_wf24" to="5609" type="man">
+  <feat name="wnsk" value="blood%1:08:00::"/>
+  <feat name="text" value="blood"/>
+ </struct>
+ <struct from="5615" id="n05453057_wf2" to="5624" type="un">
+  <feat name="text" value="precursor"/>
+ </struct>
+ <struct from="5645" id="n05453145_wf2" to="5654" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="5660" id="n05453145_wf4" to="5663" type="un">
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="5664" id="n05453145_wf5" to="5672" type="auto">
+  <feat name="wnsk" value="granule%1:17:00::"/>
+  <feat name="text" value="granules"/>
+ </struct>
+ <struct from="5680" id="n05453145_wf8" to="5689" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="5693" id="n05453267_wf2" to="5697" type="man">
+  <feat name="wnsk" value="type%1:09:00::"/>
+  <feat name="text" value="type"/>
+ </struct>
+ <struct from="5701" id="n05453267_wf4" to="5709" type="man">
+  <feat name="wnsk" value="granular%3:00:00:coarse:00"/>
+  <feat name="text" value="granular"/>
+ </struct>
+ <struct from="5710" id="n05453267_wf5" to="5719" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="5725" id="n05453267_wf7" to="5734" type="man">
+  <feat name="wnsk" value="function%2:42:12::"/>
+  <feat name="text" value="functions"/>
+ </struct>
+ <struct from="5742" id="n05453267_wf10" to="5751" type="auto">
+  <feat name="wnsk" value="ingestion%1:04:00::"/>
+  <feat name="text" value="ingestion"/>
+ </struct>
+ <struct from="5755" id="n05453267_wf12" to="5763" type="man">
+  <feat name="wnsk" value="bacteria%1:05:00::"/>
+  <feat name="text" value="bacteria"/>
+ </struct>
+ <struct from="5767" id="n05453412_wf2" to="5772" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="5773" id="n05453412_wf3" to="5781" type="un">
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="5782" id="n05453412_wf4" to="5790" type="auto">
+  <feat name="wnsk" value="monocyte%1:08:00::"/>
+  <feat name="text" value="monocyte"/>
+ </struct>
+ <struct from="5791" id="n05453412_wf5" to="5799" type="auto">
+  <feat name="wnsk" value="normally%4:02:00::"/>
+  <feat name="text" value="normally"/>
+ </struct>
+ <struct from="5800" id="n05453412_wf6" to="5805" type="un">
+  <feat name="text" value="found"/>
+ </struct>
+ <struct from="5824" id="n05453523_wf2" to="5833" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="5839" id="n05453523_wf4" to="5849" type="auto">
+  <feat name="wnsk" value="basophilic%3:01:00::"/>
+  <feat name="text" value="basophilic"/>
+ </struct>
+ <struct from="5850" id="n05453523_wf5" to="5858" type="auto">
+  <feat name="wnsk" value="granule%1:17:00::"/>
+  <feat name="text" value="granules"/>
+ </struct>
+ <struct from="5859" id="n05453523_wf6" to="5865" type="man">
+  <feat name="wnsk" value="easily%4:02:01::"/>
+  <feat name="text" value="easily"/>
+ </struct>
+ <struct from="5866" id="n05453523_wf7" to="5873" type="man">
+  <feat name="wnsk" value="stain%2:30:04::"/>
+  <feat name="text" value="stained"/>
+ </struct>
+ <struct from="5877" id="n05453523_wf9" to="5882" type="un">
+  <feat name="text" value="basic"/>
+ </struct>
+ <struct from="5883" id="n05453523_wf10" to="5889" type="man">
+  <feat name="wnsk" value="stain%1:27:00::"/>
+  <feat name="text" value="stains"/>
+ </struct>
+ <struct from="5895" id="n05453657_wf2" to="5900" type="un">
+  <feat name="text" value="chief"/>
+ </struct>
+ <struct from="5901" id="n05453657_wf3" to="5911" type="auto">
+  <feat name="wnsk" value="phagocytic%3:01:00::"/>
+  <feat name="text" value="phagocytic"/>
+ </struct>
+ <struct from="5912" id="n05453657_wf4" to="5921" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="5923" id="n05453657_wf6" to="5929" type="man">
+  <feat name="wnsk" value="stain%2:30:04::"/>
+  <feat name="text" value="stains"/>
+ </struct>
+ <struct from="5964" id="n05453815_wf2" to="5974" type="auto">
+  <feat name="wnsk" value="neutrophil%1:08:00::"/>
+  <feat name="text" value="neutrophil"/>
+ </struct>
+ <struct from="5980" id="n05453815_wf4" to="5987" type="man">
+  <feat name="wnsk" value="ingest%2:34:00::"/>
+  <feat name="text" value="ingests"/>
+ </struct>
+ <struct from="5988" id="n05453815_wf5" to="5993" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="5994" id="n05453815_wf6" to="6000" type="man">
+  <feat name="wnsk" value="thing%1:06:01::"/>
+  <feat name="text" value="things"/>
+ </struct>
+ <struct from="6005" id="n05453815_wf9" to="6013" type="man">
+  <feat name="wnsk" value="bacteria%1:05:00::"/>
+  <feat name="text" value="bacteria"/>
+ </struct>
+ <struct from="6018" id="n05453943_wf2" to="6027" type="auto">
+  <feat name="wnsk" value="leukocyte%1:08:00::"/>
+  <feat name="text" value="leukocyte"/>
+ </struct>
+ <struct from="6028" id="n05453943_wf3" to="6035" type="man">
+  <feat name="wnsk" value="readily%4:02:00::"/>
+  <feat name="text" value="readily"/>
+ </struct>
+ <struct from="6036" id="n05453943_wf4" to="6043" type="man">
+  <feat name="wnsk" value="stain%2:30:04::"/>
+  <feat name="text" value="stained"/>
+ </struct>
+ <struct from="6049" id="n05453943_wf6" to="6054" type="auto">
+  <feat name="wnsk" value="eosin%1:27:00::"/>
+  <feat name="text" value="eosin"/>
+ </struct>
+ <struct from="6058" id="n05454070_wf2" to="6064" type="man">
+  <feat name="wnsk" value="mature%3:00:01::"/>
+  <feat name="text" value="mature"/>
+ </struct>
+ <struct from="6081" id="n05454070_wf6" to="6089" type="un">
+  <feat name="text" value="contains"/>
+ </struct>
+ <struct from="6090" id="n05454070_wf7" to="6100" type="auto">
+  <feat name="wnsk" value="hemoglobin%1:27:00::"/>
+  <feat name="text" value="hemoglobin"/>
+ </struct>
+ <struct from="6104" id="n05454070_wf9" to="6109" type="man">
+  <feat name="wnsk" value="carry%2:35:02::"/>
+  <feat name="text" value="carry"/>
+ </struct>
+ <struct from="6110" id="n05454070_wf10" to="6116" type="auto">
+  <feat name="wnsk" value="oxygen%1:27:00::"/>
+  <feat name="text" value="oxygen"/>
+ </struct>
+ <struct from="6124" id="n05454070_wf13" to="6130" type="man">
+  <feat name="wnsk" value="bodily%3:01:01::"/>
+  <feat name="text" value="bodily"/>
+ </struct>
+ <struct from="6131" id="n05454070_wf14" to="6138" type="man">
+  <feat name="wnsk" value="tissue%1:08:00::"/>
+  <feat name="text" value="tissues"/>
+ </struct>
+ <struct from="6142" id="n05454070_wf17" to="6151" type="auto">
+  <feat name="wnsk" value="biconcave%3:00:00:concave:00"/>
+  <feat name="text" value="biconcave"/>
+ </struct>
+ <struct from="6152" id="n05454070_wf18" to="6156" type="man">
+  <feat name="wnsk" value="disc%1:25:00::"/>
+  <feat name="text" value="disc"/>
+ </struct>
+ <struct from="6162" id="n05454070_wf20" to="6165" type="un">
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="6166" id="n05454070_wf21" to="6168" type="un">
+  <feat name="text" value="no"/>
+ </struct>
+ <struct from="6169" id="n05454070_wf22" to="6176" type="man">
+  <feat name="wnsk" value="nucleus%1:08:00::"/>
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="6181" id="n05454452_wf2" to="6189" type="man">
+  <feat name="wnsk" value="abnormal%3:00:00::"/>
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6210" id="n05454452_wf7" to="6213" type="un">
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="6214" id="n05454452_wf8" to="6220" type="man">
+  <feat name="wnsk" value="thorny%3:00:00:armed:02"/>
+  <feat name="text" value="thorny"/>
+ </struct>
+ <struct from="6221" id="n05454452_wf9" to="6232" type="un">
+  <feat name="text" value="projections"/>
+ </struct>
+ <struct from="6236" id="n05454452_wf11" to="6246" type="auto">
+  <feat name="wnsk" value="protoplasm%1:08:00::"/>
+  <feat name="text" value="protoplasm"/>
+ </struct>
+ <struct from="6251" id="n05454578_wf2" to="6261" type="auto">
+  <feat name="wnsk" value="abnormally%4:02:00::"/>
+  <feat name="text" value="abnormally"/>
+ </struct>
+ <struct from="6262" id="n05454578_wf3" to="6267" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="6284" id="n05454578_wf8" to="6288" type="man">
+  <feat name="wnsk" value="less%3:00:00::"/>
+  <feat name="text" value="less"/>
+ </struct>
+ <struct from="6296" id="n05454578_wf11" to="6303" type="auto">
+  <feat name="wnsk" value="micron%1:23:00::"/>
+  <feat name="text" value="microns"/>
+ </struct>
+ <struct from="6307" id="n05454578_wf13" to="6315" type="man">
+  <feat name="wnsk" value="diameter%1:07:00::"/>
+  <feat name="text" value="diameter"/>
+ </struct>
+ <struct from="6321" id="n05454702_wf2" to="6329" type="man">
+  <feat name="wnsk" value="immature%3:00:01::"/>
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="6345" id="n05454702_wf6" to="6355" type="un">
+  <feat name="text" value="containing"/>
+ </struct>
+ <struct from="6358" id="n05454702_wf8" to="6365" type="man">
+  <feat name="wnsk" value="network%1:06:03::"/>
+  <feat name="text" value="network"/>
+ </struct>
+ <struct from="6369" id="n05454702_wf10" to="6378" type="un">
+  <feat name="text" value="filaments"/>
+ </struct>
+ <struct from="6382" id="n05454702_wf12" to="6390" type="auto">
+  <feat name="wnsk" value="granule%1:17:00::"/>
+  <feat name="text" value="granules"/>
+ </struct>
+ <struct from="6395" id="n05454833_wf2" to="6403" type="man">
+  <feat name="wnsk" value="abnormal%3:00:00::"/>
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6424" id="n05454833_wf7" to="6427" type="un">
+  <feat name="text" value="has"/>
+ </struct>
+ <struct from="6430" id="n05454833_wf9" to="6438" type="man">
+  <feat name="wnsk" value="crescent%3:00:00:rounded:00"/>
+  <feat name="text" value="crescent"/>
+ </struct>
+ <struct from="6439" id="n05454833_wf10" to="6444" type="man">
+  <feat name="wnsk" value="shape%1:09:00::"/>
+  <feat name="text" value="shape"/>
+ </struct>
+ <struct from="6452" id="n05454833_wf13" to="6460" type="un">
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6461" id="n05454833_wf14" to="6465" type="man">
+  <feat name="wnsk" value="form%1:09:01::"/>
+  <feat name="text" value="form"/>
+ </struct>
+ <struct from="6469" id="n05454833_wf16" to="6479" type="auto">
+  <feat name="wnsk" value="hemoglobin%1:27:00::"/>
+  <feat name="text" value="hemoglobin"/>
+ </struct>
+ <struct from="6484" id="n05454978_wf2" to="6492" type="man">
+  <feat name="wnsk" value="abnormal%3:00:00::"/>
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6508" id="n05454978_wf6" to="6518" type="un">
+  <feat name="text" value="containing"/>
+ </struct>
+ <struct from="6519" id="n05454978_wf7" to="6527" type="auto">
+  <feat name="wnsk" value="granule%1:17:00::"/>
+  <feat name="text" value="granules"/>
+ </struct>
+ <struct from="6531" id="n05454978_wf9" to="6535" type="man">
+  <feat name="wnsk" value="iron%1:27:00::"/>
+  <feat name="text" value="iron"/>
+ </struct>
+ <struct from="6536" id="n05454978_wf10" to="6539" type="auto">
+  <feat name="wnsk" value="not%4:02:00::"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="6540" id="n05454978_wf11" to="6545" type="man">
+  <feat name="wnsk" value="bind%2:30:09::"/>
+  <feat name="text" value="bound"/>
+ </struct>
+ <struct from="6549" id="n05454978_wf13" to="6559" type="auto">
+  <feat name="wnsk" value="hemoglobin%1:27:00::"/>
+  <feat name="text" value="hemoglobin"/>
+ </struct>
+ <struct from="6564" id="n05455113_wf2" to="6572" type="man">
+  <feat name="wnsk" value="abnormal%3:00:00::"/>
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6573" id="n05455113_wf3" to="6582" type="un">
+  <feat name="text" value="spherical"/>
+ </struct>
+ <struct from="6602" id="n05455206_wf2" to="6610" type="man">
+  <feat name="wnsk" value="abnormal%3:00:00::"/>
+  <feat name="text" value="abnormal"/>
+ </struct>
+ <struct from="6635" id="n05455206_wf8" to="6645" type="un">
+  <feat name="text" value="appearance"/>
+ </struct>
+ <struct from="6651" id="n05455206_wf11" to="6655" type="un">
+  <feat name="text" value="dark"/>
+ </struct>
+ <struct from="6656" id="n05455206_wf12" to="6660" type="un">
+  <feat name="text" value="ring"/>
+ </struct>
+ <struct from="6661" id="n05455206_wf13" to="6672" type="un">
+  <feat name="text" value="surrounding"/>
+ </struct>
+ <struct from="6675" id="n05455206_wf15" to="6679" type="un">
+  <feat name="text" value="dark"/>
+ </struct>
+ <struct from="6680" id="n05455206_wf16" to="6686" type="un">
+  <feat name="text" value="center"/>
+ </struct>
+ <struct from="6688" id="n05455206_wf18" to="6698" type="man">
+  <feat name="wnsk" value="associate%2:31:00::"/>
+  <feat name="text" value="associated"/>
+ </struct>
+ <struct from="6704" id="n05455206_wf20" to="6710" type="man">
+  <feat name="wnsk" value="anemia%1:26:00::"/>
+  <feat name="text" value="anemia"/>
+ </struct>
+ <struct from="6712" id="n05455375_wf1" to="6716" type="man">
+  <feat name="wnsk" value="area%1:08:00::"/>
+  <feat name="text" value="area"/>
+ </struct>
+ <struct from="6717" id="n05455375_wf2" to="6727" type="un">
+  <feat name="text" value="consisting"/>
+ </struct>
+ <struct from="6733" id="n05455375_wf5" to="6738" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="6739" id="n05455375_wf6" to="6749" type="un">
+  <feat name="text" value="depression"/>
+ </struct>
+ <struct from="6757" id="n05455375_wf9" to="6763" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="6764" id="n05455375_wf10" to="6774" type="un">
+  <feat name="text" value="containing"/>
+ </struct>
+ <struct from="6775" id="n05455375_wf11" to="6780" type="man">
+  <feat name="wnsk" value="cone%1:08:00::"/>
+  <feat name="text" value="cones"/>
+ </struct>
+ <struct from="6791" id="n05455375_wf14" to="6797" type="man">
+  <feat name="wnsk" value="vision%1:09:02::"/>
+  <feat name="text" value="vision"/>
+ </struct>
+ <struct from="6798" id="n05455375_wf15" to="6800" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="6801" id="n05455375_wf16" to="6805" type="un">
+  <feat name="text" value="most"/>
+ </struct>
+ <struct from="6806" id="n05455375_wf17" to="6811" type="un">
+  <feat name="text" value="acute"/>
+ </struct>
+ <struct from="6813" id="n05455563_wf1" to="6817" type="man">
+  <feat name="wnsk" value="area%1:08:00::"/>
+  <feat name="text" value="area"/>
+ </struct>
+ <struct from="6825" id="n05455563_wf4" to="6831" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="6832" id="n05455563_wf5" to="6843" type="man">
+  <feat name="wnsk" value="immediately%4:02:03::"/>
+  <feat name="text" value="immediately"/>
+ </struct>
+ <struct from="6844" id="n05455563_wf6" to="6855" type="un">
+  <feat name="text" value="surrounding"/>
+ </struct>
+ <struct from="6860" id="n05455563_wf8" to="6865" type="auto">
+  <feat name="wnsk" value="fovea%1:08:00::"/>
+  <feat name="text" value="fovea"/>
+ </struct>
+ <struct from="6869" id="n05455690_wf2" to="6874" type="un">
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="6875" id="n05455690_wf3" to="6884" type="auto">
+  <feat name="wnsk" value="yellowish%3:00:00:chromatic:00"/>
+  <feat name="text" value="yellowish"/>
+ </struct>
+ <struct from="6885" id="n05455690_wf4" to="6892" type="man">
+  <feat name="wnsk" value="central%3:00:01::"/>
+  <feat name="text" value="central"/>
+ </struct>
+ <struct from="6893" id="n05455690_wf5" to="6897" type="man">
+  <feat name="wnsk" value="area%1:08:00::"/>
+  <feat name="text" value="area"/>
+ </struct>
+ <struct from="6905" id="n05455690_wf8" to="6911" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="6917" id="n05455690_wf10" to="6919" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="6920" id="n05455690_wf11" to="6924" type="un">
+  <feat name="text" value="rich"/>
+ </struct>
+ <struct from="6928" id="n05455690_wf13" to="6933" type="man">
+  <feat name="wnsk" value="cone%1:08:00::"/>
+  <feat name="text" value="cones"/>
+ </struct>
+ <struct from="6943" id="n05455690_wf16" to="6951" type="un">
+  <feat name="text" value="mediates"/>
+ </struct>
+ <struct from="6952" id="n05455690_wf17" to="6957" type="un">
+  <feat name="text" value="clear"/>
+ </struct>
+ <struct from="6958" id="n05455690_wf18" to="6966" type="un">
+  <feat name="text" value="detailed"/>
+ </struct>
+ <struct from="6967" id="n05455690_wf19" to="6973" type="man">
+  <feat name="wnsk" value="vision%1:09:02::"/>
+  <feat name="text" value="vision"/>
+ </struct>
+ <struct from="6986" id="n05455912_wf4" to="6991" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="6999" id="n05455912_wf7" to="7005" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="7011" id="n05455912_wf9" to="7013" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="7014" id="n05455912_wf10" to="7023" type="man">
+  <feat name="wnsk" value="sensitive%3:00:04::"/>
+  <feat name="text" value="sensitive"/>
+ </struct>
+ <struct from="7027" id="n05455912_wf12" to="7032" type="man">
+  <feat name="wnsk" value="light%1:19:00::"/>
+  <feat name="text" value="light"/>
+ </struct>
+ <struct from="7038" id="n05456082_wf2" to="7043" type="man">
+  <feat name="wnsk" value="point%1:15:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="7066" id="n05456082_wf7" to="7072" type="un">
+  <feat name="text" value="enters"/>
+ </struct>
+ <struct from="7077" id="n05456082_wf9" to="7083" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="7085" id="n05456082_wf11" to="7088" type="auto">
+  <feat name="wnsk" value="not%4:02:00::"/>
+  <feat name="text" value="not"/>
+ </struct>
+ <struct from="7089" id="n05456082_wf12" to="7098" type="man">
+  <feat name="wnsk" value="sensitive%3:00:04::"/>
+  <feat name="text" value="sensitive"/>
+ </struct>
+ <struct from="7102" id="n05456082_wf14" to="7107" type="man">
+  <feat name="wnsk" value="light%1:19:00::"/>
+  <feat name="text" value="light"/>
+ </struct>
+ <struct from="7111" id="n05456257_wf2" to="7117" type="man">
+  <feat name="wnsk" value="visual%3:01:04::"/>
+  <feat name="text" value="visual"/>
+ </struct>
+ <struct from="7118" id="n05456257_wf3" to="7126" type="man">
+  <feat name="wnsk" value="receptor%1:08:00::"/>
+  <feat name="text" value="receptor"/>
+ </struct>
+ <struct from="7127" id="n05456257_wf4" to="7131" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="7139" id="n05456257_wf7" to="7145" type="auto">
+  <feat name="wnsk" value="retina%1:08:00::"/>
+  <feat name="text" value="retina"/>
+ </struct>
+ <struct from="7151" id="n05456257_wf9" to="7153" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="7154" id="n05456257_wf10" to="7163" type="man">
+  <feat name="wnsk" value="sensitive%3:00:04::"/>
+  <feat name="text" value="sensitive"/>
+ </struct>
+ <struct from="7167" id="n05456257_wf12" to="7173" type="un">
+  <feat name="text" value="bright"/>
+ </struct>
+ <struct from="7174" id="n05456257_wf13" to="7179" type="un">
+  <feat name="text" value="light"/>
+ </struct>
+ <struct from="7187" id="n05456257_wf16" to="7192" type="man">
+  <feat name="wnsk" value="color%1:07:00::"/>
+  <feat name="text" value="color"/>
+ </struct>
+ <struct from="7196" id="n05456456_wf2" to="7202" type="man">
+  <feat name="wnsk" value="visual%3:01:04::"/>
+  <feat name="text" value="visual"/>
+ </struct>
+ <struct from="7203" id="n05456456_wf3" to="7211" type="man">
+  <feat name="wnsk" value="receptor%1:08:00::"/>
+  <feat name="text" value="receptor"/>
+ </struct>
+ <struct from="7212" id="n05456456_wf4" to="7216" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="7222" id="n05456456_wf6" to="7224" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="7225" id="n05456456_wf7" to="7234" type="man">
+  <feat name="wnsk" value="sensitive%3:00:04::"/>
+  <feat name="text" value="sensitive"/>
+ </struct>
+ <struct from="7238" id="n05456456_wf9" to="7241" type="man">
+  <feat name="wnsk" value="dim%3:00:00:dark:01"/>
+  <feat name="text" value="dim"/>
+ </struct>
+ <struct from="7242" id="n05456456_wf10" to="7247" type="man">
+  <feat name="wnsk" value="light%1:19:00::"/>
+  <feat name="text" value="light"/>
+ </struct>
+ <struct from="7249" id="n05456622_wf1" to="7254" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cells"/>
+ </struct>
+ <struct from="7255" id="n05456622_wf2" to="7263" type="un">
+  <feat name="text" value="composed"/>
+ </struct>
+ <struct from="7267" id="n05456622_wf4" to="7270" type="man">
+  <feat name="wnsk" value="fat%1:08:00::"/>
+  <feat name="text" value="fat"/>
+ </struct>
+ <struct from="7274" id="n05456732_wf2" to="7286" type="auto">
+  <feat name="wnsk" value="spermatozoon%1:08:00::"/>
+  <feat name="text" value="spermatozoon"/>
+ </struct>
+ <struct from="7293" id="n05456732_wf5" to="7297" type="auto">
+  <feat name="wnsk" value="ovum%1:08:00::"/>
+  <feat name="text" value="ovum"/>
+ </struct>
+ <struct from="7301" id="n05456732_wf8" to="7305" type="un">
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="7306" id="n05456732_wf9" to="7317" type="un">
+  <feat name="text" value="responsible"/>
+ </struct>
+ <struct from="7322" id="n05456732_wf11" to="7334" type="un">
+  <feat name="text" value="transmitting"/>
+ </struct>
+ <struct from="7335" id="n05456732_wf12" to="7338" type="auto">
+  <feat name="wnsk" value="dna%1:27:00::"/>
+  <feat name="text" value="DNA"/>
+ </struct>
+ <struct from="7346" id="n05456732_wf15" to="7350" type="un">
+  <feat name="text" value="next"/>
+ </struct>
+ <struct from="7351" id="n05456732_wf16" to="7361" type="un">
+  <feat name="text" value="generation"/>
+ </struct>
+ <struct from="7365" id="n05456945_wf2" to="7371" type="man">
+  <feat name="wnsk" value="mature%3:00:01::"/>
+  <feat name="text" value="mature"/>
+ </struct>
+ <struct from="7372" id="n05456945_wf3" to="7378" type="man">
+  <feat name="wnsk" value="sexual%3:00:00::"/>
+  <feat name="text" value="sexual"/>
+ </struct>
+ <struct from="7397" id="n05456945_wf6" to="7403" type="un">
+  <feat name="text" value="having"/>
+ </struct>
+ <struct from="7406" id="n05456945_wf8" to="7412" type="un">
+  <feat name="text" value="single"/>
+ </struct>
+ <struct from="7413" id="n05456945_wf9" to="7416" type="un">
+  <feat name="text" value="set"/>
+ </struct>
+ <struct from="7420" id="n05456945_wf11" to="7428" type="auto">
+  <feat name="wnsk" value="unpaired%3:00:00:mismatched:00"/>
+  <feat name="text" value="unpaired"/>
+ </struct>
+ <struct from="7429" id="n05456945_wf12" to="7440" type="auto">
+  <feat name="wnsk" value="chromosome%1:08:00::"/>
+  <feat name="text" value="chromosomes"/>
+ </struct>
+ <struct from="7454" id="n05457201_wf4" to="7458" type="un">
+  <feat name="text" value="pair"/>
+ </struct>
+ <struct from="7462" id="n05457201_wf6" to="7468" type="un">
+  <feat name="text" value="unlike"/>
+ </struct>
+ <struct from="7469" id="n05457201_wf7" to="7476" type="auto">
+  <feat name="wnsk" value="gamete%1:08:00::"/>
+  <feat name="text" value="gametes"/>
+ </struct>
+ <struct from="7477" id="n05457201_wf8" to="7487" type="man">
+  <feat name="wnsk" value="especially%4:02:00::"/>
+  <feat name="text" value="especially"/>
+ </struct>
+ <struct from="7494" id="n05457201_wf10" to="7500" type="un">
+  <feat name="text" value="unlike"/>
+ </struct>
+ <struct from="7504" id="n05457201_wf12" to="7508" type="man">
+  <feat name="wnsk" value="size%1:07:00::"/>
+  <feat name="text" value="size"/>
+ </struct>
+ <struct from="7522" id="n05457343_wf4" to="7526" type="un">
+  <feat name="text" value="pair"/>
+ </struct>
+ <struct from="7530" id="n05457343_wf6" to="7541" type="man">
+  <feat name="wnsk" value="conjugate%2:30:04::"/>
+  <feat name="text" value="conjugating"/>
+ </struct>
+ <struct from="7542" id="n05457343_wf7" to="7549" type="auto">
+  <feat name="wnsk" value="gamete%1:08:00::"/>
+  <feat name="text" value="gametes"/>
+ </struct>
+ <struct from="7557" id="n05457343_wf10" to="7561" type="un">
+  <feat name="text" value="same"/>
+ </struct>
+ <struct from="7562" id="n05457343_wf11" to="7566" type="man">
+  <feat name="wnsk" value="size%1:07:00::"/>
+  <feat name="text" value="size"/>
+ </struct>
+ <struct from="7571" id="n05457343_wf13" to="7580" type="man">
+  <feat name="wnsk" value="structure%1:08:00::"/>
+  <feat name="text" value="structure"/>
+ </struct>
+ <struct from="7586" id="n05457469_wf2" to="7590" type="man">
+  <feat name="wnsk" value="male%3:00:00::"/>
+  <feat name="text" value="male"/>
+ </struct>
+ <struct from="7614" id="n05457469_wf7" to="7618" type="man">
+  <feat name="wnsk" value="male%3:00:00::"/>
+  <feat name="text" value="male"/>
+ </struct>
+ <struct from="7619" id="n05457469_wf8" to="7625" type="auto">
+  <feat name="wnsk" value="gamete%1:08:00::"/>
+  <feat name="text" value="gamete"/>
+ </struct>
+ <struct from="7629" id="n05457469_wf11" to="7634" type="auto">
+  <feat name="wnsk" value="sperm%1:08:00::"/>
+  <feat name="text" value="sperm"/>
+ </struct>
+ <struct from="7635" id="n05457469_wf12" to="7637" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="7638" id="n05457469_wf13" to="7644" type="un">
+  <feat name="text" value="mostly"/>
+ </struct>
+ <struct from="7647" id="n05457469_wf15" to="7654" type="un">
+  <feat name="text" value="nucleus"/>
+ </struct>
+ <struct from="7655" id="n05457469_wf16" to="7665" type="un">
+  <feat name="text" value="surrounded"/>
+ </struct>
+ <struct from="7669" id="n05457469_wf18" to="7675" type="un">
+  <feat name="text" value="little"/>
+ </struct>
+ <struct from="7676" id="n05457469_wf19" to="7681" type="un">
+  <feat name="text" value="other"/>
+ </struct>
+ <struct from="7682" id="n05457469_wf20" to="7690" type="un">
+  <feat name="text" value="cellular"/>
+ </struct>
+ <struct from="7691" id="n05457469_wf21" to="7699" type="un">
+  <feat name="text" value="material"/>
+ </struct>
+ <struct from="7703" id="n05457795_wf2" to="7710" type="un">
+  <feat name="text" value="process"/>
+ </struct>
+ <struct from="7718" id="n05457795_wf5" to="7726" type="man">
+  <feat name="wnsk" value="anterior%3:00:00::"/>
+  <feat name="text" value="anterior"/>
+ </struct>
+ <struct from="7727" id="n05457795_wf6" to="7730" type="man">
+  <feat name="wnsk" value="end%1:15:00::"/>
+  <feat name="text" value="end"/>
+ </struct>
+ <struct from="7752" id="n05457795_wf12" to="7760" type="man">
+  <feat name="wnsk" value="produce%2:36:03::"/>
+  <feat name="text" value="produces"/>
+ </struct>
+ <struct from="7761" id="n05457795_wf13" to="7768" type="auto">
+  <feat name="wnsk" value="enzyme%1:27:00::"/>
+  <feat name="text" value="enzymes"/>
+ </struct>
+ <struct from="7772" id="n05457795_wf15" to="7782" type="un">
+  <feat name="text" value="facilitate"/>
+ </struct>
+ <struct from="7783" id="n05457795_wf16" to="7794" type="man">
+  <feat name="wnsk" value="penetration%1:04:02::"/>
+  <feat name="text" value="penetration"/>
+ </struct>
+ <struct from="7802" id="n05457795_wf19" to="7805" type="un">
+  <feat name="text" value="egg"/>
+ </struct>
+ <struct from="7811" id="n05457973_wf2" to="7817" type="man">
+  <feat name="wnsk" value="female%3:00:00::"/>
+  <feat name="text" value="female"/>
+ </struct>
+ <struct from="7841" id="n05457973_wf7" to="7847" type="man">
+  <feat name="wnsk" value="female%3:00:00::"/>
+  <feat name="text" value="female"/>
+ </struct>
+ <struct from="7848" id="n05457973_wf8" to="7854" type="auto">
+  <feat name="wnsk" value="gamete%1:08:00::"/>
+  <feat name="text" value="gamete"/>
+ </struct>
+ <struct from="7856" id="n05458173_wf1" to="7862" type="man">
+  <feat name="wnsk" value="mature%3:00:01::"/>
+  <feat name="text" value="mature"/>
+ </struct>
+ <struct from="7863" id="n05458173_wf2" to="7867" type="auto">
+  <feat name="wnsk" value="ovum%1:08:00::"/>
+  <feat name="text" value="ovum"/>
+ </struct>
+ <struct from="7868" id="n05458173_wf3" to="7873" type="un">
+  <feat name="text" value="after"/>
+ </struct>
+ <struct from="7874" id="n05458173_wf4" to="7885" type="man">
+  <feat name="wnsk" value="penetration%1:04:02::"/>
+  <feat name="text" value="penetration"/>
+ </struct>
+ <struct from="7889" id="n05458173_wf6" to="7894" type="auto">
+  <feat name="wnsk" value="sperm%1:08:00::"/>
+  <feat name="text" value="sperm"/>
+ </struct>
+ <struct from="7899" id="n05458173_wf8" to="7905" type="un">
+  <feat name="text" value="before"/>
+ </struct>
+ <struct from="7910" id="n05458173_wf10" to="7919" type="man">
+  <feat name="wnsk" value="formation%1:22:00::"/>
+  <feat name="text" value="formation"/>
+ </struct>
+ <struct from="7925" id="n05458173_wf13" to="7931" type="auto">
+  <feat name="wnsk" value="zygote%1:08:00::"/>
+  <feat name="text" value="zygote"/>
+ </struct>
+ <struct from="7935" id="n05458300_wf2" to="7940" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="7944" id="n05458300_wf4" to="7952" type="un">
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="7953" id="n05458300_wf5" to="7957" type="auto">
+  <feat name="wnsk" value="ovum%1:08:00::"/>
+  <feat name="text" value="ovum"/>
+ </struct>
+ <struct from="7962" id="n05458412_wf2" to="7970" type="un">
+  <feat name="text" value="immature"/>
+ </struct>
+ <struct from="7971" id="n05458412_wf3" to="7977" type="man">
+  <feat name="wnsk" value="animal%1:03:00::"/>
+  <feat name="text" value="animal"/>
+ </struct>
+ <struct from="7981" id="n05458412_wf5" to="7986" type="man">
+  <feat name="wnsk" value="plant%1:03:00::"/>
+  <feat name="text" value="plant"/>
+ </struct>
+ <struct from="7987" id="n05458412_wf6" to="7991" type="un">
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="7997" id="n05458412_wf8" to="8005" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="8013" id="n05458412_wf11" to="8019" type="auto">
+  <feat name="wnsk" value="gamete%1:08:00::"/>
+  <feat name="text" value="gamete"/>
+ </struct>
+ <struct from="8023" id="n05458412_wf13" to="8030" type="man">
+  <feat name="wnsk" value="meiosis%1:22:00::"/>
+  <feat name="text" value="meiosis"/>
+ </struct>
+ <struct from="8034" id="n05458576_wf2" to="8040" type="man">
+  <feat name="wnsk" value="female%3:00:00::"/>
+  <feat name="text" value="female"/>
+ </struct>
+ <struct from="8041" id="n05458576_wf3" to="8051" type="auto">
+  <feat name="wnsk" value="gametocyte%1:08:00::"/>
+  <feat name="text" value="gametocyte"/>
+ </struct>
+ <struct from="8057" id="n05458576_wf5" to="8065" type="un">
+  <feat name="text" value="develops"/>
+ </struct>
+ <struct from="8074" id="n05458576_wf8" to="8078" type="auto">
+  <feat name="wnsk" value="ovum%1:08:00::"/>
+  <feat name="text" value="ovum"/>
+ </struct>
+ <struct from="8079" id="n05458576_wf9" to="8084" type="un">
+  <feat name="text" value="after"/>
+ </struct>
+ <struct from="8089" id="n05458576_wf11" to="8096" type="auto">
+  <feat name="wnsk" value="meiotic%3:01:00::"/>
+  <feat name="text" value="meiotic"/>
+ </struct>
+ <struct from="8097" id="n05458576_wf12" to="8106" type="man">
+  <feat name="wnsk" value="division%1:04:00::"/>
+  <feat name="text" value="divisions"/>
+ </struct>
+ <struct from="8110" id="n05458703_wf2" to="8115" type="man">
+  <feat name="wnsk" value="small%3:00:00::"/>
+  <feat name="text" value="small"/>
+ </struct>
+ <struct from="8116" id="n05458703_wf3" to="8120" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="8121" id="n05458703_wf4" to="8131" type="un">
+  <feat name="text" value="containing"/>
+ </struct>
+ <struct from="8132" id="n05458703_wf5" to="8138" type="un">
+  <feat name="text" value="little"/>
+ </struct>
+ <struct from="8139" id="n05458703_wf6" to="8148" type="auto">
+  <feat name="wnsk" value="cytoplasm%1:08:00::"/>
+  <feat name="text" value="cytoplasm"/>
+ </struct>
+ <struct from="8154" id="n05458703_wf8" to="8156" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="8157" id="n05458703_wf9" to="8165" type="man">
+  <feat name="wnsk" value="produce%2:36:03::"/>
+  <feat name="text" value="produced"/>
+ </struct>
+ <struct from="8181" id="n05458703_wf13" to="8187" type="auto">
+  <feat name="wnsk" value="oocyte%1:08:00::"/>
+  <feat name="text" value="oocyte"/>
+ </struct>
+ <struct from="8192" id="n05458703_wf15" to="8197" type="un">
+  <feat name="text" value="later"/>
+ </struct>
+ <struct from="8198" id="n05458703_wf16" to="8207" type="man">
+  <feat name="wnsk" value="discard%2:40:00::"/>
+  <feat name="text" value="discarded"/>
+ </struct>
+ <struct from="8211" id="n05458859_wf2" to="8219" type="man">
+  <feat name="wnsk" value="swelling%1:26:00::"/>
+  <feat name="text" value="swelling"/>
+ </struct>
+ <struct from="8227" id="n05458859_wf5" to="8237" type="auto">
+  <feat name="wnsk" value="epididymis%1:08:00::"/>
+  <feat name="text" value="epididymis"/>
+ </struct>
+ <struct from="8245" id="n05458859_wf8" to="8251" type="auto">
+  <feat name="wnsk" value="testis%1:08:00::"/>
+  <feat name="text" value="testis"/>
+ </struct>
+ <struct from="8253" id="n05458859_wf10" to="8260" type="auto">
+  <feat name="wnsk" value="usually%4:02:00::"/>
+  <feat name="text" value="usually"/>
+ </struct>
+ <struct from="8261" id="n05458859_wf11" to="8269" type="un">
+  <feat name="text" value="contains"/>
+ </struct>
+ <struct from="8270" id="n05458859_wf12" to="8281" type="auto">
+  <feat name="wnsk" value="spermatozoon%1:08:00::"/>
+  <feat name="text" value="spermatozoa"/>
+ </struct>
+</cesAna>

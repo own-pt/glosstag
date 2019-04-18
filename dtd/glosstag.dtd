@@ -1,0 +1,313 @@
+<!--=======================================================================
+                File: glosstag.dtd
+                Date: 04/01/2008
+            Synopsis: DTD for WordNet Gloss Disambiguation project.
+   =======================================================================-->
+
+<!ENTITY % id "id CDATA #REQUIRED">
+<!--Unique identifier-->
+
+<!ELEMENT wordnet (synset)+>
+<!ATTLIST wordnet ver CDATA #REQUIRED>
+
+<!ELEMENT synset (terms?, keys?, gloss, gloss, gloss)>
+<!ATTLIST synset pos CDATA #REQUIRED
+				 ofs CDATA #REQUIRED
+				 %id;>
+<!--Wrapper for the synset, carries the pointer to the offset in the WordNet db file for the synset. A synset contains synset terms, sense keys, and 3 versions of the gloss.
+
+    @pos contains one of n, v, a, or r for noun, verb, adj, or adv and
+    indicates which of the db files the synset is found in.
+
+    @ofs contains the byte offset in data.pos file for the synset.
+--> 
+
+<!ELEMENT gloss (((classif | aux)*, def, aux*, ex*) | text | orig)>
+<!ATTLIST gloss desc (wsd | text | orig) #REQUIRED>
+<!--This is the wrapper for the contents of a gloss. 
+
+	@desc="orig" means this contains a copy of the original WordNet
+	gloss in the child <orig> tag.
+
+	@desc="text" means this contains the tokenized text of the gloss
+	in the child <text> tag.
+
+	@desc="wsd" is assigned to disambiguated glosses. Minimally, this must
+    contain a definition. It can be preceded by domain classification and/or
+    auxiliary info (usually in parens, but not always), and optionally followed
+    by more auxiliary info and zero or more examples. Contents of classif and
+    aux (with the exception of verb arguments) are not sense-tagged. Only the 
+    synset terms in ex's are sense-tagged.
+
+-->
+
+<!ELEMENT def (aux | wf | cf | mwf | qf)*>
+<!ATTLIST def %id;>
+<!-- Wraps the definition text. With the exception of the contents of aux with
+     @tag="ignore", and stoplist words/collocations, all open class words
+     and collocations within defs are sense-tagged.
+-->
+
+<!ELEMENT aux (wf | cf | mwf | qf)+>
+<!ATTLIST aux tag (ignore) #IMPLIED
+              type (arg)   #IMPLIED>
+<!--This tag demarcates auxiliary info. <aux> contents are always secondary to
+    the main sense of the synset. aux info generally precedes or follows the
+    def, but can also be embedded within the def text. There are two kinds of
+    auxiliary info, @tag="ignore" and @type="arg". Those assigned @tag="ignore"
+    contain mainly grammatical or usage information, some qualifying text such
+    as a year born, time period, or date range, or a chemical or other symbol.
+    The contents of @tag="ignore" aux's are not sense-tagged. aux's that
+    are assigned @type="arg" only appear in verb glosses, and contain
+    the argument, or typical argument, for the preceding verb. They are set
+    off in this way so that the syntax of the definition fits that of the
+    lemma (defining verb is intransitive if the lemma is intransitive). The 
+    contents of @type="arg" aux's are sense-tagged.
+-->
+
+<!ELEMENT classif (wf | cf | mwf)+>
+<!ATTLIST classif type (cat | use | reg | unk) #REQUIRED>
+<!--This is a wrapper for domain classification info preceding a def. For
+    the purposes of tagging/WSD, this text is "ignorable", as it is repeated
+    in the usage, region, and category pointers for the synset. 
+
+	The classification types for glosses are "cat" (domain category), "use"
+    (usage), and "reg" (region). "unk" is for unknown.
+-->
+
+<!ELEMENT ex (wf | cf | mwf | qf)+>
+<!ATTLIST ex %id;>
+<!--ex's contain a single sentence exemplifying one of the synset words or
+    collocations. Only the synset terms in ex's have been
+	sense-tagged.
+-->
+
+<!ELEMENT qf (wf | cf | mwf | qf)+>
+<!ATTLIST qf rend (sq | dq) #IMPLIED>
+<!--A qf delimits single- and double-quoted forms, replacing the actual
+   left and right-hand quote marks. The @rend attribute indicates whether
+   the quote marks are to be rendered as single (sq) or double (dq).
+-->
+
+<!ELEMENT id EMPTY>
+<!ATTLIST id sk CDATA #REQUIRED
+             lemma CDATA #REQUIRED
+             coll CDATA #IMPLIED
+			 %id;>
+<!--id is the sense tag for the parent element (a wf or glob).
+
+    The <id/> holds the sense key for the synset referenced in the @sk attribute,
+    and the lemma form corresponding to the lexeme it refers to in @lemma.
+    The lemma here is the WordNet entry form, without wn pos appended. Case
+    is preserved so that it matches exactly the WordNet entry form (unlike
+    on the sense key).
+
+	@coll points to the collocation (ie, <glob> tag) that the <id> is the sense tag
+	for. @coll on the <id> matches the @coll on <glob>.
+
+    <id/>'s are assigned during sense-tagging, and will only exist for
+    disambiguated words/collocations (that is, only words not within auxiliary
+    text, or on the stoplist, or in example sentences when not a synset
+    word/collocation).
+
+    If a word or collocation is tagged to more than one sense, it will have
+    more than one id, one id per sense tag.
+--> 
+
+<!ELEMENT mwf (wf | cf)+>
+<!ATTLIST mwf type (date | drange | nrange| num | time | curr | meas | math | other) #REQUIRED
+>
+<!--mwf's delimit multi-word forms belonging to a number of semantic classes,
+    which were automatically assigned during preprocessing. The class is
+    indicated by the value in the mwf's @type attribute. All or part of the
+    mwf may be sense tagged to WordNet entry words/collocations.
+
+Attributes:
+
+type="date" indicates the mwf is a date.
+type="drange" indicates the mwf is a date range.
+type="nrange" indicates the mwf is a numeric range other than a (recognizable) date.
+type="num" indicates the mwf is a numeric form.
+type="time" indicates the mwf is a time.
+type="curr" indicates the mwf is currency.
+type="meas" indicates the mwf is a measurement.
+type="math" indicates the mwf is a formula or other mathematical form.
+type="other" indicates other multi-word forms (eg., groupings of symbols).
+-->
+
+<!ELEMENT wf (#PCDATA | id)*>
+<!ATTLIST wf tag (un | auto | man | ignore) "un"
+             lemma CDATA #IMPLIED
+             pos CDATA #IMPLIED
+             type (punc | year | chem | num | time | symb | curr | math | abbr | acronym) #IMPLIED
+             rdf CDATA #IMPLIED
+             sep CDATA #IMPLIED
+			 %id;>
+<!--A wf is a single-word form (or punctuation) that is not part of a
+    WordNet collocation.
+
+    @lemma contains all potential lemmas for the orthographic form, where the
+    lemma is the WordNet entry form of the word with wn pos appended (eg.
+    the form "flies" has 3 potential lemmas: the noun fly, the verb fly, and
+    the noun flies, hence, @lemma="flies%1|fly%1|fly%2"). 
+
+    Neither @lemma nor <id/> are required (as @type="punc" wfs do not get
+    assigned a lemma, and not all wfs are sense-tagged). @lemma remains
+    unchanging for the duration of the auto/manual sense tagging phases.
+
+    @sep contains the character separating this wf from the next in print. Valid
+    values for the @sep attribute are "-", "", and " ", for hyphenated words not
+    in wn, cases where no space follows the <wf>, and the default case,
+    respectively. The default value for @sep is a space, not explicitly assigned.
+
+    @type is assigned to wf's that are punctuation, abbreviations, acronyms,
+    or belong to one of a small set of semantic classes listed below.
+
+	@pos was automatically assigned to wf/cfs within <def> only.
+
+Attribute values for tag:
+
+tag="un" indicates the wf has not been sense-tagged (ie, is untagged)
+tag="auto" indicates the wf was automatically disambiguated
+tag="man" indicates the wf was manually disambiguated
+tag="ignore" indicates that the wf is to be ignored during disambiguation
+
+Attribute values for type:
+
+type="punc" indicates the wf is punctuation.
+type="year" indicates the wf is a year.
+type="chem" indicates the wf is a chemical name.
+type="num" indicates the wf is a number.
+type="time" indicates the wf is a time.
+type="math" indicates the wf is mathematical symbol, variable, etc.
+type="symb" indicates the wf is a symbol.
+type="curr" indicates the wf is currency.
+type="abbr" indicates the wf is an abbreviation.
+type="acronym" indicates the wf is an acronym.
+
+Pos values (a variation on Penn Treebank's tagset):
+
+(		open paren
+)		close paren
+,		comma
+.		final punc (stop, question mark, exclamation point)
+...		ellipsis
+:		colon, semicolon, emdash
+CC		coordinating conjunction
+CD		number (spelled out or numeral)
+DT		determiner
+FW		foreign or unknown word
+IN		preposition
+JJ		adjective
+JJR		adjective, comparative
+JJS		adjective, superlative
+MD		modal
+NN		noun, singular or mass
+NNP		proper noun, singular or plural
+NNS		noun, plural
+PDT		predeterminer
+PRP		personal pronoun
+PRP$	possessive pronoun
+RB		adverb
+RBR		adverb, comparative
+RBS		adverb, superlative	
+RP		particle
+SYM		symbol
+TO		to
+UH		interjection
+VB		verb, base form or present tense
+VBD		verb, past tense
+VBG		verb, gerund/present participle
+VBN		verb, past participle
+VBP		verb, non-3rd person sing present
+VBZ		verb, 3rd person sing present
+WDT		wh-determiner
+WP		wh-pronoun
+WP$		possessive wh-pronoun
+WRB		wh-adverb
+
+-->
+
+<!ELEMENT cf (#PCDATA | glob)*>
+<!ATTLIST cf tag (un | ignore) #REQUIRED
+             lemma CDATA #IMPLIED
+			 pos CDATA #IMPLIED
+             type (punc | year | chem | num | time | symb | curr | math | abbr | acronym) #IMPLIED
+             coll CDATA #REQUIRED
+             rdf CDATA #IMPLIED
+             sep CDATA #IMPLIED
+			 %id;>
+<!--A cf is a wf that is a collocation form, i.e., it is part of a WordNet collocation.
+    A collocation may be contiguous or non-contiguous. All cf's for the same collocation
+    are linked together via the @coll attribute. The "head" cf (i.e., the first word
+    in the collocation) is the form that gets assigned the sense tag (which
+    is a child of the <glob> tag corresponding with that collocation). Thus,
+    the sense tag is not an immediate child of <cf>, it is a descendant of it.
+
+    Neither @lemma nor <glob/> are required (as @type="punc" cfs do not have
+    a lemma, and non-head cfs do not bear the <glob/> tag, unless they
+    are ALSO the head cf of another collocation). @lemma remains unchanging
+    for the duration of the auto/manual sense tagging phases.
+
+    The @coll attribute is required for all cfs, and contains a unique alpha
+    character that identifies all cf's belonging to the same collocation. If
+    the cf is a form in more than one collocation, @coll will contain a
+    comma-delimited list of alpha chars. @coll values are unique
+	within a gloss, that is, they start over with "a" for each gloss.
+    
+    @sep contains the character separating this cf from the next in print. Valid
+    values for the @sep attribute are "-", "'", and "", for hyphenated words not
+    in wn, contractions that get split, and cases where no space follows the <cf>,
+    respectively. The default value for @sep is a space, not explicitly assigned.
+
+	@pos was automatically assigned to wf/cfs within <def> only.
+
+	Since the <glob> tag carries sense tag info, the @tag attribute on the cf does
+	not indicate man or auto.
+
+Attribute values for tag:
+
+tag="un" indicates the cf was not disambiguated on its own (ie.,
+	independent of the collocation)
+tag="ignore" indicates the cf is a stoplist item
+
+See wf for values for @type and @pos.
+
+-->
+
+<!ELEMENT glob (id)*>
+<!ATTLIST glob tag (un | auto | man) #REQUIRED
+               glob (auto | man) #REQUIRED
+               lemma CDATA #REQUIRED
+               coll CDATA #REQUIRED
+			   %id;>
+<!--
+    Bears the lemma and sense tag info for a collocation. The @glob attribute
+    indicates whether the collocation was automatically or manually globbed.
+
+    @tag indicates if the glob has been sense-tagged, and if so, whether
+    it was sense-tagged automatically or manually.
+
+    @coll is the alpha identifier for the collocation to which this lemma
+    and sense tag "belongs". All cfs for a collocation will reference this
+    value in the cf's @coll attribute.
+
+    If the collocation has been sense tagged, it will contain one or more
+    <id/> children, one for each sense tag.
+-->
+
+<!ELEMENT text (#PCDATA)>
+<!--Contains the tokenized text of the WordNet gloss, including definition and
+example sentences. Paired left and right quotes are encoded in UTF-8. -->
+
+<!ELEMENT orig (#PCDATA)>
+<!--Contains the original WordNet version of the gloss, including
+definition and example sentences, as it exists in the database files. -->
+
+<!ELEMENT terms (term)+>
+<!ELEMENT term (#PCDATA)>
+<!--Contains WordNet synset terms-->
+
+<!ELEMENT keys (sk)+>
+<!ELEMENT sk (#PCDATA)>
+<!--Contains WordNet synset keys for the synset terms-->

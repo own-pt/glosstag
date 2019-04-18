@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="226" id="a00292024_coll.a" to="237" type="auto">
+  <feat name="wnsk" value="free_energy%1:19:00::"/>
+  <feat name="text" value="free energy"/>
+ </struct>
+ <struct from="336" id="a00292298_coll.a" to="350" type="auto">
+  <feat name="wnsk" value="fertilized_ovum%1:08:00::"/>
+  <feat name="text" value="fertilized ova"/>
+ </struct>
+ <struct from="676" id="a00293248_coll.b" to="686" type="man">
+  <feat name="wnsk" value="on_the_job%3:00:00:employed:00"/>
+  <feat name="text" value="on the job"/>
+ </struct>
+ <struct from="697" id="a00293248_coll.a" to="704" type="auto">
+  <feat name="wnsk" value="at_work%3:00:00:busy:00"/>
+  <feat name="text" value="at work"/>
+ </struct>
+ <struct from="1073" id="a00293882_coll.a" to="1080" type="auto">
+  <feat name="wnsk" value="tied_up%3:00:00:busy:00"/>
+  <feat name="text" value="tied up"/>
+ </struct>
+ <struct from="1128" id="a00293882_coll.b" to="1135" type="auto">
+  <feat name="wnsk" value="tied_up%3:00:00:busy:00"/>
+  <feat name="text" value="tied up"/>
+ </struct>
+ <struct from="1198" id="a00294056_coll.a" to="1203" type="auto">
+  <feat name="wnsk" value="up_to%3:00:00:busy:00"/>
+  <feat name="text" value="up to"/>
+ </struct>
+ <struct from="1206" id="a00294056_coll.b" to="1211" type="auto">
+  <feat name="wnsk" value="up_to%3:00:00:busy:00"/>
+  <feat name="text" value="up to"/>
+ </struct>
+ <struct from="1238" id="a00294175_coll.a" to="1245" type="man">
+  <feat name="wnsk" value="at_work%3:00:00:busy:00"/>
+  <feat name="text" value="at work"/>
+ </struct>
+ <struct from="2149" id="a00295924_coll.a" to="2156" type="man">
+  <feat name="wnsk" value="make_up%2:42:00::"/>
+  <feat name="text" value="made up"/>
+ </struct>
+ <struct from="2992" id="a00297598_coll.a" to="3005" type="man">
+  <feat name="wnsk" value="working_class%1:14:00::"/>
+  <feat name="text" value="working class"/>
+ </struct>
+ <struct from="3169" id="a00298293_coll.a" to="3175" type="un">
+  <feat name="text" value="set up"/>
+ </struct>
+ <struct from="5168" id="a00302951_coll.a" to="5181" type="auto">
+  <feat name="wnsk" value="body_of_water%1:17:00::"/>
+  <feat name="text" value="body of water"/>
+ </struct>
+ <struct from="6202" id="a00305225_coll.a" to="6214" type="man">
+  <feat name="wnsk" value="abound_in%2:42:00::"/>
+  <feat name="text" value="abounding in"/>
+ </struct>
+ <struct from="6775" id="a00306663_wf3" to="6783" type="part"/>
+ <node id="a00306663_coll.b.1" ref="a00306663_wf3" type="node"/>
+ <struct from="6794" id="a00306663_wf6" to="6801" type="part"/>
+ <node id="a00306663_coll.b.2" ref="a00306663_wf6" type="node"/>
+ <struct from="a00306663_coll.b.1" id="a00306663_coll.b" to="a00306663_coll.b.2" type="auto">
+  <feat name="wnsk" value="physical_ability%1:07:00::"/>
+  <feat name="text" value="physical ability"/>
+ </struct>
+ <struct from="6787" id="a00306663_wf5" to="6793" type="part"/>
+ <node id="a00306663_coll.c.1" ref="a00306663_wf5" type="node"/>
+ <struct from="6805" id="a00306663_wf8" to="6813" type="part"/>
+ <node id="a00306663_coll.c.2" ref="a00306663_wf8" type="node"/>
+ <struct from="a00306663_coll.c.1" id="a00306663_coll.c" to="a00306663_coll.c.2" type="auto">
+  <feat name="wnsk" value="mental_capacity%1:09:00::"/>
+  <feat name="text" value="mental capacity"/>
+ </struct>
+ <struct from="6787" id="a00306663_coll.a" to="6801" type="auto">
+  <feat name="wnsk" value="mental_ability%1:09:00::"/>
+  <feat name="text" value="mental ability"/>
+ </struct>
+ <struct from="7109" id="a00307182_coll.a" to="7124" type="auto">
+  <feat name="wnsk" value="inner_resource%1:07:00::"/>
+  <feat name="text" value="inner resources"/>
+ </struct>
+ <struct from="7489" id="a00307794_wf3" to="7497" type="part"/>
+ <node id="a00307794_coll.b.1" ref="a00307794_wf3" type="node"/>
+ <struct from="7508" id="a00307794_wf6" to="7515" type="part"/>
+ <node id="a00307794_coll.b.2" ref="a00307794_wf6" type="node"/>
+ <struct from="a00307794_coll.b.1" id="a00307794_coll.b" to="a00307794_coll.b.2" type="auto">
+  <feat name="wnsk" value="physical_ability%1:07:00::"/>
+  <feat name="text" value="physical ability"/>
+ </struct>
+ <struct from="7501" id="a00307794_coll.a" to="7515" type="auto">
+  <feat name="wnsk" value="mental_ability%1:09:00::"/>
+  <feat name="text" value="mental ability"/>
+ </struct>
+ <struct from="7836" id="a00308355_coll.a" to="7845" type="auto">
+  <feat name="wnsk" value="cared-for%3:00:00::"/>
+  <feat name="text" value="cared-for"/>
+ </struct>
+ <struct from="8423" id="a00309740_coll.a" to="8434" type="man">
+  <feat name="wnsk" value="take_care%2:41:00::"/>
+  <feat name="text" value="taking care"/>
+ </struct>
+</cesAna>
