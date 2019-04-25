@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="120" id="a02332956_coll.a" to="135" type="man">
+  <feat name="wnsk" value="batting_average%1:24:00::"/>
+  <feat name="text" value="batting average"/>
+ </struct>
+ <struct from="140" id="a02332956_wf14" to="144" type="part"/>
+ <node id="a02332956_coll.c.1" ref="a02332956_wf14" type="node"/>
+ <struct from="154" id="a02332956_wf17" to="158" type="part"/>
+ <node id="a02332956_coll.c.2" ref="a02332956_wf17" type="node"/>
+ <struct from="a02332956_coll.c.1" id="a02332956_coll.c" to="a02332956_coll.c.2" type="un">
+  <feat name="text" value="home runs"/>
+ </struct>
+ <struct from="140" id="a02332956_coll.b" to="149" type="man">
+  <feat name="wnsk" value="home_run%1:04:00::"/>
+  <feat name="text" value="home runs"/>
+ </struct>
+ <struct from="154" id="a02332956_coll.d" to="168" type="man">
+  <feat name="wnsk" value="run_batted_in%1:04:00::"/>
+  <feat name="text" value="runs batted in"/>
+ </struct>
+ <struct from="198" id="a02333147_coll.b" to="212" type="auto">
+  <feat name="wnsk" value="kentucky_derby%1:11:00::"/>
+  <feat name="text" value="Kentucky Derby"/>
+ </struct>
+ <struct from="221" id="a02333147_coll.a" to="235" type="auto">
+  <feat name="wnsk" value="belmont_stakes%1:11:00::"/>
+  <feat name="text" value="Belmont Stakes"/>
+ </struct>
+ <struct from="1718" id="a02336759_coll.a" to="1727" type="man">
+  <feat name="wnsk" value="no_longer%4:02:00::"/>
+  <feat name="text" value="no longer"/>
+ </struct>
+ <struct from="3078" id="a02340003_wf2" to="3084" type="part"/>
+ <node id="a02340003_coll.b.1" ref="a02340003_wf2" type="node"/>
+ <struct from="3093" id="a02340003_wf5" to="3099" type="part"/>
+ <node id="a02340003_coll.b.2" ref="a02340003_wf5" type="node"/>
+ <struct from="a02340003_coll.b.1" id="a02340003_coll.b" to="a02340003_coll.b.2" type="auto">
+  <feat name="wnsk" value="higher_status%1:26:00::"/>
+  <feat name="text" value="higher status"/>
+ </struct>
+ <struct from="3078" id="a02340003_coll.a" to="3089" type="auto">
+  <feat name="wnsk" value="higher_rank%1:26:00::"/>
+  <feat name="text" value="higher rank"/>
+ </struct>
+ <struct from="5321" id="a02344998_coll.a" to="5348" type="auto">
+  <feat name="wnsk" value="weapon_of_mass_destruction%1:06:00::"/>
+  <feat name="text" value="weapons of mass destruction"/>
+ </struct>
+ <struct from="7012" id="a02349003_coll.a" to="7022" type="man">
+  <feat name="wnsk" value="lean_on%2:35:00::"/>
+  <feat name="text" value="leaning on"/>
+ </struct>
+ <struct from="7137" id="a02349274_coll.a" to="7147" type="man">
+  <feat name="wnsk" value="rest_on%2:35:00::"/>
+  <feat name="text" value="resting on"/>
+ </struct>
+</cesAna>

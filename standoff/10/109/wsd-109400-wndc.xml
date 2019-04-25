@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="114" id="a02440996_coll.a" to="129" type="man">
+  <feat name="wnsk" value="reference_point%1:10:00::"/>
+  <feat name="text" value="reference point"/>
+ </struct>
+ <struct from="290" id="a02441469_coll.a" to="302" type="man">
+  <feat name="wnsk" value="extend_to%2:42:00::"/>
+  <feat name="text" value="extending to"/>
+ </struct>
+ <struct from="447" id="a02441786_coll.a" to="460" type="auto">
+  <feat name="wnsk" value="upper_surface%1:06:00::"/>
+  <feat name="text" value="upper surface"/>
+ </struct>
+ <struct from="1659" id="a02444147_wf13" to="1665" type="part"/>
+ <node id="a02444147_coll.b.1" ref="a02444147_wf13" type="node"/>
+ <struct from="1679" id="a02444147_wf16" to="1686" type="part"/>
+ <node id="a02444147_coll.b.2" ref="a02444147_wf16" type="node"/>
+ <struct from="a02444147_coll.b.1" id="a02444147_coll.b" to="a02444147_coll.b.2" type="man">
+  <feat name="wnsk" value="arctic_circle%1:15:00::"/>
+  <feat name="text" value="Arctic Circles"/>
+ </struct>
+ <struct from="1669" id="a02444147_coll.a" to="1686" type="auto">
+  <feat name="wnsk" value="antarctic_circle%1:15:00::"/>
+  <feat name="text" value="Antarctic Circles"/>
+ </struct>
+ <struct from="1733" id="a02444375_coll.a" to="1745" type="auto">
+  <feat name="wnsk" value="polar_region%1:15:00::"/>
+  <feat name="text" value="polar region"/>
+ </struct>
+ <struct from="1811" id="a02444627_coll.a" to="1821" type="man">
+  <feat name="wnsk" value="south_pole%1:15:00::"/>
+  <feat name="text" value="south pole"/>
+ </struct>
+ <struct from="4007" id="a02450364_coll.a" to="4024" type="auto">
+  <feat name="wnsk" value="organ_of_hearing%1:08:00::"/>
+  <feat name="text" value="organs of hearing"/>
+ </struct>
+ <struct from="4046" id="a02450364_coll.b" to="4060" type="auto">
+  <feat name="wnsk" value="auditory_nerve%1:08:00::"/>
+  <feat name="text" value="auditory nerve"/>
+ </struct>
+ <struct from="4731" id="a02452379_coll.a" to="4736" type="man">
+  <feat name="wnsk" value="go_on%2:42:00::"/>
+  <feat name="text" value="go on"/>
+ </struct>
+ <struct from="5375" id="a02453770_coll.a" to="5393" type="man">
+  <feat name="wnsk" value="caterpillar_tread%1:06:00::"/>
+  <feat name="text" value="caterpillar treads"/>
+ </struct>
+ <struct from="5375" id="a02453770_wf2" to="5386" type="part"/>
+ <node id="a02453770_coll.b.1" ref="a02453770_wf2" type="node"/>
+ <struct from="5397" id="a02453770_wf5" to="5403" type="part"/>
+ <node id="a02453770_coll.b.2" ref="a02453770_wf5" type="node"/>
+ <struct from="a02453770_coll.b.1" id="a02453770_coll.b" to="a02453770_coll.b.2" type="auto">
+  <feat name="wnsk" value="caterpillar_track%1:06:00::"/>
+  <feat name="text" value="caterpillar tracks"/>
+ </struct>
+ <struct from="5460" id="a02453921_coll.a" to="5478" type="man">
+  <feat name="wnsk" value="caterpillar_tread%1:06:00::"/>
+  <feat name="text" value="caterpillar treads"/>
+ </struct>
+ <struct from="5717" id="a02454339_coll.a" to="5733" type="auto">
+  <feat name="wnsk" value="heavily_traveled%3:00:00:traveled:00"/>
+  <feat name="text" value="heavily traveled"/>
+ </struct>
+</cesAna>

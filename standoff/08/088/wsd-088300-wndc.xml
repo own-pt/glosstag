@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="0" id="v01262813_coll.a" to="8" type="man">
+  <feat name="wnsk" value="cut_down%2:30:00::"/>
+  <feat name="text" value="cut down"/>
+ </struct>
+ <struct from="95" id="v01263215_coll.a" to="103" type="man">
+  <feat name="wnsk" value="peel_off%2:35:00::"/>
+  <feat name="text" value="peel off"/>
+ </struct>
+ <struct from="391" id="v01264283_wf1" to="394" type="part"/>
+ <node id="v01264283_coll.a.1" ref="v01264283_wf1" type="node"/>
+ <struct from="402" id="v01264283_wf4" to="404" type="part"/>
+ <node id="v01264283_coll.a.2" ref="v01264283_wf4" type="node"/>
+ <struct from="v01264283_coll.a.1" id="v01264283_coll.a" to="v01264283_coll.a.2" type="un">
+  <feat name="text" value="put on"/>
+ </struct>
+ <struct from="641" id="v01265740_coll.a" to="653" type="man">
+  <feat name="wnsk" value="breadcrumb%1:13:00::"/>
+  <feat name="text" value="bread crumbs"/>
+ </struct>
+ <struct from="806" id="v01266269_wf1" to="809" type="part"/>
+ <node id="v01266269_coll.a.1" ref="v01266269_wf1" type="node"/>
+ <struct from="819" id="v01266269_wf4" to="821" type="part"/>
+ <node id="v01266269_coll.a.2" ref="v01266269_wf4" type="node"/>
+ <struct from="v01266269_coll.a.1" id="v01266269_coll.a" to="v01266269_coll.a.2" type="un">
+  <feat name="text" value="put on"/>
+ </struct>
+ <struct from="1129" id="v01267098_coll.a" to="1144" type="man">
+  <feat name="wnsk" value="vehicle_traffic%1:14:00::"/>
+  <feat name="text" value="vehicle traffic"/>
+ </struct>
+ <struct from="2038" id="v01270199_coll.a" to="2054" type="auto">
+  <feat name="wnsk" value="chemical_process%1:22:00::"/>
+  <feat name="text" value="chemical process"/>
+ </struct>
+ <struct from="2056" id="v01270463_coll.a" to="2064" type="man">
+  <feat name="wnsk" value="wash_out%2:35:01::"/>
+  <feat name="text" value="wash out"/>
+ </struct>
+ <struct from="2769" id="v01272349_coll.a" to="2782" type="auto">
+  <feat name="wnsk" value="babbitt_metal%1:27:00::"/>
+  <feat name="text" value="Babbitt metal"/>
+ </struct>
+ <struct from="3230" id="v01273632_coll.a" to="3242" type="un">
+  <feat name="text" value="rubber stamp"/>
+ </struct>
+ <struct from="3496" id="v01274341_wf1" to="3499" type="part"/>
+ <node id="v01274341_coll.a.1" ref="v01274341_wf1" type="node"/>
+ <struct from="3513" id="v01274341_wf4" to="3516" type="part"/>
+ <node id="v01274341_coll.a.2" ref="v01274341_wf4" type="node"/>
+ <struct from="v01274341_coll.a.1" id="v01274341_coll.a" to="v01274341_coll.a.2" type="man">
+  <feat name="wnsk" value="cut_off%2:35:00::"/>
+  <feat name="text" value="cut off"/>
+ </struct>
+ <struct from="3934" id="v01275427_coll.a" to="3942" type="un">
+  <feat name="text" value="break up"/>
+ </struct>
+ <struct from="4535" id="v01277431_coll.a" to="4545" type="man">
+  <feat name="wnsk" value="hollow_out%2:35:00::"/>
+  <feat name="text" value="hollow out"/>
+ </struct>
+ <struct from="4715" id="v01277974_coll.a" to="4722" type="auto">
+  <feat name="wnsk" value="fold_up%2:35:00::"/>
+  <feat name="text" value="fold up"/>
+ </struct>
+ <struct from="4738" id="v01277974_coll.b" to="4745" type="auto">
+  <feat name="wnsk" value="turn_up%2:35:00::"/>
+  <feat name="text" value="turn up"/>
+ </struct>
+</cesAna>

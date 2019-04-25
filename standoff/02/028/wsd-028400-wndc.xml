@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="35" id="n05130402_coll.a" to="48" type="auto">
+  <feat name="wnsk" value="radio_signal%1:19:00::"/>
+  <feat name="text" value="radio signals"/>
+ </struct>
+ <struct from="555" id="n05131283_coll.a" to="570" type="man">
+  <feat name="wnsk" value="reference_point%1:10:00::"/>
+  <feat name="text" value="reference point"/>
+ </struct>
+ <struct from="580" id="n05131283_coll.b" to="589" type="man">
+  <feat name="wnsk" value="sea_level%1:07:00::"/>
+  <feat name="text" value="sea level"/>
+ </struct>
+ <struct from="661" id="n05131537_coll.a" to="670" type="man">
+  <feat name="wnsk" value="sea_level%1:07:00::"/>
+  <feat name="text" value="sea level"/>
+ </struct>
+ <struct from="699" id="n05131647_coll.a" to="708" type="man">
+  <feat name="wnsk" value="sea_level%1:07:00::"/>
+  <feat name="text" value="sea level"/>
+ </struct>
+ <struct from="722" id="n05131647_coll.b" to="737" type="man">
+  <feat name="wnsk" value="earth's_surface%1:17:00::"/>
+  <feat name="text" value="earth's surface"/>
+ </struct>
+ <struct from="983" id="n05132221_coll.a" to="996" type="auto">
+  <feat name="wnsk" value="body_of_water%1:17:00::"/>
+  <feat name="text" value="body of water"/>
+ </struct>
+ <struct from="1065" id="n05132340_wf12" to="1069" type="part"/>
+ <node id="n05132340_coll.b.1" ref="n05132340_wf12" type="node"/>
+ <struct from="1078" id="n05132340_wf15" to="1082" type="part"/>
+ <node id="n05132340_coll.b.2" ref="n05132340_wf15" type="node"/>
+ <struct from="n05132340_coll.b.1" id="n05132340_coll.b" to="n05132340_coll.b.2" type="man">
+  <feat name="wnsk" value="high_tide%1:11:00::"/>
+  <feat name="text" value="high tide"/>
+ </struct>
+ <struct from="1065" id="n05132340_coll.a" to="1077" type="auto">
+  <feat name="wnsk" value="high_and_low%4:02:00::"/>
+  <feat name="text" value="high and low"/>
+ </struct>
+ <struct from="1893" id="n05134122_coll.a" to="1910" type="auto">
+  <feat name="wnsk" value="temporal_property%1:07:00::"/>
+  <feat name="text" value="temporal property"/>
+ </struct>
+ <struct from="1920" id="n05134122_coll.b" to="1929" type="man">
+  <feat name="wnsk" value="cut_short%2:30:00::"/>
+  <feat name="text" value="cut short"/>
+ </struct>
+ <struct from="1935" id="n05134238_coll.a" to="1952" type="man">
+  <feat name="wnsk" value="temporal_property%1:07:00::"/>
+  <feat name="text" value="temporal property"/>
+ </struct>
+ <struct from="3818" id="n05139094_coll.b" to="3834" type="man">
+  <feat name="wnsk" value="fall_short_of%2:42:00::"/>
+  <feat name="text" value="falling short of"/>
+ </struct>
+ <struct from="3818" id="n05139094_coll.a" to="3831" type="auto">
+  <feat name="wnsk" value="fall_short%2:37:12::"/>
+  <feat name="text" value="falling short"/>
+ </struct>
+ <struct from="4564" id="n05140793_coll.a" to="4572" type="auto">
+  <feat name="wnsk" value="red_cent%1:07:00::"/>
+  <feat name="text" value="red cent"/>
+ </struct>
+ <struct from="6349" id="n05144880_coll.a" to="6365" type="man">
+  <feat name="wnsk" value="end_of_the_world%1:28:00::"/>
+  <feat name="text" value="end of the world"/>
+ </struct>
+ <struct from="6519" id="n05145118_coll.a" to="6534" type="auto">
+  <feat name="wnsk" value="amount_of_money%1:21:00::"/>
+  <feat name="text" value="amount of money"/>
+ </struct>
+ <struct from="6583" id="n05145118_coll.b" to="6597" type="auto">
+  <feat name="wnsk" value="monetary_value%1:07:00::"/>
+  <feat name="text" value="monetary value"/>
+ </struct>
+ <struct from="6908" id="n05146055_coll.a" to="6920" type="auto">
+  <feat name="wnsk" value="market_value%1:21:00::"/>
+  <feat name="text" value="market value"/>
+ </struct>
+</cesAna>

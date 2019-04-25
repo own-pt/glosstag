@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="247" id="v00020259_coll.a" to="256" type="man">
+  <feat name="wnsk" value="go_to_bed%2:29:00::"/>
+  <feat name="text" value="go to bed"/>
+ </struct>
+ <struct from="264" id="v00020259_coll.b" to="271" type="auto">
+  <feat name="wnsk" value="stay_up%2:29:00::"/>
+  <feat name="text" value="stay up"/>
+ </struct>
+ <struct from="317" id="v00020259_coll.c" to="323" type="auto">
+  <feat name="wnsk" value="sit_up%2:29:00::"/>
+  <feat name="text" value="sat up"/>
+ </struct>
+ <struct from="370" id="v00020449_coll.a" to="382" type="man">
+  <feat name="wnsk" value="go_to_bed%2:29:00::"/>
+  <feat name="text" value="going to bed"/>
+ </struct>
+ <struct from="877" id="v00022099_coll.a" to="887" type="auto">
+  <feat name="wnsk" value="bring_back%2:29:00::"/>
+  <feat name="text" value="bring back"/>
+ </struct>
+ <struct from="1146" id="v00023380_coll.a" to="1162" type="auto">
+  <feat name="wnsk" value="libidinal_energy%1:16:00::"/>
+  <feat name="text" value="libidinal energy"/>
+ </struct>
+ <struct from="1189" id="v00023473_coll.a" to="1198" type="auto">
+  <feat name="wnsk" value="pick_up%2:29:00::"/>
+  <feat name="text" value="picked up"/>
+ </struct>
+ <struct from="1212" id="v00023646_coll.a" to="1220" type="un">
+  <feat name="text" value="pass out"/>
+ </struct>
+ <struct from="1404" id="v00024047_coll.a" to="1411" type="auto">
+  <feat name="wnsk" value="come_to%2:29:00::"/>
+  <feat name="text" value="came to"/>
+ </struct>
+ <struct from="1652" id="v00024814_coll.a" to="1664" type="auto">
+  <feat name="wnsk" value="freshen_up%2:29:02::"/>
+  <feat name="text" value="freshened up"/>
+ </struct>
+ <struct from="1866" id="v00025510_coll.a" to="1875" type="man">
+  <feat name="wnsk" value="body_part%1:08:00::"/>
+  <feat name="text" value="body part"/>
+ </struct>
+ <struct from="1986" id="v00025985_coll.a" to="1999" type="auto">
+  <feat name="wnsk" value="mental_strain%1:26:00::"/>
+  <feat name="text" value="mental strain"/>
+ </struct>
+ <struct from="2114" id="v00026153_coll.a" to="2123" type="auto">
+  <feat name="wnsk" value="tense_up%2:29:01::"/>
+  <feat name="text" value="tensed up"/>
+ </struct>
+ <struct from="2625" id="v00027570_coll.a" to="2636" type="man">
+  <feat name="wnsk" value="stretch_out%2:38:00::"/>
+  <feat name="text" value="stretch out"/>
+ </struct>
+ <struct from="2690" id="v00027705_wf1" to="2696" type="part"/>
+ <node id="v00027705_coll.b.1" ref="v00027705_wf1" type="node"/>
+ <struct from="2707" id="v00027705_wf4" to="2710" type="part"/>
+ <node id="v00027705_coll.b.2" ref="v00027705_wf4" type="node"/>
+ <struct from="v00027705_coll.b.1" id="v00027705_coll.b" to="v00027705_coll.b.2" type="man">
+  <feat name="wnsk" value="thrust_out%2:38:00::"/>
+  <feat name="text" value="thrust out"/>
+ </struct>
+ <struct from="2715" id="v00027705_coll.a" to="2723" type="auto">
+  <feat name="wnsk" value="hold_out%2:29:00::"/>
+  <feat name="text" value="held out"/>
+ </struct>
+ <struct from="3042" id="v00028565_coll.a" to="3059" type="man">
+  <feat name="wnsk" value="facial_expression%1:10:00::"/>
+  <feat name="text" value="facial expression"/>
+ </struct>
+ <struct from="3268" id="v00029214_coll.b" to="3279" type="auto">
+  <feat name="wnsk" value="express_joy%2:29:00::"/>
+  <feat name="text" value="express joy"/>
+ </struct>
+ <struct from="3294" id="v00029214_coll.a" to="3311" type="man">
+  <feat name="wnsk" value="facial_expression%1:07:00::"/>
+  <feat name="text" value="facial expression"/>
+ </struct>
+ <struct from="3821" id="v00030853_coll.a" to="3839" type="auto">
+  <feat name="wnsk" value="drop_like_flies%2:29:00::"/>
+  <feat name="text" value="dropped like flies"/>
+ </struct>
+ <struct from="4010" id="v00031277_coll.a" to="4019" type="auto">
+  <feat name="wnsk" value="go_over%2:29:00::"/>
+  <feat name="text" value="went over"/>
+ </struct>
+ <struct from="4638" id="v00033599_coll.a" to="4655" type="man">
+  <feat name="wnsk" value="facial_expression%1:07:00::"/>
+  <feat name="text" value="facial expression"/>
+ </struct>
+ <struct from="4931" id="v00034288_wf8" to="4937" type="part"/>
+ <node id="v00034288_coll.b.1" ref="v00034288_wf8" type="node"/>
+ <struct from="4951" id="v00034288_wf11" to="4956" type="part"/>
+ <node id="v00034288_coll.b.2" ref="v00034288_wf11" type="node"/>
+ <struct from="v00034288_coll.b.1" id="v00034288_coll.b" to="v00034288_coll.b.2" type="auto">
+  <feat name="wnsk" value="mental_state%1:26:00::"/>
+  <feat name="text" value="mental state"/>
+ </struct>
+ <struct from="4941" id="v00034288_coll.a" to="4956" type="auto">
+  <feat name="wnsk" value="emotional_state%1:26:00::"/>
+  <feat name="text" value="emotional state"/>
+ </struct>
+ <struct from="5056" id="v00034634_coll.a" to="5064" type="auto">
+  <feat name="wnsk" value="screw_up%2:29:00::"/>
+  <feat name="text" value="screw up"/>
+ </struct>
+ <struct from="5077" id="v00034758_coll.b.1" to="5083" type="part"/>
+ <struct from="5088" id="v00034758_wf4" to="5092" type="part"/>
+ <node id="v00034758_coll.b.2" ref="v00034758_wf4" type="node"/>
+ <struct from="v00034758_coll.b.1" id="v00034758_coll.b" to="v00034758_coll.b.2" type="man">
+  <feat name="wnsk" value="make_a_face%2:29:00::"/>
+  <feat name="text" value="make a face"/>
+ </struct>
+ <struct from="5097" id="v00034758_coll.a" to="5107" type="man">
+  <feat name="wnsk" value="thrust_out%2:38:00::"/>
+  <feat name="text" value="thrust out"/>
+ </struct>
+ <struct from="5978" id="v00037298_coll.a" to="5987" type="auto">
+  <feat name="wnsk" value="body_hair%1:08:00::"/>
+  <feat name="text" value="body hair"/>
+ </struct>
+ <struct from="6009" id="v00037514_coll.a" to="6018" type="auto">
+  <feat name="wnsk" value="body_hair%1:08:00::"/>
+  <feat name="text" value="body hair"/>
+ </struct>
+ <struct from="6206" id="v00038199_coll.a" to="6219" type="auto">
+  <feat name="wnsk" value="bodily_cavity%1:08:00::"/>
+  <feat name="text" value="bodily cavity"/>
+ </struct>
+</cesAna>

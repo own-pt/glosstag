@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
+ <struct from="4" id="n13823150_wf2" to="9" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="17" id="n13823150_wf5" to="22" type="un">
+  <feat name="text" value="force"/>
+ </struct>
+ <struct from="23" id="n13823150_wf6" to="30" type="un">
+  <feat name="text" value="exerted"/>
+ </struct>
+ <struct from="36" id="n13823150_wf9" to="43" type="man">
+  <feat name="wnsk" value="machine%1:06:00::"/>
+  <feat name="text" value="machine"/>
+ </struct>
+ <struct from="51" id="n13823150_wf12" to="56" type="un">
+  <feat name="text" value="force"/>
+ </struct>
+ <struct from="57" id="n13823150_wf13" to="64" type="man">
+  <feat name="wnsk" value="apply%2:34:00::"/>
+  <feat name="text" value="applied"/>
+ </struct>
+ <struct from="76" id="n13823287_wf2" to="81" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="89" id="n13823287_wf5" to="95" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="99" id="n13823287_wf7" to="104" type="man">
+  <feat name="wnsk" value="mile%1:23:01::"/>
+  <feat name="text" value="miles"/>
+ </struct>
+ <struct from="105" id="n13823287_wf8" to="113" type="man">
+  <feat name="wnsk" value="travel%2:38:00::"/>
+  <feat name="text" value="traveled"/>
+ </struct>
+ <struct from="121" id="n13823287_wf11" to="127" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="131" id="n13823287_wf13" to="138" type="man">
+  <feat name="wnsk" value="gallon%1:23:01::"/>
+  <feat name="text" value="gallons"/>
+ </struct>
+ <struct from="142" id="n13823287_wf15" to="150" type="auto">
+  <feat name="wnsk" value="gasoline%1:27:00::"/>
+  <feat name="text" value="gasoline"/>
+ </struct>
+ <struct from="151" id="n13823287_wf16" to="157" type="un">
+  <feat name="text" value="burned"/>
+ </struct>
+ <struct from="163" id="n13823483_wf2" to="168" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="182" id="n13823483_wf6" to="190" type="man">
+  <feat name="wnsk" value="better%1:18:00::"/>
+  <feat name="text" value="better's"/>
+ </struct>
+ <struct from="191" id="n13823483_wf7" to="196" type="man">
+  <feat name="wnsk" value="wager%1:21:00::"/>
+  <feat name="text" value="wager"/>
+ </struct>
+ <struct from="197" id="n13823483_wf8" to="199" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="200" id="n13823483_wf9" to="207" type="un">
+  <feat name="text" value="greater"/>
+ </struct>
+ <struct from="233" id="n13823483_wf16" to="240" type="un">
+  <feat name="text" value="offered"/>
+ </struct>
+ <struct from="241" id="n13823483_wf17" to="245" type="auto">
+  <feat name="wnsk" value="odds%1:24:00::"/>
+  <feat name="text" value="odds"/>
+ </struct>
+ <struct from="263" id="n13823651_wf2" to="269" type="man">
+  <feat name="wnsk" value="number%1:23:00::"/>
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="270" id="n13823651_wf3" to="278" type="un">
+  <feat name="text" value="assigned"/>
+ </struct>
+ <struct from="286" id="n13823651_wf6" to="291" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="299" id="n13823651_wf9" to="309" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="315" id="n13823651_wf12" to="325" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="326" id="n13823651_wf13" to="329" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="337" id="n13823651_wf16" to="341" type="un">
+  <feat name="text" value="same"/>
+ </struct>
+ <struct from="368" id="n13823651_wf22" to="370" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="371" id="n13823651_wf23" to="375" type="man">
+  <feat name="wnsk" value="less%3:00:00::"/>
+  <feat name="text" value="less"/>
+ </struct>
+ <struct from="384" id="n13823651_wf26" to="389" type="un">
+  <feat name="text" value="times"/>
+ </struct>
+ <struct from="393" id="n13823651_wf28" to="398" type="man">
+  <feat name="wnsk" value="large%3:00:00::"/>
+  <feat name="text" value="large"/>
+ </struct>
+ <struct from="406" id="n13823651_wf31" to="411" type="un">
+  <feat name="text" value="other"/>
+ </struct>
+ <struct from="417" id="n13823651_wf34" to="423" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="427" id="n13823651_wf36" to="437" type="man">
+  <feat name="wnsk" value="magnitude%1:24:00::"/>
+  <feat name="text" value="magnitudes"/>
+ </struct>
+ <struct from="447" id="n13823651_wf39" to="457" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="458" id="n13823651_wf40" to="464" type="man">
+  <feat name="wnsk" value="differ%2:42:00::"/>
+  <feat name="text" value="differ"/>
+ </struct>
+ <struct from="465" id="n13823651_wf41" to="467" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="468" id="n13823651_wf42" to="477" type="un">
+  <feat name="text" value="specified"/>
+ </struct>
+ <struct from="481" id="n13823651_wf44" to="487" type="un">
+  <feat name="text" value="within"/>
+ </struct>
+ <struct from="490" id="n13823651_wf46" to="495" type="un">
+  <feat name="text" value="power"/>
+ </struct>
+ <struct from="507" id="n13823968_wf2" to="513" type="man">
+  <feat name="wnsk" value="output%1:10:02::"/>
+  <feat name="text" value="output"/>
+ </struct>
+ <struct from="514" id="n13823968_wf3" to="519" type="man">
+  <feat name="wnsk" value="power%1:19:00::"/>
+  <feat name="text" value="power"/>
+ </struct>
+ <struct from="525" id="n13823968_wf6" to="535" type="auto">
+  <feat name="wnsk" value="transducer%1:06:00::"/>
+  <feat name="text" value="transducer"/>
+ </struct>
+ <struct from="536" id="n13823968_wf7" to="543" type="man">
+  <feat name="wnsk" value="divide%2:31:00::"/>
+  <feat name="text" value="divided"/>
+ </struct>
+ <struct from="551" id="n13823968_wf10" to="556" type="un">
+  <feat name="text" value="input"/>
+ </struct>
+ <struct from="557" id="n13823968_wf11" to="562" type="man">
+  <feat name="wnsk" value="power%1:19:00::"/>
+  <feat name="text" value="power"/>
+ </struct>
+ <struct from="565" id="n13824114_tok2" to="577" type="un">
+  <feat name="text" value="epidemiology"/>
+ </struct>
+ <struct from="583" id="n13824114_wf2" to="588" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="596" id="n13824114_wf6" to="601" type="man">
+  <feat name="wnsk" value="given%3:00:00:acknowledged:00"/>
+  <feat name="text" value="given"/>
+ </struct>
+ <struct from="622" id="n13824114_wf12" to="628" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="632" id="n13824114_wf14" to="643" type="man">
+  <feat name="wnsk" value="occurrence%1:26:00::"/>
+  <feat name="text" value="occurrences"/>
+ </struct>
+ <struct from="649" id="n13824114_wf17" to="656" type="auto">
+  <feat name="wnsk" value="disease%1:26:00::"/>
+  <feat name="text" value="disease"/>
+ </struct>
+ <struct from="660" id="n13824114_wf19" to="665" type="man">
+  <feat name="wnsk" value="event%1:03:00::"/>
+  <feat name="text" value="event"/>
+ </struct>
+ <struct from="673" id="n13824114_wf22" to="679" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="683" id="n13824114_wf24" to="688" type="un">
+  <feat name="text" value="units"/>
+ </struct>
+ <struct from="692" id="n13824114_wf26" to="696" type="man">
+  <feat name="wnsk" value="risk%1:07:02::"/>
+  <feat name="text" value="risk"/>
+ </struct>
+ <struct from="704" id="n13824114_wf29" to="714" type="man">
+  <feat name="wnsk" value="population%1:23:00::"/>
+  <feat name="text" value="population"/>
+ </struct>
+ <struct from="717" id="n13824340_tok2" to="722" type="un">
+  <feat name="text" value="stock"/>
+ </struct>
+ <struct from="723" id="n13824340_tok3" to="729" type="un">
+  <feat name="text" value="market"/>
+ </struct>
+ <struct from="735" id="n13824340_wf2" to="740" type="man">
+  <feat name="wnsk" value="price%1:07:00::"/>
+  <feat name="wnsk" value="price%1:21:00::"/>
+  <feat name="text" value="price"/>
+ </struct>
+ <struct from="746" id="n13824340_wf5" to="751" type="un">
+  <feat name="text" value="stock"/>
+ </struct>
+ <struct from="752" id="n13824340_wf6" to="759" type="man">
+  <feat name="wnsk" value="divide%2:31:00::"/>
+  <feat name="text" value="divided"/>
+ </struct>
+ <struct from="767" id="n13824340_wf9" to="775" type="man">
+  <feat name="wnsk" value="earnings%1:21:01::"/>
+  <feat name="text" value="earnings"/>
+ </struct>
+ <struct from="778" id="n13824500_tok2" to="787" type="un">
+  <feat name="text" value="economics"/>
+ </struct>
+ <struct from="793" id="n13824500_wf2" to="798" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="806" id="n13824500_wf5" to="814" type="un">
+  <feat name="text" value="quantity"/>
+ </struct>
+ <struct from="819" id="n13824500_wf7" to="826" type="un">
+  <feat name="text" value="quality"/>
+ </struct>
+ <struct from="830" id="n13824500_wf9" to="835" type="un">
+  <feat name="text" value="units"/>
+ </struct>
+ <struct from="836" id="n13824500_wf10" to="844" type="man">
+  <feat name="wnsk" value="produce%2:36:00::"/>
+  <feat name="text" value="produced"/>
+ </struct>
+ <struct from="852" id="n13824500_wf13" to="857" type="man">
+  <feat name="wnsk" value="labor%1:04:00::"/>
+  <feat name="text" value="labor"/>
+ </struct>
+ <struct from="878" id="n13824675_wf2" to="883" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="891" id="n13824675_wf5" to="901" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="907" id="n13824675_wf7" to="909" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="910" id="n13824675_wf8" to="918" type="un">
+  <feat name="text" value="constant"/>
+ </struct>
+ <struct from="924" id="n13824815_wf2" to="929" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="937" id="n13824815_wf5" to="947" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="951" id="n13824815_wf7" to="953" type="un">
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="954" id="n13824815_wf8" to="961" type="man">
+  <feat name="wnsk" value="divide%2:31:00::"/>
+  <feat name="text" value="divided"/>
+ </struct>
+ <struct from="967" id="n13824929_wf2" to="972" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="980" id="n13824929_wf5" to="988" type="auto">
+  <feat name="wnsk" value="velocity%1:28:00::"/>
+  <feat name="text" value="velocity"/>
+ </struct>
+ <struct from="992" id="n13824929_wf7" to="997" type="man">
+  <feat name="wnsk" value="light%1:19:00::"/>
+  <feat name="text" value="light"/>
+ </struct>
+ <struct from="1003" id="n13824929_wf10" to="1009" type="man">
+  <feat name="wnsk" value="vacuum%1:26:00::"/>
+  <feat name="text" value="vacuum"/>
+ </struct>
+ <struct from="1023" id="n13824929_wf15" to="1029" type="un">
+  <feat name="text" value="medium"/>
+ </struct>
+ <struct from="1035" id="n13825080_wf2" to="1040" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1048" id="n13825080_wf5" to="1054" type="un">
+  <feat name="text" value="amount"/>
+ </struct>
+ <struct from="1058" id="n13825080_wf7" to="1063" type="man">
+  <feat name="wnsk" value="water%1:27:00::"/>
+  <feat name="text" value="water"/>
+ </struct>
+ <struct from="1071" id="n13825080_wf10" to="1074" type="man">
+  <feat name="wnsk" value="air%1:15:01::"/>
+  <feat name="text" value="air"/>
+ </struct>
+ <struct from="1080" id="n13825080_wf13" to="1084" type="un">
+  <feat name="text" value="give"/>
+ </struct>
+ <struct from="1085" id="n13825080_wf14" to="1096" type="un">
+  <feat name="text" value="temperature"/>
+ </struct>
+ <struct from="1104" id="n13825080_wf17" to="1111" type="man">
+  <feat name="wnsk" value="maximum%3:00:00::"/>
+  <feat name="text" value="maximum"/>
+ </struct>
+ <struct from="1112" id="n13825080_wf18" to="1118" type="un">
+  <feat name="text" value="amount"/>
+ </struct>
+ <struct from="1128" id="n13825080_wf21" to="1132" type="man">
+  <feat name="wnsk" value="hold%2:42:14::"/>
+  <feat name="text" value="hold"/>
+ </struct>
+ <struct from="1141" id="n13825080_wf24" to="1152" type="un">
+  <feat name="text" value="temperature"/>
+ </struct>
+ <struct from="1154" id="n13825080_wf26" to="1163" type="un">
+  <feat name="text" value="expressed"/>
+ </struct>
+ <struct from="1169" id="n13825080_wf29" to="1179" type="un">
+  <feat name="text" value="percentage"/>
+ </struct>
+ <struct from="1185" id="n13825292_wf2" to="1190" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1198" id="n13825292_wf5" to="1204" type="man">
+  <feat name="wnsk" value="volume%1:23:00::"/>
+  <feat name="text" value="volume"/>
+ </struct>
+ <struct from="1223" id="n13825292_wf9" to="1230" type="man">
+  <feat name="wnsk" value="expire%2:29:00::"/>
+  <feat name="text" value="expired"/>
+ </struct>
+ <struct from="1238" id="n13825292_wf12" to="1244" type="man">
+  <feat name="wnsk" value="volume%1:23:00::"/>
+  <feat name="text" value="volume"/>
+ </struct>
+ <struct from="1248" id="n13825292_wf14" to="1254" type="auto">
+  <feat name="wnsk" value="oxygen%1:27:00::"/>
+  <feat name="text" value="oxygen"/>
+ </struct>
+ <struct from="1255" id="n13825292_wf15" to="1263" type="man">
+  <feat name="wnsk" value="consume%2:34:01::"/>
+  <feat name="text" value="consumed"/>
+ </struct>
+ <struct from="1270" id="n13825292_wf18" to="1278" type="man">
+  <feat name="wnsk" value="organism%1:03:00::"/>
+  <feat name="text" value="organism"/>
+ </struct>
+ <struct from="1282" id="n13825292_wf20" to="1286" type="man">
+  <feat name="wnsk" value="cell%1:03:00::"/>
+  <feat name="text" value="cell"/>
+ </struct>
+ <struct from="1292" id="n13825292_wf23" to="1297" type="man">
+  <feat name="wnsk" value="given%3:00:00:acknowledged:00"/>
+  <feat name="text" value="given"/>
+ </struct>
+ <struct from="1318" id="n13825490_wf2" to="1323" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1331" id="n13825490_wf5" to="1339" type="man">
+  <feat name="wnsk" value="break%2:30:10::"/>
+  <feat name="text" value="breaking"/>
+ </struct>
+ <struct from="1340" id="n13825490_wf6" to="1346" type="man">
+  <feat name="wnsk" value="stress%1:19:00::"/>
+  <feat name="text" value="stress"/>
+ </struct>
+ <struct from="1352" id="n13825490_wf9" to="1361" type="man">
+  <feat name="wnsk" value="structure%1:06:00::"/>
+  <feat name="text" value="structure"/>
+ </struct>
+ <struct from="1369" id="n13825490_wf12" to="1378" type="un">
+  <feat name="text" value="estimated"/>
+ </struct>
+ <struct from="1379" id="n13825490_wf13" to="1386" type="man">
+  <feat name="wnsk" value="maximum%3:00:00::"/>
+  <feat name="text" value="maximum"/>
+ </struct>
+ <struct from="1387" id="n13825490_wf14" to="1393" type="man">
+  <feat name="wnsk" value="stress%1:19:00::"/>
+  <feat name="text" value="stress"/>
+ </struct>
+ <struct from="1397" id="n13825490_wf16" to="1405" type="man">
+  <feat name="wnsk" value="ordinary%3:00:00::"/>
+  <feat name="text" value="ordinary"/>
+ </struct>
+ <struct from="1406" id="n13825490_wf17" to="1409" type="un">
+  <feat name="text" value="use"/>
+ </struct>
+ <struct from="1415" id="n13825664_wf2" to="1420" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1424" id="n13825664_wf4" to="1430" type="un">
+  <feat name="text" value="signal"/>
+ </struct>
+ <struct from="1431" id="n13825664_wf5" to="1440" type="man">
+  <feat name="wnsk" value="intensity%1:07:03::"/>
+  <feat name="text" value="intensity"/>
+ </struct>
+ <struct from="1444" id="n13825664_wf7" to="1449" type="man">
+  <feat name="wnsk" value="noise%1:11:01::"/>
+  <feat name="text" value="noise"/>
+ </struct>
+ <struct from="1450" id="n13825664_wf8" to="1459" type="man">
+  <feat name="wnsk" value="intensity%1:07:03::"/>
+  <feat name="text" value="intensity"/>
+ </struct>
+ <struct from="1462" id="n13825840_tok2" to="1471" type="un">
+  <feat name="text" value="chemistry"/>
+ </struct>
+ <struct from="1477" id="n13825840_wf2" to="1485" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="1486" id="n13825840_wf3" to="1493" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="1498" id="n13825840_wf5" to="1508" type="un">
+  <feat name="text" value="quantities"/>
+ </struct>
+ <struct from="1512" id="n13825840_wf7" to="1522" type="un">
+  <feat name="text" value="substances"/>
+ </struct>
+ <struct from="1543" id="n13825840_wf13" to="1551" type="man">
+  <feat name="wnsk" value="reaction%1:22:00::"/>
+  <feat name="text" value="reaction"/>
+ </struct>
+ <struct from="1555" id="n13825840_wf15" to="1559" type="man">
+  <feat name="wnsk" value="form%2:42:00::"/>
+  <feat name="text" value="form"/>
+ </struct>
+ <struct from="1562" id="n13825840_wf17" to="1570" type="man">
+  <feat name="wnsk" value="compound%1:27:00::"/>
+  <feat name="text" value="compound"/>
+ </struct>
+ <struct from="1572" id="n13825840_wf19" to="1581" type="auto">
+  <feat name="wnsk" value="typically%4:02:00::"/>
+  <feat name="text" value="typically"/>
+ </struct>
+ <struct from="1584" id="n13825840_wf21" to="1589" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1593" id="n13825840_wf23" to="1598" type="un">
+  <feat name="text" value="whole"/>
+ </struct>
+ <struct from="1599" id="n13825840_wf24" to="1607" type="auto">
+  <feat name="wnsk" value="integer%1:23:00::"/>
+  <feat name="text" value="integers"/>
+ </struct>
+ <struct from="1614" id="n13826084_wf2" to="1619" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1627" id="n13826084_wf5" to="1637" type="man">
+  <feat name="wnsk" value="inductance%1:19:00::"/>
+  <feat name="text" value="inductance"/>
+ </struct>
+ <struct from="1643" id="n13826084_wf8" to="1650" type="man">
+  <feat name="wnsk" value="circuit%1:06:00::"/>
+  <feat name="text" value="circuit"/>
+ </struct>
+ <struct from="1654" id="n13826084_wf10" to="1661" type="auto">
+  <feat name="wnsk" value="henry%1:23:00::"/>
+  <feat name="text" value="henries"/>
+ </struct>
+ <struct from="1669" id="n13826084_wf13" to="1679" type="man">
+  <feat name="wnsk" value="resistance%1:19:01::"/>
+  <feat name="text" value="resistance"/>
+ </struct>
+ <struct from="1683" id="n13826084_wf15" to="1687" type="auto">
+  <feat name="wnsk" value="ohm%1:23:00::"/>
+  <feat name="text" value="ohms"/>
+ </struct>
+ <struct from="1693" id="n13826221_wf2" to="1698" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1706" id="n13826221_wf5" to="1712" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="1716" id="n13826221_wf7" to="1723" type="man">
+  <feat name="wnsk" value="worker%1:18:00::"/>
+  <feat name="text" value="workers"/>
+ </struct>
+ <struct from="1729" id="n13826221_wf9" to="1732" type="un">
+  <feat name="text" value="had"/>
+ </struct>
+ <struct from="1736" id="n13826221_wf11" to="1738" type="un">
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="1739" id="n13826221_wf12" to="1747" type="un">
+  <feat name="text" value="replaced"/>
+ </struct>
+ <struct from="1753" id="n13826221_wf15" to="1758" type="man">
+  <feat name="wnsk" value="given%3:00:00:acknowledged:00"/>
+  <feat name="text" value="given"/>
+ </struct>
+ <struct from="1778" id="n13826221_wf20" to="1785" type="un">
+  <feat name="text" value="average"/>
+ </struct>
+ <struct from="1786" id="n13826221_wf21" to="1792" type="un">
+  <feat name="text" value="number"/>
+ </struct>
+ <struct from="1796" id="n13826221_wf23" to="1803" type="man">
+  <feat name="wnsk" value="worker%1:18:00::"/>
+  <feat name="text" value="workers"/>
+ </struct>
+ <struct from="1809" id="n13826426_wf2" to="1814" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1822" id="n13826426_wf5" to="1827" type="un">
+  <feat name="text" value="gross"/>
+ </struct>
+ <struct from="1828" id="n13826426_wf6" to="1834" type="man">
+  <feat name="wnsk" value="weight%1:07:00::"/>
+  <feat name="text" value="weight"/>
+ </struct>
+ <struct from="1841" id="n13826426_wf9" to="1849" type="auto">
+  <feat name="wnsk" value="airplane%1:06:00::"/>
+  <feat name="text" value="airplane"/>
+ </struct>
+ <struct from="1858" id="n13826426_wf12" to="1864" type="man">
+  <feat name="wnsk" value="factor%1:23:01::"/>
+  <feat name="text" value="factor"/>
+ </struct>
+ <struct from="1865" id="n13826426_wf13" to="1876" type="un">
+  <feat name="text" value="determining"/>
+ </struct>
+ <struct from="1881" id="n13826426_wf15" to="1885" type="un">
+  <feat name="text" value="lift"/>
+ </struct>
+ <struct from="1891" id="n13826614_wf2" to="1896" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1904" id="n13826614_wf5" to="1910" type="man">
+  <feat name="wnsk" value="weight%1:07:00::"/>
+  <feat name="text" value="weight"/>
+ </struct>
+ <struct from="1917" id="n13826614_wf8" to="1925" type="auto">
+  <feat name="wnsk" value="airplane%1:06:00::"/>
+  <feat name="text" value="airplane"/>
+ </struct>
+ <struct from="1933" id="n13826614_wf11" to="1939" type="man">
+  <feat name="wnsk" value="engine%1:06:00::"/>
+  <feat name="text" value="engine"/>
+ </struct>
+ <struct from="1940" id="n13826614_wf12" to="1945" type="un">
+  <feat name="text" value="power"/>
+ </struct>
+ <struct from="1951" id="n13826732_wf2" to="1956" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="1964" id="n13826732_wf5" to="1970" type="man">
+  <feat name="wnsk" value="weight%1:07:00::"/>
+  <feat name="text" value="weight"/>
+ </struct>
+ <struct from="1977" id="n13826732_wf8" to="1985" type="auto">
+  <feat name="wnsk" value="airplane%1:06:00::"/>
+  <feat name="text" value="airplane"/>
+ </struct>
+ <struct from="1993" id="n13826732_wf11" to="2001" type="auto">
+  <feat name="wnsk" value="wingspan%1:07:00::"/>
+  <feat name="text" value="wingspan"/>
+ </struct>
+ <struct from="2007" id="n13826845_wf2" to="2012" type="un">
+  <feat name="text" value="ratio"/>
+ </struct>
+ <struct from="2020" id="n13826845_wf5" to="2026" type="man">
+  <feat name="wnsk" value="weight%1:07:00::"/>
+  <feat name="text" value="weight"/>
+ </struct>
+ <struct from="2033" id="n13826845_wf8" to="2041" type="auto">
+  <feat name="wnsk" value="airplane%1:06:00::"/>
+  <feat name="text" value="airplane"/>
+ </struct>
+ <struct from="2049" id="n13826845_wf11" to="2053" type="man">
+  <feat name="wnsk" value="wing%1:06:00::"/>
+  <feat name="text" value="wing"/>
+ </struct>
+ <struct from="2054" id="n13826845_wf12" to="2058" type="man">
+  <feat name="wnsk" value="area%1:07:00::"/>
+  <feat name="text" value="area"/>
+ </struct>
+ <struct from="2086" id="n13826959_wf5" to="2096" type="man">
+  <feat name="wnsk" value="occurrence%1:26:00::"/>
+  <feat name="text" value="occurrence"/>
+ </struct>
+ <struct from="2139" id="n13827103_wf6" to="2149" type="un">
+  <feat name="text" value="particular"/>
+ </struct>
+ <struct from="2150" id="n13827103_wf7" to="2157" type="auto">
+  <feat name="wnsk" value="disease%1:26:00::"/>
+  <feat name="text" value="disease"/>
+ </struct>
+ <struct from="2161" id="n13827205_wf2" to="2169" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="2173" id="n13827205_wf4" to="2183" type="man">
+  <feat name="wnsk" value="constraint%1:04:00::"/>
+  <feat name="text" value="constraint"/>
+ </struct>
+ <struct from="2191" id="n13827205_wf7" to="2197" type="auto">
+  <feat name="wnsk" value="entity%1:03:00::"/>
+  <feat name="text" value="entity"/>
+ </struct>
+ <struct from="2199" id="n13827205_wf9" to="2204" type="man">
+  <feat name="wnsk" value="thing%1:06:01::"/>
+  <feat name="text" value="thing"/>
+ </struct>
+ <struct from="2208" id="n13827205_wf11" to="2214" type="man">
+  <feat name="wnsk" value="person%1:03:00::"/>
+  <feat name="text" value="person"/>
+ </struct>
+ <struct from="2218" id="n13827205_wf13" to="2223" type="man">
+  <feat name="wnsk" value="group%1:03:00::"/>
+  <feat name="text" value="group"/>
+ </struct>
+ <struct from="2237" id="n13827205_wf18" to="2245" type="un">
+  <feat name="text" value="measures"/>
+ </struct>
+ <struct from="2254" id="n13827205_wf21" to="2261" type="auto">
+  <feat name="wnsk" value="control%1:24:00::"/>
+  <feat name="text" value="control"/>
+ </struct>
+ <struct from="2265" id="n13827205_wf23" to="2272" type="un">
+  <feat name="text" value="disease"/>
+ </struct>
+ <struct from="2279" id="n13827205_wf26" to="2289" type="un">
+  <feat name="text" value="instituted"/>
+ </struct>
+ <struct from="2290" id="n13827205_wf27" to="2298" type="auto">
+  <feat name="wnsk" value="control%1:24:00::"/>
+  <feat name="text" value="controls"/>
+ </struct>
+ <struct from="2299" id="n13827205_wf28" to="2303" type="un">
+  <feat name="text" value="over"/>
+ </struct>
+ <struct from="2304" id="n13827205_wf29" to="2312" type="un">
+  <feat name="text" value="drinking"/>
+ </struct>
+ <struct from="2316" id="n13827205_wf31" to="2322" type="un">
+  <feat name="text" value="campus"/>
+ </struct>
+ <struct from="2345" id="n13827426_wf4" to="2352" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="2371" id="n13827426_wf8" to="2377" type="man">
+  <feat name="wnsk" value="course%1:17:00::"/>
+  <feat name="text" value="course"/>
+ </struct>
+ <struct from="2378" id="n13827426_wf9" to="2383" type="un">
+  <feat name="text" value="along"/>
+ </struct>
+ <struct from="2393" id="n13827426_wf12" to="2399" type="man">
+  <feat name="wnsk" value="point%2:33:10::"/>
+  <feat name="text" value="points"/>
+ </struct>
+ <struct from="2403" id="n13827426_wf14" to="2408" type="un">
+  <feat name="text" value="moves"/>
+ </struct>
+ <struct from="2413" id="n13827426_wf17" to="2420" type="un">
+  <feat name="text" value="checked"/>
+ </struct>
+ <struct from="2425" id="n13827426_wf19" to="2434" type="auto">
+  <feat name="wnsk" value="direction%1:24:00::"/>
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="2439" id="n13827426_wf21" to="2447" type="un">
+  <feat name="text" value="velocity"/>
+ </struct>
+ <struct from="2455" id="n13827426_wf24" to="2459" type="un">
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="2465" id="n13827943_wf2" to="2474" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="2495" id="n13827943_wf7" to="2499" type="un">
+  <feat name="text" value="such"/>
+ </struct>
+ <struct from="2505" id="n13827943_wf10" to="2513" type="man">
+  <feat name="wnsk" value="building%1:06:00::"/>
+  <feat name="text" value="building"/>
+ </struct>
+ <struct from="2515" id="n13827943_wf12" to="2520" type="man">
+  <feat name="wnsk" value="face%2:42:00::"/>
+  <feat name="text" value="faces"/>
+ </struct>
+ <struct from="2522" id="n13828075_wf1" to="2530" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="2534" id="n13828075_wf3" to="2543" type="man">
+  <feat name="wnsk" value="alignment%1:07:00::"/>
+  <feat name="text" value="alignment"/>
+ </struct>
+ <struct from="2544" id="n13828075_wf4" to="2552" type="man">
+  <feat name="wnsk" value="relative%3:00:00:proportionate:00"/>
+  <feat name="text" value="relative"/>
+ </struct>
+ <struct from="2556" id="n13828075_wf6" to="2562" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="points"/>
+ </struct>
+ <struct from="2570" id="n13828075_wf9" to="2577" type="man">
+  <feat name="wnsk" value="compass%1:06:00::"/>
+  <feat name="text" value="compass"/>
+ </struct>
+ <struct from="2581" id="n13828075_wf11" to="2586" type="un">
+  <feat name="text" value="other"/>
+ </struct>
+ <struct from="2587" id="n13828075_wf12" to="2595" type="un">
+  <feat name="text" value="specific"/>
+ </struct>
+ <struct from="2596" id="n13828075_wf13" to="2606" type="un">
+  <feat name="text" value="directions"/>
+ </struct>
+ <struct from="2608" id="n13828343_wf1" to="2616" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="2620" id="n13828343_wf3" to="2628" type="auto">
+  <feat name="wnsk" value="aircraft%1:06:00::"/>
+  <feat name="text" value="aircraft"/>
+ </struct>
+ <struct from="2632" id="n13828343_wf5" to="2642" type="auto">
+  <feat name="wnsk" value="spacecraft%1:06:00::"/>
+  <feat name="text" value="spacecraft"/>
+ </struct>
+ <struct from="2643" id="n13828343_wf6" to="2651" type="man">
+  <feat name="wnsk" value="relative%3:00:00:proportionate:00"/>
+  <feat name="text" value="relative"/>
+ </struct>
+ <struct from="2681" id="n13828343_wf14" to="2688" type="man">
+  <feat name="wnsk" value="horizon%1:15:00::"/>
+  <feat name="text" value="horizon"/>
+ </struct>
+ <struct from="2692" id="n13828343_wf16" to="2701" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="2705" id="n13828343_wf18" to="2711" type="man">
+  <feat name="wnsk" value="motion%1:11:00::"/>
+  <feat name="text" value="motion"/>
+ </struct>
+ <struct from="2714" id="n13828520_wf1" to="2722" type="man">
+  <feat name="wnsk" value="attitude%1:24:00::"/>
+  <feat name="text" value="attitude"/>
+ </struct>
+ <struct from="2729" id="n13828520_wf4" to="2737" type="auto">
+  <feat name="wnsk" value="aircraft%1:06:00::"/>
+  <feat name="text" value="aircraft"/>
+ </struct>
+ <struct from="2753" id="n13828520_wf8" to="2760" type="un">
+  <feat name="text" value="allowed"/>
+ </struct>
+ <struct from="2764" id="n13828520_wf10" to="2768" type="un">
+  <feat name="text" value="take"/>
+ </struct>
+ <struct from="2773" id="n13828520_wf12" to="2776" type="man">
+  <feat name="wnsk" value="own%3:00:00:personal:00"/>
+  <feat name="text" value="own"/>
+ </struct>
+ <struct from="2777" id="n13828520_wf13" to="2788" type="man">
+  <feat name="wnsk" value="orientation%1:24:00::"/>
+  <feat name="text" value="orientation"/>
+ </struct>
+ <struct from="2805" id="n13828681_wf3" to="2807" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="2808" id="n13828681_wf4" to="2816" type="man">
+  <feat name="wnsk" value="orient%2:42:00::"/>
+  <feat name="text" value="oriented"/>
+ </struct>
+ <struct from="2817" id="n13828681_wf5" to="2829" type="auto">
+  <feat name="wnsk" value="horizontally%4:02:00::"/>
+  <feat name="text" value="horizontally"/>
+ </struct>
+ <struct from="2846" id="n13828795_wf3" to="2848" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="2849" id="n13828795_wf4" to="2857" type="man">
+  <feat name="wnsk" value="orient%2:42:00::"/>
+  <feat name="text" value="oriented"/>
+ </struct>
+ <struct from="2858" id="n13828795_wf5" to="2868" type="auto">
+  <feat name="wnsk" value="vertically%4:02:00::"/>
+  <feat name="text" value="vertically"/>
+ </struct>
+ <struct from="2872" id="n13828905_wf2" to="2881" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="2882" id="n13828905_wf3" to="2890" type="un">
+  <feat name="text" value="opposite"/>
+ </struct>
+ <struct from="2907" id="n13829047_wf2" to="2915" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="2919" id="n13829047_wf4" to="2929" type="man">
+  <feat name="wnsk" value="opposition%1:24:00::"/>
+  <feat name="text" value="opposition"/>
+ </struct>
+ <struct from="2930" id="n13829047_wf5" to="2937" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="2938" id="n13829047_wf6" to="2944" type="man">
+  <feat name="wnsk" value="thing%1:06:01::"/>
+  <feat name="text" value="things"/>
+ </struct>
+ <struct from="2966" id="n13829243_wf2" to="2974" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="2978" id="n13829243_wf4" to="2988" type="man">
+  <feat name="wnsk" value="opposition%1:24:00::"/>
+  <feat name="text" value="opposition"/>
+ </struct>
+ <struct from="2989" id="n13829243_wf5" to="2994" type="un">
+  <feat name="text" value="along"/>
+ </struct>
+ <struct from="2997" id="n13829243_wf7" to="3005" type="man">
+  <feat name="wnsk" value="diameter%1:07:00::"/>
+  <feat name="text" value="diameter"/>
+ </struct>
+ <struct from="3011" id="n13829408_wf2" to="3019" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="3023" id="n13829408_wf4" to="3033" type="man">
+  <feat name="wnsk" value="opposition%1:24:00::"/>
+  <feat name="text" value="opposition"/>
+ </struct>
+ <struct from="3034" id="n13829408_wf5" to="3041" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="3042" id="n13829408_wf6" to="3050" type="man">
+  <feat name="wnsk" value="crystal%1:27:00::"/>
+  <feat name="text" value="crystals"/>
+ </struct>
+ <struct from="3054" id="n13829408_wf8" to="3063" type="man">
+  <feat name="wnsk" value="molecule%1:27:00::"/>
+  <feat name="text" value="molecules"/>
+ </struct>
+ <struct from="3069" id="n13829408_wf10" to="3072" type="un">
+  <feat name="text" value="are"/>
+ </struct>
+ <struct from="3073" id="n13829408_wf11" to="3084" type="man">
+  <feat name="wnsk" value="reflection%1:07:02::"/>
+  <feat name="text" value="reflections"/>
+ </struct>
+ <struct from="3105" id="n13829586_wf2" to="3114" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="3130" id="n13829586_wf6" to="3134" type="man">
+  <feat name="wnsk" value="wind%1:19:00::"/>
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="3135" id="n13829586_wf7" to="3137" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3138" id="n13829586_wf8" to="3144" type="un">
+  <feat name="text" value="coming"/>
+ </struct>
+ <struct from="3150" id="n13829720_wf2" to="3154" type="un">
+  <feat name="text" value="side"/>
+ </struct>
+ <struct from="3166" id="n13829720_wf5" to="3170" type="man">
+  <feat name="wnsk" value="wind%1:19:00::"/>
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="3176" id="n13829848_wf2" to="3185" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="3199" id="n13829848_wf6" to="3203" type="man">
+  <feat name="wnsk" value="wind%1:19:00::"/>
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="3204" id="n13829848_wf7" to="3206" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3207" id="n13829848_wf8" to="3214" type="man">
+  <feat name="wnsk" value="blow%2:43:00::"/>
+  <feat name="text" value="blowing"/>
+ </struct>
+ <struct from="3220" id="n13829980_wf2" to="3224" type="un">
+  <feat name="text" value="side"/>
+ </struct>
+ <struct from="3225" id="n13829980_wf3" to="3234" type="man">
+  <feat name="wnsk" value="shelter%2:42:00::"/>
+  <feat name="text" value="sheltered"/>
+ </struct>
+ <struct from="3244" id="n13829980_wf6" to="3248" type="man">
+  <feat name="wnsk" value="wind%1:19:00::"/>
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="3254" id="n13830084_wf2" to="3263" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="3275" id="n13830084_wf5" to="3278" type="man">
+  <feat name="wnsk" value="sea%1:17:00::"/>
+  <feat name="text" value="sea"/>
+ </struct>
+ <struct from="3296" id="n13830166_wf5" to="3301" type="man">
+  <feat name="wnsk" value="major%3:00:01::"/>
+  <feat name="text" value="major"/>
+ </struct>
+ <struct from="3302" id="n13830166_wf6" to="3310" type="man">
+  <feat name="wnsk" value="division%1:09:00::"/>
+  <feat name="text" value="division"/>
+ </struct>
+ <struct from="3318" id="n13830166_wf9" to="3325" type="man">
+  <feat name="wnsk" value="compass%1:06:00::"/>
+  <feat name="text" value="compass"/>
+ </struct>
+ <struct from="3331" id="n13830166_wf12" to="3335" type="un">
+  <feat name="text" value="wind"/>
+ </struct>
+ <struct from="3336" id="n13830166_wf13" to="3338" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3339" id="n13830166_wf14" to="3345" type="un">
+  <feat name="text" value="coming"/>
+ </struct>
+ <struct from="3356" id="n13830166_wf17" to="3363" type="auto">
+  <feat name="wnsk" value="quarter%1:24:00::"/>
+  <feat name="text" value="quarter"/>
+ </struct>
+ <struct from="3375" id="n13830305_wf4" to="3385" type="man">
+  <feat name="wnsk" value="horizontal%3:00:00::"/>
+  <feat name="text" value="horizontal"/>
+ </struct>
+ <struct from="3386" id="n13830305_wf5" to="3396" type="un">
+  <feat name="text" value="directions"/>
+ </struct>
+ <struct from="3397" id="n13830305_wf6" to="3406" type="un">
+  <feat name="text" value="indicated"/>
+ </struct>
+ <struct from="3414" id="n13830305_wf9" to="3418" type="man">
+  <feat name="wnsk" value="card%1:27:00::"/>
+  <feat name="text" value="card"/>
+ </struct>
+ <struct from="3424" id="n13830305_wf12" to="3431" type="man">
+  <feat name="wnsk" value="compass%1:06:00::"/>
+  <feat name="text" value="compass"/>
+ </struct>
+ <struct from="3436" id="n13830305_wf15" to="3443" type="un">
+  <feat name="text" value="checked"/>
+ </struct>
+ <struct from="3448" id="n13830305_wf17" to="3453" type="auto">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="3461" id="n13830305_wf20" to="3468" type="un">
+  <feat name="text" value="compass"/>
+ </struct>
+ <struct from="3486" id="n13831000_wf5" to="3490" type="man">
+  <feat name="wnsk" value="main%3:00:00:important:00"/>
+  <feat name="text" value="main"/>
+ </struct>
+ <struct from="3539" id="n13831176_wf6" to="3541" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3554" id="n13831176_wf11" to="3561" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="3586" id="n13831310_wf5" to="3588" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3593" id="n13831310_wf7" to="3598" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="3599" id="n13831310_wf8" to="3603" type="man">
+  <feat name="wnsk" value="east%4:02:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="3605" id="n13831310_wf10" to="3614" type="man">
+  <feat name="wnsk" value="clockwise%3:00:00::"/>
+  <feat name="text" value="clockwise"/>
+ </struct>
+ <struct from="3634" id="n13831441_wf2" to="3643" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="3655" id="n13831441_wf6" to="3662" type="man">
+  <feat name="wnsk" value="compass%1:06:00::"/>
+  <feat name="text" value="compass"/>
+ </struct>
+ <struct from="3663" id="n13831441_wf7" to="3669" type="man">
+  <feat name="wnsk" value="needle%1:20:00::"/>
+  <feat name="text" value="needle"/>
+ </struct>
+ <struct from="3670" id="n13831441_wf8" to="3676" type="man">
+  <feat name="wnsk" value="point%2:42:00::"/>
+  <feat name="text" value="points"/>
+ </struct>
+ <struct from="3701" id="n13831572_wf5" to="3703" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3704" id="n13831572_wf6" to="3710" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="3711" id="n13831572_wf7" to="3718" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="3719" id="n13831572_wf8" to="3724" type="man">
+  <feat name="wnsk" value="north%1:24:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="3729" id="n13831572_wf10" to="3738" type="man">
+  <feat name="wnsk" value="northeast%1:24:00::"/>
+  <feat name="text" value="northeast"/>
+ </struct>
+ <struct from="3763" id="n13831717_wf5" to="3765" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3770" id="n13831717_wf7" to="3775" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="3776" id="n13831717_wf8" to="3781" type="man">
+  <feat name="wnsk" value="north%3:00:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="3785" id="n13831717_wf10" to="3794" type="man">
+  <feat name="wnsk" value="northeast%1:24:00::"/>
+  <feat name="text" value="northeast"/>
+ </struct>
+ <struct from="3814" id="n13831843_wf4" to="3820" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="3821" id="n13831843_wf5" to="3828" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="3829" id="n13831843_wf6" to="3834" type="man">
+  <feat name="wnsk" value="north%1:24:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="3839" id="n13831843_wf8" to="3843" type="man">
+  <feat name="wnsk" value="east%1:24:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="3851" id="n13831843_wf12" to="3858" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="3883" id="n13831994_wf5" to="3885" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3890" id="n13831994_wf7" to="3895" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="3896" id="n13831994_wf8" to="3900" type="man">
+  <feat name="wnsk" value="east%4:02:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="3904" id="n13831994_wf10" to="3913" type="man">
+  <feat name="wnsk" value="northeast%1:24:00::"/>
+  <feat name="text" value="northeast"/>
+ </struct>
+ <struct from="3933" id="n13832118_wf4" to="3939" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="3940" id="n13832118_wf5" to="3947" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="3948" id="n13832118_wf6" to="3957" type="man">
+  <feat name="wnsk" value="northeast%1:24:00::"/>
+  <feat name="text" value="northeast"/>
+ </struct>
+ <struct from="3962" id="n13832118_wf8" to="3966" type="man">
+  <feat name="wnsk" value="east%1:24:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="3991" id="n13832236_wf5" to="3993" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="3998" id="n13832236_wf7" to="4003" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4004" id="n13832236_wf8" to="4009" type="man">
+  <feat name="wnsk" value="north%3:00:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="4055" id="n13832355_wf6" to="4057" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4064" id="n13832355_wf9" to="4071" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="4096" id="n13832480_wf5" to="4098" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4103" id="n13832480_wf7" to="4108" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4109" id="n13832480_wf8" to="4114" type="man">
+  <feat name="wnsk" value="south%3:00:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4146" id="n13832599_wf4" to="4152" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4153" id="n13832599_wf5" to="4160" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4161" id="n13832599_wf6" to="4165" type="man">
+  <feat name="wnsk" value="east%1:24:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="4170" id="n13832599_wf8" to="4179" type="man">
+  <feat name="wnsk" value="southeast%1:24:00::"/>
+  <feat name="text" value="southeast"/>
+ </struct>
+ <struct from="4204" id="n13832717_wf5" to="4206" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4211" id="n13832717_wf7" to="4216" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4217" id="n13832717_wf8" to="4221" type="man">
+  <feat name="wnsk" value="east%4:02:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="4225" id="n13832717_wf10" to="4234" type="man">
+  <feat name="wnsk" value="southeast%1:24:00::"/>
+  <feat name="text" value="southeast"/>
+ </struct>
+ <struct from="4254" id="n13832841_wf4" to="4260" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4261" id="n13832841_wf5" to="4268" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4269" id="n13832841_wf6" to="4274" type="man">
+  <feat name="wnsk" value="south%1:24:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4279" id="n13832841_wf8" to="4283" type="man">
+  <feat name="wnsk" value="east%1:24:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="4292" id="n13832841_wf12" to="4299" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="4324" id="n13832993_wf5" to="4326" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4331" id="n13832993_wf7" to="4336" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4337" id="n13832993_wf8" to="4342" type="man">
+  <feat name="wnsk" value="south%3:00:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4346" id="n13832993_wf10" to="4355" type="man">
+  <feat name="wnsk" value="southeast%1:24:00::"/>
+  <feat name="text" value="southeast"/>
+ </struct>
+ <struct from="4375" id="n13833119_wf4" to="4381" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4382" id="n13833119_wf5" to="4389" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4390" id="n13833119_wf6" to="4395" type="man">
+  <feat name="wnsk" value="south%1:24:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4400" id="n13833119_wf8" to="4409" type="man">
+  <feat name="wnsk" value="southeast%1:24:00::"/>
+  <feat name="text" value="southeast"/>
+ </struct>
+ <struct from="4434" id="n13833256_wf5" to="4436" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4441" id="n13833256_wf7" to="4446" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4447" id="n13833256_wf8" to="4451" type="man">
+  <feat name="wnsk" value="east%4:02:00::"/>
+  <feat name="text" value="east"/>
+ </struct>
+ <struct from="4498" id="n13833375_wf6" to="4500" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4508" id="n13833375_wf9" to="4515" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="4540" id="n13833504_wf5" to="4542" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4547" id="n13833504_wf7" to="4552" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4553" id="n13833504_wf8" to="4557" type="man">
+  <feat name="wnsk" value="west%3:00:00::"/>
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="4590" id="n13833623_wf4" to="4596" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4597" id="n13833623_wf5" to="4604" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4605" id="n13833623_wf6" to="4610" type="man">
+  <feat name="wnsk" value="south%1:24:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4615" id="n13833623_wf8" to="4624" type="man">
+  <feat name="wnsk" value="southwest%1:24:00::"/>
+  <feat name="text" value="southwest"/>
+ </struct>
+ <struct from="4649" id="n13833760_wf5" to="4651" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4656" id="n13833760_wf7" to="4661" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4662" id="n13833760_wf8" to="4667" type="man">
+  <feat name="wnsk" value="south%3:00:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4671" id="n13833760_wf10" to="4680" type="un">
+  <feat name="text" value="southwest"/>
+ </struct>
+ <struct from="4700" id="n13833886_wf4" to="4706" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4707" id="n13833886_wf5" to="4714" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4715" id="n13833886_wf6" to="4720" type="man">
+  <feat name="wnsk" value="south%1:24:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4725" id="n13833886_wf8" to="4729" type="un">
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="4738" id="n13833886_wf12" to="4745" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="4770" id="n13834038_wf5" to="4772" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4777" id="n13834038_wf7" to="4782" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4783" id="n13834038_wf8" to="4787" type="man">
+  <feat name="wnsk" value="west%3:00:00::"/>
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="4791" id="n13834038_wf10" to="4800" type="un">
+  <feat name="text" value="southwest"/>
+ </struct>
+ <struct from="4820" id="n13834162_wf4" to="4826" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="4827" id="n13834162_wf5" to="4834" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="4835" id="n13834162_wf6" to="4839" type="un">
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="4844" id="n13834162_wf8" to="4853" type="un">
+  <feat name="text" value="southwest"/>
+ </struct>
+ <struct from="4878" id="n13834280_wf5" to="4880" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4885" id="n13834280_wf7" to="4890" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4891" id="n13834280_wf8" to="4896" type="man">
+  <feat name="wnsk" value="south%3:00:00::"/>
+  <feat name="text" value="south"/>
+ </struct>
+ <struct from="4942" id="n13834399_wf6" to="4944" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4951" id="n13834399_wf9" to="4958" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="4983" id="n13834524_wf5" to="4985" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="4990" id="n13834524_wf7" to="4995" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="4996" id="n13834524_wf8" to="5001" type="man">
+  <feat name="wnsk" value="north%3:00:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="5033" id="n13834643_wf4" to="5039" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="5040" id="n13834643_wf5" to="5047" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="5048" id="n13834643_wf6" to="5052" type="un">
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="5057" id="n13834643_wf8" to="5066" type="man">
+  <feat name="wnsk" value="northwest%1:24:00::"/>
+  <feat name="text" value="northwest"/>
+ </struct>
+ <struct from="5091" id="n13834761_wf5" to="5093" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="5098" id="n13834761_wf7" to="5103" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="5104" id="n13834761_wf8" to="5108" type="man">
+  <feat name="wnsk" value="west%3:00:00::"/>
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="5112" id="n13834761_wf10" to="5121" type="man">
+  <feat name="wnsk" value="northwest%1:24:00::"/>
+  <feat name="text" value="northwest"/>
+ </struct>
+ <struct from="5141" id="n13834885_wf4" to="5147" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="5148" id="n13834885_wf5" to="5155" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="5156" id="n13834885_wf6" to="5161" type="un">
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="5166" id="n13834885_wf8" to="5170" type="un">
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="5179" id="n13834885_wf12" to="5186" type="man">
+  <feat name="wnsk" value="degree%1:23:00::"/>
+  <feat name="text" value="degrees"/>
+ </struct>
+ <struct from="5211" id="n13835037_wf5" to="5213" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="5218" id="n13835037_wf7" to="5223" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="5224" id="n13835037_wf8" to="5229" type="man">
+  <feat name="wnsk" value="north%3:00:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="5233" id="n13835037_wf10" to="5242" type="man">
+  <feat name="wnsk" value="northwest%1:24:00::"/>
+  <feat name="text" value="northwest"/>
+ </struct>
+ <struct from="5267" id="n13835163_wf5" to="5269" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="5270" id="n13835163_wf6" to="5276" type="man">
+  <feat name="wnsk" value="midway%4:02:00::"/>
+  <feat name="text" value="midway"/>
+ </struct>
+ <struct from="5277" id="n13835163_wf7" to="5284" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="5285" id="n13835163_wf8" to="5290" type="man">
+  <feat name="wnsk" value="north%1:24:00::"/>
+  <feat name="text" value="north"/>
+ </struct>
+ <struct from="5295" id="n13835163_wf10" to="5304" type="man">
+  <feat name="wnsk" value="northwest%1:24:00::"/>
+  <feat name="text" value="northwest"/>
+ </struct>
+ <struct from="5329" id="n13835308_wf5" to="5331" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="5336" id="n13835308_wf7" to="5341" type="man">
+  <feat name="wnsk" value="point%1:24:00::"/>
+  <feat name="text" value="point"/>
+ </struct>
+ <struct from="5342" id="n13835308_wf8" to="5346" type="man">
+  <feat name="wnsk" value="west%3:00:00::"/>
+  <feat name="text" value="west"/>
+ </struct>
+ <struct from="5365" id="n13835427_wf2" to="5374" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5375" id="n13835427_wf3" to="5388" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5396" id="n13835427_wf6" to="5405" type="un">
+  <feat name="text" value="northward"/>
+ </struct>
+ <struct from="5434" id="n13835546_wf2" to="5443" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5444" id="n13835546_wf3" to="5457" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5465" id="n13835546_wf6" to="5478" type="un">
+  <feat name="text" value="northeastward"/>
+ </struct>
+ <struct from="5498" id="n13835664_wf2" to="5507" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5508" id="n13835664_wf3" to="5521" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5529" id="n13835664_wf6" to="5537" type="un">
+  <feat name="text" value="eastward"/>
+ </struct>
+ <struct from="5566" id="n13835781_wf2" to="5575" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5576" id="n13835781_wf3" to="5589" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5597" id="n13835781_wf6" to="5610" type="un">
+  <feat name="text" value="southeastward"/>
+ </struct>
+ <struct from="5630" id="n13835899_wf2" to="5639" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5640" id="n13835899_wf3" to="5653" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5661" id="n13835899_wf6" to="5670" type="un">
+  <feat name="text" value="southward"/>
+ </struct>
+ <struct from="5699" id="n13836018_wf2" to="5708" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5709" id="n13836018_wf3" to="5722" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5730" id="n13836018_wf6" to="5743" type="un">
+  <feat name="text" value="southwestward"/>
+ </struct>
+ <struct from="5763" id="n13836136_wf2" to="5772" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5773" id="n13836136_wf3" to="5786" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5794" id="n13836136_wf6" to="5802" type="un">
+  <feat name="text" value="westward"/>
+ </struct>
+ <struct from="5831" id="n13836253_wf2" to="5840" type="un">
+  <feat name="text" value="direction"/>
+ </struct>
+ <struct from="5841" id="n13836253_wf3" to="5854" type="un">
+  <feat name="text" value="corresponding"/>
+ </struct>
+ <struct from="5862" id="n13836253_wf6" to="5875" type="un">
+  <feat name="text" value="northwestward"/>
+ </struct>
+ <struct from="5891" id="n13836371_wf1" to="5899" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="5913" id="n13836371_wf5" to="5921" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="5942" id="n13836371_wf10" to="5947" type="un">
+  <feat name="text" value="other"/>
+ </struct>
+ <struct from="5948" id="n13836371_wf11" to="5956" type="un">
+  <feat name="text" value="position"/>
+ </struct>
+ <struct from="5957" id="n13836371_wf12" to="5959" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="5960" id="n13836371_wf13" to="5971" type="un">
+  <feat name="text" value="established"/>
+ </struct>
+ <struct from="5990" id="n13836550_wf3" to="5995" type="un">
+  <feat name="text" value="above"/>
+ </struct>
+ <struct from="6000" id="n13836550_wf5" to="6007" type="man">
+  <feat name="wnsk" value="horizon%1:15:02::"/>
+  <feat name="text" value="horizon"/>
+ </struct>
+ <struct from="6025" id="n13836550_wf10" to="6034" type="man">
+  <feat name="wnsk" value="celestial%3:01:01::"/>
+  <feat name="text" value="celestial"/>
+ </struct>
+ <struct from="6035" id="n13836550_wf11" to="6041" type="man">
+  <feat name="wnsk" value="object%1:03:00::"/>
+  <feat name="text" value="object"/>
+ </struct>
+ <struct from="6061" id="n13836715_wf3" to="6066" type="un">
+  <feat name="text" value="below"/>
+ </struct>
+ <struct from="6071" id="n13836715_wf5" to="6078" type="man">
+  <feat name="wnsk" value="horizon%1:15:02::"/>
+  <feat name="text" value="horizon"/>
+ </struct>
+ <struct from="6096" id="n13836715_wf10" to="6105" type="man">
+  <feat name="wnsk" value="celestial%3:01:01::"/>
+  <feat name="text" value="celestial"/>
+ </struct>
+ <struct from="6106" id="n13836715_wf11" to="6112" type="man">
+  <feat name="wnsk" value="object%1:03:00::"/>
+  <feat name="text" value="object"/>
+ </struct>
+ <struct from="6117" id="n13836841_wf2" to="6125" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="6126" id="n13836841_wf3" to="6133" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="6134" id="n13836841_wf4" to="6143" type="un">
+  <feat name="text" value="different"/>
+ </struct>
+ <struct from="6199" id="n13837009_wf7" to="6206" type="man">
+  <feat name="wnsk" value="party%1:14:02::"/>
+  <feat name="text" value="parties"/>
+ </struct>
+ <struct from="6207" id="n13837009_wf8" to="6214" type="man">
+  <feat name="wnsk" value="compete%2:33:00::"/>
+  <feat name="text" value="compete"/>
+ </struct>
+ <struct from="6218" id="n13837009_wf10" to="6222" type="man">
+  <feat name="wnsk" value="gain%2:40:01::"/>
+  <feat name="text" value="gain"/>
+ </struct>
+ <struct from="6223" id="n13837009_wf11" to="6232" type="auto">
+  <feat name="wnsk" value="customer%1:18:00::"/>
+  <feat name="text" value="customers"/>
+ </struct>
+ <struct from="6234" id="n13837009_wf13" to="6242" type="un">
+  <feat name="text" value="business"/>
+ </struct>
+ <struct from="6243" id="n13837009_wf14" to="6254" type="auto">
+  <feat name="wnsk" value="competition%1:24:01::"/>
+  <feat name="text" value="competition"/>
+ </struct>
+ <struct from="6255" id="n13837009_wf15" to="6258" type="un">
+  <feat name="text" value="can"/>
+ </struct>
+ <struct from="6259" id="n13837009_wf16" to="6261" type="un">
+  <feat name="text" value="be"/>
+ </struct>
+ <struct from="6262" id="n13837009_wf17" to="6270" type="un">
+  <feat name="text" value="fiendish"/>
+ </struct>
+ <struct from="6274" id="n13837009_wf19" to="6279" type="un">
+  <feat name="text" value="times"/>
+ </struct>
+ <struct from="6281" id="n13837200_wf1" to="6288" type="un">
+  <feat name="text" value="intense"/>
+ </struct>
+ <struct from="6289" id="n13837200_wf2" to="6300" type="man">
+  <feat name="wnsk" value="competition%1:24:01::"/>
+  <feat name="text" value="competition"/>
+ </struct>
+ <struct from="6310" id="n13837200_wf5" to="6321" type="auto">
+  <feat name="wnsk" value="competitor%1:18:00::"/>
+  <feat name="text" value="competitors"/>
+ </struct>
+ <struct from="6322" id="n13837200_wf6" to="6325" type="man">
+  <feat name="wnsk" value="cut%2:30:06::"/>
+  <feat name="text" value="cut"/>
+ </struct>
+ <struct from="6326" id="n13837200_wf7" to="6332" type="un">
+  <feat name="text" value="retail"/>
+ </struct>
+ <struct from="6333" id="n13837200_wf8" to="6339" type="man">
+  <feat name="wnsk" value="price%1:21:00::"/>
+  <feat name="wnsk" value="price%1:07:00::"/>
+  <feat name="text" value="prices"/>
+ </struct>
+ <struct from="6343" id="n13837200_wf10" to="6347" type="man">
+  <feat name="wnsk" value="gain%2:40:01::"/>
+  <feat name="text" value="gain"/>
+ </struct>
+ <struct from="6348" id="n13837200_wf11" to="6356" type="un">
+  <feat name="text" value="business"/>
+ </struct>
+ <struct from="6358" id="n13837351_wf1" to="6366" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="6372" id="n13837351_wf4" to="6378" type="man">
+  <feat name="wnsk" value="client%1:18:01::"/>
+  <feat name="text" value="client"/>
+ </struct>
+ <struct from="6384" id="n13837351_wf7" to="6390" type="man">
+  <feat name="wnsk" value="patron%1:18:00::"/>
+  <feat name="text" value="patron"/>
+ </struct>
+ <struct from="6396" id="n13837439_wf2" to="6404" type="man">
+  <feat name="wnsk" value="relation%1:03:00::"/>
+  <feat name="text" value="relation"/>
+ </struct>
+ <struct from="6410" id="n13837439_wf4" to="6416" type="un">
+  <feat name="text" value="exists"/>
+ </struct>
+ <struct from="6426" id="n13837439_wf7" to="6432" type="man">
+  <feat name="wnsk" value="person%1:03:00::"/>
+  <feat name="text" value="person"/>
+ </struct>
+ <struct from="6433" id="n13837439_wf8" to="6441" type="man">
+  <feat name="wnsk" value="request%2:32:01::"/>
+  <feat name="wnsk" value="request%2:32:02::"/>
+  <feat name="text" value="requests"/>
+ </struct>
+ <struct from="6446" id="n13837439_wf10" to="6448" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="6449" id="n13837439_wf11" to="6456" type="man">
+  <feat name="wnsk" value="grant%2:40:05::"/>
+  <feat name="text" value="granted"/>
+ </struct>
+ <struct from="6457" id="n13837439_wf12" to="6469" type="man">
+  <feat name="wnsk" value="professional%3:00:01::"/>
+  <feat name="text" value="professional"/>
+ </struct>
+ <struct from="6470" id="n13837439_wf13" to="6474" type="un">
+  <feat name="text" value="help"/>
+ </struct>
+ <struct from="6482" id="n13837439_wf16" to="6491" type="un">
+  <feat name="text" value="qualified"/>
+ </struct>
+ <struct from="6492" id="n13837439_wf17" to="6498" type="un">
+  <feat name="text" value="source"/>
+ </struct>
+ <struct from="6526" id="n13837667_wf4" to="6533" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="6548" id="n13837667_wf8" to="6560" type="man">
+  <feat name="wnsk" value="professional%1:18:00::"/>
+  <feat name="text" value="professional"/>
+ </struct>
+ <struct from="6567" id="n13837667_wf11" to="6574" type="man">
+  <feat name="wnsk" value="patient%1:18:00::"/>
+  <feat name="text" value="patient"/>
+ </struct>
+ <struct from="6580" id="n13837840_wf2" to="6594" type="man">
+  <feat name="wnsk" value="responsibility%1:04:00::"/>
+  <feat name="text" value="responsibility"/>
+ </struct>
+ <struct from="6600" id="n13837840_wf5" to="6609" type="auto">
+  <feat name="wnsk" value="physician%1:18:00::"/>
+  <feat name="text" value="physician"/>
+ </struct>
+ <struct from="6613" id="n13837840_wf7" to="6616" type="un">
+  <feat name="text" value="act"/>
+ </struct>
+ <struct from="6624" id="n13837840_wf10" to="6628" type="man">
+  <feat name="wnsk" value="best%3:00:00:advisable:00"/>
+  <feat name="text" value="best"/>
+ </struct>
+ <struct from="6629" id="n13837840_wf11" to="6638" type="man">
+  <feat name="wnsk" value="interest%1:07:01::"/>
+  <feat name="text" value="interests"/>
+ </struct>
+ <struct from="6646" id="n13837840_wf14" to="6653" type="man">
+  <feat name="wnsk" value="patient%1:18:00::"/>
+  <feat name="text" value="patient"/>
+ </struct>
+ <struct from="6659" id="n13838025_wf2" to="6673" type="man">
+  <feat name="wnsk" value="responsibility%1:04:00::"/>
+  <feat name="text" value="responsibility"/>
+ </struct>
+ <struct from="6679" id="n13838025_wf5" to="6684" type="man">
+  <feat name="wnsk" value="nurse%1:18:00::"/>
+  <feat name="text" value="nurse"/>
+ </struct>
+ <struct from="6688" id="n13838025_wf7" to="6691" type="un">
+  <feat name="text" value="act"/>
+ </struct>
+ <struct from="6699" id="n13838025_wf10" to="6703" type="man">
+  <feat name="wnsk" value="best%3:00:00:advisable:00"/>
+  <feat name="text" value="best"/>
+ </struct>
+ <struct from="6704" id="n13838025_wf11" to="6713" type="man">
+  <feat name="wnsk" value="interest%1:07:01::"/>
+  <feat name="text" value="interests"/>
+ </struct>
+ <struct from="6721" id="n13838025_wf14" to="6728" type="man">
+  <feat name="wnsk" value="patient%1:18:00::"/>
+  <feat name="text" value="patient"/>
+ </struct>
+ <struct from="6759" id="n13838205_wf5" to="6761" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="6762" id="n13838205_wf6" to="6771" type="man">
+  <feat name="wnsk" value="regulate%2:41:01::"/>
+  <feat name="text" value="regulated"/>
+ </struct>
+ <struct from="6775" id="n13838205_wf8" to="6778" type="man">
+  <feat name="wnsk" value="law%1:14:00::"/>
+  <feat name="text" value="law"/>
+ </struct>
+ <struct from="6783" id="n13838205_wf11" to="6790" type="un">
+  <feat name="text" value="between"/>
+ </struct>
+ <struct from="6793" id="n13838205_wf13" to="6799" type="auto">
+  <feat name="wnsk" value="lawyer%1:18:00::"/>
+  <feat name="text" value="lawyer"/>
+ </struct>
+ <struct from="6806" id="n13838205_wf16" to="6812" type="man">
+  <feat name="wnsk" value="client%1:18:00::"/>
+  <feat name="text" value="client"/>
+ </struct>
+ <struct from="6839" id="n13838386_wf5" to="6845" type="un">
+  <feat name="text" value="exists"/>
+ </struct>
+ <struct from="6855" id="n13838386_wf8" to="6861" type="man">
+  <feat name="wnsk" value="person%1:03:00::"/>
+  <feat name="text" value="person"/>
+ </struct>
+ <struct from="6862" id="n13838386_wf9" to="6873" type="auto">
+  <feat name="wnsk" value="justifiably%4:02:00::"/>
+  <feat name="text" value="justifiably"/>
+ </struct>
+ <struct from="6874" id="n13838386_wf10" to="6880" type="man">
+  <feat name="wnsk" value="place%2:41:00::"/>
+  <feat name="text" value="places"/>
+ </struct>
+ <struct from="6881" id="n13838386_wf11" to="6889" type="man">
+  <feat name="wnsk" value="reliance%1:26:00::"/>
+  <feat name="text" value="reliance"/>
+ </struct>
+ <struct from="6907" id="n13838386_wf15" to="6910" type="un">
+  <feat name="text" value="aid"/>
+ </struct>
+ <struct from="6914" id="n13838386_wf17" to="6924" type="man">
+  <feat name="wnsk" value="protection%1:04:00::"/>
+  <feat name="text" value="protection"/>
+ </struct>
+ <struct from="6925" id="n13838386_wf18" to="6927" type="un">
+  <feat name="text" value="is"/>
+ </struct>
+ <struct from="6928" id="n13838386_wf19" to="6934" type="man">
+  <feat name="wnsk" value="seek%2:40:00::"/>
+  <feat name="text" value="sought"/>
+ </struct>
+ <struct from="6943" id="n13838386_wf22" to="6949" type="un">
+  <feat name="text" value="matter"/>
+ </struct>
+ <struct from="6955" id="n13838766_wf2" to="6969" type="man">
+  <feat name="wnsk" value="responsibility%1:04:00::"/>
+  <feat name="text" value="responsibility"/>
+ </struct>
+ <struct from="6975" id="n13838766_wf5" to="6979" type="man">
+  <feat name="wnsk" value="bank%1:14:00::"/>
+  <feat name="text" value="bank"/>
+ </struct>
+ <struct from="6983" id="n13838766_wf7" to="6986" type="un">
+  <feat name="text" value="act"/>
+ </struct>
+ <struct from="6994" id="n13838766_wf10" to="6998" type="man">
+  <feat name="wnsk" value="best%3:00:00:advisable:00"/>
+  <feat name="text" value="best"/>
+ </struct>
+ <struct from="6999" id="n13838766_wf11" to="7008" type="man">
+  <feat name="wnsk" value="interest%1:07:01::"/>
+  <feat name="text" value="interests"/>
+ </struct>
+ <struct from="7016" id="n13838766_wf14" to="7026" type="auto">
+  <feat name="wnsk" value="depositor%1:18:00::"/>
+  <feat name="text" value="depositors"/>
+ </struct>
+ <struct from="7032" id="n13838930_wf2" to="7046" type="man">
+  <feat name="wnsk" value="responsibility%1:04:00::"/>
+  <feat name="text" value="responsibility"/>
+ </struct>
+ <struct from="7052" id="n13838930_wf5" to="7064" type="man">
+  <feat name="wnsk" value="confidential%3:00:00:private:00"/>
+  <feat name="text" value="confidential"/>
+ </struct>
+ <struct from="7065" id="n13838930_wf6" to="7072" type="auto">
+  <feat name="wnsk" value="adviser%1:18:00::"/>
+  <feat name="text" value="adviser"/>
+ </struct>
+ <struct from="7076" id="n13838930_wf8" to="7079" type="un">
+  <feat name="text" value="act"/>
+ </struct>
+ <struct from="7087" id="n13838930_wf11" to="7091" type="man">
+  <feat name="wnsk" value="best%3:00:00:advisable:00"/>
+  <feat name="text" value="best"/>
+ </struct>
+ <struct from="7092" id="n13838930_wf12" to="7100" type="man">
+  <feat name="wnsk" value="interest%1:07:01::"/>
+  <feat name="text" value="interest"/>
+ </struct>
+ <struct from="7108" id="n13838930_wf15" to="7115" type="auto">
+  <feat name="wnsk" value="advisee%1:18:00::"/>
+  <feat name="text" value="advisee"/>
+ </struct>
+</cesAna>

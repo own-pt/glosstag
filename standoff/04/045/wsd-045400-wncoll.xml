@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
+ <struct from="140" id="n08337324_coll.a" to="159" type="auto">
+  <feat name="wnsk" value="administrative_unit%1:14:00::"/>
+  <feat name="text" value="administrative unit"/>
+ </struct>
+ <struct from="305" id="n08338847_coll.a" to="329" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="394" id="n08338847_coll.b" to="415" type="auto">
+  <feat name="wnsk" value="executive_department%1:14:00::"/>
+  <feat name="text" value="executive departments"/>
+ </struct>
+ <struct from="424" id="n08339454_coll.a" to="439" type="man">
+  <feat name="wnsk" value="responsible_for%3:00:00:causative:00"/>
+  <feat name="text" value="responsible for"/>
+ </struct>
+ <struct from="512" id="n08339706_coll.a" to="524" type="auto">
+  <feat name="wnsk" value="armed_forces%1:14:00::"/>
+  <feat name="text" value="armed forces"/>
+ </struct>
+ <struct from="616" id="n08339939_coll.a" to="636" type="man">
+  <feat name="wnsk" value="intelligence_service%1:14:00::"/>
+  <feat name="text" value="intelligence service"/>
+ </struct>
+ <struct from="644" id="n08339939_coll.b" to="657" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="670" id="n08340153_coll.c" to="689" type="auto">
+  <feat name="wnsk" value="government_agency%1:14:00::"/>
+  <feat name="text" value="government agencies"/>
+ </struct>
+ <struct from="713" id="n08340153_coll.e" to="722" type="man">
+  <feat name="wnsk" value="carry_out%2:30:00::"/>
+  <feat name="text" value="carry out"/>
+ </struct>
+ <struct from="723" id="n08340153_coll.b" to="746" type="auto">
+  <feat name="wnsk" value="intelligence_activity%1:04:00::"/>
+  <feat name="text" value="intelligence activities"/>
+ </struct>
+ <struct from="755" id="n08340153_coll.a" to="779" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="795" id="n08340153_coll.d" to="827" type="auto">
+  <feat name="wnsk" value="director_of_central_intelligence%1:18:00::"/>
+  <feat name="text" value="Director of Central Intelligence"/>
+ </struct>
+ <struct from="846" id="n08340753_coll.a" to="868" type="man">
+  <feat name="wnsk" value="intelligence_community%1:14:00::"/>
+  <feat name="text" value="Intelligence Community"/>
+ </struct>
+ <struct from="928" id="n08340753_coll.b" to="950" type="man">
+  <feat name="wnsk" value="information_technology%1:09:00::"/>
+  <feat name="text" value="information technology"/>
+ </struct>
+ <struct from="955" id="n08340989_coll.b" to="974" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="982" id="n08340989_coll.c" to="995" type="man">
+  <feat name="wnsk" value="united_states%1:14:00::"/>
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="1003" id="n08340989_coll.a" to="1024" type="auto">
+  <feat name="wnsk" value="department_of_defense%1:14:00::"/>
+  <feat name="text" value="Department of Defense"/>
+ </struct>
+ <struct from="1181" id="n08341330_coll.a" to="1202" type="auto">
+  <feat name="wnsk" value="department_of_defense%1:14:00::"/>
+  <feat name="text" value="Department of Defense"/>
+ </struct>
+ <struct from="1235" id="n08341330_coll.b" to="1252" type="man">
+  <feat name="wnsk" value="military_mission%1:04:00::"/>
+  <feat name="text" value="military missions"/>
+ </struct>
+ <struct from="1278" id="n08341551_coll.a" to="1302" type="auto">
+  <feat name="wnsk" value="defense_logistics_agency%1:14:00::"/>
+  <feat name="text" value="Defense Logistics Agency"/>
+ </struct>
+ <struct from="1353" id="n08341551_coll.b" to="1377" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="1405" id="n08341798_coll.a" to="1426" type="auto">
+  <feat name="wnsk" value="department_of_defense%1:14:00::"/>
+  <feat name="text" value="Department of Defense"/>
+ </struct>
+ <struct from="1481" id="n08341798_coll.b" to="1497" type="auto">
+  <feat name="wnsk" value="federal_agency%1:14:00::"/>
+  <feat name="text" value="federal agencies"/>
+ </struct>
+ <struct from="1524" id="n08342039_coll.a" to="1543" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="1556" id="n08342039_coll.b" to="1569" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="1593" id="n08342419_coll.b" to="1612" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="1662" id="n08342419_coll.a" to="1683" type="auto">
+  <feat name="wnsk" value="security_intelligence%1:04:00::"/>
+  <feat name="text" value="security intelligence"/>
+ </struct>
+ <struct from="1717" id="n08342670_coll.a" to="1733" type="auto">
+  <feat name="wnsk" value="united_kingdom%1:15:00::"/>
+  <feat name="text" value="United Kingdom's"/>
+ </struct>
+ <struct from="1860" id="n08342888_coll.a" to="1887" type="auto">
+  <feat name="wnsk" value="communications_intelligence%1:04:00::"/>
+  <feat name="text" value="communications intelligence"/>
+ </struct>
+ <struct from="1899" id="n08342888_coll.b" to="1914" type="auto">
+  <feat name="wnsk" value="law_enforcement%1:04:00::"/>
+  <feat name="text" value="law enforcement"/>
+ </struct>
+ <struct from="2023" id="n08343102_coll.a" to="2047" type="auto">
+  <feat name="wnsk" value="law_enforcement_agency%1:14:00::"/>
+  <feat name="text" value="law enforcement agencies"/>
+ </struct>
+ <struct from="2173" id="n08343534_coll.a" to="2192" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="2241" id="n08343534_coll.b" to="2255" type="auto">
+  <feat name="wnsk" value="military_force%1:14:00::"/>
+  <feat name="text" value="military force"/>
+ </struct>
+ <struct from="2397" id="n08343905_coll.b" to="2417" type="auto">
+  <feat name="wnsk" value="intelligence_service%1:14:00::"/>
+  <feat name="text" value="intelligence service"/>
+ </struct>
+ <struct from="2511" id="n08343905_coll.a" to="2535" type="auto">
+  <feat name="wnsk" value="intelligence_information%1:10:00::"/>
+  <feat name="text" value="intelligence information"/>
+ </struct>
+ <struct from="2598" id="n08343905_coll.c" to="2625" type="auto">
+  <feat name="wnsk" value="weapon_of_mass_destruction%1:06:00::"/>
+  <feat name="text" value="weapons of mass destruction"/>
+ </struct>
+ <struct from="2641" id="n08343905_coll.d" to="2656" type="auto">
+  <feat name="wnsk" value="organized_crime%1:14:00::"/>
+  <feat name="text" value="organized crime"/>
+ </struct>
+ <struct from="2811" id="n08344551_coll.a" to="2830" type="auto">
+  <feat name="wnsk" value="administrative_unit%1:14:00::"/>
+  <feat name="text" value="administrative unit"/>
+ </struct>
+ <struct from="2847" id="n08344551_coll.b" to="2862" type="auto">
+  <feat name="wnsk" value="law_enforcement%1:04:00::"/>
+  <feat name="text" value="law enforcement"/>
+ </struct>
+ <struct from="2867" id="n08344756_coll.a" to="2900" type="auto">
+  <feat name="wnsk" value="international_intelligence_agency%1:14:00::"/>
+  <feat name="text" value="international intelligence agency"/>
+ </struct>
+ <struct from="2932" id="n08344756_coll.b" to="2953" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agencies"/>
+ </struct>
+ <struct from="3058" id="n08344917_coll.b" to="3074" type="auto">
+  <feat name="wnsk" value="iraqi_mukhabarat%1:14:00::"/>
+  <feat name="text" value="Iraqi Mukhabarat"/>
+ </struct>
+ <struct from="3149" id="n08345189_coll.a" to="3162" type="auto">
+  <feat name="wnsk" value="military_unit%1:14:00::"/>
+  <feat name="text" value="military unit"/>
+ </struct>
+ <struct from="3415" id="n08345613_coll.b" to="3435" type="auto">
+  <feat name="wnsk" value="airforce%1:14:00::"/>
+  <feat name="text" value="air forces"/>
+ </struct>
+ <struct from="3423" id="n08345613_coll.a" to="3435" type="auto">
+  <feat name="wnsk" value="naval_forces%1:14:00::"/>
+  <feat name="text" value="naval forces"/>
+ </struct>
+ <struct from="3687" id="n08346031_coll.a" to="3709" type="auto">
+  <feat name="wnsk" value="clandestine_operation%1:04:00::"/>
+  <feat name="text" value="clandestine operations"/>
+ </struct>
+ <struct from="3730" id="n08346031_coll.b" to="3746" type="man">
+  <feat name="wnsk" value="terrorist_group%1:14:00::"/>
+  <feat name="text" value="terrorist groups"/>
+ </struct>
+ <struct from="3761" id="n08346286_coll.a" to="3782" type="man">
+  <feat name="wnsk" value="military_intelligence%1:14:00::"/>
+  <feat name="text" value="military intelligence"/>
+ </struct>
+ <struct from="3852" id="n08346286_coll.b" to="3866" type="man">
+  <feat name="wnsk" value="prime_minister%1:18:00::"/>
+  <feat name="text" value="prime minister"/>
+ </struct>
+ <struct from="3904" id="n08346490_coll.a" to="3923" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="3981" id="n08346655_coll.a" to="3998" type="auto">
+  <feat name="wnsk" value="government_agency%1:14:00::"/>
+  <feat name="text" value="government agency"/>
+ </struct>
+ <struct from="4006" id="n08346655_coll.b" to="4020" type="auto">
+  <feat name="wnsk" value="united_kingdom%1:15:00::"/>
+  <feat name="text" value="United Kingdom"/>
+ </struct>
+ <struct from="4170" id="n08346905_coll.a" to="4210" type="auto">
+  <feat name="wnsk" value="criminal_intelligence_services_of_canada%1:14:00::"/>
+  <feat name="text" value="Criminal Intelligence Services of Canada"/>
+ </struct>
+ <struct from="4293" id="n08347206_coll.a" to="4310" type="auto">
+  <feat name="wnsk" value="government_agency%1:14:00::"/>
+  <feat name="text" value="government agency"/>
+ </struct>
+ <struct from="4318" id="n08347206_coll.b" to="4332" type="auto">
+  <feat name="wnsk" value="united_kingdom%1:15:00::"/>
+  <feat name="text" value="United Kingdom"/>
+ </struct>
+ <struct from="4496" id="n08347457_coll.a" to="4504" type="auto">
+  <feat name="wnsk" value="shin_bet%1:14:00::"/>
+  <feat name="text" value="Shin Bet"/>
+ </struct>
+ <struct from="4569" id="n08347704_coll.b" to="4588" type="auto">
+  <feat name="wnsk" value="intelligence_agency%1:14:00::"/>
+  <feat name="text" value="intelligence agency"/>
+ </struct>
+ <struct from="4596" id="n08347704_coll.a" to="4609" type="man">
+  <feat name="wnsk" value="united_states%1:14:00::"/>
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="4610" id="n08347704_coll.e" to="4631" type="man">
+  <feat name="wnsk" value="department_of_defense%1:14:00::"/>
+  <feat name="text" value="Department of Defense"/>
+ </struct>
+ <struct from="4747" id="n08347704_coll.d" to="4759" type="auto">
+  <feat name="wnsk" value="arms_control%1:04:00::"/>
+  <feat name="text" value="arms control"/>
+ </struct>
+ <struct from="4813" id="n08347704_coll.c" to="4832" type="auto">
+  <feat name="wnsk" value="military_operation%1:04:00::"/>
+  <feat name="text" value="military operations"/>
+ </struct>
+ <struct from="4838" id="n08348091_coll.c" to="4851" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="4947" id="n08348091_coll.d" to="4960" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="4961" id="n08348091_coll.b" to="4980" type="auto">
+  <feat name="wnsk" value="information_system%1:06:00::"/>
+  <feat name="text" value="information systems"/>
+ </struct>
+ <struct from="5004" id="n08348091_coll.a" to="5028" type="auto">
+  <feat name="wnsk" value="intelligence_information%1:10:00::"/>
+  <feat name="text" value="intelligence information"/>
+ </struct>
+ <struct from="5034" id="n08348400_coll.a" to="5067" type="auto">
+  <feat name="wnsk" value="united_states_intelligence_agency%1:14:00::"/>
+  <feat name="text" value="United States intelligence agency"/>
+ </struct>
+ <struct from="5116" id="n08348400_coll.b" to="5131" type="auto">
+  <feat name="wnsk" value="vice_president%1:18:00::"/>
+  <feat name="text" value="vice presidents"/>
+ </struct>
+ <struct from="5267" id="n08348400_coll.c" to="5288" type="auto">
+  <feat name="wnsk" value="government_security%1:21:00::"/>
+  <feat name="text" value="government securities"/>
+ </struct>
+ <struct from="5364" id="n08349138_coll.b" to="5381" type="auto">
+  <feat name="wnsk" value="government_agency%1:14:00::"/>
+  <feat name="text" value="government agency"/>
+ </struct>
+ <struct from="5389" id="n08349138_coll.a" to="5408" type="auto">
+  <feat name="wnsk" value="department_of_labor%1:14:00::"/>
+  <feat name="text" value="Department of Labor"/>
+ </struct>
+ <struct from="5460" id="n08349350_coll.a" to="5477" type="auto">
+  <feat name="wnsk" value="government_agency%1:14:00::"/>
+  <feat name="text" value="government agency"/>
+ </struct>
+ <struct from="5648" id="n08349548_coll.a" to="5661" type="man">
+  <feat name="wnsk" value="great_britain%1:15:01::"/>
+  <feat name="text" value="Great Britain"/>
+ </struct>
+ <struct from="5693" id="n08349681_coll.a" to="5715" type="auto">
+  <feat name="wnsk" value="department_of_commerce%1:14:00::"/>
+  <feat name="text" value="Department of Commerce"/>
+ </struct>
+ <struct from="5968" id="n08350244_coll.b" to="5980" type="auto">
+  <feat name="wnsk" value="central_bank%1:14:00::"/>
+  <feat name="text" value="central bank"/>
+ </struct>
+ <struct from="6005" id="n08350244_coll.a" to="6019" type="auto">
+  <feat name="wnsk" value="european_union%1:14:00::"/>
+  <feat name="text" value="European Union"/>
+ </struct>
+ <struct from="6053" id="n08350244_coll.c" to="6074" type="auto">
+  <feat name="wnsk" value="european_central_bank%1:14:00::"/>
+  <feat name="text" value="European Central Bank"/>
+ </struct>
+ <struct from="6126" id="n08350470_coll.b" to="6138" type="auto">
+  <feat name="wnsk" value="central_bank%1:14:00::"/>
+  <feat name="text" value="central bank"/>
+ </struct>
+ <struct from="6146" id="n08350470_coll.a" to="6159" type="man">
+  <feat name="wnsk" value="united_states%1:14:00::"/>
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="6214" id="n08350470_coll.e" to="6228" type="auto">
+  <feat name="wnsk" value="national_bank%1:14:00::"/>
+  <feat name="text" value="national banks"/>
+ </struct>
+ <struct from="6249" id="n08350470_coll.d" to="6265" type="auto">
+  <feat name="wnsk" value="commercial_bank%1:14:00::"/>
+  <feat name="text" value="commercial banks"/>
+ </struct>
+ <struct from="6275" id="n08350470_coll.f" to="6290" type="auto">
+  <feat name="wnsk" value="trust_company%1:14:00::"/>
+  <feat name="text" value="trust companies"/>
+ </struct>
+ <struct from="6457" id="n08350919_coll.a" to="6463" type="man">
+  <feat name="wnsk" value="act_as%2:42:00::"/>
+  <feat name="text" value="act as"/>
+ </struct>
+ <struct from="6507" id="n08351107_coll.b" to="6525" type="auto">
+  <feat name="wnsk" value="independent_agency%1:14:00::"/>
+  <feat name="text" value="independent agency"/>
+ </struct>
+ <struct from="6533" id="n08351107_coll.c" to="6546" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="6547" id="n08351107_coll.a" to="6565" type="auto">
+  <feat name="wnsk" value="federal_government%1:14:00::"/>
+  <feat name="text" value="federal government"/>
+ </struct>
+ <struct from="6625" id="n08351107_coll.d" to="6639" type="auto">
+  <feat name="wnsk" value="antitrust_law%1:10:00::"/>
+  <feat name="text" value="antitrust laws"/>
+ </struct>
+ <struct from="6667" id="n08351107_coll.e" to="6681" type="auto">
+  <feat name="wnsk" value="identity_theft%1:04:00::"/>
+  <feat name="text" value="identity theft"/>
+ </struct>
+ <struct from="6712" id="n08351380_coll.a" to="6736" type="auto">
+  <feat name="wnsk" value="federal_trade_commission%1:14:00::"/>
+  <feat name="text" value="Federal Trade Commission"/>
+ </struct>
+ <struct from="6819" id="n08351532_coll.a" to="6832" type="auto">
+  <feat name="wnsk" value="real_property%1:21:00::"/>
+  <feat name="text" value="real property"/>
+ </struct>
+ <struct from="6899" id="n08351777_coll.a" to="6930" type="man">
+  <feat name="wnsk" value="general_services_administration%1:14:00::"/>
+  <feat name="text" value="General Services Administration"/>
+ </struct>
+ <struct from="7048" id="n08352035_coll.a" to="7060" type="auto">
+  <feat name="wnsk" value="central_bank%1:14:00::"/>
+  <feat name="text" value="central bank"/>
+ </struct>
+ <struct from="7087" id="n08352134_coll.a" to="7099" type="auto">
+  <feat name="wnsk" value="central_bank%1:14:00::"/>
+  <feat name="text" value="central bank"/>
+ </struct>
+ <struct from="7116" id="n08352218_coll.a" to="7128" type="auto">
+  <feat name="wnsk" value="central_bank%1:14:00::"/>
+  <feat name="text" value="central bank"/>
+ </struct>
+ <struct from="7263" id="n08352473_coll.a" to="7279" type="auto">
+  <feat name="wnsk" value="research_worker%1:18:00::"/>
+  <feat name="text" value="research workers"/>
+ </struct>
+ <struct from="7513" id="n08352994_coll.b" to="7531" type="auto">
+  <feat name="wnsk" value="independent_agency%1:14:00::"/>
+  <feat name="text" value="independent agency"/>
+ </struct>
+ <struct from="7539" id="n08352994_coll.a" to="7563" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="7689" id="n08353244_coll.a" to="7708" type="auto">
+  <feat name="wnsk" value="administrative_unit%1:14:00::"/>
+  <feat name="text" value="administrative unit"/>
+ </struct>
+ <struct from="7761" id="n08353244_coll.b" to="7772" type="auto">
+  <feat name="wnsk" value="urban_area%1:15:00::"/>
+  <feat name="text" value="urban areas"/>
+ </struct>
+ <struct from="7861" id="n08353563_coll.b" to="7875" type="auto">
+  <feat name="wnsk" value="federal_agency%1:14:00::"/>
+  <feat name="text" value="federal agency"/>
+ </struct>
+ <struct from="7904" id="n08353563_coll.a" to="7920" type="man">
+  <feat name="wnsk" value="military_service%1:14:00::"/>
+  <feat name="text" value="military service"/>
+ </struct>
+ <struct from="7925" id="n08353734_coll.a" to="7944" type="auto">
+  <feat name="wnsk" value="administrative_unit%1:14:00::"/>
+  <feat name="text" value="administrative unit"/>
+ </struct>
+ <struct from="8012" id="n08353734_coll.b" to="8039" type="man">
+  <feat name="wnsk" value="weather_forecast%1:10:00::"/>
+  <feat name="text" value="weather forecasts"/>
+ </struct>
+ <struct from="8165" id="n08354065_coll.b" to="8175" type="auto">
+  <feat name="wnsk" value="data_file%1:10:00::"/>
+  <feat name="text" value="data files"/>
+ </struct>
+ <struct from="8357" id="n08354352_coll.a" to="8374" type="auto">
+  <feat name="wnsk" value="unemployed_people%1:14:00::"/>
+  <feat name="text" value="unemployed people"/>
+ </struct>
+ <struct from="8450" id="n08354678_coll.a" to="8466" type="auto">
+  <feat name="wnsk" value="placement_office%1:14:00::"/>
+  <feat name="text" value="placement office"/>
+ </struct>
+ <struct from="8650" id="n08354842_coll.b" to="8667" type="auto">
+  <feat name="wnsk" value="mercantile_agency%1:14:00::"/>
+  <feat name="text" value="mercantile agency"/>
+ </struct>
+ <struct from="8712" id="n08355075_coll.a" to="8724" type="auto">
+  <feat name="wnsk" value="news_report%1:10:00::"/>
+  <feat name="text" value="news reports"/>
+ </struct>
+ <struct from="8777" id="n08355324_coll.a" to="8788" type="auto">
+  <feat name="wnsk" value="news_agency%1:14:00::"/>
+  <feat name="text" value="news agency"/>
+ </struct>
+ <struct from="8962" id="n08355506_coll.a" to="8978" type="auto">
+  <feat name="wnsk" value="economy_of_scale%1:04:00::"/>
+  <feat name="text" value="economy of scale"/>
+ </struct>
+ <struct from="9025" id="n08355791_coll.e" to="9072" type="man">
+  <feat name="wnsk" value="executive_branch%1:14:00::"/>
+  <feat name="text" value="executive branches"/>
+ </struct>
+ <struct from="9039" id="n08355791_coll.d" to="9072" type="man">
+  <feat name="wnsk" value="legislative_branch%1:14:00::"/>
+  <feat name="text" value="legislative branches"/>
+ </struct>
+ <struct from="9055" id="n08355791_coll.b" to="9072" type="auto">
+  <feat name="wnsk" value="judicial_branch%1:14:00::"/>
+  <feat name="text" value="judicial branches"/>
+ </struct>
+ <struct from="9080" id="n08355791_coll.a" to="9098" type="auto">
+  <feat name="wnsk" value="federal_government%1:14:00::"/>
+  <feat name="text" value="federal government"/>
+ </struct>
+ <struct from="9139" id="n08356074_coll.a" to="9163" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="9188" id="n08356074_coll.b" to="9200" type="man">
+  <feat name="wnsk" value="carry_out%2:36:00::"/>
+  <feat name="text" value="carrying out"/>
+ </struct>
+ <struct from="9229" id="n08356375_coll.a" to="9253" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="9306" id="n08356573_coll.b" to="9324" type="auto">
+  <feat name="wnsk" value="legislative_branch%1:14:00::"/>
+  <feat name="text" value="legislative branch"/>
+ </struct>
+ <struct from="9428" id="n08356573_coll.a" to="9446" type="auto">
+  <feat name="wnsk" value="federal_government%1:14:00::"/>
+  <feat name="text" value="federal government"/>
+ </struct>
+ <struct from="9466" id="n08356903_coll.a" to="9490" type="auto">
+  <feat name="wnsk" value="united_states_government%1:14:00::"/>
+  <feat name="text" value="United States government"/>
+ </struct>
+ <struct from="9542" id="n08357129_coll.a" to="9560" type="auto">
+  <feat name="wnsk" value="federal_government%1:14:00::"/>
+  <feat name="text" value="federal government"/>
+ </struct>
+ <struct from="9568" id="n08357129_coll.b" to="9581" type="un">
+  <feat name="text" value="United States"/>
+ </struct>
+ <struct from="9671" id="n08357448_coll.a" to="9684" type="man">
+  <feat name="wnsk" value="civil_service%1:14:00::"/>
+  <feat name="text" value="civil service"/>
+ </struct>
+ <struct from="9698" id="n08357529_coll.a" to="9712" type="auto">
+  <feat name="wnsk" value="governing_body%1:14:00::"/>
+  <feat name="text" value="governing body"/>
+ </struct>
+ <struct from="9969" id="n08358165_coll.a" to="9977" type="man">
+  <feat name="wnsk" value="at_least%4:02:00::"/>
+  <feat name="text" value="at least"/>
+ </struct>
+ <struct from="10186" id="n08358594_coll.a" to="10204" type="auto">
+  <feat name="wnsk" value="political_movement%1:14:00::"/>
+  <feat name="text" value="political movement"/>
+ </struct>
+ <struct from="10238" id="n08358824_coll.a" to="10250" type="auto">
+  <feat name="wnsk" value="sleeper_cell%1:14:00::"/>
+  <feat name="text" value="sleeper cell"/>
+ </struct>
+ <struct from="10388" id="n08358963_coll.a" to="10403" type="auto">
+  <feat name="wnsk" value="terrorist_cell%1:14:00::"/>
+  <feat name="text" value="terrorist cells"/>
+ </struct>
+ <struct from="10473" id="n08359316_coll.a" to="10487" type="man">
+  <feat name="wnsk" value="terrorist_cell%1:14:00::"/>
+  <feat name="text" value="terrorist cell"/>
+ </struct>
+ <struct from="10528" id="n08359432_coll.a" to="10542" type="man">
+  <feat name="wnsk" value="terrorist_cell%1:14:00::"/>
+  <feat name="text" value="terrorist cell"/>
+ </struct>
+ <struct from="10615" id="n08359581_coll.a" to="10629" type="man">
+  <feat name="wnsk" value="terrorist_cell%1:14:00::"/>
+  <feat name="text" value="terrorist cell"/>
+ </struct>
+ <struct from="10709" id="n08359581_coll.b" to="10724" type="man">
+  <feat name="wnsk" value="terrorist_cell%1:14:00::"/>
+  <feat name="text" value="terrorist cells"/>
+ </struct>
+ <struct from="10999" id="n08360430_coll.a" to="11013" type="auto">
+  <feat name="wnsk" value="political_unit%1:14:00::"/>
+  <feat name="text" value="political unit"/>
+ </struct>
+</cesAna>

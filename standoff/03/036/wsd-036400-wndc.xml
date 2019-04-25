@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="624" id="n06747190_coll.a" to="635" type="man">
+  <feat name="wnsk" value="virgin_mary%1:18:00::"/>
+  <feat name="text" value="Virgin Mary"/>
+ </struct>
+ <struct from="822" id="n06747484_coll.a" to="839" type="man">
+  <feat name="wnsk" value="oral_presentation%1:10:00::"/>
+  <feat name="text" value="oral presentation"/>
+ </struct>
+ <struct from="1540" id="n06748841_coll.a" to="1552" type="man">
+  <feat name="wnsk" value="race_meeting%1:11:00::"/>
+  <feat name="text" value="race meeting"/>
+ </struct>
+ <struct from="2601" id="n06751572_coll.a" to="2608" type="auto">
+  <feat name="wnsk" value="only_if%4:02:00::"/>
+  <feat name="text" value="only if"/>
+ </struct>
+ <struct from="3351" id="n06753030_wf18" to="3356" type="part"/>
+ <node id="n06753030_coll.b.1" ref="n06753030_wf18" type="node"/>
+ <struct from="3367" id="n06753030_wf21" to="3375" type="part"/>
+ <node id="n06753030_coll.b.2" ref="n06753030_wf21" type="node"/>
+ <struct from="n06753030_coll.b.1" id="n06753030_coll.b" to="n06753030_coll.b.2" type="auto">
+  <feat name="wnsk" value="major_premise%1:10:00::"/>
+  <feat name="text" value="major premises"/>
+ </struct>
+ <struct from="3361" id="n06753030_coll.a" to="3375" type="auto">
+  <feat name="wnsk" value="minor_premise%1:10:00::"/>
+  <feat name="text" value="minor premises"/>
+ </struct>
+ <struct from="3808" id="n06754184_coll.a" to="3818" type="auto">
+  <feat name="wnsk" value="major_term%1:10:00::"/>
+  <feat name="text" value="major term"/>
+ </struct>
+ <struct from="3908" id="n06754415_coll.a" to="3918" type="auto">
+  <feat name="wnsk" value="minor_term%1:10:00::"/>
+  <feat name="text" value="minor term"/>
+ </struct>
+ <struct from="4324" id="n06755454_coll.a" to="4335" type="un">
+  <feat name="text" value="put forward"/>
+ </struct>
+ <struct from="4379" id="n06755568_wf3" to="4381" type="part"/>
+ <node id="n06755568_coll.a.1" ref="n06755568_wf3" type="node"/>
+ <struct from="4388" id="n06755568_wf5" to="4393" type="part"/>
+ <node id="n06755568_coll.a.2" ref="n06755568_wf5" type="node"/>
+ <struct from="n06755568_coll.a.1" id="n06755568_coll.a" to="n06755568_coll.a.2" type="man">
+  <feat name="wnsk" value="rest_on%2:42:00::"/>
+  <feat name="text" value="on rests"/>
+ </struct>
+ <struct from="4501" id="n06755776_coll.a" to="4523" type="auto">
+  <feat name="wnsk" value="differential_equation%1:10:00::"/>
+  <feat name="text" value="differential equations"/>
+ </struct>
+ <struct from="4715" id="n06756267_coll.a" to="4727" type="auto">
+  <feat name="wnsk" value="market_price%1:21:00::"/>
+  <feat name="text" value="market price"/>
+ </struct>
+ <struct from="6126" id="n06760249_coll.a" to="6141" type="auto">
+  <feat name="wnsk" value="crocodile_tears%1:10:00::"/>
+  <feat name="text" value="crocodile tears"/>
+ </struct>
+ <struct from="6187" id="n06760249_coll.b" to="6202" type="auto">
+  <feat name="wnsk" value="crocodile_tears%1:10:00::"/>
+  <feat name="text" value="crocodile tears"/>
+ </struct>
+ <struct from="6422" id="n06760722_coll.a" to="6436" type="man">
+  <feat name="wnsk" value="take_advantage%2:41:12::"/>
+  <feat name="text" value="take advantage"/>
+ </struct>
+ <struct from="6444" id="n06760722_coll.b" to="6455" type="man">
+  <feat name="wnsk" value="in_some_way%4:02:00::"/>
+  <feat name="text" value="in some way"/>
+ </struct>
+ <struct from="7025" id="n06761994_coll.a" to="7035" type="auto">
+  <feat name="wnsk" value="fine_print%1:10:01::"/>
+  <feat name="text" value="fine print"/>
+ </struct>
+ <struct from="7523" id="n06763052_coll.a" to="7534" type="un">
+  <feat name="text" value="attached to"/>
+ </struct>
+ <struct from="8609" id="n06765656_coll.a" to="8622" type="auto">
+  <feat name="wnsk" value="legal_opinion%1:10:00::"/>
+  <feat name="text" value="legal opinion"/>
+ </struct>
+ <struct from="8818" id="n06765887_coll.a" to="8828" type="man">
+  <feat name="wnsk" value="bear_on%2:42:00::"/>
+  <feat name="text" value="bearing on"/>
+ </struct>
+ <struct from="8838" id="n06765887_coll.b" to="8849" type="un">
+  <feat name="text" value="in question"/>
+ </struct>
+</cesAna>

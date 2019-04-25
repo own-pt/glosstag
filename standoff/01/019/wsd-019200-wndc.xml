@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="32" id="n03508881_coll.a" to="48" type="auto">
+  <feat name="wnsk" value="heating_element%1:06:00::"/>
+  <feat name="text" value="heating elements"/>
+ </struct>
+ <struct from="110" id="n03509025_coll.a" to="124" type="auto">
+  <feat name="wnsk" value="heating_system%1:06:00::"/>
+  <feat name="text" value="heating system"/>
+ </struct>
+ <struct from="168" id="n03509394_coll.c" to="183" type="auto">
+  <feat name="wnsk" value="electric_heater%1:06:00::"/>
+  <feat name="text" value="electric heater"/>
+ </struct>
+ <struct from="211" id="n03509394_coll.b" to="228" type="auto">
+  <feat name="wnsk" value="incandescent_lamp%1:06:00::"/>
+  <feat name="text" value="incandescent lamp"/>
+ </struct>
+ <struct from="240" id="n03509394_coll.a" to="258" type="auto">
+  <feat name="wnsk" value="infrared_radiation%1:19:00::"/>
+  <feat name="text" value="infrared radiation"/>
+ </struct>
+ <struct from="295" id="n03509394_coll.d" to="308" type="auto">
+  <feat name="wnsk" value="infrared_lamp%1:06:00::"/>
+  <feat name="text" value="infrared lamp"/>
+ </struct>
+ <struct from="508" id="n03509843_coll.b" to="523" type="auto">
+  <feat name="wnsk" value="guidance_system%1:06:00::"/>
+  <feat name="text" value="guidance system"/>
+ </struct>
+ <struct from="564" id="n03509843_coll.a" to="582" type="auto">
+  <feat name="wnsk" value="infrared_radiation%1:19:00::"/>
+  <feat name="text" value="infrared radiation"/>
+ </struct>
+ <struct from="606" id="n03509843_coll.c" to="616" type="auto">
+  <feat name="wnsk" value="jet_engine%1:06:00::"/>
+  <feat name="text" value="jet engine"/>
+ </struct>
+ <struct from="621" id="n03510072_coll.a" to="640" type="man">
+  <feat name="wnsk" value="protective_covering%1:06:00::"/>
+  <feat name="text" value="protective covering"/>
+ </struct>
+ <struct from="1151" id="n03511333_coll.a" to="1162" type="auto">
+  <feat name="wnsk" value="garden_tool%1:06:00::"/>
+  <feat name="text" value="garden tool"/>
+ </struct>
+ <struct from="1590" id="n03512452_wf12" to="1594" type="part"/>
+ <node id="n03512452_coll.b.1" ref="n03512452_wf12" type="node"/>
+ <struct from="1618" id="n03512452_wf18" to="1620" type="part"/>
+ <node id="n03512452_coll.b.2" ref="n03512452_wf18" type="node"/>
+ <struct from="n03512452_coll.b.1" id="n03512452_coll.b" to="n03512452_coll.b.2" type="man">
+  <feat name="wnsk" value="turn_on%2:35:00::"/>
+  <feat name="text" value="turn on"/>
+ </struct>
+ <struct from="1590" id="n03512452_wf12" to="1594" type="part"/>
+ <node id="n03512452_coll.a.1" ref="n03512452_wf12" type="node"/>
+ <struct from="1610" id="n03512452_wf16" to="1613" type="part"/>
+ <node id="n03512452_coll.a.2" ref="n03512452_wf16" type="node"/>
+ <struct from="n03512452_coll.a.1" id="n03512452_coll.a" to="n03512452_coll.a.2" type="man">
+  <feat name="wnsk" value="turn_off%2:35:00::"/>
+  <feat name="text" value="turn off"/>
+ </struct>
+ <struct from="1733" id="n03512624_coll.a" to="1746" type="auto">
+  <feat name="wnsk" value="field_of_view%1:09:00::"/>
+  <feat name="text" value="field of view"/>
+ </struct>
+ <struct from="1801" id="n03512911_coll.a" to="1819" type="man">
+  <feat name="wnsk" value="steering_mechanism%1:06:00::"/>
+  <feat name="text" value="steering mechanism"/>
+ </struct>
+ <struct from="1836" id="n03512911_coll.b" to="1853" type="auto">
+  <feat name="wnsk" value="mechanical_device%1:06:00::"/>
+  <feat name="text" value="mechanical device"/>
+ </struct>
+ <struct from="1945" id="n03513376_coll.a" to="1956" type="auto">
+  <feat name="wnsk" value="armor_plate%1:06:00::"/>
+  <feat name="text" value="armor plate"/>
+ </struct>
+ <struct from="1995" id="n03513627_coll.a" to="2009" type="auto">
+  <feat name="wnsk" value="piece_of_cloth%1:06:00::"/>
+  <feat name="text" value="piece of cloth"/>
+ </struct>
+ <struct from="2325" id="n03514129_coll.a" to="2345" type="auto">
+  <feat name="wnsk" value="measuring_instrument%1:06:00::"/>
+  <feat name="text" value="measuring instrument"/>
+ </struct>
+ <struct from="2501" id="n03514451_coll.a" to="2520" type="auto">
+  <feat name="wnsk" value="surgical_instrument%1:06:00::"/>
+  <feat name="text" value="surgical instrument"/>
+ </struct>
+ <struct from="2557" id="n03514451_coll.b" to="2569" type="auto">
+  <feat name="wnsk" value="blood_vessel%1:08:00::"/>
+  <feat name="text" value="blood vessel"/>
+ </struct>
+ <struct from="2877" id="n03514974_coll.a" to="2888" type="auto">
+  <feat name="wnsk" value="trade_name%1:10:00::"/>
+  <feat name="text" value="trade names"/>
+ </struct>
+ <struct from="2981" id="n03514974_coll.b" to="2994" type="auto">
+  <feat name="wnsk" value="heart_surgery%1:04:00::"/>
+  <feat name="text" value="heart surgery"/>
+ </struct>
+ <struct from="3374" id="n03516011_coll.a" to="3383" type="auto">
+  <feat name="wnsk" value="hard_drug%1:06:00::"/>
+  <feat name="text" value="hard drug"/>
+ </struct>
+ <struct from="3425" id="n03516011_coll.b" to="3446" type="auto">
+  <feat name="wnsk" value="intravenous_injection%1:04:00::"/>
+  <feat name="text" value="intravenous injection"/>
+ </struct>
+ <struct from="3515" id="n03516266_coll.a" to="3534" type="un">
+  <feat name="text" value="herringbone pattern"/>
+ </struct>
+ <struct from="3740" id="n03516647_coll.a" to="3760" type="auto">
+  <feat name="wnsk" value="reflecting_telescope%1:06:00::"/>
+  <feat name="text" value="reflecting telescope"/>
+ </struct>
+ <struct from="3893" id="n03516996_coll.a" to="3907" type="auto">
+  <feat name="wnsk" value="radio_receiver%1:06:00::"/>
+  <feat name="text" value="radio receiver"/>
+ </struct>
+ <struct from="4316" id="n03517760_coll.a" to="4329" type="auto">
+  <feat name="wnsk" value="high_fidelity%1:04:00::"/>
+  <feat name="text" value="high fidelity"/>
+ </struct>
+ <struct from="4478" id="n03518230_coll.a" to="4490" type="auto">
+  <feat name="wnsk" value="diving_board%1:06:00::"/>
+  <feat name="text" value="diving board"/>
+ </struct>
+ <struct from="4499" id="n03518305_coll.a" to="4515" type="auto">
+  <feat name="wnsk" value="chest_of_drawers%1:06:00::"/>
+  <feat name="text" value="chest of drawers"/>
+ </struct>
+ <struct from="4798" id="n03518829_coll.a" to="4808" type="auto">
+  <feat name="wnsk" value="foot_pedal%1:06:00::"/>
+  <feat name="text" value="foot pedal"/>
+ </struct>
+ <struct from="5097" id="n03519387_coll.a" to="5108" type="auto">
+  <feat name="wnsk" value="tower_block%1:06:00::"/>
+  <feat name="text" value="tower block"/>
+ </struct>
+ <struct from="5156" id="n03519674_coll.a" to="5168" type="man">
+  <feat name="wnsk" value="dining_table%1:06:00::"/>
+  <feat name="text" value="dining table"/>
+ </struct>
+ <struct from="5376" id="n03520275_coll.a" to="5397" type="auto">
+  <feat name="wnsk" value="transportation_system%1:06:00::"/>
+  <feat name="text" value="transportation system"/>
+ </struct>
+ <struct from="5558" id="n03520493_coll.a" to="5567" type="auto">
+  <feat name="wnsk" value="face_veil%1:06:00::"/>
+  <feat name="text" value="face veil"/>
+ </struct>
+ <struct from="5868" id="n03521771_coll.a" to="5886" type="auto">
+  <feat name="wnsk" value="protective_garment%1:06:00::"/>
+  <feat name="text" value="protective garment"/>
+ </struct>
+ <struct from="5915" id="n03521771_wf9" to="5923" type="part"/>
+ <node id="n03521771_coll.c.1" ref="n03521771_wf9" type="node"/>
+ <struct from="5935" id="n03521771_wf12" to="5942" type="part"/>
+ <node id="n03521771_coll.c.2" ref="n03521771_wf12" type="node"/>
+ <struct from="n03521771_coll.c.1" id="n03521771_coll.c" to="n03521771_coll.c.2" type="auto">
+  <feat name="wnsk" value="football_player%1:18:00::"/>
+  <feat name="text" value="football players"/>
+ </struct>
+ <struct from="5928" id="n03521771_coll.b" to="5942" type="auto">
+  <feat name="wnsk" value="hockey_player%1:18:00::"/>
+  <feat name="text" value="hockey players"/>
+ </struct>
+ <struct from="5988" id="n03522003_coll.b" to="5999" type="man">
+  <feat name="wnsk" value="horseshow%1:04:00::"/>
+  <feat name="text" value="horse shows"/>
+ </struct>
+ <struct from="6003" id="n03522003_coll.a" to="6014" type="man">
+  <feat name="wnsk" value="horse_race%1:11:00::"/>
+  <feat name="text" value="horse races"/>
+ </struct>
+ <struct from="6043" id="n03522100_coll.a" to="6050" type="man">
+  <feat name="wnsk" value="as_well%4:02:01::"/>
+  <feat name="text" value="as well"/>
+ </struct>
+ <struct from="6139" id="n03522239_coll.b" to="6152" type="auto">
+  <feat name="wnsk" value="peptic_ulcer%1:26:00::"/>
+  <feat name="text" value="peptic ulcers"/>
+ </struct>
+ <struct from="6171" id="n03522239_coll.a" to="6194" type="auto">
+  <feat name="wnsk" value="gastroesophageal_reflux%1:26:00::"/>
+  <feat name="text" value="gastroesophageal reflux"/>
+ </struct>
+ <struct from="6260" id="n03522239_coll.c" to="6268" type="un">
+  <feat name="text" value="known as"/>
+ </struct>
+ <struct from="6683" id="n03523398_coll.a" to="6693" type="auto">
+  <feat name="wnsk" value="hard_steel%1:27:00::"/>
+  <feat name="text" value="hard steel"/>
+ </struct>
+ <struct from="6694" id="n03523398_coll.b" to="6703" type="auto">
+  <feat name="wnsk" value="edge_tool%1:06:00::"/>
+  <feat name="text" value="edge tool"/>
+ </struct>
+ <struct from="6982" id="n03523987_coll.a" to="6991" type="man">
+  <feat name="wnsk" value="ice_skate%1:06:00::"/>
+  <feat name="text" value="ice skate"/>
+ </struct>
+ <struct from="7085" id="n03524150_coll.a" to="7101" type="auto">
+  <feat name="wnsk" value="sports_implement%1:06:00::"/>
+  <feat name="text" value="sports implement"/>
+ </struct>
+ <struct from="7132" id="n03524150_coll.b" to="7146" type="auto">
+  <feat name="wnsk" value="hockey_player%1:18:00::"/>
+  <feat name="text" value="hockey players"/>
+ </struct>
+ <struct from="7265" id="n03524425_coll.a" to="7286" type="man">
+  <feat name="wnsk" value="scientific_instrument%1:06:00::"/>
+  <feat name="text" value="scientific instrument"/>
+ </struct>
+ <struct from="7368" id="n03524574_coll.a" to="7380" type="man">
+  <feat name="wnsk" value="right_angle%1:25:00::"/>
+  <feat name="text" value="right angles"/>
+ </struct>
+ <struct from="7551" id="n03525074_coll.a" to="7565" type="auto">
+  <feat name="wnsk" value="lifting_device%1:06:00::"/>
+  <feat name="text" value="lifting device"/>
+ </struct>
+</cesAna>

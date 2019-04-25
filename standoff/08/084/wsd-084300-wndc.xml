@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="21" id="v00448864_coll.a" to="32" type="auto">
+  <feat name="wnsk" value="clean_out%2:30:00::"/>
+  <feat name="text" value="cleaned out"/>
+ </struct>
+ <struct from="88" id="v00449011_coll.a" to="98" type="auto">
+  <feat name="wnsk" value="flow_off%2:30:00::"/>
+  <feat name="text" value="flowed off"/>
+ </struct>
+ <struct from="845" id="v00450997_coll.a" to="851" type="man">
+  <feat name="wnsk" value="use_up%2:34:00::"/>
+  <feat name="text" value="use up"/>
+ </struct>
+ <struct from="935" id="v00451153_coll.b" to="947" type="man">
+  <feat name="wnsk" value="knock_out%2:30:02::"/>
+  <feat name="text" value="knocking out"/>
+ </struct>
+ <struct from="949" id="v00451153_coll.a" to="960" type="auto">
+  <feat name="wnsk" value="knock_out%2:30:02::"/>
+  <feat name="text" value="knocked out"/>
+ </struct>
+ <struct from="1235" id="v00451838_coll.a" to="1244" type="auto">
+  <feat name="wnsk" value="fill_up%2:30:01::"/>
+  <feat name="text" value="filled up"/>
+ </struct>
+ <struct from="1556" id="v00453294_coll.a" to="1566" type="auto">
+  <feat name="wnsk" value="top_off%2:30:12::"/>
+  <feat name="text" value="topped off"/>
+ </struct>
+ <struct from="1984" id="v00454475_coll.a" to="1993" type="man">
+  <feat name="wnsk" value="body_part%1:08:00::"/>
+  <feat name="text" value="body part"/>
+ </struct>
+ <struct from="2243" id="v00455079_coll.a" to="2254" type="auto">
+  <feat name="wnsk" value="wash_down%2:30:00::"/>
+  <feat name="text" value="washed down"/>
+ </struct>
+ <struct from="2772" id="v00456357_coll.a" to="2789" type="man">
+  <feat name="wnsk" value="chemical_compound%1:27:00::"/>
+  <feat name="text" value="chemical compound"/>
+ </struct>
+ <struct from="3237" id="v00457569_coll.a" to="3245" type="un">
+  <feat name="text" value="break up"/>
+ </struct>
+ <struct from="3355" id="v00457998_coll.a" to="3366" type="un">
+  <feat name="text" value="solid state"/>
+ </struct>
+ <struct from="3421" id="v00458276_wf9" to="3426" type="part"/>
+ <node id="v00458276_coll.a.1" ref="v00458276_wf9" type="node"/>
+ <struct from="3440" id="v00458276_wf12" to="3445" type="part"/>
+ <node id="v00458276_coll.a.2" ref="v00458276_wf12" type="node"/>
+ <struct from="v00458276_coll.a.1" id="v00458276_coll.a" to="v00458276_coll.a.2" type="un">
+  <feat name="text" value="solid state"/>
+ </struct>
+ <struct from="3893" id="v00459776_coll.a" to="3904" type="man">
+  <feat name="wnsk" value="slow_down%2:30:04::"/>
+  <feat name="wnsk" value="slow_down%2:30:02::"/>
+  <feat name="text" value="slowed down"/>
+ </struct>
+ <struct from="4674" id="v00461493_coll.a" to="4682" type="man">
+  <feat name="wnsk" value="be_quiet%2:32:00::"/>
+  <feat name="text" value="be quiet"/>
+ </struct>
+ <struct from="4765" id="v00462092_coll.b" to="4773" type="un">
+  <feat name="text" value="put down"/>
+ </struct>
+ <struct from="4826" id="v00462092_coll.a" to="4836" type="auto">
+  <feat name="wnsk" value="stamp_down%2:30:00::"/>
+  <feat name="text" value="stamp down"/>
+ </struct>
+ <struct from="4970" id="v00462894_coll.a" to="4980" type="un">
+  <feat name="text" value="get rid of"/>
+ </struct>
+ <struct from="5951" id="v00465291_coll.a" to="5958" type="auto">
+  <feat name="wnsk" value="true_up%2:30:00::"/>
+  <feat name="text" value="true up"/>
+ </struct>
+ <struct from="5997" id="v00465461_coll.a" to="6010" type="auto">
+  <feat name="wnsk" value="line_of_sight%1:15:00::"/>
+  <feat name="text" value="line of sight"/>
+ </struct>
+ <struct from="6054" id="v00465634_coll.a" to="6064" type="auto">
+  <feat name="wnsk" value="plumb_line%1:06:00::"/>
+  <feat name="text" value="plumb line"/>
+ </struct>
+ <struct from="6678" id="v00467151_coll.a" to="6686" type="auto">
+  <feat name="wnsk" value="build_in%2:30:00::"/>
+  <feat name="text" value="build in"/>
+ </struct>
+ <struct from="6896" id="v00467717_coll.a" to="6906" type="man">
+  <feat name="wnsk" value="conform_to%2:42:01::"/>
+  <feat name="text" value="conform to"/>
+ </struct>
+ <struct from="7050" id="v00468236_coll.a" to="7060" type="man">
+  <feat name="wnsk" value="conform_to%2:30:00::"/>
+  <feat name="text" value="conform to"/>
+ </struct>
+ <struct from="7370" id="v00469030_coll.a" to="7382" type="man">
+  <feat name="wnsk" value="change_shape%2:30:00::"/>
+  <feat name="text" value="change shape"/>
+ </struct>
+ <struct from="7473" id="v00469187_coll.a" to="7485" type="man">
+  <feat name="wnsk" value="change_shape%2:30:00::"/>
+  <feat name="text" value="change shape"/>
+ </struct>
+</cesAna>

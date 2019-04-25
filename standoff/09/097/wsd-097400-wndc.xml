@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="0" id="a00271580_coll.a" to="13" type="un">
+  <feat name="text" value="provided with"/>
+ </struct>
+ <struct from="253" id="a00272069_wf1" to="260" type="part"/>
+ <node id="a00272069_coll.a.1" ref="a00272069_wf1" type="node"/>
+ <struct from="268" id="a00272069_wf3" to="270" type="part"/>
+ <node id="a00272069_coll.a.2" ref="a00272069_wf3" type="node"/>
+ <struct from="a00272069_coll.a.1" id="a00272069_coll.a" to="a00272069_coll.a.2" type="man">
+  <feat name="wnsk" value="turn_on%2:35:00::"/>
+  <feat name="text" value="turning on"/>
+ </struct>
+ <struct from="1004" id="a00273652_wf7" to="1010" type="part"/>
+ <node id="a00273652_coll.b.1" ref="a00273652_wf7" type="node"/>
+ <struct from="1023" id="a00273652_wf10" to="1027" type="part"/>
+ <node id="a00273652_coll.b.2" ref="a00273652_wf10" type="node"/>
+ <struct from="a00273652_coll.b.1" id="a00273652_coll.b" to="a00273652_coll.b.2" type="auto">
+  <feat name="wnsk" value="river_styx%1:17:00::"/>
+  <feat name="text" value="rivers Styx"/>
+ </struct>
+ <struct from="1004" id="a00273652_coll.a" to="1018" type="auto">
+  <feat name="wnsk" value="river_acheron%1:17:00::"/>
+  <feat name="text" value="rivers Acheron"/>
+ </struct>
+ <struct from="1672" id="a00274833_coll.a" to="1685" type="man">
+  <feat name="wnsk" value="cloud_over%2:30:00::"/>
+  <feat name="wnsk" value="cloud_over%2:43:00::"/>
+  <feat name="text" value="clouding over"/>
+ </struct>
+ <struct from="7254" id="a00286214_coll.a" to="7275" type="auto">
+  <feat name="wnsk" value="preconceived_opinion%1:09:00::"/>
+  <feat name="text" value="preconceived opinions"/>
+ </struct>
+</cesAna>

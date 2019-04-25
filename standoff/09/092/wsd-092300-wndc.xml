@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <struct from="2014" id="v02049963_coll.a" to="2020" type="auto">
+  <feat name="wnsk" value="get_by%2:38:00::"/>
+  <feat name="text" value="got by"/>
+ </struct>
+ <struct from="2147" id="v02050132_coll.a" to="2159" type="auto">
+  <feat name="wnsk" value="go_through%2:38:00::"/>
+  <feat name="text" value="went through"/>
+ </struct>
+ <struct from="2181" id="v02050688_coll.b" to="2196" type="man">
+  <feat name="wnsk" value="pass_through%2:38:00::"/>
+  <feat name="text" value="passing through"/>
+ </struct>
+ <struct from="2181" id="v02050688_wf3" to="2188" type="part"/>
+ <node id="v02050688_coll.a.1" ref="v02050688_wf3" type="node"/>
+ <struct from="2209" id="v02050688_wf9" to="2213" type="part"/>
+ <node id="v02050688_coll.a.2" ref="v02050688_wf9" type="node"/>
+ <struct from="v02050688_coll.a.1" id="v02050688_coll.a" to="v02050688_coll.a.2" type="man">
+  <feat name="wnsk" value="pass_over%2:38:02::"/>
+  <feat name="text" value="passing over"/>
+ </struct>
+ <struct from="2260" id="v02050865_wf1" to="2264" type="part"/>
+ <node id="v02050865_coll.a.1" ref="v02050865_wf1" type="node"/>
+ <struct from="2274" id="v02050865_wf4" to="2281" type="part"/>
+ <node id="v02050865_coll.a.2" ref="v02050865_wf4" type="node"/>
+ <struct from="v02050865_coll.a.1" id="v02050865_coll.a" to="v02050865_coll.a.2" type="man">
+  <feat name="wnsk" value="pass_through%2:38:00::"/>
+  <feat name="text" value="pass through"/>
+ </struct>
+ <struct from="2392" id="v02051270_coll.a" to="2404" type="man">
+  <feat name="wnsk" value="pass_through%2:38:00::"/>
+  <feat name="text" value="pass through"/>
+ </struct>
+ <struct from="2461" id="v02051444_coll.a" to="2475" type="man">
+  <feat name="wnsk" value="starting_point%1:28:00::"/>
+  <feat name="text" value="starting point"/>
+ </struct>
+ <struct from="2582" id="v02051694_coll.a" to="2591" type="auto">
+  <feat name="wnsk" value="pass_by%2:38:00::"/>
+  <feat name="text" value="passed by"/>
+ </struct>
+ <struct from="2776" id="v02052226_coll.b" to="2783" type="man">
+  <feat name="wnsk" value="pass_by%2:38:00::"/>
+  <feat name="text" value="pass by"/>
+ </struct>
+ <struct from="2824" id="v02052226_coll.a" to="2834" type="auto">
+  <feat name="wnsk" value="run_by%2:38:00::"/>
+  <feat name="text" value="running by"/>
+ </struct>
+ <struct from="2836" id="v02052358_coll.b" to="2843" type="man">
+  <feat name="wnsk" value="pass_by%2:38:00::"/>
+  <feat name="text" value="pass by"/>
+ </struct>
+ <struct from="2873" id="v02052358_coll.a" to="2880" type="auto">
+  <feat name="wnsk" value="fly_by%2:38:00::"/>
+  <feat name="text" value="flew by"/>
+ </struct>
+ <struct from="3245" id="v02053381_coll.a" to="3257" type="man">
+  <feat name="wnsk" value="pass_through%2:38:02::"/>
+  <feat name="text" value="pass through"/>
+ </struct>
+ <struct from="3351" id="v02053621_wf1" to="3355" type="part"/>
+ <node id="v02053621_coll.a.1" ref="v02053621_wf1" type="node"/>
+ <struct from="3363" id="v02053621_wf4" to="3370" type="part"/>
+ <node id="v02053621_coll.a.2" ref="v02053621_wf4" type="node"/>
+ <struct from="v02053621_coll.a.1" id="v02053621_coll.a" to="v02053621_coll.a.2" type="man">
+  <feat name="wnsk" value="pass_through%2:38:02::"/>
+  <feat name="text" value="pass through"/>
+ </struct>
+ <struct from="3390" id="v02053723_wf1" to="3393" type="part"/>
+ <node id="v02053723_coll.a.1" ref="v02053723_wf1" type="node"/>
+ <struct from="3404" id="v02053723_wf4" to="3411" type="part"/>
+ <node id="v02053723_coll.a.2" ref="v02053723_wf4" type="node"/>
+ <struct from="v02053723_coll.a.1" id="v02053723_coll.a" to="v02053723_coll.a.2" type="man">
+  <feat name="wnsk" value="cut_through%2:38:00::"/>
+  <feat name="text" value="cut through"/>
+ </struct>
+ <struct from="3513" id="v02053941_coll.a" to="3525" type="auto">
+  <feat name="wnsk" value="draw_near%2:38:00::"/>
+  <feat name="text" value="drawing near"/>
+ </struct>
+ <struct from="3542" id="v02053941_coll.b" to="3553" type="auto">
+  <feat name="wnsk" value="come_near%2:38:00::"/>
+  <feat name="text" value="came nearer"/>
+ </struct>
+ <struct from="3566" id="v02054382_coll.a" to="3575" type="man">
+  <feat name="wnsk" value="draw_near%2:38:00::"/>
+  <feat name="text" value="draw near"/>
+ </struct>
+ <struct from="3618" id="v02054541_coll.a" to="3631" type="man">
+  <feat name="wnsk" value="come_together%2:38:03::"/>
+  <feat name="text" value="come together"/>
+ </struct>
+ <struct from="3741" id="v02054703_coll.a" to="3751" type="auto">
+  <feat name="wnsk" value="close_in%2:38:00::"/>
+  <feat name="text" value="closing in"/>
+ </struct>
+ <struct from="3825" id="v02054989_coll.b" to="3836" type="man">
+  <feat name="wnsk" value="stretch_out%2:38:00::"/>
+  <feat name="text" value="stretch out"/>
+ </struct>
+ <struct from="3892" id="v02054989_coll.a" to="3903" type="auto">
+  <feat name="wnsk" value="stretch_out%2:38:00::"/>
+  <feat name="text" value="stretch out"/>
+ </struct>
+ <struct from="4230" id="v02056300_coll.a" to="4238" type="man">
+  <feat name="wnsk" value="run_away%2:38:00::"/>
+  <feat name="text" value="run away"/>
+ </struct>
+ <struct from="4263" id="v02056466_coll.a" to="4272" type="man">
+  <feat name="wnsk" value="drive_out%2:38:00::"/>
+  <feat name="text" value="drive out"/>
+ </struct>
+ <struct from="4319" id="v02056691_coll.a" to="4329" type="man">
+  <feat name="wnsk" value="chase_away%2:38:00::"/>
+  <feat name="text" value="chase away"/>
+ </struct>
+ <struct from="4412" id="v02056854_coll.b" to="4421" type="man">
+  <feat name="wnsk" value="drive_out%2:38:01::"/>
+  <feat name="text" value="drive out"/>
+ </struct>
+ <struct from="4434" id="v02056854_coll.a" to="4443" type="auto">
+  <feat name="wnsk" value="smoke_out%2:38:00::"/>
+  <feat name="text" value="smoke out"/>
+ </struct>
+ <struct from="4968" id="v02058191_coll.a" to="4981" type="auto">
+  <feat name="wnsk" value="bustle_about%2:38:00::"/>
+  <feat name="text" value="bustled about"/>
+ </struct>
+ <struct from="5573" id="v02060141_coll.a" to="5583" type="auto">
+  <feat name="wnsk" value="fan_out%2:38:00::"/>
+  <feat name="text" value="fanned out"/>
+ </struct>
+ <struct from="5878" id="v02061069_coll.a" to="5887" type="man">
+  <feat name="wnsk" value="draw_back%2:38:00::"/>
+  <feat name="text" value="draw back"/>
+ </struct>
+ <struct from="5971" id="v02061366_coll.a" to="5980" type="man">
+  <feat name="wnsk" value="pull_away%2:38:00::"/>
+  <feat name="text" value="pull away"/>
+ </struct>
+ <struct from="6085" id="v02061846_coll.a" to="6099" type="man">
+  <feat name="wnsk" value="back_and_forth%4:02:00::"/>
+  <feat name="text" value="back and forth"/>
+ </struct>
+ <struct from="6159" id="v02062081_coll.a" to="6173" type="man">
+  <feat name="wnsk" value="back_and_forth%4:02:00::"/>
+  <feat name="text" value="back and forth"/>
+ </struct>
+ <struct from="6531" id="v02063309_coll.b" to="6540" type="un">
+  <feat name="text" value="bend over"/>
+ </struct>
+ <struct from="6544" id="v02063309_coll.a" to="6551" type="man">
+  <feat name="wnsk" value="curl_up%2:38:01::"/>
+  <feat name="text" value="curl up"/>
+ </struct>
+</cesAna>
