@@ -1,0 +1,42 @@
+
+(:ATTRS (("open" "aux" "tag" "ignore")) :SFORM NIL) =>
+(tk :kind "aux" :action "open" :tag "ignore")
+
+(:ATTRS (("open" "mwf" "type" "date")) :SFORM NIL) =>
+(:kind "mwf" :action "open" :type "date")
+
+(:ATTRS
+   (("id" "sk" "chemical_reaction%1:22:00::")
+    ("id" "lemma" "chemical reaction") ("id" "id" "a03151122_id.4")
+    ("id" "coll" "a") ("glob" "tag" "auto")
+    ("glob" "lemma" "chemical_reaction%1") ("glob" "id" "a03151122_coll.a")
+    ("glob" "glob" "auto") ("glob" "coll" "a") ("cf" "tag" "un")
+    ("cf" "pos" "JJ") ("cf" "lemma" "chemical%1|chemical%3")
+    ("cf" "id" "a03151122_wf7") ("cf" "coll" "a"))
+   :SFORM "chemical") =>
+(tk :kind "cf" :pos "JJ" :lemas "chemical%1|chemical%3" :tag "un"
+    :coll "a")
+(tk :kind "glob" :tag "un" :glob "{glob.glob}" :coll "a" :tag "{glob.tag}"
+    :sk (("chemical_reaction%1:22:00::" "chemical reaction")))
+
+(:ATTRS
+   (("cf" "tag" "un") ("cf" "pos" "NN") ("cf" "lemma" "reaction%1")
+    ("cf" "id" "a03151122_wf8") ("cf" "coll" "a"))
+   :SFORM "reaction") =>
+(tk :kind "cf" :tag "un" :pos "NN" :lemas "reaction%1"
+    :conll "a" :sform "reaction")
+
+(:ATTRS
+   (("id" "sk" "oxygen%1:27:00::") ("id" "lemma" "oxygen")
+    ("id" "id" "a03151122_id.2") ("wf" "tag" "auto") ("wf" "sep" "")
+    ("wf" "pos" "NN") ("wf" "lemma" "oxygen%1") ("wf" "id" "a03151122_wf10"))
+   :SFORM "oxygen") =>
+(tk :kind "wf"
+    :senses (("{id.sk}" . "{id.lemma}"))
+    :tag "{wf.tag}"
+    :sep "{wf.sep}"
+    :pos "{wf.pos}"
+    :lemmas "{wf.lemma}")
+
+
+
