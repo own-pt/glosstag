@@ -2,5 +2,5 @@
 ;;  Author: Alexandre Rademaker
 
 (defpackage #:glosstag
-  (:use #:cl :alexandria))
+  (:use :cl :alexandria :trivia))
 

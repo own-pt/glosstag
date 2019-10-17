@@ -41,9 +41,9 @@
 
 (defun fix-sense-key (str)
   (let ((lemma+lex_sense (serapeum:split-sequence-if
-			  #'(lambda (char)
-			      (or (char-equal #\: char)
-				  (char-equal #\% char)))
+			  (lambda (char)
+			    (or (char-equal #\: char)
+				(char-equal #\% char)))
 			  str)))
     (if (and
 	 (string-equal (nth 1 lemma+lex_sense) "3")
