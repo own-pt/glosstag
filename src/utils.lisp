@@ -40,10 +40,14 @@
 
 (defun token-to-line (id tk)
   (labels ((getc (key)
-	     (if (getf tk key) (getf tk key) "_")))
-    (let ((senses (if (getf tk :senses)
-		      (format nil "~{~a~^|~}" (sort (mapcar #'car (getf tk :senses)) #'string<=))
-		      "_")))
+	     (if-let ((res (getf tk key)))
+	       res
+	       "_"))
+	   (lst-to-str (lst)
+	     (if (null lst)
+		 "_"
+		 (format nil "~{~a~^|~}" lst))))
+    (let ((senses (lst-to-str (sort (mapcar #'car (getf tk :senses)) #'string<=))))
       (cond
 	((member (getf tk :kind) (list :classif :def :mwf :qf :aux :ex))
 	 (let ((line (make-instance 'line :id id :kind (getc :kind) :type (getc :type)
@@ -65,7 +69,7 @@
 	 (let ((line (make-instance 'line :id id :kind (car (getc :kind)) :type (getc :type)
 					  :form (getc :form) :lemma (getc :lemma) :pos (getc :pos) :tag (getc :tag)
 					  :sense senses
-					  :sep (getc :sep) :glob-i (cdr (getf tk :kind)) :rdf (getc :rdf)))
+					  :sep (getc :sep) :glob-i (lst-to-str (cdr (getf tk :kind))) :rdf (getc :rdf)))
 	       (db (remove-from-plist tk :kind :type :form :lemma :pos :tag :senses :sep :rdf)))
 	   (assert (null db))
 	   line))
