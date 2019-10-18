@@ -17,7 +17,7 @@
 				  (first (serapeum:split-sequence #\% lemma)))
 				lemmas))
 		(lemmas (serapeum:nub lemmas)))
-	   (reduce (lambda (n lemma) (+ n (gethash lemma lexical-form->n-senses)))
+	   (reduce (lambda (n lemma) (+ n (gethash lemma lexical-form->n-senses 0)))
 		   lemmas :initial-value 0)))
        (check-sense (form sense)
 	 (assert (gethash sense sense-index) (sent-id form sense)
@@ -48,11 +48,11 @@
 	    (let-match (((list glob-key) maybe-keys))
 	      (assert glob (sent-id glob-key)
 		      "Glob ~a at sentence ~a must have glob marker" glob-key sent-id)
-	      (assert (null form))))))
-       (match tag
-	 ((or "man" "auto")
-	  (assert senses)
-	  (setf (tk-n-senses token) (get-sense-candidates lemmas))))
+	      (assert (null form)))))
+	 (match tag
+	   ((not "ignore")
+	    (when (member kind '("wf" "cf" "glob") :test #'equal)
+	      (setf (tk-n-senses token) (get-sense-candidates lemmas))))))
        token))))
 
 
