@@ -15,5 +15,12 @@ specific formats) and backends (= exporters for specific formats)
 
 - TODO: port legacy code to new architecture
 
+** modules
 - data.lisp :: abstract data structures and semantic checking
 - export.list :: JSON reader, TSV exporter
+
+** how to
+#+BEGIN_SRC lisp
+(release-corpus "~/work/wn/glosstag/glosstag.json" "release.out" "~/work/wn/glosstag/sense-index.csv")
+#+END_SRC
+(see =release-corpus= docstring for more information)
