@@ -3,9 +3,7 @@
 
 
 ;;; from json format
-
-;;; from (legacy) plist format
-;; see utils.lisp
+;;; from (legacy) plist format see utils.lisp
 
 (defun json->sent (json-str)
   (labels

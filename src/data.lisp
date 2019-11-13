@@ -5,7 +5,6 @@
 (defstruct tk
   kind form lemmas tag n-senses senses glob unsure meta)
 
-
 (defstruct sent
   id meta tokens text)
 
