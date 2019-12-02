@@ -64,8 +64,9 @@
 	 (error 'malformed-token :text "Token must have a collocation key." :token token :sent sent))
        (test (null (token-glob token)) 
 	 (error 'malformed-token :text "Token must not have glob marker." :token token :sent sent))
-       (test (null (token-senses token)) 
-	 (error 'malformed-token :text "Token must not have senses." :token token :sent sent)))
+       ;; (test (null (token-senses token)) 
+       ;; 	 (error 'malformed-token :text "Token must not have senses." :token token :sent sent))
+       )
 
       ((equal (car (token-kind token)) "glob")
        (test (token-glob token) 
