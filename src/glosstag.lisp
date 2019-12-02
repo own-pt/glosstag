@@ -1,7 +1,7 @@
 ;; (C) 2019 IBM Corporation
 ;;  Author: Alexandre Rademaker
 
-(in-package :glosstag)
+(in-package :glosstag.initial)
 
 (defvar *state* nil)
 

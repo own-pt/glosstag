@@ -8,15 +8,15 @@
 (defun json->sent (json-str)
   (labels
       ((->tk (tk-result)
-	 (make-tk :kind (gethash "kind" tk-result)
-		  :form (gethash "form" tk-result)
-		  :lemmas (gethash "lemmas" tk-result)
-		  :tag (gethash "tag" tk-result)
-		  :n-senses nil
-		  :senses (gethash "senses" tk-result)
-		  :glob (gethash "glob" tk-result)
-		  :unsure (gethash "unsure" tk-result)
-		  :meta (gethash "meta" tk-result))))
+	 (make-token :kind (gethash "kind" tk-result)
+		     :form (gethash "form" tk-result)
+		     :lemmas (gethash "lemmas" tk-result)
+		     :tag (gethash "tag" tk-result)
+		     :n-senses nil
+		     :senses (gethash "senses" tk-result)
+		     :glob (gethash "glob" tk-result)
+		     :unsure (gethash "unsure" tk-result)
+		     :meta (gethash "meta" tk-result))))
     (let ((parse-result (jonathan:parse json-str :as :hash-table)))
       (make-sent :id (gethash "_id" parse-result)
 		 :meta (gethash "meta" parse-result)
@@ -38,14 +38,13 @@
 
 (defun tk->tsv (id token)
   (match token
-    ((tk kind form lemmas tag n-senses senses glob unsure meta)
+    ((token kind form lemmas tag n-senses senses glob unsure meta)
      (match kind
        ((list* kind keys)
-	(labels
-	    ((getc (key)
-	       (if meta
-		   (or (gethash key meta) "_")
-		   "_")))
+	(labels ((getc (key)
+		   (if meta
+		       (or (gethash key meta) "_")
+		       "_")))
 	  (format t "~{~a~^~a~}~%"
 		  (list id
 			#\Tab
@@ -104,16 +103,16 @@
 (defun release-corpus (corpus-directory-or-file output sense-index-file
 		       &key (format :json))
   "Files in CORPUS-DIRECTORY-OR-FILE are one-sentence per line in
-FORMAT. Convert to TSV release format placed in
-OUTPUT. SENSE-INDEX-FILE is a csv file of three fields: lexical_form,
-number of senses, sense keys (separated by tabs)."
+   FORMAT. Convert to TSV release format placed in
+   OUTPUT. SENSE-INDEX-FILE is a csv file of three fields:
+   lexical_form, number of senses, sense keys (separated by tabs)."
   ;; You can obtain the sense index file by running the following
-  ;; sparql query:
-  ;; http://wnpt.sl.res.ibm.com:10035/#/repositories/wn30/query/d/select%20?lf%20(count(?ws)%20as%20?total)%20(GROUP_CONCAT(?sk;%20SEPARATOR=%22%5Ct%22)%20AS%20?senses)%20%7B%0A%20%20?ws%20wn30:word%20?w%20.%0A%20%20?w%20wn30:lexicalForm%20?lf%20.%0A%20%20?ws%20wn30:senseKey%20?sk%20.%0A%7D%0Agroup%20by%20?lf
+  ;; sparql query: SEE README
   ;; you may need to add the purposefully ignored sense (see
   ;; https://github.com/own-pt/sensetion.el/issues/73)
   (multiple-value-bind
-	(lexical-form->n-senses sense-index) (tsv-to-indices sense-index-file)
+	(lexical-form->n-senses sense-index)
+      (tsv-to-indices sense-index-file)
     (ensure-directories-exist output)
     (with-open-file (*standard-output* output :direction :output :if-exists :supersede)
       (mapc (lambda (file) 
@@ -121,6 +120,7 @@ number of senses, sense keys (separated by tabs)."
 		(loop for line = (read-line in nil nil)
 		      while line
 		      do (let* ((sent (parse-sent line format))
-				(sent (check-sent sent lexical-form->n-senses sense-index)))
+				(sent (handler-case (check-sent sent lexical-form->n-senses sense-index)
+					(malformed-sentence () sent))))
 			   (sent->tsv sent)))))
 	    (directory corpus-directory-or-file)))))

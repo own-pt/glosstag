@@ -28,3 +28,9 @@ specific formats) and backends (= exporters for specific formats)
 #+END_SRC
 
 See =release-corpus= docstring for more information.
+
+#+begin_src 
+http://wnpt.sl.res.ibm.com:10035/#/repositories/wn30/query/d/select%20?lf%20(count(?ws)%20as%20?total)%20(GROUP_CONCAT(?sk;%20SEPARATOR=%22%5Ct%22)%20AS%20?senses)%20%7B%0A%20%20?ws%20wn30:word%20?w%20.%0A%20%20?w%20wn30:lexicalForm%20?lf%20.%0A%20%20?ws%20wn30:senseKey%20?sk%20.%0A%7D%0Agroup%20by%20?lf
+#+end_src
+
+
