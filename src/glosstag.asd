@@ -10,5 +10,7 @@
 	       (:file "glosstag" :depends-on ("package"))
 	       (:file "utils"    :depends-on ("package"))
 	       (:file "data"     :depends-on ("package"))
-	       (:file "export"   :depends-on ("data"))))
+	       (:file "export"   :depends-on ("data"))
+	       (:file "ukb-rel"  :depends-on ("export"))
+	       (:file "fix-xml"  :depends-on ("package"))))
 
