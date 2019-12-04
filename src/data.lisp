@@ -75,6 +75,9 @@
 	 (error 'malformed-token :text "Token must not have a form." :token token :sent sent))
        (mapc #'check-sense (token-senses token))))
 
+    (when (and (equal "man" (token-tag token)) (null (token-senses token)))
+      (error 'malformed-token :text "Token with man tag without sense." :token token :sent sent))
+
     (when (and (not (equal "ignore" (token-tag token)))
 	       (member (car (token-kind token)) '("wf" "cf" "glob") :test #'equal))
       (setf (token-n-senses token) (get-sense-candidates (token-lemmas token))))
