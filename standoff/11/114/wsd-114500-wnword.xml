@@ -2,7 +2,7 @@
 <cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
  <struct from="6" id="r00079617_wf3" to="12" type="man">
   <feat name="wnsk" value="active%3:00:01::"/>
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="text" value="active"/>
  </struct>
  <struct from="13" id="r00079617_wf4" to="19" type="man">
@@ -118,7 +118,7 @@
   <feat name="text" value="respect"/>
  </struct>
  <struct from="361" id="r00080534_wf6" to="371" type="man">
-  <feat name="wnsk" value="disdainful%3:00:00:disrespectful:00"/>
+  <feat name="wnsk" value="disdainful%5:00:00:disrespectful:00"/>
   <feat name="text" value="disdainful"/>
  </struct>
  <struct from="372" id="r00080534_wf7" to="378" type="man">
@@ -199,7 +199,7 @@
   <feat name="text" value="sane"/>
  </struct>
  <struct from="628" id="r00081194_wf5" to="633" type="man">
-  <feat name="wnsk" value="lucid%3:00:00:sane:00"/>
+  <feat name="wnsk" value="lucid%5:00:00:sane:00"/>
   <feat name="text" value="lucid"/>
  </struct>
  <struct from="634" id="r00081194_wf6" to="640" type="man">
@@ -235,7 +235,7 @@
   <feat name="text" value="schizophrenic"/>
  </struct>
  <struct from="730" id="r00081375_wf3" to="737" type="auto">
-  <feat name="wnsk" value="comical%3:00:00:humorous:00"/>
+  <feat name="wnsk" value="comical%5:00:00:humorous:00"/>
   <feat name="text" value="comical"/>
  </struct>
  <struct from="738" id="r00081375_wf4" to="744" type="man">
@@ -343,7 +343,7 @@
   <feat name="text" value="beholder"/>
  </struct>
  <struct from="1050" id="r00082148_wf3" to="1060" type="man">
-  <feat name="wnsk" value="misleading%3:00:00:dishonest:00"/>
+  <feat name="wnsk" value="misleading%5:00:00:dishonest:00"/>
   <feat name="text" value="misleading"/>
  </struct>
  <struct from="1061" id="r00082148_wf4" to="1064" type="man">
@@ -415,8 +415,8 @@
   <feat name="text" value="Willingham"/>
  </struct>
  <struct from="1243" id="r00082492_wf3" to="1254" type="man">
-  <feat name="wnsk" value="deprecative%3:00:00:uncomplimentary:00"/>
-  <feat name="wnsk" value="deprecative%3:00:00:critical:01"/>
+  <feat name="wnsk" value="deprecative%5:00:00:uncomplimentary:00"/>
+  <feat name="wnsk" value="deprecative%5:00:00:critical:01"/>
   <feat name="text" value="deprecative"/>
  </struct>
  <struct from="1255" id="r00082492_wf4" to="1261" type="man">
@@ -438,7 +438,7 @@
   <feat name="text" value="degree"/>
  </struct>
  <struct from="1318" id="r00082682_wf3" to="1329" type="auto">
-  <feat name="wnsk" value="dichotomous%3:00:00:divided:00"/>
+  <feat name="wnsk" value="dichotomous%5:00:00:divided:00"/>
   <feat name="text" value="dichotomous"/>
  </struct>
  <struct from="1330" id="r00082682_wf4" to="1336" type="man">
@@ -446,7 +446,7 @@
   <feat name="text" value="manner"/>
  </struct>
  <struct from="1343" id="r00082765_wf3" to="1351" type="auto">
-  <feat name="wnsk" value="digitate%3:00:00:fingered:00"/>
+  <feat name="wnsk" value="digitate%5:00:00:fingered:00"/>
   <feat name="text" value="digitate"/>
  </struct>
  <struct from="1352" id="r00082765_wf4" to="1358" type="man">
@@ -454,7 +454,7 @@
   <feat name="text" value="manner"/>
  </struct>
  <struct from="1365" id="r00082842_wf3" to="1375" type="auto">
-  <feat name="wnsk" value="disruptive%3:00:00:unquiet:00"/>
+  <feat name="wnsk" value="disruptive%5:00:00:unquiet:00"/>
   <feat name="text" value="disruptive"/>
  </struct>
  <struct from="1376" id="r00082842_wf4" to="1382" type="man">
@@ -462,11 +462,11 @@
   <feat name="text" value="manner"/>
  </struct>
  <struct from="1389" id="r00082923_wf3" to="1394" type="man">
-  <feat name="wnsk" value="giddy%3:00:00:frivolous:00"/>
+  <feat name="wnsk" value="giddy%5:00:00:frivolous:00"/>
   <feat name="text" value="giddy"/>
  </struct>
  <struct from="1395" id="r00082923_wf4" to="1407" type="man">
-  <feat name="wnsk" value="light-headed%3:00:00:ill:01"/>
+  <feat name="wnsk" value="light-headed%5:00:00:ill:01"/>
   <feat name="text" value="light-headed"/>
  </struct>
  <struct from="1408" id="r00082923_wf5" to="1414" type="man">
@@ -495,7 +495,7 @@
   <feat name="text" value="direction"/>
  </struct>
  <struct from="1482" id="r00083168_wf3" to="1494" type="auto">
-  <feat name="wnsk" value="dorsoventral%3:00:00:ventral:00"/>
+  <feat name="wnsk" value="dorsoventral%5:00:00:ventral:00"/>
   <feat name="text" value="dorsoventral"/>
  </struct>
  <struct from="1495" id="r00083168_wf4" to="1504" type="un">
@@ -598,7 +598,7 @@
   <feat name="text" value="errors"/>
  </struct>
  <struct from="1800" id="r00083817_wf3" to="1814" type="auto">
-  <feat name="wnsk" value="multiplicative%3:00:00:increasing:00"/>
+  <feat name="wnsk" value="multiplicative%5:00:00:increasing:00"/>
   <feat name="text" value="multiplicative"/>
  </struct>
  <struct from="1815" id="r00083817_wf4" to="1821" type="man">
@@ -658,7 +658,7 @@
   <feat name="text" value="distinctly"/>
  </struct>
  <struct from="1976" id="r00084223_wf4" to="1983" type="man">
-  <feat name="wnsk" value="great%3:00:01:large:00"/>
+  <feat name="wnsk" value="great%5:00:01:large:00"/>
   <feat name="text" value="greater"/>
  </struct>
  <struct from="1984" id="r00084223_wf5" to="1990" type="man">
@@ -839,7 +839,7 @@
   <feat name="text" value="minded"/>
  </struct>
  <struct from="2550" id="r00085253_wf3" to="2562" type="man">
-  <feat name="wnsk" value="exasperating%3:00:00:displeasing:00"/>
+  <feat name="wnsk" value="exasperating%5:00:00:displeasing:00"/>
   <feat name="text" value="exasperating"/>
  </struct>
  <struct from="2563" id="r00085253_wf4" to="2569" type="man">
@@ -847,7 +847,7 @@
   <feat name="text" value="manner"/>
  </struct>
  <struct from="2577" id="r00085339_wf3" to="2589" type="man">
-  <feat name="wnsk" value="experimental%3:00:01:empirical:00"/>
+  <feat name="wnsk" value="experimental%5:00:01:empirical:00"/>
   <feat name="text" value="experimental"/>
  </struct>
  <struct from="2590" id="r00085339_wf4" to="2597" type="man">
@@ -909,7 +909,7 @@
   <feat name="text" value="facetiously"/>
  </struct>
  <struct from="2781" id="r00085811_wf2" to="2786" type="man">
-  <feat name="wnsk" value="rapid%3:00:02:fast:01"/>
+  <feat name="wnsk" value="rapid%5:00:02:fast:01"/>
   <feat name="text" value="rapid"/>
  </struct>
  <struct from="2787" id="r00085811_wf3" to="2796" type="man">
@@ -1201,7 +1201,7 @@
   <feat name="text" value="table"/>
  </struct>
  <struct from="3544" id="r00087542_wf3" to="3553" type="man">
-  <feat name="wnsk" value="limitless%3:00:00:infinite:00"/>
+  <feat name="wnsk" value="limitless%5:00:00:infinite:00"/>
   <feat name="text" value="limitless"/>
  </struct>
  <struct from="3554" id="r00087542_wf4" to="3558" type="un">
@@ -1358,7 +1358,7 @@
   <feat name="text" value="town"/>
  </struct>
  <struct from="4127" id="r00088549_wf3" to="4138" type="man">
-  <feat name="wnsk" value="intervening%3:00:00:middle:00"/>
+  <feat name="wnsk" value="intervening%5:00:00:middle:00"/>
   <feat name="text" value="intervening"/>
  </struct>
  <struct from="4139" id="r00088549_wf4" to="4143" type="un">
@@ -1454,7 +1454,7 @@
   <feat name="text" value="seemingly"/>
  </struct>
  <struct from="4441" id="r00089076_wf7" to="4448" type="man">
-  <feat name="wnsk" value="endless%3:00:00:long:02"/>
+  <feat name="wnsk" value="endless%5:00:00:long:02"/>
   <feat name="text" value="endless"/>
  </struct>
  <struct from="4449" id="r00089076_wf8" to="4453" type="un">
@@ -1480,7 +1480,7 @@
   <feat name="text" value="wait"/>
  </struct>
  <struct from="4531" id="r00089267_wf3" to="4535" type="man">
-  <feat name="wnsk" value="high%3:00:00:superior:01"/>
+  <feat name="wnsk" value="high%5:00:00:superior:01"/>
   <feat name="text" value="high"/>
  </struct>
  <struct from="4536" id="r00089267_wf4" to="4544" type="un">
@@ -1634,7 +1634,7 @@
   <feat name="text" value="attracted"/>
  </struct>
  <struct from="4985" id="r00090000_wf3" to="4993" type="man">
-  <feat name="wnsk" value="marginal%3:00:00:minimal:00"/>
+  <feat name="wnsk" value="marginal%5:00:00:minimal:00"/>
   <feat name="text" value="marginal"/>
  </struct>
  <struct from="4994" id="r00090000_wf4" to="5000" type="man">
@@ -1708,7 +1708,7 @@
   <feat name="text" value="tiredly"/>
  </struct>
  <struct from="5198" id="r00090551_wf3" to="5203" type="man">
-  <feat name="wnsk" value="vital%3:00:00:indispensable:00"/>
+  <feat name="wnsk" value="vital%5:00:00:indispensable:00"/>
   <feat name="text" value="vital"/>
  </struct>
  <struct from="5204" id="r00090551_wf4" to="5210" type="man">
@@ -1727,7 +1727,7 @@
  </struct>
  <struct from="5245" id="r00090651_wf3" to="5254" type="man">
   <feat name="wnsk" value="energetic%3:00:00::"/>
-  <feat name="wnsk" value="energetic%3:00:00:enterprising:00"/>
+  <feat name="wnsk" value="energetic%5:00:00:enterprising:00"/>
   <feat name="text" value="energetic"/>
  </struct>
  <struct from="5255" id="r00090651_wf4" to="5261" type="man">
@@ -1735,7 +1735,7 @@
   <feat name="text" value="manner"/>
  </struct>
  <struct from="5268" id="r00090733_wf3" to="5277" type="man">
-  <feat name="wnsk" value="strenuous%3:00:00:energetic:00"/>
+  <feat name="wnsk" value="strenuous%5:00:00:energetic:00"/>
   <feat name="text" value="strenuous"/>
  </struct>
  <struct from="5278" id="r00090733_wf4" to="5284" type="man">
@@ -1911,7 +1911,7 @@
   <feat name="text" value="hard"/>
  </struct>
  <struct from="5748" id="r00091534_wf3" to="5752" type="man">
-  <feat name="wnsk" value="full%3:00:00:complete:00"/>
+  <feat name="wnsk" value="full%5:00:00:complete:00"/>
   <feat name="text" value="full"/>
  </struct>
  <struct from="5753" id="r00091534_wf4" to="5759" type="un">

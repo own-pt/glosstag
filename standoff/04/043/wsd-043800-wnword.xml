@@ -41,7 +41,7 @@
   <feat name="text" value="Asia"/>
  </struct>
  <struct from="120" id="n08002717_wf23" to="124" type="auto">
-  <feat name="wnsk" value="18th%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="18th%5:00:00:ordinal:00"/>
   <feat name="text" value="18th"/>
  </struct>
  <struct from="125" id="n08002717_wf24" to="132" type="un">
@@ -328,7 +328,7 @@
   <feat name="text" value="is"/>
  </struct>
  <struct from="1034" id="n08004695_wf15" to="1045" type="auto">
-  <feat name="wnsk" value="nonnegative%3:00:00:plus:00"/>
+  <feat name="wnsk" value="nonnegative%5:00:00:plus:00"/>
   <feat name="text" value="nonnegative"/>
  </struct>
  <struct from="1058" id="n08004695_wf18" to="1064" type="un">
@@ -430,7 +430,7 @@
   <feat name="text" value="are"/>
  </struct>
  <struct from="1402" id="n08005260_wf11" to="1413" type="auto">
-  <feat name="wnsk" value="commutative%3:00:00:independent:00"/>
+  <feat name="wnsk" value="commutative%5:00:00:independent:00"/>
   <feat name="text" value="commutative"/>
  </struct>
  <struct from="1418" id="n08005260_wf13" to="1429" type="auto">
@@ -794,7 +794,7 @@
   <feat name="text" value="together"/>
  </struct>
  <struct from="2557" id="n08007534_wf2" to="2565" type="man">
-  <feat name="wnsk" value="matching%3:00:01:matched:00"/>
+  <feat name="wnsk" value="matching%5:00:01:matched:00"/>
   <feat name="text" value="matching"/>
  </struct>
  <struct from="2566" id="n08007534_wf3" to="2569" type="un">
@@ -1145,7 +1145,7 @@
   <feat name="text" value="captives"/>
  </struct>
  <struct from="3766" id="n08010942_wf2" to="3774" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="3775" id="n08010942_wf3" to="3783" type="auto">
@@ -1170,7 +1170,7 @@
   <feat name="text" value="best"/>
  </struct>
  <struct from="3838" id="n08010942_wf14" to="3846" type="man">
-  <feat name="wnsk" value="equipped%3:00:00:armed:01"/>
+  <feat name="wnsk" value="equipped%5:00:00:armed:01"/>
   <feat name="text" value="equipped"/>
  </struct>
  <struct from="3847" id="n08010942_wf15" to="3854" type="man">
@@ -1179,11 +1179,11 @@
  </struct>
  <struct from="3855" id="n08010942_wf16" to="3861" type="man">
   <feat name="wnsk" value="active%3:00:03::"/>
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="text" value="active"/>
  </struct>
  <struct from="3901" id="n08010942_wf25" to="3907" type="man">
-  <feat name="wnsk" value="deadly%3:00:01:fatal:00"/>
+  <feat name="wnsk" value="deadly%5:00:01:fatal:00"/>
   <feat name="text" value="deadly"/>
  </struct>
  <struct from="3908" id="n08010942_wf26" to="3915" type="man">
@@ -1269,7 +1269,7 @@
   <feat name="text" value="terrorist"/>
  </struct>
  <struct from="4222" id="n08011523_wf31" to="4231" type="man">
-  <feat name="wnsk" value="insurgent%3:00:00:disloyal:00"/>
+  <feat name="wnsk" value="insurgent%5:00:00:disloyal:00"/>
   <feat name="text" value="insurgent"/>
  </struct>
  <struct from="4232" id="n08011523_wf32" to="4238" type="man">
@@ -1314,8 +1314,8 @@
   <feat name="text" value="1970s"/>
  </struct>
  <struct from="4382" id="n08012028_wf5" to="4390" type="man">
-  <feat name="wnsk" value="militant%3:00:01:unpeaceful:00"/>
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:01:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="4391" id="n08012028_wf6" to="4400" type="man">
@@ -1327,7 +1327,7 @@
   <feat name="text" value="organized"/>
  </struct>
  <struct from="4416" id="n08012028_wf9" to="4420" type="auto">
-  <feat name="wnsk" value="tiny%3:00:00:small:00"/>
+  <feat name="wnsk" value="tiny%5:00:00:small:00"/>
   <feat name="text" value="tiny"/>
  </struct>
  <struct from="4421" id="n08012028_wf10" to="4426" type="man">
@@ -1335,7 +1335,7 @@
   <feat name="text" value="cells"/>
  </struct>
  <struct from="4430" id="n08012028_wf12" to="4437" type="man">
-  <feat name="wnsk" value="extreme%3:00:01:immoderate:00"/>
+  <feat name="wnsk" value="extreme%5:00:01:immoderate:00"/>
   <feat name="text" value="extreme"/>
  </struct>
  <struct from="4438" id="n08012028_wf13" to="4453" type="man">
@@ -1451,7 +1451,7 @@
   <feat name="text" value="Islamic"/>
  </struct>
  <struct from="4824" id="n08012765_wf3" to="4833" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="4834" id="n08012765_wf4" to="4839" type="man">
@@ -1460,7 +1460,7 @@
  </struct>
  <struct from="4840" id="n08012765_wf5" to="4846" type="man">
   <feat name="wnsk" value="active%3:00:03::"/>
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="text" value="active"/>
  </struct>
  <struct from="4857" id="n08012765_wf8" to="4861" type="un">
@@ -1505,7 +1505,7 @@
   <feat name="text" value="small"/>
  </struct>
  <struct from="4965" id="n08012765_wf28" to="4976" type="man">
-  <feat name="wnsk" value="underground%3:00:00:covert:00"/>
+  <feat name="wnsk" value="underground%5:00:00:covert:00"/>
   <feat name="text" value="underground"/>
  </struct>
  <struct from="4977" id="n08012765_wf29" to="4982" type="man">
@@ -1537,7 +1537,7 @@
   <feat name="text" value="radical"/>
  </struct>
  <struct from="5075" id="n08013176_wf3" to="5084" type="man">
-  <feat name="wnsk" value="insurgent%3:00:00:disloyal:00"/>
+  <feat name="wnsk" value="insurgent%5:00:00:disloyal:00"/>
   <feat name="text" value="insurgent"/>
  </struct>
  <struct from="5085" id="n08013176_wf4" to="5093" type="man">
@@ -1552,7 +1552,7 @@
   <feat name="text" value="consisting"/>
  </struct>
  <struct from="5114" id="n08013176_wf8" to="5125" type="man">
-  <feat name="wnsk" value="disaffected%3:00:00:discontented:00"/>
+  <feat name="wnsk" value="disaffected%5:00:00:discontented:00"/>
   <feat name="text" value="disaffected"/>
  </struct>
  <struct from="5126" id="n08013176_wf9" to="5138" type="man">
@@ -1597,7 +1597,7 @@
   <feat name="text" value="hard-line"/>
  </struct>
  <struct from="5260" id="n08013453_wf3" to="5269" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="5270" id="n08013453_wf4" to="5277" type="man">
@@ -1673,7 +1673,7 @@
   <feat name="text" value="training"/>
  </struct>
  <struct from="5571" id="n08013845_wf20" to="5575" type="man">
-  <feat name="wnsk" value="wide%3:00:00:comprehensive:00"/>
+  <feat name="wnsk" value="wide%5:00:00:comprehensive:00"/>
   <feat name="text" value="wide"/>
  </struct>
  <struct from="5576" id="n08013845_wf21" to="5583" type="un">
@@ -1773,7 +1773,7 @@
   <feat name="text" value="Afghanistan"/>
  </struct>
  <struct from="5974" id="n08014615_wf2" to="5983" type="auto">
-  <feat name="wnsk" value="resurgent%3:00:00:revived:00"/>
+  <feat name="wnsk" value="resurgent%5:00:00:revived:00"/>
   <feat name="text" value="resurgent"/>
  </struct>
  <struct from="5984" id="n08014615_wf3" to="5991" type="auto">
@@ -2058,7 +2058,7 @@
   <feat name="text" value="massacres"/>
  </struct>
  <struct from="7040" id="n08016385_wf2" to="7048" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="7049" id="n08016385_wf3" to="7065" type="auto">
@@ -2208,7 +2208,7 @@
   <feat name="text" value="tourists"/>
  </struct>
  <struct from="7561" id="n08017257_wf2" to="7570" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="7571" id="n08017257_wf3" to="7582" type="man">
@@ -2224,7 +2224,7 @@
   <feat name="text" value="group"/>
  </struct>
  <struct from="7595" id="n08017257_wf6" to="7601" type="man">
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="wnsk" value="active%3:00:03::"/>
   <feat name="text" value="active"/>
  </struct>
@@ -2366,7 +2366,7 @@
  </struct>
  <struct from="8086" id="n08017974_wf7" to="8092" type="man">
   <feat name="wnsk" value="active%3:00:03::"/>
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="text" value="active"/>
  </struct>
  <struct from="8096" id="n08017974_wf9" to="8103" type="auto">
@@ -2389,11 +2389,11 @@
   <feat name="text" value="were"/>
  </struct>
  <struct from="8199" id="n08018189_wf12" to="8211" type="man">
-  <feat name="wnsk" value="dissatisfied%3:00:00:discontented:00"/>
+  <feat name="wnsk" value="dissatisfied%5:00:00:discontented:00"/>
   <feat name="text" value="dissatisfied"/>
  </struct>
  <struct from="8221" id="n08018189_wf15" to="8229" type="man">
-  <feat name="wnsk" value="moderate%3:00:00:temperate:00"/>
+  <feat name="wnsk" value="moderate%5:00:00:temperate:00"/>
   <feat name="text" value="moderate"/>
  </struct>
  <struct from="8230" id="n08018189_wf16" to="8241" type="man">
@@ -2430,7 +2430,7 @@
   <feat name="text" value="Spain's"/>
  </struct>
  <struct from="8325" id="n08018189_wf31" to="8332" type="man">
-  <feat name="wnsk" value="western%3:00:00:west:00"/>
+  <feat name="wnsk" value="western%5:00:00:west:00"/>
   <feat name="text" value="western"/>
  </struct>
  <struct from="8333" id="n08018189_wf32" to="8341" type="auto">
@@ -2460,7 +2460,7 @@
   <feat name="text" value="officials"/>
  </struct>
  <struct from="8430" id="n08018666_wf2" to="8436" type="man">
-  <feat name="wnsk" value="former%3:00:02:past:00"/>
+  <feat name="wnsk" value="former%5:00:02:past:00"/>
   <feat name="text" value="former"/>
  </struct>
  <struct from="8437" id="n08018666_wf3" to="8448" type="man">
@@ -2471,7 +2471,7 @@
   <feat name="text" value="now"/>
  </struct>
  <struct from="8477" id="n08018666_wf8" to="8483" type="man">
-  <feat name="wnsk" value="merged%3:00:00:united:00"/>
+  <feat name="wnsk" value="merged%5:00:00:united:00"/>
   <feat name="text" value="merged"/>
  </struct>
  <struct from="8523" id="n08018666_wf15" to="8535" type="man">
@@ -2499,15 +2499,15 @@
   <feat name="text" value="athletes"/>
  </struct>
  <struct from="8640" id="n08018983_wf2" to="8645" type="auto">
-  <feat name="wnsk" value="ultra%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="ultra%5:00:00:immoderate:00"/>
   <feat name="text" value="ultra"/>
  </struct>
  <struct from="8646" id="n08018983_wf3" to="8653" type="man">
-  <feat name="wnsk" value="leftist%3:00:00:left:02"/>
+  <feat name="wnsk" value="leftist%5:00:00:left:02"/>
   <feat name="text" value="leftist"/>
  </struct>
  <struct from="8654" id="n08018983_wf4" to="8662" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="8663" id="n08018983_wf5" to="8668" type="man">
@@ -2573,7 +2573,7 @@
   <feat name="text" value="Ireland"/>
  </struct>
  <struct from="8895" id="n08019281_wf11" to="8906" type="auto">
-  <feat name="wnsk" value="clandestine%3:00:00:covert:00"/>
+  <feat name="wnsk" value="clandestine%5:00:00:covert:00"/>
   <feat name="text" value="clandestine"/>
  </struct>
  <struct from="8907" id="n08019281_wf12" to="8912" type="un">
@@ -2615,7 +2615,7 @@
   <feat name="text" value="achieved"/>
  </struct>
  <struct from="9013" id="n08019523_wf13" to="9026" type="man">
-  <feat name="wnsk" value="revolutionary%3:00:00:new:00"/>
+  <feat name="wnsk" value="revolutionary%5:00:00:new:00"/>
   <feat name="text" value="revolutionary"/>
  </struct>
  <struct from="9027" id="n08019523_wf14" to="9033" type="man">
@@ -2784,7 +2784,7 @@
   <feat name="text" value="serves"/>
  </struct>
  <struct from="9620" id="n08020785_wf19" to="9624" type="man">
-  <feat name="wnsk" value="dual%3:00:02:multiple:00"/>
+  <feat name="wnsk" value="dual%5:00:02:multiple:00"/>
   <feat name="text" value="dual"/>
  </struct>
  <struct from="9625" id="n08020785_wf20" to="9633" type="man">
@@ -2928,7 +2928,7 @@
   <feat name="text" value="PLO's"/>
  </struct>
  <struct from="10060" id="n08021464_wf20" to="10065" type="man">
-  <feat name="wnsk" value="elite%3:00:00:selected:00"/>
+  <feat name="wnsk" value="elite%5:00:00:selected:00"/>
   <feat name="text" value="elite"/>
  </struct>
  <struct from="10066" id="n08021464_wf21" to="10071" type="un">
@@ -2942,7 +2942,7 @@
   <feat name="text" value="built"/>
  </struct>
  <struct from="10086" id="n08021464_wf26" to="10095" type="man">
-  <feat name="wnsk" value="extensive%3:00:00:large:00"/>
+  <feat name="wnsk" value="extensive%5:00:00:large:00"/>
   <feat name="text" value="extensive"/>
  </struct>
  <struct from="10096" id="n08021464_wf27" to="10110" type="man">
@@ -3039,7 +3039,7 @@
   <feat name="text" value="preservation"/>
  </struct>
  <struct from="10477" id="n08022259_wf2" to="10485" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="10486" id="n08022259_wf3" to="10493" type="auto">
@@ -3108,7 +3108,7 @@
   <feat name="text" value="become"/>
  </struct>
  <struct from="10683" id="n08022259_wf39" to="10690" type="man">
-  <feat name="wnsk" value="leading%3:00:00:superior:01"/>
+  <feat name="wnsk" value="leading%5:00:00:superior:01"/>
   <feat name="text" value="leading"/>
  </struct>
  <struct from="10691" id="n08022259_wf40" to="10702" type="auto">
@@ -3131,11 +3131,11 @@
   <feat name="text" value="pioneered"/>
  </struct>
  <struct from="10766" id="n08022666_wf2" to="10775" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="10776" id="n08022666_wf3" to="10784" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="10785" id="n08022666_wf4" to="10790" type="man">
@@ -3316,7 +3316,7 @@
   <feat name="text" value="Islamic"/>
  </struct>
  <struct from="11331" id="n08023843_wf7" to="11340" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="11341" id="n08023843_wf8" to="11346" type="man">
@@ -3348,8 +3348,8 @@
   <feat name="text" value="creation"/>
  </struct>
  <struct from="11406" id="n08023843_wf21" to="11415" type="man">
-  <feat name="wnsk" value="worldwide%3:00:00:international:00"/>
-  <feat name="wnsk" value="worldwide%3:00:00:intercontinental:00"/>
+  <feat name="wnsk" value="worldwide%5:00:00:international:00"/>
+  <feat name="wnsk" value="worldwide%5:00:00:intercontinental:00"/>
   <feat name="text" value="worldwide"/>
  </struct>
  <struct from="11416" id="n08023843_wf22" to="11423" type="auto">
@@ -3368,7 +3368,7 @@
   <feat name="text" value="provided"/>
  </struct>
  <struct from="11503" id="n08024096_wf14" to="11511" type="man">
-  <feat name="wnsk" value="umbrella%3:00:00:comprehensive:00"/>
+  <feat name="wnsk" value="umbrella%5:00:00:comprehensive:00"/>
   <feat name="text" value="umbrella"/>
  </struct>
  <struct from="11512" id="n08024096_wf15" to="11524" type="un">
@@ -3382,7 +3382,7 @@
   <feat name="text" value="other"/>
  </struct>
  <struct from="11548" id="n08024096_wf20" to="11556" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="11557" id="n08024096_wf21" to="11563" type="man">
@@ -3432,7 +3432,7 @@
   <feat name="text" value="Ireland"/>
  </struct>
  <struct from="11739" id="n08024732_wf2" to="11747" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="11748" id="n08024732_wf3" to="11760" type="un">
@@ -3495,7 +3495,7 @@
   <feat name="text" value="Yemen"/>
  </struct>
  <struct from="11930" id="n08025112_wf2" to="11935" type="man">
-  <feat name="wnsk" value="based%3:00:00:settled:01"/>
+  <feat name="wnsk" value="based%5:00:00:settled:01"/>
   <feat name="text" value="based"/>
  </struct>
  <struct from="11957" id="n08025112_wf6" to="11965" type="man">
@@ -3685,7 +3685,7 @@
   <feat name="text" value="founded"/>
  </struct>
  <struct from="12614" id="n08026197_wf9" to="12622" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="12623" id="n08026197_wf10" to="12630" type="man">
@@ -3697,7 +3697,7 @@
   <feat name="text" value="group"/>
  </struct>
  <struct from="12637" id="n08026197_wf12" to="12643" type="man">
-  <feat name="wnsk" value="active%3:00:00:involved:00"/>
+  <feat name="wnsk" value="active%5:00:00:involved:00"/>
   <feat name="wnsk" value="active%3:00:03::"/>
   <feat name="text" value="active"/>
  </struct>
@@ -3723,7 +3723,7 @@
   <feat name="text" value="release"/>
  </struct>
  <struct from="12724" id="n08026197_wf27" to="12734" type="man">
-  <feat name="wnsk" value="imprisoned%3:00:00:unfree:00"/>
+  <feat name="wnsk" value="imprisoned%5:00:00:unfree:00"/>
   <feat name="text" value="imprisoned"/>
  </struct>
  <struct from="12735" id="n08026197_wf28" to="12741" type="man">
@@ -3879,7 +3879,7 @@
   <feat name="text" value="Israel"/>
  </struct>
  <struct from="13272" id="n08027314_wf2" to="13282" type="auto">
-  <feat name="wnsk" value="indigenous%3:00:00:native:01"/>
+  <feat name="wnsk" value="indigenous%5:00:00:native:01"/>
   <feat name="text" value="indigenous"/>
  </struct>
  <struct from="13283" id="n08027314_wf3" to="13290" type="auto">
@@ -3903,7 +3903,7 @@
   <feat name="text" value="embassy"/>
  </struct>
  <struct from="13381" id="n08027518_wf2" to="13392" type="auto">
-  <feat name="wnsk" value="clandestine%3:00:00:covert:00"/>
+  <feat name="wnsk" value="clandestine%5:00:00:covert:00"/>
   <feat name="text" value="clandestine"/>
  </struct>
  <struct from="13393" id="n08027518_wf3" to="13398" type="man">
@@ -3911,7 +3911,7 @@
   <feat name="text" value="group"/>
  </struct>
  <struct from="13402" id="n08027518_wf5" to="13411" type="man">
-  <feat name="wnsk" value="southeast%3:00:01:south:00"/>
+  <feat name="wnsk" value="southeast%5:00:01:south:00"/>
   <feat name="text" value="southeast"/>
  </struct>
  <struct from="13412" id="n08027518_wf6" to="13417" type="man">
@@ -3940,7 +3940,7 @@
   <feat name="text" value="supports"/>
  </struct>
  <struct from="13481" id="n08027518_wf17" to="13489" type="man">
-  <feat name="wnsk" value="militant%3:00:00:unpeaceful:00"/>
+  <feat name="wnsk" value="militant%5:00:00:unpeaceful:00"/>
   <feat name="text" value="militant"/>
  </struct>
  <struct from="13490" id="n08027518_wf18" to="13497" type="un">
@@ -3974,7 +3974,7 @@
   <feat name="text" value="Indonesia"/>
  </struct>
  <struct from="13586" id="n08027920_wf1" to="13592" type="man">
-  <feat name="wnsk" value="ethnic%3:00:00:social:00"/>
+  <feat name="wnsk" value="ethnic%5:00:00:social:00"/>
   <feat name="text" value="ethnic"/>
  </struct>
  <struct from="13593" id="n08027920_wf2" to="13600" type="man">
@@ -4009,7 +4009,7 @@
   <feat name="text" value="Islamic"/>
  </struct>
  <struct from="13723" id="n08028148_wf3" to="13732" type="man">
-  <feat name="wnsk" value="extremist%3:00:00:immoderate:00"/>
+  <feat name="wnsk" value="extremist%5:00:00:immoderate:00"/>
   <feat name="text" value="extremist"/>
  </struct>
  <struct from="13733" id="n08028148_wf4" to="13738" type="man">

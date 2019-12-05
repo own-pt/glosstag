@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cesAna version="1.0.4" xmlns="http://www.xces.org/schema/2003" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xces.org/schema/2003 http://www.xces.org/schema/2003/xcesAna.xsd">
  <struct from="0" id="n08485281_wf1" to="12" type="auto">
-  <feat name="wnsk" value="aristocratic%3:00:01:noble:02"/>
+  <feat name="wnsk" value="aristocratic%5:00:01:noble:02"/>
   <feat name="text" value="aristocratic"/>
  </struct>
  <struct from="13" id="n08485281_wf2" to="20" type="un">
@@ -31,7 +31,7 @@
   <feat name="text" value="Florence"/>
  </struct>
  <struct from="88" id="n08485281_wf14" to="92" type="auto">
-  <feat name="wnsk" value="15th%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="15th%5:00:00:ordinal:00"/>
   <feat name="text" value="15th"/>
  </struct>
  <struct from="93" id="n08485281_wf15" to="100" type="un">
@@ -42,7 +42,7 @@
   <feat name="text" value="formerly"/>
  </struct>
  <struct from="115" id="n08485434_wf3" to="126" type="man">
-  <feat name="wnsk" value="predominant%3:00:00:dominant:01"/>
+  <feat name="wnsk" value="predominant%5:00:00:dominant:01"/>
   <feat name="text" value="predominant"/>
  </struct>
  <struct from="127" id="n08485434_wf4" to="135" type="man">
@@ -312,7 +312,7 @@
   <feat name="text" value="governing"/>
  </struct>
  <struct from="1083" id="n08486971_wf13" to="1089" type="man">
-  <feat name="wnsk" value="global%3:00:00:international:00"/>
+  <feat name="wnsk" value="global%5:00:00:international:00"/>
   <feat name="text" value="global"/>
  </struct>
  <struct from="1090" id="n08486971_wf14" to="1095" type="man">
@@ -385,7 +385,7 @@
   <feat name="text" value="fight"/>
  </struct>
  <struct from="1404" id="n08487504_wf24" to="1410" type="man">
-  <feat name="wnsk" value="global%3:00:00:international:00"/>
+  <feat name="wnsk" value="global%5:00:00:international:00"/>
   <feat name="text" value="global"/>
  </struct>
  <struct from="1411" id="n08487504_wf25" to="1420" type="auto">
@@ -647,7 +647,7 @@
   <feat name="text" value="there"/>
  </struct>
  <struct from="2469" id="n08489765_wf2" to="2479" type="man">
-  <feat name="wnsk" value="indefinite%3:00:00:uncertain:01"/>
+  <feat name="wnsk" value="indefinite%5:00:00:uncertain:01"/>
   <feat name="text" value="indefinite"/>
  </struct>
  <struct from="2483" id="n08489765_wf4" to="2490" type="man">
@@ -812,7 +812,7 @@
   <feat name="text" value="end"/>
  </struct>
  <struct from="2964" id="n08490531_wf2" to="2973" type="man">
-  <feat name="wnsk" value="imaginary%3:00:00:unreal:00"/>
+  <feat name="wnsk" value="imaginary%5:00:00:unreal:00"/>
   <feat name="text" value="imaginary"/>
  </struct>
  <struct from="2974" id="n08490531_wf3" to="2978" type="un">
@@ -837,7 +837,7 @@
   <feat name="text" value="dip"/>
  </struct>
  <struct from="3042" id="n08490685_wf2" to="3051" type="man">
-  <feat name="wnsk" value="imaginary%3:00:00:unreal:00"/>
+  <feat name="wnsk" value="imaginary%5:00:00:unreal:00"/>
   <feat name="text" value="imaginary"/>
  </struct>
  <struct from="3052" id="n08490685_wf3" to="3056" type="un">
@@ -854,7 +854,7 @@
   <feat name="text" value="is"/>
  </struct>
  <struct from="3141" id="n08490840_wf2" to="3150" type="man">
-  <feat name="wnsk" value="imaginary%3:00:00:unreal:00"/>
+  <feat name="wnsk" value="imaginary%5:00:00:unreal:00"/>
   <feat name="text" value="imaginary"/>
  </struct>
  <struct from="3151" id="n08490840_wf3" to="3155" type="un">
@@ -995,7 +995,7 @@
   <feat name="text" value="marketplace"/>
  </struct>
  <struct from="3682" id="n08492461_wf4" to="3689" type="man">
-  <feat name="wnsk" value="ancient%3:00:00:past:00"/>
+  <feat name="wnsk" value="ancient%5:00:00:past:00"/>
   <feat name="text" value="ancient"/>
  </struct>
  <struct from="3690" id="n08492461_wf5" to="3696" type="un">
@@ -1147,7 +1147,7 @@
   <feat name="text" value="civilization"/>
  </struct>
  <struct from="4193" id="n08493493_wf2" to="4205" type="man">
-  <feat name="wnsk" value="impoverished%3:00:00:poor:00"/>
+  <feat name="wnsk" value="impoverished%5:00:00:poor:00"/>
   <feat name="text" value="impoverished"/>
  </struct>
  <struct from="4206" id="n08493493_wf3" to="4210" type="un">
@@ -1208,8 +1208,8 @@
   <feat name="text" value="aircraft"/>
  </struct>
  <struct from="4446" id="n08493961_wf2" to="4451" type="man">
-  <feat name="wnsk" value="final%3:00:00:closing:00"/>
-  <feat name="wnsk" value="final%3:00:00:ultimate:00"/>
+  <feat name="wnsk" value="final%5:00:00:closing:00"/>
+  <feat name="wnsk" value="final%5:00:00:ultimate:00"/>
   <feat name="text" value="final"/>
  </struct>
  <struct from="4452" id="n08493961_wf3" to="4456" type="man">
@@ -1331,7 +1331,7 @@
   <feat name="text" value="moving"/>
  </struct>
  <struct from="4903" id="n08494987_wf18" to="4911" type="man">
-  <feat name="wnsk" value="relative%3:00:00:proportionate:00"/>
+  <feat name="wnsk" value="relative%5:00:00:proportionate:00"/>
   <feat name="text" value="relative"/>
  </struct>
  <struct from="4936" id="n08495249_wf2" to="4941" type="man">
@@ -1404,7 +1404,7 @@
   <feat name="text" value="orbit"/>
  </struct>
  <struct from="5177" id="n08495617_wf6" to="5185" type="man">
-  <feat name="wnsk" value="farthest%3:00:00:far:00"/>
+  <feat name="wnsk" value="farthest%5:00:00:far:00"/>
   <feat name="text" value="farthest"/>
  </struct>
  <struct from="5195" id="n08495617_wf9" to="5199" type="man">
@@ -1527,7 +1527,7 @@
   <feat name="text" value="marks"/>
  </struct>
  <struct from="5650" id="n08496798_wf18" to="5662" type="auto">
-  <feat name="wnsk" value="northernmost%3:00:00:north:00"/>
+  <feat name="wnsk" value="northernmost%5:00:00:north:00"/>
   <feat name="text" value="northernmost"/>
  </struct>
  <struct from="5663" id="n08496798_wf19" to="5668" type="man">
@@ -1548,7 +1548,7 @@
   <feat name="text" value="northern"/>
  </struct>
  <struct from="5737" id="n08496798_wf33" to="5749" type="auto">
-  <feat name="wnsk" value="southernmost%3:00:00:south:00"/>
+  <feat name="wnsk" value="southernmost%5:00:00:south:00"/>
   <feat name="text" value="southernmost"/>
  </struct>
  <struct from="5750" id="n08496798_wf34" to="5755" type="man">
@@ -1576,7 +1576,7 @@
   <feat name="text" value="area"/>
  </struct>
  <struct from="5850" id="n08497107_wf6" to="5857" type="man">
-  <feat name="wnsk" value="ancient%3:00:00:past:00"/>
+  <feat name="wnsk" value="ancient%5:00:00:past:00"/>
   <feat name="text" value="ancient"/>
  </struct>
  <struct from="5858" id="n08497107_wf7" to="5863" type="man">
@@ -2097,7 +2097,7 @@
   <feat name="text" value="often"/>
  </struct>
  <struct from="7548" id="n08501114_wf9" to="7557" type="man">
-  <feat name="wnsk" value="fortified%3:00:00:protected:00"/>
+  <feat name="wnsk" value="fortified%5:00:00:protected:00"/>
   <feat name="text" value="fortified"/>
  </struct>
  <struct from="7559" id="n08501114_wf11" to="7570" type="man">
@@ -2349,7 +2349,7 @@
   <feat name="text" value="area"/>
  </struct>
  <struct from="8452" id="n08502797_wf2" to="8458" type="man">
-  <feat name="wnsk" value="eroded%3:00:00:worn:00"/>
+  <feat name="wnsk" value="eroded%5:00:00:worn:00"/>
   <feat name="text" value="eroded"/>
  </struct>
  <struct from="8463" id="n08502797_wf4" to="8469" type="un">
@@ -2363,7 +2363,7 @@
   <feat name="text" value="southwestern"/>
  </struct>
  <struct from="8510" id="n08502797_wf11" to="8522" type="man">
-  <feat name="wnsk" value="northwestern%3:00:00:north:00"/>
+  <feat name="wnsk" value="northwestern%5:00:00:north:00"/>
   <feat name="text" value="northwestern"/>
  </struct>
  <struct from="8523" id="n08502797_wf12" to="8531" type="auto">
@@ -2371,7 +2371,7 @@
   <feat name="text" value="Nebraska"/>
  </struct>
  <struct from="8535" id="n08503004_wf2" to="8540" type="man">
-  <feat name="wnsk" value="small%3:00:00:limited:00"/>
+  <feat name="wnsk" value="small%5:00:00:limited:00"/>
   <feat name="text" value="small"/>
  </struct>
  <struct from="8541" id="n08503004_wf3" to="8548" type="man">
@@ -2387,7 +2387,7 @@
  </struct>
  <struct from="8601" id="n08503004_wf13" to="8609" type="man">
   <feat name="wnsk" value="unstable%3:00:00::"/>
-  <feat name="wnsk" value="unstable%3:00:00:changeable:00"/>
+  <feat name="wnsk" value="unstable%5:00:00:changeable:00"/>
   <feat name="text" value="unstable"/>
  </struct>
  <struct from="8620" id="n08503004_wf16" to="8627" type="man">
@@ -2464,11 +2464,11 @@
   <feat name="text" value="pirates"/>
  </struct>
  <struct from="8831" id="n08503238_wf24" to="8835" type="auto">
-  <feat name="wnsk" value="16th%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="16th%5:00:00:ordinal:00"/>
   <feat name="text" value="16th"/>
  </struct>
  <struct from="8839" id="n08503238_wf26" to="8843" type="auto">
-  <feat name="wnsk" value="19th%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="19th%5:00:00:ordinal:00"/>
   <feat name="text" value="19th"/>
  </struct>
  <struct from="8844" id="n08503238_wf27" to="8853" type="un">
@@ -2493,7 +2493,7 @@
   <feat name="text" value="was"/>
  </struct>
  <struct from="8907" id="n08503477_wf9" to="8913" type="auto">
-  <feat name="wnsk" value="famous%3:00:00:known:00"/>
+  <feat name="wnsk" value="famous%5:00:00:known:00"/>
   <feat name="text" value="famous"/>
  </struct>
  <struct from="8922" id="n08503477_wf12" to="8929" type="man">
@@ -2515,7 +2515,7 @@
   <feat name="text" value="is"/>
  </struct>
  <struct from="8964" id="n08503639_wf8" to="8973" type="auto">
-  <feat name="wnsk" value="notorious%3:00:00:disreputable:00"/>
+  <feat name="wnsk" value="notorious%5:00:00:disreputable:00"/>
   <feat name="text" value="notorious"/>
  </struct>
  <struct from="8996" id="n08503639_wf13" to="9004" type="auto">
@@ -2527,7 +2527,7 @@
   <feat name="text" value="saloons"/>
  </struct>
  <struct from="9021" id="n08503639_wf17" to="9028" type="man">
-  <feat name="wnsk" value="riotous%3:00:00:immoral:00"/>
+  <feat name="wnsk" value="riotous%5:00:00:immoral:00"/>
   <feat name="text" value="riotous"/>
  </struct>
  <struct from="9029" id="n08503639_wf18" to="9034" type="man">
@@ -2557,7 +2557,7 @@
   <feat name="text" value="city"/>
  </struct>
  <struct from="9164" id="n08503921_wf2" to="9171" type="man">
-  <feat name="wnsk" value="ancient%3:00:00:past:00"/>
+  <feat name="wnsk" value="ancient%5:00:00:past:00"/>
   <feat name="text" value="ancient"/>
  </struct>
  <struct from="9172" id="n08503921_wf3" to="9179" type="man">
@@ -2565,7 +2565,7 @@
   <feat name="text" value="country"/>
  </struct>
  <struct from="9183" id="n08503921_wf5" to="9195" type="man">
-  <feat name="wnsk" value="northwestern%3:00:00:north:00"/>
+  <feat name="wnsk" value="northwestern%5:00:00:north:00"/>
   <feat name="text" value="northwestern"/>
  </struct>
  <struct from="9215" id="n08503921_wf10" to="9217" type="un">
@@ -2590,7 +2590,7 @@
   <feat name="text" value="end"/>
  </struct>
  <struct from="9283" id="n08503921_wf25" to="9286" type="auto">
-  <feat name="wnsk" value="1st%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="1st%5:00:00:ordinal:00"/>
   <feat name="text" value="1st"/>
  </struct>
  <struct from="9287" id="n08503921_wf26" to="9294" type="un">
@@ -2601,7 +2601,7 @@
   <feat name="text" value="BC"/>
  </struct>
  <struct from="9302" id="n08504151_wf2" to="9309" type="man">
-  <feat name="wnsk" value="ancient%3:00:00:past:00"/>
+  <feat name="wnsk" value="ancient%5:00:00:past:00"/>
   <feat name="text" value="ancient"/>
  </struct>
  <struct from="9310" id="n08504151_wf3" to="9314" type="man">
@@ -2617,7 +2617,7 @@
   <feat name="text" value="founded"/>
  </struct>
  <struct from="9343" id="n08504151_wf10" to="9346" type="auto">
-  <feat name="wnsk" value="4th%3:00:00:ordinal:00"/>
+  <feat name="wnsk" value="4th%5:00:00:ordinal:00"/>
   <feat name="text" value="4th"/>
  </struct>
  <struct from="9347" id="n08504151_wf11" to="9354" type="un">
@@ -2647,7 +2647,7 @@
   <feat name="text" value="there"/>
  </struct>
  <struct from="9437" id="n08504375_wf2" to="9444" type="man">
-  <feat name="wnsk" value="ancient%3:00:00:past:00"/>
+  <feat name="wnsk" value="ancient%5:00:00:past:00"/>
   <feat name="text" value="ancient"/>
  </struct>
  <struct from="9445" id="n08504375_wf3" to="9451" type="man">
@@ -2655,7 +2655,7 @@
   <feat name="text" value="region"/>
  </struct>
  <struct from="9455" id="n08504375_wf5" to="9467" type="man">
-  <feat name="wnsk" value="northeastern%3:00:00:north:00"/>
+  <feat name="wnsk" value="northeastern%5:00:00:north:00"/>
   <feat name="text" value="northeastern"/>
  </struct>
  <struct from="9468" id="n08504375_wf6" to="9474" type="auto">

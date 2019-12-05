@@ -31,7 +31,7 @@
   <feat name="text" value="permits"/>
  </struct>
  <struct from="74" id="n07684600_wf9" to="83" type="man">
-  <feat name="wnsk" value="immediate%3:00:00:fast:01"/>
+  <feat name="wnsk" value="immediate%5:00:00:fast:01"/>
   <feat name="text" value="immediate"/>
  </struct>
  <struct from="84" id="n07684600_wf10" to="90" type="man">
@@ -39,7 +39,7 @@
   <feat name="text" value="baking"/>
  </struct>
  <struct from="92" id="n07684938_wf1" to="97" type="auto">
-  <feat name="wnsk" value="moist%3:00:00:wet:01"/>
+  <feat name="wnsk" value="moist%5:00:00:wet:01"/>
   <feat name="text" value="moist"/>
  </struct>
  <struct from="98" id="n07684938_wf2" to="103" type="man">
@@ -65,7 +65,7 @@
   <feat name="text" value="containing"/>
  </struct>
  <struct from="145" id="n07685031_wf3" to="152" type="man">
-  <feat name="wnsk" value="chopped%3:00:00:cut:01"/>
+  <feat name="wnsk" value="chopped%5:00:00:cut:01"/>
   <feat name="text" value="chopped"/>
  </struct>
  <struct from="153" id="n07685031_wf4" to="158" type="man">
@@ -80,7 +80,7 @@
   <feat name="text" value="containing"/>
  </struct>
  <struct from="177" id="n07685118_wf3" to="184" type="man">
-  <feat name="wnsk" value="chopped%3:00:00:cut:01"/>
+  <feat name="wnsk" value="chopped%5:00:00:cut:01"/>
   <feat name="text" value="chopped"/>
  </struct>
  <struct from="185" id="n07685118_wf4" to="190" type="man">
@@ -99,7 +99,7 @@
   <feat name="text" value="containing"/>
  </struct>
  <struct from="218" id="n07685218_wf3" to="225" type="man">
-  <feat name="wnsk" value="chopped%3:00:00:cut:01"/>
+  <feat name="wnsk" value="chopped%5:00:00:cut:01"/>
   <feat name="text" value="chopped"/>
  </struct>
  <struct from="226" id="n07685218_wf4" to="230" type="man">
@@ -121,7 +121,7 @@
   <feat name="text" value="cake"/>
  </struct>
  <struct from="261" id="n07685303_wf6" to="266" type="man">
-  <feat name="wnsk" value="baked%3:00:00:cooked:00"/>
+  <feat name="wnsk" value="baked%5:00:00:cooked:00"/>
   <feat name="text" value="baked"/>
  </struct>
  <struct from="267" id="n07685303_wf7" to="274" type="man">
@@ -174,8 +174,8 @@
   <feat name="text" value="over"/>
  </struct>
  <struct from="398" id="n07685546_wf8" to="402" type="man">
-  <feat name="wnsk" value="open%3:00:00:unenclosed:00"/>
-  <feat name="wnsk" value="open%3:00:00:unprotected:00"/>
+  <feat name="wnsk" value="open%5:00:00:unenclosed:00"/>
+  <feat name="wnsk" value="open%5:00:00:unprotected:00"/>
   <feat name="text" value="open"/>
  </struct>
  <struct from="403" id="n07685546_wf9" to="407" type="un">
@@ -279,11 +279,11 @@
   <feat name="text" value="molasses"/>
  </struct>
  <struct from="688" id="n07686299_wf2" to="693" type="auto">
-  <feat name="wnsk" value="moist%3:00:00:wet:01"/>
+  <feat name="wnsk" value="moist%5:00:00:wet:01"/>
   <feat name="text" value="moist"/>
  </struct>
  <struct from="694" id="n07686299_wf3" to="702" type="man">
-  <feat name="wnsk" value="aromatic%3:00:00:fragrant:00"/>
+  <feat name="wnsk" value="aromatic%5:00:00:fragrant:00"/>
   <feat name="text" value="aromatic"/>
  </struct>
  <struct from="703" id="n07686299_wf4" to="708" type="man">
@@ -333,7 +333,7 @@
   <feat name="text" value="salt"/>
  </struct>
  <struct from="807" id="n07686461_wf8" to="815" type="man">
-  <feat name="wnsk" value="tolerant%3:00:00:tolerable:00"/>
+  <feat name="wnsk" value="tolerant%5:00:00:tolerable:00"/>
   <feat name="text" value="tolerant"/>
  </struct>
  <struct from="816" id="n07686461_wf9" to="825" type="man">
@@ -368,7 +368,7 @@
   <feat name="text" value="bread"/>
  </struct>
  <struct from="900" id="n07686634_wf5" to="904" type="man">
-  <feat name="wnsk" value="fine%3:00:00:elegant:00"/>
+  <feat name="wnsk" value="fine%5:00:00:elegant:00"/>
   <feat name="text" value="fine"/>
  </struct>
  <struct from="905" id="n07686634_wf6" to="910" type="man">
@@ -482,7 +482,7 @@
   <feat name="text" value="loaf"/>
  </struct>
  <struct from="1238" id="n07687469_wf2" to="1244" type="man">
-  <feat name="wnsk" value="crusty%3:00:00:covered:00"/>
+  <feat name="wnsk" value="crusty%5:00:00:covered:00"/>
   <feat name="text" value="crusty"/>
  </struct>
  <struct from="1261" id="n07687469_wf5" to="1266" type="un">
@@ -500,7 +500,7 @@
   <feat name="text" value="slender"/>
  </struct>
  <struct from="1289" id="n07687469_wf10" to="1296" type="man">
-  <feat name="wnsk" value="tapered%3:00:00:narrow:00"/>
+  <feat name="wnsk" value="tapered%5:00:00:narrow:00"/>
   <feat name="text" value="tapered"/>
  </struct>
  <struct from="1297" id="n07687469_wf11" to="1303" type="man">
@@ -512,7 +512,7 @@
   <feat name="text" value="baguettes"/>
  </struct>
  <struct from="1318" id="n07687626_wf1" to="1329" type="auto">
-  <feat name="wnsk" value="unsweetened%3:00:00:sugarless:00"/>
+  <feat name="wnsk" value="unsweetened%5:00:00:sugarless:00"/>
   <feat name="text" value="unsweetened"/>
  </struct>
  <struct from="1330" id="n07687626_wf2" to="1335" type="man">
@@ -550,7 +550,7 @@
   <feat name="text" value="loaves"/>
  </struct>
  <struct from="1409" id="n07687626_wf15" to="1416" type="man">
-  <feat name="wnsk" value="tapered%3:00:00:narrow:00"/>
+  <feat name="wnsk" value="tapered%5:00:00:narrow:00"/>
   <feat name="text" value="tapered"/>
  </struct>
  <struct from="1417" id="n07687626_wf16" to="1421" type="man">
@@ -701,8 +701,8 @@
   <feat name="text" value="over"/>
  </struct>
  <struct from="1756" id="n07688412_wf19" to="1760" type="man">
-  <feat name="wnsk" value="open%3:00:00:unprotected:00"/>
-  <feat name="wnsk" value="open%3:00:00:unenclosed:00"/>
+  <feat name="wnsk" value="open%5:00:00:unprotected:00"/>
+  <feat name="wnsk" value="open%5:00:00:unenclosed:00"/>
   <feat name="text" value="open"/>
  </struct>
  <struct from="1761" id="n07688412_wf20" to="1765" type="un">
@@ -736,7 +736,7 @@
   <feat name="text" value="baked"/>
  </struct>
  <struct from="1833" id="n07688624_wf11" to="1838" type="man">
-  <feat name="wnsk" value="fried%3:00:00:cooked:00"/>
+  <feat name="wnsk" value="fried%5:00:00:cooked:00"/>
   <feat name="text" value="fried"/>
  </struct>
  <struct from="1840" id="n07688624_wf13" to="1848" type="man">
@@ -754,7 +754,7 @@
   <feat name="text" value="small"/>
  </struct>
  <struct from="1876" id="n07688757_wf2" to="1880" type="man">
-  <feat name="wnsk" value="oval%3:00:00:rounded:00"/>
+  <feat name="wnsk" value="oval%5:00:00:rounded:00"/>
   <feat name="text" value="oval"/>
  </struct>
  <struct from="1881" id="n07688757_wf3" to="1885" type="man">
@@ -813,7 +813,7 @@
   <feat name="text" value="cooked"/>
  </struct>
  <struct from="2001" id="n07689003_wf4" to="2014" type="auto">
-  <feat name="wnsk" value="pancake-style%3:00:00:cooked:00"/>
+  <feat name="wnsk" value="pancake-style%5:00:00:cooked:00"/>
   <feat name="text" value="pancake-style"/>
  </struct>
  <struct from="2020" id="n07689003_wf7" to="2027" type="man">
@@ -927,7 +927,7 @@
   <feat name="text" value="crisp"/>
  </struct>
  <struct from="2322" id="n07689757_wf4" to="2327" type="man">
-  <feat name="wnsk" value="brown%3:00:00:chromatic:00"/>
+  <feat name="wnsk" value="brown%5:00:00:chromatic:00"/>
   <feat name="text" value="brown"/>
  </struct>
  <struct from="2328" id="n07689757_wf5" to="2333" type="man">
@@ -959,7 +959,7 @@
   <feat name="text" value="is"/>
  </struct>
  <struct from="2387" id="n07689842_wf11" to="2392" type="man">
-  <feat name="wnsk" value="brown%3:00:00:chromatic:00"/>
+  <feat name="wnsk" value="brown%5:00:00:chromatic:00"/>
   <feat name="text" value="brown"/>
  </struct>
  <struct from="2397" id="n07689842_wf13" to="2401" type="un">
@@ -1049,11 +1049,11 @@
   <feat name="text" value="muffin"/>
  </struct>
  <struct from="2589" id="n07690585_wf1" to="2594" type="man">
-  <feat name="wnsk" value="light%3:00:00:digestible:00"/>
+  <feat name="wnsk" value="light%5:00:00:digestible:00"/>
   <feat name="text" value="light"/>
  </struct>
  <struct from="2595" id="n07690585_wf2" to="2600" type="man">
-  <feat name="wnsk" value="puffy%3:00:00:large:00"/>
+  <feat name="wnsk" value="puffy%5:00:00:large:00"/>
   <feat name="text" value="puffy"/>
  </struct>
  <struct from="2601" id="n07690585_wf3" to="2606" type="man">
@@ -1077,7 +1077,7 @@
   <feat name="text" value="pan"/>
  </struct>
  <struct from="2681" id="n07690739_wf1" to="2686" type="man">
-  <feat name="wnsk" value="light%3:00:00:digestible:00"/>
+  <feat name="wnsk" value="light%5:00:00:digestible:00"/>
   <feat name="text" value="light"/>
  </struct>
  <struct from="2687" id="n07690739_wf2" to="2693" type="un">
@@ -1092,7 +1092,7 @@
   <feat name="text" value="made"/>
  </struct>
  <struct from="2724" id="n07690739_wf10" to="2734" type="man">
-  <feat name="wnsk" value="individual%3:00:00:unshared:00"/>
+  <feat name="wnsk" value="individual%5:00:00:unshared:00"/>
   <feat name="text" value="individual"/>
  </struct>
  <struct from="2754" id="n07690739_wf14" to="2759" type="man">
@@ -1212,7 +1212,7 @@
   <feat name="text" value="decorated"/>
  </struct>
  <struct from="3064" id="n07691237_wf15" to="3076" type="auto">
-  <feat name="wnsk" value="cross-shaped%3:00:00:formed:00"/>
+  <feat name="wnsk" value="cross-shaped%5:00:00:formed:00"/>
   <feat name="text" value="cross-shaped"/>
  </struct>
  <struct from="3077" id="n07691237_wf16" to="3082" type="man">
@@ -1223,7 +1223,7 @@
   <feat name="text" value="glaze"/>
  </struct>
  <struct from="3090" id="n07691424_wf1" to="3101" type="auto">
-  <feat name="wnsk" value="ring-shaped%3:00:00:rounded:00"/>
+  <feat name="wnsk" value="ring-shaped%5:00:00:rounded:00"/>
   <feat name="text" value="ring-shaped"/>
  </struct>
  <struct from="3102" id="n07691424_wf2" to="3112" type="auto">
@@ -1276,11 +1276,11 @@
   <feat name="text" value="rich"/>
  </struct>
  <struct from="3218" id="n07691650_wf3" to="3223" type="man">
-  <feat name="wnsk" value="flaky%3:00:00:tender:01"/>
+  <feat name="wnsk" value="flaky%5:00:00:tender:01"/>
   <feat name="text" value="flaky"/>
  </struct>
  <struct from="3224" id="n07691650_wf4" to="3239" type="auto">
-  <feat name="wnsk" value="crescent-shaped%3:00:00:rounded:00"/>
+  <feat name="wnsk" value="crescent-shaped%5:00:00:rounded:00"/>
   <feat name="text" value="crescent-shaped"/>
  </struct>
  <struct from="3240" id="n07691650_wf5" to="3244" type="un">
@@ -1465,7 +1465,7 @@
   <feat name="text" value="flat"/>
  </struct>
  <struct from="3636" id="n07692517_wf2" to="3642" type="man">
-  <feat name="wnsk" value="crusty%3:00:00:covered:00"/>
+  <feat name="wnsk" value="crusty%5:00:00:covered:00"/>
   <feat name="text" value="crusty"/>
  </struct>
  <struct from="3643" id="n07692517_wf3" to="3651" type="man">
@@ -1473,7 +1473,7 @@
   <feat name="text" value="bottomed"/>
  </struct>
  <struct from="3671" id="n07692614_wf3" to="3679" type="auto">
-  <feat name="wnsk" value="numerous%3:00:00:many:00"/>
+  <feat name="wnsk" value="numerous%5:00:00:many:00"/>
   <feat name="text" value="numerous"/>
  </struct>
  <struct from="3680" id="n07692614_wf4" to="3685" type="man">
@@ -1636,7 +1636,7 @@
   <feat name="text" value="bottom"/>
  </struct>
  <struct from="4064" id="n07693439_wf1" to="4079" type="auto">
-  <feat name="wnsk" value="pinwheel-shaped%3:00:00:round:00"/>
+  <feat name="wnsk" value="pinwheel-shaped%5:00:00:round:00"/>
   <feat name="text" value="pinwheel-shaped"/>
  </struct>
  <struct from="4080" id="n07693439_wf2" to="4085" type="un">
@@ -1672,7 +1672,7 @@
   <feat name="text" value="baking"/>
  </struct>
  <struct from="4157" id="n07693590_wf1" to="4162" type="man">
-  <feat name="wnsk" value="light%3:00:00:digestible:00"/>
+  <feat name="wnsk" value="light%5:00:00:digestible:00"/>
   <feat name="text" value="light"/>
  </struct>
  <struct from="4163" id="n07693590_wf2" to="4168" type="un">
@@ -1707,7 +1707,7 @@
   <feat name="text" value="Yiddish"/>
  </struct>
  <struct from="4235" id="n07693725_wf1" to="4241" type="man">
-  <feat name="wnsk" value="glazed%3:00:00:coated:00"/>
+  <feat name="wnsk" value="glazed%5:00:00:coated:00"/>
   <feat name="text" value="glazed"/>
  </struct>
  <struct from="4242" id="n07693725_wf2" to="4247" type="man">
@@ -1718,7 +1718,7 @@
   <feat name="text" value="raised"/>
  </struct>
  <struct from="4255" id="n07693725_wf4" to="4270" type="auto">
-  <feat name="wnsk" value="doughnut-shaped%3:00:00:rounded:00"/>
+  <feat name="wnsk" value="doughnut-shaped%5:00:00:rounded:00"/>
   <feat name="text" value="doughnut-shaped"/>
  </struct>
  <struct from="4271" id="n07693725_wf5" to="4275" type="un">
@@ -1854,7 +1854,7 @@
   <feat name="text" value="very"/>
  </struct>
  <struct from="4592" id="n07694659_wf2" to="4597" type="man">
-  <feat name="wnsk" value="short%3:00:00:breakable:00"/>
+  <feat name="wnsk" value="short%5:00:00:breakable:00"/>
   <feat name="text" value="short"/>
  </struct>
  <struct from="4598" id="n07694659_wf3" to="4605" type="man">
@@ -1889,7 +1889,7 @@
   <feat name="text" value="served"/>
  </struct>
  <struct from="4670" id="n07694659_wf16" to="4679" type="man">
-  <feat name="wnsk" value="sweetened%3:00:00:sugary:00"/>
+  <feat name="wnsk" value="sweetened%5:00:00:sugary:00"/>
   <feat name="text" value="sweetened"/>
  </struct>
  <struct from="4680" id="n07694659_wf17" to="4685" type="man">
@@ -1907,7 +1907,7 @@
   <feat name="text" value="hard"/>
  </struct>
  <struct from="4723" id="n07694839_wf3" to="4731" type="auto">
-  <feat name="wnsk" value="unsalted%3:00:00:tasteless:01"/>
+  <feat name="wnsk" value="unsalted%5:00:00:tasteless:01"/>
   <feat name="text" value="unsalted"/>
  </struct>
  <struct from="4732" id="n07694839_wf4" to="4739" type="man">
@@ -1919,7 +1919,7 @@
   <feat name="text" value="bread"/>
  </struct>
  <struct from="4752" id="n07694839_wf9" to="4758" type="man">
-  <feat name="wnsk" value="former%3:00:01:past:00"/>
+  <feat name="wnsk" value="former%5:00:01:past:00"/>
   <feat name="text" value="former"/>
  </struct>
  <struct from="4759" id="n07694839_wf10" to="4765" type="man">
@@ -1979,7 +1979,7 @@
   <feat name="text" value="baking"/>
  </struct>
  <struct from="4889" id="n07695284_wf1" to="4900" type="auto">
-  <feat name="wnsk" value="unsweetened%3:00:00:sugarless:00"/>
+  <feat name="wnsk" value="unsweetened%5:00:00:sugarless:00"/>
   <feat name="text" value="unsweetened"/>
  </struct>
  <struct from="4901" id="n07695284_wf2" to="4908" type="man">
@@ -2054,7 +2054,7 @@
   <feat name="text" value="cheese"/>
  </struct>
  <struct from="5083" id="n07695652_wf1" to="5092" type="auto">
-  <feat name="wnsk" value="semisweet%3:00:00:tasty:00"/>
+  <feat name="wnsk" value="semisweet%5:00:00:tasty:00"/>
   <feat name="text" value="semisweet"/>
  </struct>
  <struct from="5093" id="n07695652_wf2" to="5104" type="auto">
@@ -2066,11 +2066,11 @@
   <feat name="text" value="cracker"/>
  </struct>
  <struct from="5114" id="n07695742_wf1" to="5120" type="man">
-  <feat name="wnsk" value="glazed%3:00:00:coated:00"/>
+  <feat name="wnsk" value="glazed%5:00:00:coated:00"/>
   <feat name="text" value="glazed"/>
  </struct>
  <struct from="5125" id="n07695742_wf3" to="5131" type="man">
-  <feat name="wnsk" value="salted%3:00:00:preserved:02"/>
+  <feat name="wnsk" value="salted%5:00:00:preserved:02"/>
   <feat name="text" value="salted"/>
  </struct>
  <struct from="5132" id="n07695742_wf4" to="5139" type="man">
@@ -2229,7 +2229,7 @@
   <feat name="text" value="consisting"/>
  </struct>
  <struct from="5577" id="n07697100_wf6" to="5582" type="man">
-  <feat name="wnsk" value="fried%3:00:00:cooked:00"/>
+  <feat name="wnsk" value="fried%5:00:00:cooked:00"/>
   <feat name="text" value="fried"/>
  </struct>
  <struct from="5583" id="n07697100_wf7" to="5587" type="man">
@@ -2325,7 +2325,7 @@
   <feat name="text" value="cooked"/>
  </struct>
  <struct from="5835" id="n07697699_wf11" to="5840" type="man">
-  <feat name="wnsk" value="spicy%3:00:00:tasty:00"/>
+  <feat name="wnsk" value="spicy%5:00:00:tasty:00"/>
   <feat name="text" value="spicy"/>
  </struct>
  <struct from="5841" id="n07697699_wf12" to="5846" type="man">
@@ -2357,7 +2357,7 @@
   <feat name="text" value="long"/>
  </struct>
  <struct from="5900" id="n07697825_wf8" to="5906" type="man">
-  <feat name="wnsk" value="crusty%3:00:00:covered:00"/>
+  <feat name="wnsk" value="crusty%5:00:00:covered:00"/>
   <feat name="text" value="crusty"/>
  </struct>
  <struct from="5907" id="n07697825_wf9" to="5911" type="un">
