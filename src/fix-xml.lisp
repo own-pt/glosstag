@@ -1,82 +1,37 @@
 
 (in-package :glosstag.initial)
 
+;; I could have used the cxml:broadcast-handler class too. Actually,
+;; sax-proxy is a subclass of broadcast-handler.
 
-(defun fix-sense-key (str)
-  (let ((lemma+lex_sense (serapeum:split-sequence-if
-			  (lambda (char)
-			    (or (char-equal #\: char)
-				(char-equal #\% char)))
-			  str)))
-    (if (and
-	 (string-equal (nth 1 lemma+lex_sense) "3")
-	 (not (string-equal (nth 4 lemma+lex_sense) "")))
-	(progn
-	  (setf (nth 1 lemma+lex_sense) "5")
-	  (format nil "~a%~a:~{~a~^:~}" (first lemma+lex_sense)
-                  (second lemma+lex_sense)
-                  (cddr lemma+lex_sense)))
-	str)))
+(defclass pre (cxml:sax-proxy) 
+  ((state :initform nil :accessor pre-state)
+   (coll :initform nil  :accessor pre-coll)))
 
 
-(defun fix-sense-key-xml (in-file)
-  (with-open-file (in in-file)
-    (loop
-       for line = (read-line in nil nil)
-       while line do
-	 (format t "~a~%"
-		 (cl-ppcre:regex-replace "<sk>(.*)</sk>|sk=\"(.*)\"" line
-					 #'(lambda (match &rest registers)
-					     (fix-sense-key match))
-					 :simple-calls t)))))
+(defmethod sax:start-element ((h pre) (namespace t) (local-name t) 
+			      (qname t) (attributes t))
+  (if (equal "glob" local-name)
+      (push (sax:attribute-value (sax:find-attribute "coll" attributes))
+	    (slot-value h 'coll)))
+
+  (if (equal "id" local-name)
+      (if (and (slot-value h 'coll)
+	       (sax:find-attribute "coll" attributes))
+	  (let ((id-coll (sax:attribute-value (sax:find-attribute "coll" attributes))))
+	    (if (not (equal id-coll (car (slot-value h 'coll))))
+		(setf (sax:attribute-value (sax:find-attribute "coll" attributes))
+		      (car (slot-value h 'coll)))))))
+  (call-next-method))
 
 
-(defun fix-adjective-satellites (glosstag-dir out-dir)
-  (let ((in-files (directory (make-pathname :defaults glosstag-dir :name :wild :type "xml")))
-	(out-path (ensure-directories-exist out-dir)))
-    (format t "Input Files: ~a~%Output Directory: ~a~%" in-files out-path)
-    (mapcar
-     #'(lambda (in-file)
-	 (let ((out-file (merge-pathnames out-dir in-file)))
-	   (with-open-file (*standard-output* out-file :direction :output :if-exists :supersede)
-	     (fix-sense-key-xml in-file))
-	   (format t "Writing ~a~%" out-file)))
-     in-files)))
+(defmethod sax:end-element ((h pre) (namespace t) (local-name t) (qname t))
+  (if (equal local-name "glob")
+      (pop (slot-value h 'coll)))
+  (call-next-method))
 
 
-(defun fix-mismatch (in-file)
-  (with-open-file (in in-file)
-    (loop
-       with inside-globp = nil
-       with glob-coll = ""
-       for line = (read-line in nil nil)
-       while line do
-	 (cl-ppcre:do-register-groups (coll)
-	     ("<glob coll=\"(.)\"" line)
-	   (setf inside-globp t
-		 glob-coll coll))
-
-	 (if inside-globp
-	     (progn
-	       (if (cl-ppcre:scan (format nil "<id coll=\"(~a)\"" glob-coll) line)
-		   (format t "~a~%" line)
-		   (format t "~a~%" (cl-ppcre:regex-replace-all "<id coll=\"(.)\""
-							    line (format nil "<id coll=\"~a\"" glob-coll)))))
-	     (format t "~a~%" line))
-
-	 (when (cl-ppcre:scan "</glob>" line)
-	   (setf inside-globp nil
-		 glob-coll "")))))
-
-
-(defun fix-glob@coll-id@coll-mismatch (glosstag-dir out-dir)
-  (let ((in-files (directory (make-pathname :defaults glosstag-dir :name :wild :type "xml")))
-	(out-path (ensure-directories-exist out-dir)))
-    (format t "Input Files: ~a~%Output Directory: ~a~%" in-files out-path)
-    (mapcar
-     #'(lambda (in-file)
-	 (let ((out-file (merge-pathnames out-dir in-file)))
-	  (with-open-file (*standard-output* out-file :direction :output :if-exists :supersede)
-	    (fix-mismatch in-file))
-	  (format t "Writing ~a~%" out-file)))
-     in-files)))
+(defun prexml (input output) 
+  (with-open-file (out output :if-exists :supersede :direction :output)
+    (let ((h (make-instance 'pre :chained-handler (cxml:make-character-stream-sink out))))
+      (cxml:parse input h))))

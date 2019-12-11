@@ -54,15 +54,14 @@
   (assert (or (null (tk-sform tk)) (= 1 (length (tk-sform tk)))))
   (labels
       ((make-senses (attrs)
-	 (let ((ids (remove-if-not #'(lambda (atrr)
-				       (equal (car atrr) "id"))
-				   attrs)))
-	   (mapcar #'(lambda (id)
-		       (let* ((id-attr (cadr id))
-			      (sk (assocadr "sk" id-attr))
-			      (lemma (assocadr "lemma" id-attr)))
-			 (cons (fix-sense-key sk) lemma)))
-		   ids)))
+	 (mapcar (lambda (id)
+		   (let* ((id-attr (cadr id))
+			  (sk (assocadr "sk" id-attr))
+			  (lemma (assocadr "lemma" id-attr)))
+		     (cons sk lemma)))
+		 (remove-if-not (lambda (atrr)
+				  (equal (car atrr) "id"))
+				attrs)))
        
        (str->kw (str)
 	 (when str
@@ -120,26 +119,23 @@
             (opt :sep sep) (opt :type type) (opt :rdf rdf))))
 
        (globs (tk attrs)
-	 (let ((globs (remove-if-not #'(lambda (atrr)
-					 (equal (car atrr) "glob"))
-				     attrs)))
-	   (when globs
-	    (mapcar
-	     #'(lambda (glob)
-		 (let* ((glob-attr (cadr glob))
-			(lemma  (assocadr "lemma" glob-attr))
-			(tag    (assocadr "tag" glob-attr))
-			(glob   (assocadr "glob" glob-attr))
-			(coll   (assocadr "coll" glob-attr))
-			(glob-ids (remove-if-not #'(lambda (attr)
-						     (and (equal (car attr) "id")
-							  (equal (assocadr "coll" (cadr attr)) coll)))
-						 attrs))
-			(senses (make-senses glob-ids)))
-		   (append
-		    (list :kind `(:glob . ,coll) :lemma lemma)
-		    (opt :tag tag) (opt :senses senses) (list :glob glob))))
-	     globs))))
+	 (mapcar (lambda (glob)
+		   (let* ((glob-attr (cadr glob))
+			  (lemma  (assocadr "lemma" glob-attr))
+			  (tag    (assocadr "tag" glob-attr))
+			  (glob   (assocadr "glob" glob-attr))
+			  (coll   (assocadr "coll" glob-attr))
+			  (glob-ids (remove-if-not #'(lambda (attr)
+						       (and (equal (car attr) "id")
+							    (equal (assocadr "coll" (cadr attr)) coll)))
+						   attrs))
+			  (senses (make-senses glob-ids)))
+		     (append
+		      (list :kind `(:glob . ,coll) :lemma lemma)
+		      (opt :tag tag) (opt :senses senses) (list :glob glob))))
+		 (remove-if-not (lambda (atrr)
+				  (equal (car atrr) "glob"))
+				attrs)))
        
        (cf (tk attrs)
 	 (let ((colls  (serapeum:split-sequence
@@ -209,13 +205,23 @@
 		 attributes)
 	 (push tk (ss-tokens css))))
 
-      ((member local-name (list "id" "glob") :test #'equal)
-       (push
-	(list local-name
-	      (mapcar (lambda (at)
-			(list (sax:attribute-local-name at) (sax:attribute-value at)))
-		      attributes))
-	(slot-value ctk 'attrs))))))
+      ((equal local-name "id")
+       (if (and (sax:find-attribute "coll" attributes)
+		(not (state-p :reading-glob)))
+	   (warn "@coll outside glob => id ~a" (sax:attribute-value (sax:find-attribute "id" attributes))))
+       (push (list local-name
+		   (mapcar (lambda (at)
+			     (list (sax:attribute-local-name at) (sax:attribute-value at)))
+			   attributes))
+	     (slot-value ctk 'attrs)))
+
+      ((equal local-name "glob")
+       (state-on :reading-glob)
+       (push (list local-name
+		   (mapcar (lambda (at)
+			     (list (sax:attribute-local-name at) (sax:attribute-value at)))
+			   attributes))
+	     (slot-value ctk 'attrs))))))
 
 
 (defmethod sax:end-element ((wh wordnet-handler) (namespace t) (local-name t) (qname t))
@@ -239,6 +245,9 @@
 
       ((member local-name '("mwf" "qf" "aux" "classif" "def" "ex") :test #'equal)
        (push (make-instance 'token :kind local-name :action "close") (ss-tokens css)))
+
+      ((equal local-name "glob")
+       (state-off :reading-glob))
 
       ((member local-name '("cf" "wf") :test #'equal)
        (state-off :reading-token)
