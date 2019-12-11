@@ -47,27 +47,26 @@
 (defun fix-mismatch (in-file)
   (with-open-file (in in-file)
     (loop
-       with last-line-globp = nil
+       with inside-globp = nil
        with glob-coll = ""
        for line = (read-line in nil nil)
        while line do
 	 (cl-ppcre:do-register-groups (coll)
 	     ("<glob coll=\"(.)\"" line)
-	   (setf last-line-globp t
+	   (setf inside-globp t
 		 glob-coll coll))
 
-	 (if last-line-globp
+	 (if inside-globp
 	     (progn
 	       (if (cl-ppcre:scan (format nil "<id coll=\"(~a)\"" glob-coll) line)
 		   (format t "~a~%" line)
-		   (format t "~a~%" (cl-ppcre:regex-replace "<id coll=\"(.)\""
+		   (format t "~a~%" (cl-ppcre:regex-replace-all "<id coll=\"(.)\""
 							    line (format nil "<id coll=\"~a\"" glob-coll)))))
-	     (progn
-	       (when (cl-ppcre:scan "</glob>" line)
-		(setf last-line-globp nil
-		      glob-coll ""))
-	       (when (and (equal glob-coll "") (null last-line-globp))
-		 (format t "~a~%" line)))))))
+	     (format t "~a~%" line))
+
+	 (when (cl-ppcre:scan "</glob>" line)
+	   (setf inside-globp nil
+		 glob-coll "")))))
 
 
 (defun fix-glob@coll-id@coll-mismatch (glosstag-dir out-dir)
