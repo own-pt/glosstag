@@ -5,7 +5,8 @@
   :serial t
   :depends-on (:cxml :cl-ppcre :cl-trie
 	       :fare-csv :jonathan
-	       :serapeum :trivia.balland2006)
+	       :serapeum :trivia.balland2006
+	       :cl-json)
   :components ((:file "package")
 	       (:file "glosstag" :depends-on ("package"))
 	       (:file "utils"    :depends-on ("package"))
