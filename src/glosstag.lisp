@@ -90,20 +90,18 @@
 (defun assocadr (item alist)
   (second (assoc item alist :test #'equal)))
 
-(defun synset->plist (ss)
-  (list :ofs (ss-ofs ss) :pos (ss-pos ss)
-	:keys (plist-keys ss)
-	:gloss (ss-gloss-orig ss)
-	:tokens (mapcan #'token->plist (ss-tokens ss))))
 
 (defun plist-keys (ss)
   (let ((keys  (ss-keys  ss))
 	(terms (ss-terms ss)))
-    (mapcar (lambda (term) (cons (find term keys :test (lambda (term key)
-							 (equal (cl-ppcre:regex-replace-all " " (string-downcase term) "_")
-								(car (split-sequence:split-sequence #\% key)))))
-				 term))
+    (mapcar (lambda (term)
+	      (cons (find term keys
+			  :test (lambda (term key)
+				  (equal (cl-ppcre:regex-replace-all " " (string-downcase term) "_")
+					 (car (split-sequence:split-sequence #\% key)))))
+		    term))
 	    terms)))
+
 
 (defun filter-attrs (attrs)
   (remove-if (lambda (a)
@@ -224,6 +222,15 @@
 	(:CF (cf tk attrs))))))
 
 
+(defun synset->plist (ss)
+  (list :ofs (ss-ofs ss) :pos (ss-pos ss)
+	:keys (plist-keys ss)
+	:gloss (ss-gloss-orig ss)
+	:tokens (mapcan #'token->plist (ss-tokens ss))))
+
+
+;; parse XML
+
 (defmethod sax:start-element ((wh wordnet-handler) (namespace t) (local-name t) (qname t) 
 			      (attributes t))
   (with-slots (css ctk) wh
@@ -342,9 +349,6 @@
     (format out "~{~s~%~}" (mapcar #'synset->plist (load-xml (make-pathname :defaults filein))))))
 
 
-
-;; saving
-
 (defun save-plists (plists dir basename)
   (format t "Saving ~a ~a~%" dir basename)
   (with-open-file (out (make-pathname :name basename :type "plist" :defaults dir)
@@ -378,7 +382,7 @@
     (t (error "problem!"))))
 
 
-(defun main-xml->plist (glosstag-dir out-dir &key (size 100))
+(defun glosstag->plist (glosstag-dir out-dir &key (size 100))
   (let ((out-path (ensure-directories-exist out-dir))
 	(in-files (directory (make-pathname :defaults glosstag-dir :name :wild :type "xml"))))
     (format t "Input Files: ~a~%Output Directory: ~a~%" in-files out-path)
@@ -531,13 +535,11 @@
 	    (:CF                  (cf tk attrs))))))))
 
 
-(defun synset->json (synset)
+(defun synset->json (synset stream)
   (let ((json (make-hash-table :test #'equal))
 	(meta (make-hash-table :test #'equal))
-	(lex_filenum (parse-integer
-		      (nth 1 (serapeum:split-sequence
-			      #\:
-			      (car (ss-keys synset)))))))
+	(lex_filenum (parse-integer (nth 1 (serapeum:split-sequence #\: (car (ss-keys synset))))))
+	(terms-keys (plist-keys synset)))
     (setf  (gethash "sent_id" json)  (parse-integer (ss-ofs synset))
 	   (gethash "text"    json)  (ss-gloss-orig synset)
 	   (gethash "doc_id"  json)  (gethash lex_filenum *lexnames*)
@@ -545,26 +547,27 @@
 					     (gethash lex_filenum *lexnames*)
 					     (parse-integer (ss-ofs synset)))
 	   (gethash "meta"    json)  meta
-	   (gethash "keys"    meta)  (ss-keys synset)
-	   (gethash "terms"   meta)  (ss-terms synset)
-	   (gethash "pos"     meta)  (ss-pos synset)
-	   (gethash "ofs"     meta)  (ss-ofs synset)
-	   (gethash "tokens"  json)  (tokens->json (ss-tokens synset)))
-    (cl-json:encode-json json)
-    (format t "~%")))
+	   (gethash "keys"    meta) (mapcar #'car terms-keys)
+	   (gethash "terms"   meta) (mapcar #'cdr terms-keys)
+	   (gethash "pos"     meta) (ss-pos synset)
+	   (gethash "ofs"     meta) (ss-ofs synset)
+	   (gethash "tokens"  json) (tokens->json (ss-tokens synset)))
+    (cl-json:encode-json json stream)
+    (format stream "~%")))
 
 
-(defun xml->json (filein)
-  (mapcar #'synset->json (load-xml (make-pathname :defaults filein))))
+(defun xml->json (filein stream)
+  (mapcar (lambda (ss) (synset->json ss stream))
+	  (load-xml (make-pathname :defaults filein))))
 
-(defun main-xml->json (glosstag-dir out-file)
+(defun glosstag->json (glosstag-dir out-file)
   (let ((in-files (directory (make-pathname :defaults glosstag-dir :name :wild :type "xml"))))
     (format t "Input Files: ~a~%Output file: ~a~%" in-files out-file)
-    (with-open-file (*standard-output* out-file :direction :output :if-exists :supersede)
-      (mapc #'xml->json in-files))))
+    (with-open-file (out out-file :direction :output :if-exists :supersede)
+      (mapc (lambda (file) (xml->json file out)) in-files))))
 
-;;; plist -> json
 
+;;; (code below is deprecated, came from the sensetion repo)
 
 (defun plist-tk->json-tk (plist-tk)
   (let ((hash (make-hash-table :test #'equal)))
