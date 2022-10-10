@@ -26,3 +26,11 @@ by WordNet.
 We are annotating the corpus using [[http://github.com/own-pt/sensetion.el/][this tool]]. It depends on the gloss
 corpus in the format available in this repository. Details about the
 format itself can be found in the [[https://github.com/own-pt/sensetion.el/][tool's repository]].
+
+* Release
+
+#+begin_src bash
+  cd data
+  split -l 1000 -a 2 annotation.json annotation-
+  for f in annotation-??; do mv $f $f.jl; done
+#+end_src
