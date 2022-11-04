@@ -6,6 +6,7 @@
   :depends-on (:cxml :cl-ppcre :cl-trie
 	       :fare-csv :jonathan
 	       :serapeum :trivia.balland2006 :cl-json :yason)
+  
   :components ((:file "package")
 	       (:file "glosstag" :depends-on ("package"))
 	       (:file "utils"    :depends-on ("package"))
