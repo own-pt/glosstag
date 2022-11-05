@@ -1,5 +1,5 @@
 
-(ql:quickload '(:cl-ppcre :yason))
+(ql:quickload '(:cl-ppcre :yason :edit-distance))
 
 
 ;; read WordNet DB Files
@@ -26,15 +26,18 @@
 ;; read json-lines files
 
 (defun fix1 (tb)
-  (loop for tk in (gethash "tokens" tb)
-	when (gethash "meta" tk)
-	  do (progn
-	       (loop for k
-		       being the hash-key
-			 using (hash-value v) of (gethash "meta" tk)  
-		     do (setf (gethash k tk) v))
-	       (remhash "meta" tk))
-	finally (return tb)))
+  (loop for k
+	  being the hash-key
+	    using (hash-value v) of (gethash "meta" tb)  
+	do (setf (gethash k tb) v)
+	finally (remhash "meta" tb))
+  (dolist (tk (gethash "tokens" tb) tb)
+    (when (gethash "meta" tk)
+      (loop for k
+	      being the hash-key
+		using (hash-value v) of (gethash "meta" tk)  
+	    do (setf (gethash k tk) v)
+	    finally (remhash "meta" tk)))))
 
 (defun fix2 (tb)
   (labels ((wf (rend form sep)
@@ -63,61 +66,80 @@
 	  
 	  (t (push tk res)))))))
 
-(defun fix-obj (tb)
-  (fix2 (fix1 tb)))
+
+(defun fix3 (obj wn)
+  (let ((ofs (gethash "ofs" obj))
+	(pos (gethash "pos" obj)))
+    (cond
+      ((and (not (gethash (format nil "~a-~a" ofs pos) wn))
+	    (equal pos "a")
+	    (gethash (format nil "~a-~a" ofs "s") wn))
+       (setf (gethash "type" obj) "s"))
+
+      (t (setf (gethash "type" obj)
+	       (gethash "pos" obj))
+	 (remhash "pos" obj)))
+    obj))
+
+
+(defun fix-obj (obj wn)
+  (fix3 (fix2 (fix1 obj)) wn))
+
+
+(defun read-jl-file (fn wn)
+  (with-open-file (in fn)
+    (loop for line = (read-line in nil nil)
+	  while line
+	  collect (fix-obj (yason:parse line) wn))))
+
 
 (defun text-from-tokens (tb)
   (with-output-to-string (s)
     (dolist (tk (gethash "tokens" tb))
       (format s "~a~a" (gethash "form" tk "") (if (gethash "form" tk) (gethash "sep" tk " ") "")))))
 
-(defun read-jl-file (fn)
-  (with-open-file (in fn)
-    (loop for line = (read-line in nil nil)
-	  while line
-	  collect (fix-obj (yason:parse line)))))
+
+(defun describe-obj (obj wn)
+  (let ((a (format nil "~a-~a"
+		   (gethash "ofs" obj)
+		   (gethash "type" obj))))
+    (list :id a
+	  :text-wn   (gethash a wn)
+	  :text-meta (gethash "text" obj)
+	  :text-toks (text-from-tokens obj))))
 
 
-(defun check-obj (tb)
-  (list (gethash "ofs" (gethash "meta" tb)) (gethash "text" tb) (text-from-tokens tb)))
+(defun main-1 ()
+  (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
+    (dolist (fn (directory "data/*.jl"))
+      (dolist (obj (read-jl-file fn wn))
+	(let ((res (describe-obj obj wn)))
+	  (when (> (edit-distance:distance (getf res :text-meta) (getf res :text-wn)) 0)
+	    (format t "~a~% w:[~a]~% m:[~a]~%~%" (getf res :id) (getf res :text-wn) (getf res :text-meta))))))))
 
+(defun main-2 ()
+  (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/"))
+	(ok '((:DELETION #\Space NIL)
+	      (:DELETION #\; NIL)
 
-(defun main ()
-  (let ((ok '((:SUBSTITUTION #\; #\Space)
-	      (:SUBSTITUTION #\( #\LEFT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\) #\;)
-	      (:SUBSTITUTION #\" #\()
-	      (:INSERTION NIL #\LEFT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\  #\()
-	      (:SUBSTITUTION #\` #\ )
-	      (:SUBSTITUTION #\" #\LEFT_SINGLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\LEFT_SINGLE_QUOTATION_MARK)
-	      (:DELETION #\; NIL) (:DELETION #\` NIL)
-	      (:DELETION #\' NIL)   
-	      (:INSERTION NIL #\))
-	      (:DELETION #\  NIL) (:DELETION #\( NIL) 
-	      (:SUBSTITUTION #\) #\ ) (:DELETION #\" NIL)
-	      (:SUBSTITUTION #\  #\LEFT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\' #\;)
-	      (:SUBSTITUTION #\' #\ ) (:INSERTION NIL #\()
-	      (:SUBSTITUTION #\: #\))
-	      (:INSERTION NIL #\RIGHT_SINGLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\' #\RIGHT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\` #\LEFT_SINGLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\' #\RIGHT_SINGLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\" #\RIGHT_DOUBLE_QUOTATION_MARK)
 	      (:SUBSTITUTION #\" #\LEFT_DOUBLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\RIGHT_DOUBLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\ )
-	      (:INSERTION NIL #\;) (:SUBSTITUTION #\" #\ ))))
-    (loop for fn in (directory "data/*.jl")
-	do (loop for an in (mapcar (lambda (r) 
-				     (cons r
-					   (remove-if (lambda (a) (equal :MATCH (car a)))
-						      (edit-distance:diff (cadr r) (caddr r))))) 
-				   (mapcar #'check-obj (read-jl-file fn)))
-		 when (set-difference (cdr an) ok :test #'equal)
-		   do (format t "~a~%~{ ~a~%~} ~a~%" fn (car an) (cdr an))))))
+	      (:SUBSTITUTION #\" #\RIGHT_DOUBLE_QUOTATION_MARK)
+	      
+	      (:SUBSTITUTION #\` #\LEFT_SINGLE_QUOTATION_MARK)
+	      (:SUBSTITUTION #\' #\RIGHT_DOUBLE_QUOTATION_MARK)
+
+	      (:INSERTION NIL #\;)
+	      (:INSERTION NIL #\Space)
+
+	      (:DELETION #\` NIL)
+	      (:DELETION #\' NIL) )))
+    
+    (dolist (fn (directory "data/*.jl"))
+      (dolist (obj (read-jl-file fn wn))
+	(let* ((res (describe-obj obj wn))
+	       (ops (remove-if (lambda (a) (equal :MATCH (car a))) (edit-distance:diff (getf res :text-meta) (getf res :text-toks)))))
+	  (when (set-difference ops ok :test #'equal)
+	    (format t "~a~% m:[~a]~% t:[~a]~% ~s~%~%" (getf res :id) (getf res :text-meta) (getf res :text-toks) ops)))))))
 
 
 
