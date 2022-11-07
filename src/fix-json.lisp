@@ -108,8 +108,10 @@
     obj))
 
 
+;; fixing the 'sep' field of tokens. This solves the detokenization of
+;; the tokens.
+
 (defun fix5 (obj)
-  ;; (format t "~a~%" (gethash "text" obj))
   (let* ((tks  (coerce (gethash "tokens" obj) 'vector))
 	 (n    (length (gethash "tokens" obj)))
 	 (quotes "“”‘’")
@@ -118,7 +120,6 @@
 		    ((and (> i (- n 2)) (> j (- n 1))) tks)
 		 (let ((a (aref tks i))
 		       (b (aref tks j)))
-		   ;; (format t "i:~a:~a~%j:~a:~a~%" i (alexandria:hash-table-alist a) j (alexandria:hash-table-alist b))
 		   (cond
 		     ((not (gethash "form" a))
 		      (setf i j j (1+ j)))
@@ -135,8 +136,13 @@
 		      (setf (gethash "sep" a) ""
 			    i j j (1+ j)))
 
-		     ((and (gethash "form" a) ;; (search (gethash "form" a) quotes)
+		     ((and (gethash "form" a) 
 			   (search (gethash "form" b) ");,."))
+		      (setf (gethash "sep" a) ""
+			    i j j (1+ j)))
+
+		     ((and (gethash "form" a)
+			   (search (gethash "form" b) "”’"))
 		      (setf (gethash "sep" a) ""
 			    i j j (1+ j)))
 
@@ -149,6 +155,10 @@
     (setf (gethash "tokens" obj)
 	  (coerce news 'list))
     obj))
+
+
+;; fixes cases of named quotations, when we don't have space between
+;; the dash, quote and the name.  "the quote" - A. R. Weads
 
 (defun fix6 (obj)
   (if (cl-ppcre:scan "\"- ([A-Z])" (gethash "text" obj))
@@ -168,9 +178,9 @@
 	  collect (fix-obj (yason:parse line) wn))))
 
 
-(defun text-from-tokens (tb)
+(defun text-from-tokens (obj)
   (with-output-to-string (s)
-    (dolist (tk (gethash "tokens" tb))
+    (dolist (tk (gethash "tokens" obj))
       (format s "~a~a" (gethash "form" tk "") (if (gethash "form" tk) (gethash "sep" tk " ") "")))))
 
 
