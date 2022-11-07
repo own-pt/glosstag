@@ -166,9 +166,13 @@
 	    (cl-ppcre:regex-replace-all "\"- ([A-Z])" (gethash "text" obj) "\" - \\1")))
   obj)
 
+(defun fix7 (obj)
+  (setf (gethash "text" obj)
+	(text-from-tokens obj))
+  obj)
 
 (defun fix-obj (obj wn)
-  (fix6 (fix5 (fix4 (fix3 (fix2 (fix1 obj)) wn)))))
+  (fix7 (fix6 (fix5 (fix4 (fix3 (fix2 (fix1 obj)) wn))))))
 
 
 (defun read-jl-file (fn wn)
@@ -193,24 +197,23 @@
 	  :text-meta (gethash "text" obj)
 	  :text-toks (text-from-tokens obj))))
 
+
 (defun to-ascii (txt)
   (substitute #\' #\RIGHT_SINGLE_QUOTATION_MARK 
 	      (substitute #\` #\LEFT_SINGLE_QUOTATION_MARK 
 			  (substitute #\" #\RIGHT_DOUBLE_QUOTATION_MARK 
-				      (substitute #\"  #\LEFT_DOUBLE_QUOTATION_MARK txt)))))
+				      (substitute #\" #\LEFT_DOUBLE_QUOTATION_MARK txt)))))
 
+(defun write-jl-file (objs stream)
+  (loop for o in objs
+	do (yason:encode o stream)
+	do (format stream "~%")))
 
 (defun main-0 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
     (dolist (fn (directory "data/annotation-*.jl"))
-      (dolist (obj (read-jl-file fn wn))
-	(let ((res (describe-obj obj wn)))
-	  (when (not (equal (getf res :text-meta) (to-ascii (getf res :text-toks))))
-	      (format t "~a~%  wn:[~a]~% txt:[~a]~% tks:[~a]~%"
-		      (getf res :id) (getf res :text-wn) (getf res :text-meta) (getf res :text-toks)
-		      ;; (mapcar #'alexandria:hash-table-alist (gethash "tokens" obj))
-		      )))))))
-
+      (with-open-file (out (make-pathname :type "new" :defaults fn) :direction :output :if-exists :supersede)
+	(write-jl-file (read-jl-file fn wn) out)))))
 
 (defun main-1 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
@@ -221,20 +224,11 @@
 	    (format t "~a~% w:[~a]~% m:[~a]~%~%" (getf res :id) (getf res :text-wn) (getf res :text-meta))))))))
 
 (defun main-2 ()
-  (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/"))
-	(ok '((:SUBSTITUTION #\" #\LEFT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\" #\RIGHT_DOUBLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\` #\LEFT_SINGLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\' #\RIGHT_SINGLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\RIGHT_SINGLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\RIGHT_DOUBLE_QUOTATION_MARK)
-	      (:INSERTION NIL #\Space)
-	      (:SUBSTITUTION #\" #\Space)
-	      (:SUBSTITUTION #\` #\Space)
-	      (:SUBSTITUTION #\' #\Space))))
+  (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
     (dolist (fn (directory "data/*.jl"))
       (dolist (obj (read-jl-file fn wn))
 	(let* ((res (describe-obj obj wn))
 	       (ops (remove-if (lambda (a) (equal :MATCH (car a))) (edit-distance:diff (getf res :text-meta) (getf res :text-toks)))))
-	  (when (set-difference ops ok :test #'equal)
+	  (when ops
 	    (format t "~a~% m:[~a]~% t:[~a]~% ~s~%~%" (getf res :id) (getf res :text-meta) (getf res :text-toks) ops)))))))
+
