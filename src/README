@@ -5,22 +5,32 @@
 ad-hoc scripts for the glosstag format
 
 ** modules
+
 - glosstag.lisp :: convert from XML to plist format
 - utils.lisp :: convert from plist format to TSV
 
-
 * new architecture
-one abstract representation, several concrete frontends(= readers for
+
+One abstract representation, several concrete frontends (= readers for
 specific formats) and backends (= exporters for specific formats)
 
 - TODO: port legacy code to new architecture
 
 ** modules
+
 - data.lisp :: abstract data structures and semantic checking
 - export.list :: JSON reader, TSV exporter
 
 ** how to
+
 #+BEGIN_SRC lisp
 (release-corpus "~/work/wn/glosstag/glosstag.json" "release.out" "~/work/wn/glosstag/sense-index.csv")
 #+END_SRC
-(see =release-corpus= docstring for more information)
+
+See =release-corpus= docstring for more information.
+
+#+begin_src 
+http://wnpt.sl.res.ibm.com:10035/#/repositories/wn30/query/d/select%20?lf%20(count(?ws)%20as%20?total)%20(GROUP_CONCAT(?sk;%20SEPARATOR=%22%5Ct%22)%20AS%20?senses)%20%7B%0A%20%20?ws%20wn30:word%20?w%20.%0A%20%20?w%20wn30:lexicalForm%20?lf%20.%0A%20%20?ws%20wn30:senseKey%20?sk%20.%0A%7D%0Agroup%20by%20?lf
+#+end_src
+
+

@@ -4,3 +4,8 @@
 (defpackage #:glosstag
   (:use :cl :alexandria :trivia))
 
+(defpackage #:glosstag.initial
+  (:use :cl :alexandria :trivia))
+
+(defpackage #:glosstag.merge
+  (:use :cl :alexandria :trivia :yason))

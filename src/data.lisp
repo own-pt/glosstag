@@ -2,66 +2,102 @@
 (in-package :glosstag)
 
 
-(defstruct tk
+(defstruct token
   kind form lemmas tag n-senses senses glob unsure meta)
-
 
 (defstruct sent
   id meta tokens text)
 
 
-(defun check-token (sent-id lexical-form->n-senses sense-index token)
-  (labels
-      ((get-sense-candidates (lemmas)
-	 (let* ((lemmas (mapcar (lambda (lemma)
-				  (first (serapeum:split-sequence #\% lemma)))
-				lemmas))
-		(lemmas (serapeum:nub lemmas)))
-	   (reduce (lambda (n lemma) (+ n (gethash lemma lexical-form->n-senses 0)))
-		   lemmas :initial-value 0)))
-       (check-sense (form sense)
-	 (assert (gethash sense sense-index) (sent-id form sense)
-		 "Token ~a at sentence ~a has inexisting sense ~a" form sent-id sense)))
-    (match token
-      ((tk kind form lemmas tag senses glob unsure)
-       (assert kind (sent-id form) "Token ~a at sentence ~a must have kind" form sent-id)
-       (assert (or (eq unsure t) (eq unsure nil)))
-       (let-match (((list* kind maybe-keys) kind))
-	 (match kind
-	   ("wf"
-	    (assert (null maybe-keys) (sent-id form)
-		    "Token ~a at sentence ~a must not have any collocation keys" form sent-id)
-	    (assert form (sent-id) "Token at sentence ~a must have form" sent-id)
-	    (mapc (curry #'check-sense form) senses)
-	    (assert (null glob) (sent-id form)
-		    "Token ~a at sentence ~a must not have glob marker" form sent-id)
-	    nil)
-	   ("cf"
-	    (assert form (sent-id) "Token at sentence ~a must have form" sent-id)
-	    (assert maybe-keys (sent-id form)
-		    "Token ~a at sentence ~a must have collocation keys" form sent-id)
-	    (assert (null glob) (sent-id form)
-		    "Token ~a at sentence ~a must not have glob marker" form sent-id)
-	    ;; assert that there are no sense annotations?
-	    )
-	   ("glob"
-	    (let-match (((list glob-key) maybe-keys))
-	      (assert glob (sent-id glob-key)
-		      "Glob ~a at sentence ~a must have glob marker" glob-key sent-id)
-	      (assert (null form)))))
-	 (match tag
-	   ((not "ignore")
-	    (when (member kind '("wf" "cf" "glob") :test #'equal)
-	      (setf (tk-n-senses token) (get-sense-candidates lemmas))))))
-       token))))
+(define-condition malformed-sentence (error)
+  ((text  :initarg :text  :reader ms-text)
+   (sent  :initarg :sent  :reader ms-sent))
+  (:report (lambda (condition stream)
+	     (format stream "Sentence ~a with error [~a]: ~a.~&"
+		     (ms-sent condition) (ms-text condition) condition))))
+
+(define-condition malformed-token (error)
+  ((text  :initarg :text  :reader mt-text)
+   (sent  :initarg :sent  :reader mt-sent)
+   (token :initarg :token :reader mt-token)
+   (sense :initarg :sense :reader mt-sense))
+  (:report (lambda (condition stream)
+	     (format stream "Token ~a at sentence ~a with error [~a]: ~a.~&"
+		     (mt-token condition) (sent-id (mt-sent condition)) (mt-text condition) condition))))
+
+
+(defmacro test (assertion what)
+  `(assert ,assertion nil ,what))
+
+
+(defun check-token (sent lexical-form->n-senses sense-index token)
+  (labels ((get-sense-candidates (lemmas)
+	     (let* ((lemmas (mapcar (lambda (lemma)
+				      (first (serapeum:split-sequence #\% lemma)))
+				    lemmas))
+		    (lemmas (serapeum:nub lemmas)))
+	       (reduce (lambda (n lemma) (+ n (gethash lemma lexical-form->n-senses 0)))
+		       lemmas :initial-value 0)))
+	   (check-sense (sense)
+	     (if (null (gethash sense sense-index))
+		 (error 'malformed-token :text "Sense does not exist." :token token :sent sent))))
+
+    (test (token-kind token)  
+      (error 'malformed-token :text "Must have kind." :token token :sent sent))
+    (test (member (token-unsure token) (list t nil)) 
+      (error 'malformed-token :text "Unsure should be t or nil." :token token :sent sent))
+
+    (cond
+      ((equal (car (token-kind token)) "wf") 
+       (test (null (cdr (token-kind token))) 
+	 (error 'malformed-token :text "Token must not have any collocation key." :token token :sent sent))
+       (test (token-form token) 
+	 (error 'malformed-token :text "Token must have form." :token token :sent sent))
+       (test (null (token-glob token)) 
+	 (error 'malformed-token :text "Token must not have glob marker." :token token :sent sent))
+       (mapc #'check-sense (token-senses token)))
+      
+      ((equal (car (token-kind token)) "cf") 
+       (test (token-form token) 
+	 (error 'malformed-token :text "Token must have form." :token token :sent sent))
+       (test (cdr (token-kind token)) 
+	 (error 'malformed-token :text "Token must have a collocation key." :token token :sent sent))
+       (test (null (token-glob token)) 
+	 (error 'malformed-token :text "Token must not have glob marker." :token token :sent sent))
+       ;; (test (null (token-senses token)) 
+       ;; 	 (error 'malformed-token :text "Token must not have senses." :token token :sent sent))
+       )
+
+      ((equal (car (token-kind token)) "glob")
+       (test (token-glob token) 
+	 (error 'malformed-token :text "Token must have glob marker." :token token :sent sent))
+       (test (null (token-form token)) 
+	 (error 'malformed-token :text "Token must not have a form." :token token :sent sent))
+       (mapc #'check-sense (token-senses token))))
+
+    (when (and (equal "man" (token-tag token)) (null (token-senses token)))
+      (error 'malformed-token :text "Token with man tag without sense." :token token :sent sent))
+
+    (when (and (not (equal "ignore" (token-tag token)))
+	       (member (car (token-kind token)) '("wf" "cf" "glob") :test #'equal))
+      (setf (token-n-senses token) (get-sense-candidates (token-lemmas token))))
+
+    token))
 
 
 (defun check-sent (sent lexical-form->n-senses sense-index)
-  (ematch sent
-    ((sent id meta text tokens)
-     (assert id nil "Sentence must have id")
-     (assert text nil "Sentence must have original text")
-     (setf (sent-tokens sent)
-	   (mapcar (curry #'check-token id lexical-form->n-senses sense-index) tokens))
-     sent)))
-
+  (test (sent-id sent)
+    (error 'malformed-sentence :text "Sentence must have id." :sent sent))
+  (test (sent-text sent)
+    (error 'malformed-sentence :text "Sentence must have an original text." :sent sent))
+  (setf (sent-tokens sent)
+	(mapcar (lambda (tk)
+		  (handler-case (check-token sent lexical-form->n-senses sense-index tk)
+		    (malformed-token (e) (progn
+					   (format *error-output* "!! ~a at ~a:~% > ~a~% > ~a~%"
+						   (mt-text e)
+						   (sent-id (mt-sent e)) (sent-text (mt-sent e))
+						   (mt-token e))
+					   nil))))
+		(sent-tokens sent)))
+  sent)
