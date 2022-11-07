@@ -23,7 +23,10 @@
 		do (proc-db-line line dict))))))
 
 
-;; read json-lines files
+;;;; read json-lines files
+
+;; removes the 'meta' extra group of fields from the synsets and
+;; tokens
 
 (defun fix1 (tb)
   (loop for k
@@ -38,6 +41,10 @@
 		using (hash-value v) of (gethash "meta" tk)  
 	    do (setf (gethash k tk) v)
 	    finally (remhash "meta" tk)))))
+
+
+;; remove the qf begin/end transform them into wf tokens with type
+;; punctuation.
 
 (defun fix2 (tb)
   (labels ((wf (rend form sep)
@@ -66,6 +73,8 @@
 	  
 	  (t (push tk res)))))))
 
+;; replace the 'pos' field in the synset with 'type' and fix the ones
+;; that should be 's' not 'a'
 
 (defun fix3 (obj wn)
   (let ((ofs (gethash "ofs" obj))
@@ -81,9 +90,75 @@
 	 (remhash "pos" obj)))
     obj))
 
+;; remove the extra semi-colon from the end of the 'meta' text and
+;; tokens. Considering that WordNet 3.0 constains only 72 cases,
+;; exceptions.
+;; rg ";[ ]*$" ../WordNet-3.0/dict/data.* | wc -l
+
+(defun fix4 (obj)
+  (if (cl-ppcre:scan ";$" (gethash "text" obj))
+      (setf (gethash "text" obj)
+	    (string-trim '(#\; #\Space) (gethash "text" obj))))
+  (let ((tks (reverse (gethash "tokens" obj))))
+    (if (and (equal :no     (gethash "form"   (car tks) :no))
+	     (equal "close" (gethash "action" (car tks)))
+	     (equal ";"     (gethash "form"   (cadr tks))))
+	(setf (gethash "tokens" obj)
+	      (reverse (cons (car tks) (cddr tks)))))
+    obj))
+
+
+(defun fix5 (obj)
+  ;; (format t "~a~%" (gethash "text" obj))
+  (let* ((tks  (coerce (gethash "tokens" obj) 'vector))
+	 (n    (length (gethash "tokens" obj)))
+	 (quotes "“”‘’")
+	 (news (do* ((i 0)
+		     (j 1))
+		    ((and (> i (- n 2)) (> j (- n 1))) tks)
+		 (let ((a (aref tks i))
+		       (b (aref tks j)))
+		   ;; (format t "i:~a:~a~%j:~a:~a~%" i (alexandria:hash-table-alist a) j (alexandria:hash-table-alist b))
+		   (cond
+		     ((not (gethash "form" a))
+		      (setf i j j (1+ j)))
+
+		     ((and (gethash "form" a) (= j (- n 1)) (not (gethash "form" b)))
+		      (setf (gethash "sep" a) ""
+			    i j j (1+ j)))
+
+		     ((and (< j (- n 1)) (not (gethash "form" b)))
+		      (setf j (1+ j)))
+
+		     ((and (search (gethash "form" a) quotes)
+			   (search (gethash "form" b) quotes))
+		      (setf (gethash "sep" a) ""
+			    i j j (1+ j)))
+
+		     ((and (gethash "form" a) ;; (search (gethash "form" a) quotes)
+			   (search (gethash "form" b) ");,."))
+		      (setf (gethash "sep" a) ""
+			    i j j (1+ j)))
+
+		     ((and (search (gethash "form" a) ")")
+			   (search (gethash "form" b) ";.,"))
+		      (setf (gethash "sep" a) ""
+			    i j j (1+ j)))
+		
+		     (t (setf i j j (1+ j))))))))
+    (setf (gethash "tokens" obj)
+	  (coerce news 'list))
+    obj))
+
+(defun fix6 (obj)
+  (if (cl-ppcre:scan "\"- ([A-Z])" (gethash "text" obj))
+      (setf (gethash "text" obj)
+	    (cl-ppcre:regex-replace-all "\"- ([A-Z])" (gethash "text" obj) "\" - \\1")))
+  obj)
+
 
 (defun fix-obj (obj wn)
-  (fix3 (fix2 (fix1 obj)) wn))
+  (fix6 (fix5 (fix4 (fix3 (fix2 (fix1 obj)) wn)))))
 
 
 (defun read-jl-file (fn wn)
@@ -108,6 +183,24 @@
 	  :text-meta (gethash "text" obj)
 	  :text-toks (text-from-tokens obj))))
 
+(defun to-ascii (txt)
+  (substitute #\' #\RIGHT_SINGLE_QUOTATION_MARK 
+	      (substitute #\` #\LEFT_SINGLE_QUOTATION_MARK 
+			  (substitute #\" #\RIGHT_DOUBLE_QUOTATION_MARK 
+				      (substitute #\"  #\LEFT_DOUBLE_QUOTATION_MARK txt)))))
+
+
+(defun main-0 ()
+  (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
+    (dolist (fn (directory "data/annotation-*.jl"))
+      (dolist (obj (read-jl-file fn wn))
+	(let ((res (describe-obj obj wn)))
+	  (when (not (equal (getf res :text-meta) (to-ascii (getf res :text-toks))))
+	      (format t "~a~%  wn:[~a]~% txt:[~a]~% tks:[~a]~%"
+		      (getf res :id) (getf res :text-wn) (getf res :text-meta) (getf res :text-toks)
+		      ;; (mapcar #'alexandria:hash-table-alist (gethash "tokens" obj))
+		      )))))))
+
 
 (defun main-1 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
@@ -119,27 +212,19 @@
 
 (defun main-2 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/"))
-	(ok '((:DELETION #\Space NIL)
-	      (:DELETION #\; NIL)
-
-	      (:SUBSTITUTION #\" #\LEFT_DOUBLE_QUOTATION_MARK)
+	(ok '((:SUBSTITUTION #\" #\LEFT_DOUBLE_QUOTATION_MARK)
 	      (:SUBSTITUTION #\" #\RIGHT_DOUBLE_QUOTATION_MARK)
-	      
 	      (:SUBSTITUTION #\` #\LEFT_SINGLE_QUOTATION_MARK)
-	      (:SUBSTITUTION #\' #\RIGHT_DOUBLE_QUOTATION_MARK)
-
-	      (:INSERTION NIL #\;)
+	      (:SUBSTITUTION #\' #\RIGHT_SINGLE_QUOTATION_MARK)
+	      (:INSERTION NIL #\RIGHT_SINGLE_QUOTATION_MARK)
+	      (:INSERTION NIL #\RIGHT_DOUBLE_QUOTATION_MARK)
 	      (:INSERTION NIL #\Space)
-
-	      (:DELETION #\` NIL)
-	      (:DELETION #\' NIL) )))
-    
+	      (:SUBSTITUTION #\" #\Space)
+	      (:SUBSTITUTION #\` #\Space)
+	      (:SUBSTITUTION #\' #\Space))))
     (dolist (fn (directory "data/*.jl"))
       (dolist (obj (read-jl-file fn wn))
 	(let* ((res (describe-obj obj wn))
 	       (ops (remove-if (lambda (a) (equal :MATCH (car a))) (edit-distance:diff (getf res :text-meta) (getf res :text-toks)))))
 	  (when (set-difference ops ok :test #'equal)
 	    (format t "~a~% m:[~a]~% t:[~a]~% ~s~%~%" (getf res :id) (getf res :text-meta) (getf res :text-toks) ops)))))))
-
-
-
