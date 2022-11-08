@@ -70,12 +70,46 @@
 	    (format t "~a~% txt:~a~% tks:~a~%~%" (getf res :id) (getf res :text-meta) (getf res :text-toks))))))))
 
 
+(defun expand (tk ns)
+  (do ((fst t nil)
+       (res)
+       (a (reverse ns) (cdr a)))
+      ((endp a)
+       (mapcar (lambda (a) (alexandria:alist-hash-table a :test #'equal)) res))
+    (if fst
+	(let ((tmp `(("form" . ,(format nil "~a" (car a)))
+		     ("kind" . ,(list "wf"))
+		     ("tag"  . "un"))))
+	  (if (gethash "sep" tk)
+	      (push (cons `("sep" . ,(gethash "sep" tk)) tmp) res)
+	      (push tmp res)))
+	(push `(("form" . ,(format nil "~a." (car a)))
+		("kind" . ,(list "wf"))
+		("tag"  . "un"))
+	      res))))
+
+(defun main-1 ()
+  (let ((names (alexandria:alist-hash-table
+		(mapcar (lambda (s) (cons s (cl-ppcre:split "\\." s))) 
+			(cl-ppcre:split "\\n" (alexandria:read-file-into-string #P"src/names.txt")))
+		:test #'equal)))
+    (dolist (fn (directory "data/annotation-*.jl"))
+      (dolist (obj (read-jl-file fn))
+	(setf (gethash "tokens" obj)
+	      (loop for tk in (mapcar #'list (gethash "tokens" obj))
+		    for as = (gethash (gethash "form" (car tk)) names)
+		    when as
+		      append (expand (car tk) as)))))))
+
+
+;; remove the 'sep' if it is equal ' '
+
 (defun fix-sep (obj)
   (dolist (tk (gethash "tokens" obj) obj)
     (when (and (gethash "sep" tk) (equal " " (gethash "sep" tk)))
       (remhash "sep" tk))))
 
-(defun main-1 ()
+(defun main-sep ()
   (dolist (fn (directory "data/annotation-*.jl"))
     (with-open-file (out (make-pathname :type "new" :defaults fn) :direction :output :if-exists :supersede)
       (write-jl-file (mapcar #'fix-sep (read-jl-file fn)) out))))
