@@ -51,6 +51,16 @@
 	do (yason:encode o stream)
 	do (format stream "~%")))
 
+;; {"form":"A.R.Gurney","kind":["wf"],"lemmas":["A.R.Gurney"],"tag":"un","sep":""}
+(defun aux (str &key (stream *standard-output*))
+  (let* ((obj (yason:parse str))
+	 (frs (cl-ppcre:split "\\." (gethash "form" obj))))
+    (yason:encode (list (alexandria:alist-hash-table `(("form" . ,(format nil "~a." (car frs)))  ("kind" . ,(list "wf")) ("tag" . "un")))
+			(alexandria:alist-hash-table `(("form" . ,(format nil "~a." (cadr frs))) ("kind" . ,(list "wf")) ("tag" . "un")))
+			(alexandria:alist-hash-table `(("form" . ,(format nil "~a" (caddr frs))) ("kind" . ,(list "wf")) ("tag" . "un"))))
+		  stream)
+    (values)))
+
 (defun main-0 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
     (dolist (fn (directory "data/annotation-*.jl"))
