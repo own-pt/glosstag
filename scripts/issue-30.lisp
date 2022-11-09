@@ -1,6 +1,5 @@
 
-(ql:quickload '(:cl-ppcre :yason :edit-distance))
-
+(ql:quickload '(:cl-ppcre :yason :edit-distance :serapeum))
 
 (defun fix (obj)
   (loop for tk in (gethash "tokens" obj)
