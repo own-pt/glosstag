@@ -1,5 +1,5 @@
 
-(ql:quickload '(:cl-ppcre :yason :edit-distance))
+(ql:quickload '(:cl-ppcre :yason :edit-distance :serapeum))
 
 
 ;; read WordNet DB Files
@@ -51,24 +51,16 @@
 	do (yason:encode o stream)
 	do (format stream "~%")))
 
-;; {"form":"A.R.Gurney","kind":["wf"],"lemmas":["A.R.Gurney"],"tag":"un","sep":""}
-(defun aux (str &key (stream *standard-output*))
-  (let* ((obj (yason:parse str))
-	 (frs (cl-ppcre:split "\\." (gethash "form" obj))))
-    (yason:encode (list (alexandria:alist-hash-table `(("form" . ,(format nil "~a." (car frs)))  ("kind" . ,(list "wf")) ("tag" . "un")))
-			(alexandria:alist-hash-table `(("form" . ,(format nil "~a." (cadr frs))) ("kind" . ,(list "wf")) ("tag" . "un")))
-			(alexandria:alist-hash-table `(("form" . ,(format nil "~a" (caddr frs))) ("kind" . ,(list "wf")) ("tag" . "un"))))
-		  stream)
-    (values)))
-
 (defun main-0 ()
   (let ((wn (read-wordnet #P"~/work/wn/WordNet-3.0/dict/")))
-    (dolist (fn (directory "data/annotation-*.jl"))
+    (dolist (fn (directory "data/annotation-??.jl"))
       (dolist (obj (read-jl-file fn))
 	(let ((res (describe-obj obj wn)))
 	  (when (not (equal (getf res :text-meta) (getf res :text-toks)))
 	    (format t "~a~% txt:~a~% tks:~a~%~%" (getf res :id) (getf res :text-meta) (getf res :text-toks))))))))
 
+
+;; A.B.Robert => A. B. Robert
 
 (defun expand (tk ns)
   (do ((fst t nil)
@@ -88,18 +80,34 @@
 		("tag"  . "un"))
 	      res))))
 
+
 (defun main-1 ()
   (let ((names (alexandria:alist-hash-table
 		(mapcar (lambda (s) (cons s (cl-ppcre:split "\\." s))) 
 			(cl-ppcre:split "\\n" (alexandria:read-file-into-string #P"src/names.txt")))
 		:test #'equal)))
-    (dolist (fn (directory "data/annotation-*.jl"))
-      (dolist (obj (read-jl-file fn))
-	(setf (gethash "tokens" obj)
-	      (loop for tk in (mapcar #'list (gethash "tokens" obj))
-		    for as = (gethash (gethash "form" (car tk)) names)
-		    when as
-		      append (expand (car tk) as)))))))
+    (dolist (fn (directory "data/annotation-??.jl"))
+      (with-open-file (out (make-pathname :type "new" :defaults fn) :direction :output :if-exists :supersede)
+	(write-jl-file (mapcar (lambda (obj)
+				 (let ((fixes nil))
+				   (setf (gethash "tokens" obj)
+					 (loop for tk in (mapcar #'list (gethash "tokens" obj))
+					       for as = (gethash (gethash "form" (car tk)) names)
+					       if as
+						 append (expand (car tk) as)
+						 and
+						   do (push (list :a (gethash "form" (car tk))
+								  :b (format nil "~{~a~^. ~}" as))
+							    fixes)
+					       else
+						 append tk))
+				   (loop for p in fixes
+					 if (search (getf p :a) (gethash "text" obj))
+					   do (setf (gethash "text" obj)
+						    (serapeum:string-replace-all (getf p :a) (gethash "text" obj) (getf p :b))))
+				 obj))
+			       (read-jl-file fn))
+		       out)))))
 
 
 ;; remove the 'sep' if it is equal ' '

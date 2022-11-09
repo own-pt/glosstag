@@ -34,3 +34,17 @@ format itself can be found in the [[https://github.com/own-pt/sensetion.el/][too
   split -l 1000 -a 2 annotation.json annotation-
   for f in annotation-??; do mv $f $f.jl; done
 #+end_src
+
+* Checking
+
+Number of tokens per kind:
+
+#+begin_src bash
+for f in *.jl ; do jq -r ".tokens | .[] | .kind | .[0] " $f; done | sort | uniq -c
+#+end_src
+
+extracting word forms:
+
+#+begin_src bash
+for f in *.new; do jq -r ".tokens|.[] |.form " $f ; done | sort | uniq -c | sort -nr >> ../words.txt
+#+end_src
