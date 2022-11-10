@@ -3,7 +3,40 @@ import os, sys
 import glob
 import json
 import jsonlines
-import utils
+
+# change for the folder where you have the WordNet 3.0
+WN30_DICT = "/Users/ar/work/wn/Wordnet-3.0/dict/"
+
+def parse_synset(line):
+    r = line.split(" ")
+    info, gloss = [a.strip() for a in line.split("|")]
+    examples, defs = [], []
+    for s in [s.strip() for s in gloss.split(';')]:
+        if s.startswith('"'):
+            a = s.find('"')
+            b = s.find('"',a+1)
+            examples.append(dict(txt = s[a+1:b], source = s[b+1:]))
+        else:
+            defs.append(s.strip())
+
+    words, rest = [], r[4:]
+    for i in range(0,int(r[3], base=16),2):
+        words.append((rest[i], int(rest[i+1], base=16)))
+        
+    return dict(id = f'{r[0]}-{r[2]}', gloss = gloss, definition = "; ".join(defs), examples = examples, lf = r[1], words = words)
+
+
+def read_wn(folder):
+    db = {}
+    for t in ["noun","adj","adv","verb"]:
+        with open(f"{folder}/data.{t}") as f:
+            for line in f:
+                if not line.startswith(" "):
+                    synset = parse_synset(line)
+                    assert synset['id'] not in db
+                    db[synset['id']] = synset
+    return db
+
 
 
 class Phrase:
@@ -86,9 +119,31 @@ def collect_sentences(tokens, sid):
     return sentences
 
 
+def write_tab(fn, sentences):
+    with open(fn,'w') as out:
+        for s in sentences:
+            print(f"# text = {s.text}", file = out)
+            print(f"# id = {s.id}", file = out)
+            print(f"# type = {s.type}", file = out)
+            n = 1
+            for tk in s.tokens:
+                print(n,
+                      tk.get('form','_'),
+                      "|".join(tk['kind']),
+                      tk.get('pos','_'),
+                      "|".join(tk['lemmas']) if 'lemmas' in tk else "_",
+                      "|".join(tk['senses']) if 'senses' in tk else "_",
+                      tk.get('tag','_'),
+                      f"{tk['begin']}:{tk['end']}" if 'begin' in tk and 'end' in tk else "_",
+                      sep = "\t", file = out)
+                n += 1
+            print("", file=out)
+
+
 def serialize(sentences, seq):
     out = f"data/own-{seq:02}.csv"
-    ann = f"data/annotation/own-{seq:02}.jl"
+    ann = f"data/sentences/own-{seq:02}.jl"
+    tab = f"data/sentences/own-{seq:02}.tab"
     header = "i-origin@i-comment@i-input"
 
     with open(out, "w") as f:
@@ -100,13 +155,14 @@ def serialize(sentences, seq):
             obj = dict(id = s.id, text = s.text, type = s.type, tokens = s.tokens)
             f.write(obj)
 
+    write_tab(tab, sentences)
+
             
 def main():
-    # change for the folder where you have the WordNet 3.0
-    wn30 = utils.read_wn("/Users/ar/work/wn/Wordnet-3.0/dict/")
+    wn30 = utils.read_wn(WN30_DICT)
     res = []
     
-    for fn in glob.glob("data/*.jl"):
+    for fn in glob.glob("data/ann/*.jl"):
         for line in open(fn).readlines():
             try:
                 obj = json.loads(line)
