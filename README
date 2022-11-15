@@ -48,3 +48,29 @@ extracting word forms:
 #+begin_src bash
 for f in *.new; do jq -r ".tokens|.[] |.form " $f ; done | sort | uniq -c | sort -nr >> ../words.txt
 #+end_src
+
+
+* Statistics
+
+** globs
+
+| sense tagged     | 53212 | 0.94 |
+| not sense tagged |  3350 | 0.06 |
+| total taggable   | 56562 | 1.00 |
+
+among the sense tagged ones, two last lines are errors:
+
+| 39864 | auto |
+| 13348 | man  |
+
+** word forms
+
+ | sense tagged     | 448091 | 0.56 |
+ | not sense tagged | 334068 | 0.43 |
+ | total taggable   | 792281 | 1.00 |
+ 
+among the token tagged:
+
+| 126940 | auto |
+| 321151 | man  |
+

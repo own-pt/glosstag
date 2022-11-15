@@ -33,7 +33,7 @@
       (format s "~a~a" (gethash "form" tk "") (if (gethash "form" tk) (gethash "sep" tk " ") "")))))
 
 (defun main-1 ()
-  (dolist (fn (directory "data/annotation-??.jl"))
+  (dolist (fn (directory "data/ann/annotation-??.jl"))
     (dolist (obj (read-jl-file fn))
       (when (not (equal (gethash "text" obj) (text-from-tokens obj)))
 	(print obj)))))
